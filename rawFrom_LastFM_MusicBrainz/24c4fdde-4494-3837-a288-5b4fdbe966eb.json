@@ -1,0 +1,237 @@
+{
+	"first-release-date": "1986-09-22",
+	"secondary-types": [],
+	"disambiguation": "",
+	"artist-credit": [{
+		"artist": {
+			"id": "ee58c59f-8e7f-4430-b8ca-236c4d3745ae",
+			"sort-name": "Cooper, Alice",
+			"name": "Alice Cooper",
+			"disambiguation": "the musician Vincent Damon Furnier"
+		},
+		"joinphrase": "",
+		"name": "Alice Cooper"
+	}],
+	"primary-type": "Album",
+	"releases": [{
+		"barcode": null,
+		"quality": "normal",
+		"country": "GB",
+		"id": "1189de93-7e9f-3b47-a9df-e2599e62f75d",
+		"packaging-id": null,
+		"title": "Constrictor",
+		"date": "1986",
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+		"packaging": null,
+		"status": "Official",
+		"artist-credit": [{
+			"joinphrase": "",
+			"name": "Alice Cooper",
+			"artist": {
+				"sort-name": "Cooper, Alice",
+				"id": "ee58c59f-8e7f-4430-b8ca-236c4d3745ae",
+				"disambiguation": "the musician Vincent Damon Furnier",
+				"name": "Alice Cooper"
+			}
+		}],
+		"text-representation": {
+			"script": "Latn",
+			"language": "eng"
+		},
+		"disambiguation": "",
+		"release-events": [{
+			"date": "1986",
+			"area": {
+				"sort-name": "United Kingdom",
+				"id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+				"iso-3166-1-codes": ["GB"],
+				"disambiguation": "",
+				"name": "United Kingdom"
+			}
+		}]
+	}, {
+		"disambiguation": "",
+		"release-events": [{
+			"date": "1986-09-22",
+			"area": {
+				"name": "United States",
+				"disambiguation": "",
+				"iso-3166-1-codes": ["US"],
+				"id": "489ce91b-6658-3307-9877-795b68554c98",
+				"sort-name": "United States"
+			}
+		}],
+		"artist-credit": [{
+			"artist": {
+				"name": "Alice Cooper",
+				"disambiguation": "the musician Vincent Damon Furnier",
+				"id": "ee58c59f-8e7f-4430-b8ca-236c4d3745ae",
+				"sort-name": "Cooper, Alice"
+			},
+			"name": "Alice Cooper",
+			"joinphrase": ""
+		}],
+		"text-representation": {
+			"script": "Latn",
+			"language": "eng"
+		},
+		"status": "Official",
+		"packaging": "Cardboard/Paper Sleeve",
+		"date": "1986-09-22",
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+		"title": "Constrictor",
+		"packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+		"barcode": "076732576113",
+		"quality": "normal",
+		"id": "2c47a59d-e69b-49fc-98ce-b49724c6145c",
+		"country": "US"
+	}, {
+		"id": "47edaf94-3e3b-481b-9917-3c1519b9fb19",
+		"country": "JP",
+		"barcode": "4988067004383",
+		"quality": "normal",
+		"packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+		"title": "Constrictor",
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+		"date": "1991-12-16",
+		"packaging": "Jewel Case",
+		"status": "Official",
+		"artist-credit": [{
+			"joinphrase": "",
+			"name": "Alice Cooper",
+			"artist": {
+				"id": "ee58c59f-8e7f-4430-b8ca-236c4d3745ae",
+				"sort-name": "Cooper, Alice",
+				"name": "Alice Cooper",
+				"disambiguation": "the musician Vincent Damon Furnier"
+			}
+		}],
+		"text-representation": {
+			"language": "eng",
+			"script": "Latn"
+		},
+		"release-events": [{
+			"area": {
+				"disambiguation": "",
+				"name": "Japan",
+				"sort-name": "Japan",
+				"id": "2db42837-c832-3c27-b4a3-08198f75693c",
+				"iso-3166-1-codes": ["JP"]
+			},
+			"date": "1991-12-16"
+		}],
+		"disambiguation": "Reissue"
+	}, {
+		"country": "US",
+		"id": "9f101747-fc6a-41fc-af31-5a2be84b6c7d",
+		"barcode": "076732576120",
+		"quality": "normal",
+		"packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+		"title": "Constrictor",
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+		"date": "1986-09-22",
+		"status": "Official",
+		"packaging": "Jewel Case",
+		"text-representation": {
+			"language": "eng",
+			"script": "Latn"
+		},
+		"artist-credit": [{
+			"name": "Alice Cooper",
+			"joinphrase": "",
+			"artist": {
+				"sort-name": "Cooper, Alice",
+				"id": "ee58c59f-8e7f-4430-b8ca-236c4d3745ae",
+				"disambiguation": "the musician Vincent Damon Furnier",
+				"name": "Alice Cooper"
+			}
+		}],
+		"disambiguation": "",
+		"release-events": [{
+			"area": {
+				"sort-name": "United States",
+				"id": "489ce91b-6658-3307-9877-795b68554c98",
+				"iso-3166-1-codes": ["US"],
+				"disambiguation": "",
+				"name": "United States"
+			},
+			"date": "1986-09-22"
+		}]
+	}, {
+		"barcode": "076732576120",
+		"quality": "normal",
+		"country": "US",
+		"id": "bbd873ad-2006-4a06-bdde-efd3a6986285",
+		"title": "Constrictor",
+		"packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+		"status": "Official",
+		"packaging": "None",
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+		"date": "",
+		"disambiguation": "",
+		"release-events": [{
+			"area": {
+				"name": "United States",
+				"disambiguation": "",
+				"iso-3166-1-codes": ["US"],
+				"id": "489ce91b-6658-3307-9877-795b68554c98",
+				"sort-name": "United States"
+			},
+			"date": ""
+		}],
+		"artist-credit": [{
+			"artist": {
+				"sort-name": "Cooper, Alice",
+				"id": "ee58c59f-8e7f-4430-b8ca-236c4d3745ae",
+				"disambiguation": "the musician Vincent Damon Furnier",
+				"name": "Alice Cooper"
+			},
+			"name": "Alice Cooper",
+			"joinphrase": ""
+		}],
+		"text-representation": {
+			"script": "Latn",
+			"language": "eng"
+		}
+	}, {
+		"disambiguation": "",
+		"release-events": [{
+			"area": {
+				"id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+				"iso-3166-1-codes": ["DE"],
+				"sort-name": "Germany",
+				"name": "Germany",
+				"disambiguation": ""
+			},
+			"date": "1986"
+		}],
+		"artist-credit": [{
+			"artist": {
+				"name": "Alice Cooper",
+				"disambiguation": "the musician Vincent Damon Furnier",
+				"id": "ee58c59f-8e7f-4430-b8ca-236c4d3745ae",
+				"sort-name": "Cooper, Alice"
+			},
+			"name": "Alice Cooper",
+			"joinphrase": ""
+		}],
+		"text-representation": {
+			"script": "Latn",
+			"language": "eng"
+		},
+		"status": "Official",
+		"packaging": null,
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+		"date": "1986",
+		"title": "Constrictor",
+		"packaging-id": null,
+		"country": "DE",
+		"id": "c6f3593f-de2d-3234-b437-854f7cb085bb",
+		"quality": "normal",
+		"barcode": null
+	}],
+	"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+	"id": "24c4fdde-4494-3837-a288-5b4fdbe966eb",
+	"title": "Constrictor",
+	"secondary-type-ids": []
+}

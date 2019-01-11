@@ -1,0 +1,210 @@
+{
+	"album": {
+		"name": "Constrictor",
+		"artist": "Alice Cooper",
+		"mbid": "9f101747-fc6a-41fc-af31-5a2be84b6c7d",
+		"url": "https://www.last.fm/music/Alice+Cooper/Constrictor",
+		"image": [{
+			"#text": "https://lastfm-img2.akamaized.net/i/u/34s/90b07837e031e802842a837b6e16fcf2.png",
+			"size": "small"
+		}, {
+			"#text": "https://lastfm-img2.akamaized.net/i/u/64s/90b07837e031e802842a837b6e16fcf2.png",
+			"size": "medium"
+		}, {
+			"#text": "https://lastfm-img2.akamaized.net/i/u/174s/90b07837e031e802842a837b6e16fcf2.png",
+			"size": "large"
+		}, {
+			"#text": "https://lastfm-img2.akamaized.net/i/u/300x300/90b07837e031e802842a837b6e16fcf2.png",
+			"size": "extralarge"
+		}, {
+			"#text": "https://lastfm-img2.akamaized.net/i/u/300x300/90b07837e031e802842a837b6e16fcf2.png",
+			"size": "mega"
+		}, {
+			"#text": "https://lastfm-img2.akamaized.net/i/u/300x300/90b07837e031e802842a837b6e16fcf2.png",
+			"size": ""
+		}],
+		"listeners": "64763",
+		"playcount": "545017",
+		"tracks": {
+			"track": [{
+				"name": "Teenage Frankenstein",
+				"url": "https://www.last.fm/music/Alice+Cooper/_/Teenage+Frankenstein",
+				"duration": "217",
+				"@attr": {
+					"rank": "1"
+				},
+				"streamable": {
+					"#text": "0",
+					"fulltrack": "0"
+				},
+				"artist": {
+					"name": "Alice Cooper",
+					"mbid": "ee58c59f-8e7f-4430-b8ca-236c4d3745ae",
+					"url": "https://www.last.fm/music/Alice+Cooper"
+				}
+			}, {
+				"name": "Give It Up",
+				"url": "https://www.last.fm/music/Alice+Cooper/_/Give+It+Up",
+				"duration": "250",
+				"@attr": {
+					"rank": "2"
+				},
+				"streamable": {
+					"#text": "0",
+					"fulltrack": "0"
+				},
+				"artist": {
+					"name": "Alice Cooper",
+					"mbid": "ee58c59f-8e7f-4430-b8ca-236c4d3745ae",
+					"url": "https://www.last.fm/music/Alice+Cooper"
+				}
+			}, {
+				"name": "Thrill My Gorilla",
+				"url": "https://www.last.fm/music/Alice+Cooper/_/Thrill+My+Gorilla",
+				"duration": "186",
+				"@attr": {
+					"rank": "3"
+				},
+				"streamable": {
+					"#text": "0",
+					"fulltrack": "0"
+				},
+				"artist": {
+					"name": "Alice Cooper",
+					"mbid": "ee58c59f-8e7f-4430-b8ca-236c4d3745ae",
+					"url": "https://www.last.fm/music/Alice+Cooper"
+				}
+			}, {
+				"name": "Life and Death of the Party",
+				"url": "https://www.last.fm/music/Alice+Cooper/_/Life+and+Death+of+the+Party",
+				"duration": "223",
+				"@attr": {
+					"rank": "4"
+				},
+				"streamable": {
+					"#text": "0",
+					"fulltrack": "0"
+				},
+				"artist": {
+					"name": "Alice Cooper",
+					"mbid": "ee58c59f-8e7f-4430-b8ca-236c4d3745ae",
+					"url": "https://www.last.fm/music/Alice+Cooper"
+				}
+			}, {
+				"name": "Simple Disobedience",
+				"url": "https://www.last.fm/music/Alice+Cooper/_/Simple+Disobedience",
+				"duration": "208",
+				"@attr": {
+					"rank": "5"
+				},
+				"streamable": {
+					"#text": "0",
+					"fulltrack": "0"
+				},
+				"artist": {
+					"name": "Alice Cooper",
+					"mbid": "ee58c59f-8e7f-4430-b8ca-236c4d3745ae",
+					"url": "https://www.last.fm/music/Alice+Cooper"
+				}
+			}, {
+				"name": "The World Needs Guts",
+				"url": "https://www.last.fm/music/Alice+Cooper/_/The+World+Needs+Guts",
+				"duration": "238",
+				"@attr": {
+					"rank": "6"
+				},
+				"streamable": {
+					"#text": "0",
+					"fulltrack": "0"
+				},
+				"artist": {
+					"name": "Alice Cooper",
+					"mbid": "ee58c59f-8e7f-4430-b8ca-236c4d3745ae",
+					"url": "https://www.last.fm/music/Alice+Cooper"
+				}
+			}, {
+				"name": "Trick Bag",
+				"url": "https://www.last.fm/music/Alice+Cooper/_/Trick+Bag",
+				"duration": "254",
+				"@attr": {
+					"rank": "7"
+				},
+				"streamable": {
+					"#text": "0",
+					"fulltrack": "0"
+				},
+				"artist": {
+					"name": "Alice Cooper",
+					"mbid": "ee58c59f-8e7f-4430-b8ca-236c4d3745ae",
+					"url": "https://www.last.fm/music/Alice+Cooper"
+				}
+			}, {
+				"name": "Crawlin'",
+				"url": "https://www.last.fm/music/Alice+Cooper/_/Crawlin%27",
+				"duration": "201",
+				"@attr": {
+					"rank": "8"
+				},
+				"streamable": {
+					"#text": "0",
+					"fulltrack": "0"
+				},
+				"artist": {
+					"name": "Alice Cooper",
+					"mbid": "ee58c59f-8e7f-4430-b8ca-236c4d3745ae",
+					"url": "https://www.last.fm/music/Alice+Cooper"
+				}
+			}, {
+				"name": "The Great American Success Story",
+				"url": "https://www.last.fm/music/Alice+Cooper/_/The+Great+American+Success+Story",
+				"duration": "216",
+				"@attr": {
+					"rank": "9"
+				},
+				"streamable": {
+					"#text": "0",
+					"fulltrack": "0"
+				},
+				"artist": {
+					"name": "Alice Cooper",
+					"mbid": "ee58c59f-8e7f-4430-b8ca-236c4d3745ae",
+					"url": "https://www.last.fm/music/Alice+Cooper"
+				}
+			}, {
+				"name": "He's Back (The Man Behind the Mask)",
+				"url": "https://www.last.fm/music/Alice+Cooper/_/He%27s+Back+(The+Man+Behind+the+Mask)",
+				"duration": "230",
+				"@attr": {
+					"rank": "10"
+				},
+				"streamable": {
+					"#text": "0",
+					"fulltrack": "0"
+				},
+				"artist": {
+					"name": "Alice Cooper",
+					"mbid": "ee58c59f-8e7f-4430-b8ca-236c4d3745ae",
+					"url": "https://www.last.fm/music/Alice+Cooper"
+				}
+			}]
+		},
+		"tags": {
+			"tag": [{
+				"name": "hard rock",
+				"url": "https://www.last.fm/tag/hard+rock"
+			}, {
+				"name": "albums I own",
+				"url": "https://www.last.fm/tag/albums+I+own"
+			}, {
+				"name": "heavy metal",
+				"url": "https://www.last.fm/tag/heavy+metal"
+			}, {
+				"name": "80s",
+				"url": "https://www.last.fm/tag/80s"
+			}, {
+				"name": "1986",
+				"url": "https://www.last.fm/tag/1986"
+			}]
+		}
+	}
+}

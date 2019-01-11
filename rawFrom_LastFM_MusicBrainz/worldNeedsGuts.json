@@ -1,0 +1,59 @@
+{
+	"track": {
+		"name": "The World Needs Guts",
+		"mbid": "70bd458f-c62d-4014-99e7-233c3c0b8f96",
+		"url": "https://www.last.fm/music/Alice+Cooper/_/The+World+Needs+Guts",
+		"duration": "238000",
+		"streamable": {
+			"#text": "0",
+			"fulltrack": "0"
+		},
+		"listeners": "11332",
+		"playcount": "38654",
+		"artist": {
+			"name": "Alice Cooper",
+			"mbid": "ee58c59f-8e7f-4430-b8ca-236c4d3745ae",
+			"url": "https://www.last.fm/music/Alice+Cooper"
+		},
+		"album": {
+			"artist": "Alice Cooper",
+			"title": "Constrictor",
+			"mbid": "9f101747-fc6a-41fc-af31-5a2be84b6c7d",
+			"url": "https://www.last.fm/music/Alice+Cooper/Constrictor",
+			"image": [{
+				"#text": "https://lastfm-img2.akamaized.net/i/u/34s/90b07837e031e802842a837b6e16fcf2.png",
+				"size": "small"
+			}, {
+				"#text": "https://lastfm-img2.akamaized.net/i/u/64s/90b07837e031e802842a837b6e16fcf2.png",
+				"size": "medium"
+			}, {
+				"#text": "https://lastfm-img2.akamaized.net/i/u/174s/90b07837e031e802842a837b6e16fcf2.png",
+				"size": "large"
+			}, {
+				"#text": "https://lastfm-img2.akamaized.net/i/u/300x300/90b07837e031e802842a837b6e16fcf2.png",
+				"size": "extralarge"
+			}],
+			"@attr": {
+				"position": "6"
+			}
+		},
+		"toptags": {
+			"tag": [{
+				"name": "hard rock",
+				"url": "https://www.last.fm/tag/hard+rock"
+			}, {
+				"name": "heavy metal",
+				"url": "https://www.last.fm/tag/heavy+metal"
+			}, {
+				"name": "Alice Cooper",
+				"url": "https://www.last.fm/tag/Alice+Cooper"
+			}, {
+				"name": "classic rock",
+				"url": "https://www.last.fm/tag/classic+rock"
+			}, {
+				"name": "rock",
+				"url": "https://www.last.fm/tag/rock"
+			}]
+		}
+	}
+}

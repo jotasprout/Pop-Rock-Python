@@ -1,0 +1,258 @@
+{
+	"release-groups": [{
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+		"secondary-types": ["Live"],
+		"secondary-type-ids": ["6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"],
+		"primary-type": "Album",
+		"id": "0a86236c-30ac-391d-a6cd-b8b5684ed439",
+		"title": "1972-11-15: Olympiahalle, München, Germany",
+		"first-release-date": "1972-11-15",
+		"disambiguation": ""
+	}, {
+		"disambiguation": "",
+		"first-release-date": "1990",
+		"title": "The King Snake",
+		"secondary-types": ["Live"],
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+		"primary-type": "Album",
+		"id": "0b13e5b2-4c99-3d76-862e-cc0add8c36f5",
+		"secondary-type-ids": ["6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"]
+	}, {
+		"disambiguation": "",
+		"first-release-date": "1973-02-25",
+		"title": "Billion Dollar Babies",
+		"primary-type": "Album",
+		"id": "0bfa0a07-16c5-3c8e-ab53-927d1e021791",
+		"secondary-type-ids": [],
+		"secondary-types": [],
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+	}, {
+		"disambiguation": "",
+		"first-release-date": "1970-03",
+		"title": "Easy Action",
+		"secondary-type-ids": [],
+		"primary-type": "Album",
+		"id": "1543c3bf-6edf-354c-b0f1-f3274e74bbf2",
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+		"secondary-types": []
+	}, {
+		"title": "Greatest Hits Live 30th Anniversary Show",
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+		"secondary-types": ["Live"],
+		"secondary-type-ids": ["6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"],
+		"id": "1df4bbd9-4036-4698-a0be-5e4d5cb8f143",
+		"primary-type": "Album",
+		"disambiguation": "",
+		"first-release-date": "2004"
+	}, {
+		"first-release-date": "1969-06",
+		"disambiguation": "",
+		"id": "23f7b1ce-8f3c-3061-a065-8c97081fdd0a",
+		"primary-type": "Album",
+		"secondary-type-ids": [],
+		"secondary-types": [],
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+		"title": "Pretties for You"
+	}, {
+		"first-release-date": "1973-11-20",
+		"disambiguation": "",
+		"secondary-type-ids": [],
+		"primary-type": "Album",
+		"id": "37b67a0c-941b-3054-8ca7-76f3124bedd3",
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+		"secondary-types": [],
+		"title": "Muscle of Love"
+	}, {
+		"first-release-date": "2012",
+		"disambiguation": "",
+		"secondary-type-ids": ["dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"],
+		"primary-type": "Album",
+		"id": "3aef38da-a05f-47fe-874d-1cc39215d68d",
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+		"secondary-types": ["Compilation"],
+		"title": "The Triple Album Collection"
+	}, {
+		"disambiguation": "",
+		"first-release-date": "1982",
+		"title": "Nobody Likes Me!",
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+		"secondary-types": ["Live"],
+		"secondary-type-ids": ["6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"],
+		"id": "569749d1-65b1-3e22-91ad-28e376a012ce",
+		"primary-type": "Album"
+	}, {
+		"secondary-types": ["Compilation"],
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+		"id": "5f6573d5-1525-4375-98ca-5d25a545a410",
+		"primary-type": "Album",
+		"secondary-type-ids": ["dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"],
+		"title": "Old School (1964–1974)",
+		"first-release-date": "2012",
+		"disambiguation": ""
+	}, {
+		"primary-type": "Album",
+		"id": "6cb10c1f-0134-3d3f-9bad-1422e1dab39f",
+		"secondary-type-ids": ["6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"],
+		"secondary-types": ["Live"],
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+		"title": "1972-04-22: Commack Arena, New York City, NY, USA",
+		"first-release-date": "1972",
+		"disambiguation": ""
+	}, {
+		"title": "Original Album Series",
+		"secondary-type-ids": ["dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"],
+		"id": "8608e27a-3b40-4a14-940f-02ed744646b8",
+		"primary-type": "Album",
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+		"secondary-types": ["Compilation"],
+		"disambiguation": "",
+		"first-release-date": "2012-09-21"
+	}, {
+		"secondary-type-ids": [],
+		"primary-type": "Album",
+		"id": "8a2be060-2b8d-33a8-9c4b-d484b6a40d7f",
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+		"secondary-types": [],
+		"title": "Killer",
+		"first-release-date": "1971-11",
+		"disambiguation": ""
+	}, {
+		"disambiguation": "",
+		"first-release-date": "1989-12-04",
+		"title": "The Beast of Alice Cooper",
+		"secondary-type-ids": ["dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"],
+		"id": "93e6ca0f-a8c1-332e-8899-91d88f1fa633",
+		"primary-type": "Album",
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+		"secondary-types": ["Compilation"]
+	}, {
+		"title": "Live at the Whiskey a‐Go‐Go 1969",
+		"secondary-type-ids": ["6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"],
+		"primary-type": "Album",
+		"id": "97cbf124-6bbf-3dd4-be8d-396b84c3ff81",
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+		"secondary-types": ["Live"],
+		"disambiguation": "",
+		"first-release-date": "1992-03-01"
+	}, {
+		"first-release-date": "1990",
+		"disambiguation": "",
+		"secondary-type-ids": ["6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"],
+		"id": "9acf3ab9-ccc2-3177-8ec2-ce08fcc20151",
+		"primary-type": "Album",
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+		"secondary-types": ["Live"],
+		"title": "Live USA"
+	}, {
+		"title": "School’s Out",
+		"secondary-types": [],
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+		"primary-type": "Album",
+		"id": "9e038b79-8be1-3cf1-bdd6-62f4842ab665",
+		"secondary-type-ids": [],
+		"disambiguation": "",
+		"first-release-date": "1972-06"
+	}, {
+		"title": "Love It to Death",
+		"secondary-types": [],
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+		"primary-type": "Album",
+		"id": "b32fa11e-4a83-38a8-90d9-e1ba3b33be6e",
+		"secondary-type-ids": [],
+		"disambiguation": "",
+		"first-release-date": "1971-03-08"
+	}, {
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+		"secondary-types": ["Live"],
+		"secondary-type-ids": ["6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"],
+		"id": "b4b3d682-a492-4cf9-bc00-463a829adb97",
+		"primary-type": "Album",
+		"title": "Nobody Likes Me",
+		"first-release-date": "1990",
+		"disambiguation": ""
+	}, {
+		"title": "Alice Cooper’s Greatest Hits",
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+		"secondary-types": ["Compilation"],
+		"secondary-type-ids": ["dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"],
+		"id": "c1eebcde-b64a-316c-9967-ba8adcc54799",
+		"primary-type": "Album",
+		"disambiguation": "",
+		"first-release-date": "1974"
+	}, {
+		"title": "Trilogy",
+		"secondary-type-ids": ["dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"],
+		"primary-type": "Album",
+		"id": "cb057ec7-ad72-4d08-96c2-56b01cd6f3b5",
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+		"secondary-types": ["Compilation"],
+		"disambiguation": "",
+		"first-release-date": "2005"
+	}, {
+		"first-release-date": "2004",
+		"disambiguation": "",
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+		"secondary-types": ["Compilation"],
+		"secondary-type-ids": ["dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"],
+		"id": "d51eae4f-3885-45b8-84f8-803aad004e5f",
+		"primary-type": "Album",
+		"title": "School’s Out and Other Hits"
+	}, {
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+		"secondary-types": ["Compilation"],
+		"secondary-type-ids": ["dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"],
+		"primary-type": "Album",
+		"id": "d9afc529-80a3-4c8b-9556-befb68751f8f",
+		"title": "School Days: The Early Recordings",
+		"first-release-date": "1973",
+		"disambiguation": ""
+	}, {
+		"title": "Collections",
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+		"secondary-types": ["Compilation"],
+		"secondary-type-ids": ["dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"],
+		"id": "ebc95a49-6be2-3a4c-a523-68c2a75d3b4c",
+		"primary-type": "Album",
+		"disambiguation": "",
+		"first-release-date": "2005"
+	}, {
+		"secondary-types": ["Compilation"],
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+		"primary-type": "Album",
+		"id": "f73d42b8-34d8-3a7c-88bd-90507b568bd3",
+		"secondary-type-ids": ["dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"],
+		"title": "The Essentials",
+		"first-release-date": "2002-06-04",
+		"disambiguation": ""
+	}],
+	"type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+	"sort-name": "Alice Cooper",
+	"id": "4d7928cd-7ed2-4282-8c29-c0c9f966f1bd",
+	"gender-id": null,
+	"life-span": {
+		"end": "1975",
+		"begin": "1964",
+		"ended": true
+	},
+	"disambiguation": "the group",
+	"type": "Group",
+	"area": {
+		"name": "United States",
+		"id": "489ce91b-6658-3307-9877-795b68554c98",
+		"disambiguation": "",
+		"iso-3166-1-codes": ["US"],
+		"sort-name": "United States"
+	},
+	"end_area": null,
+	"begin_area": {
+		"sort-name": "Phoenix",
+		"disambiguation": "",
+		"id": "7f1c8f3f-69a9-454a-8633-c3d3a628858b",
+		"name": "Phoenix"
+	},
+	"gender": null,
+	"name": "Alice Cooper",
+	"country": "US",
+	"ipis": [],
+	"isnis": ["0000000122592447"]
+}

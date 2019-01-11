@@ -1,0 +1,54 @@
+333a292213e03c10f38269019b5f3985
+
+http://developers.music-story.com/developers
+
+https://github.com/maxkueng/node-musicbrainz
+
+
+https://python-musicbrainzngs.readthedocs.io/en/v0.6/api/
+
+http://ws.audioscrobbler.com
+
+http://musicbrainz.org/ws/2/release
+http://musicbrainz.org/ws/2/recording
+
+Alice Cooper person
+ee58c59f-8e7f-4430-b8ca-236c4d3745ae
+http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&mbid=ee58c59f-8e7f-4430-b8ca-236c4d3745ae&api_key=333a292213e03c10f38269019b5f3985&format=json
+http://musicbrainz.org/ws/2/artist/ee58c59f-8e7f-4430-b8ca-236c4d3745ae?inc=release-groups&fmt=json
+
+Alice Cooper group
+4d7928cd-7ed2-4282-8c29-c0c9f966f1bd
+http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&mbid=4d7928cd-7ed2-4282-8c29-c0c9f966f1bd&api_key=333a292213e03c10f38269019b5f3985&format=json
+gets the same thing as above from LastFM
+http://musicbrainz.org/ws/2/artist/4d7928cd-7ed2-4282-8c29-c0c9f966f1bd?inc=releases&fmt=json
+
+
+
+ http://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=333a292213e03c10f38269019b5f3985&artist=Cher&album=Believe&format=json
+ http://ws.audioscrobbler.com/2.0/?method=album.getinfo&mbid=1189de93-7e9f-3b47-a9df-e2599e62f75d&api_key=333a292213e03c10f38269019b5f3985&format=json
+
+http://ws.audioscrobbler.com/2.0/?method=track.getInfo&mbid=70bd458f-c62d-4014-99e7-233c3c0b8f96&api_key=333a292213e03c10f38269019b5f3985&format=json
+
+
+
+
+
+Recording
+Request: http://musicbrainz.org/ws/2/recording/fcbcdc39-8851-4efc-a02a-ab0e13be224f?inc=artist-credits+isrcs+releases&fmt=json
+
+
+Constrictor
+Release
+http://musicbrainz.org/ws/2/release/1189de93-7e9f-3b47-a9df-e2599e62f75d?inc=recordings&fmt=json
+THE ABOVE WORKED
+
+Release Group
+http://musicbrainz.org/ws/2/release-group/24c4fdde-4494-3837-a288-5b4fdbe966eb?inc=recordings&fmt=json
+
+
+Recording
+Example
+http://musicbrainz.org/ws/2/recording/?query=isrc:GBAHT1600302
+
+0bfa0a07-16c5-3c8e-ab53-927d1e021791

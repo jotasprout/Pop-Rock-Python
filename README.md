@@ -1,2 +1,2 @@
-# Pop-Rock-Python
-Wrangling data from MusicBrainz and LastFM
+# PopRock with Python
+Coming full circle back to Python! Unlike the original Python project (as well as the Javascript and PHP projects that stemmed from it), this app wrangles data not from Spotify but from MusicBrainz and LastFM.

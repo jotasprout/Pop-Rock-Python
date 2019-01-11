@@ -1,0 +1,175 @@
+{
+	"artist": {
+		"name": "Alice Cooper",
+		"mbid": "ee58c59f-8e7f-4430-b8ca-236c4d3745ae",
+		"url": "https://www.last.fm/music/Alice+Cooper",
+		"image": [{
+			"#text": "https://lastfm-img2.akamaized.net/i/u/34s/06f4fc79524c41d7abf4660f65452161.png",
+			"size": "small"
+		}, {
+			"#text": "https://lastfm-img2.akamaized.net/i/u/64s/06f4fc79524c41d7abf4660f65452161.png",
+			"size": "medium"
+		}, {
+			"#text": "https://lastfm-img2.akamaized.net/i/u/174s/06f4fc79524c41d7abf4660f65452161.png",
+			"size": "large"
+		}, {
+			"#text": "https://lastfm-img2.akamaized.net/i/u/300x300/06f4fc79524c41d7abf4660f65452161.png",
+			"size": "extralarge"
+		}, {
+			"#text": "https://lastfm-img2.akamaized.net/i/u/300x300/06f4fc79524c41d7abf4660f65452161.png",
+			"size": "mega"
+		}, {
+			"#text": "https://lastfm-img2.akamaized.net/i/u/300x300/06f4fc79524c41d7abf4660f65452161.png",
+			"size": ""
+		}],
+		"streamable": "0",
+		"ontour": "0",
+		"stats": {
+			"listeners": "1362007",
+			"playcount": "31008243"
+		},
+		"similar": {
+			"artist": [{
+				"name": "Kiss",
+				"url": "https://www.last.fm/music/Kiss",
+				"image": [{
+					"#text": "https://lastfm-img2.akamaized.net/i/u/34s/40aa42e488c942269a3e3633b7cd401f.png",
+					"size": "small"
+				}, {
+					"#text": "https://lastfm-img2.akamaized.net/i/u/64s/40aa42e488c942269a3e3633b7cd401f.png",
+					"size": "medium"
+				}, {
+					"#text": "https://lastfm-img2.akamaized.net/i/u/174s/40aa42e488c942269a3e3633b7cd401f.png",
+					"size": "large"
+				}, {
+					"#text": "https://lastfm-img2.akamaized.net/i/u/300x300/40aa42e488c942269a3e3633b7cd401f.png",
+					"size": "extralarge"
+				}, {
+					"#text": "https://lastfm-img2.akamaized.net/i/u/300x300/40aa42e488c942269a3e3633b7cd401f.png",
+					"size": "mega"
+				}, {
+					"#text": "https://lastfm-img2.akamaized.net/i/u/300x300/40aa42e488c942269a3e3633b7cd401f.png",
+					"size": ""
+				}]
+			}, {
+				"name": "Aerosmith",
+				"url": "https://www.last.fm/music/Aerosmith",
+				"image": [{
+					"#text": "https://lastfm-img2.akamaized.net/i/u/34s/db1dcff281c64a67a2eadb1952564e56.png",
+					"size": "small"
+				}, {
+					"#text": "https://lastfm-img2.akamaized.net/i/u/64s/db1dcff281c64a67a2eadb1952564e56.png",
+					"size": "medium"
+				}, {
+					"#text": "https://lastfm-img2.akamaized.net/i/u/174s/db1dcff281c64a67a2eadb1952564e56.png",
+					"size": "large"
+				}, {
+					"#text": "https://lastfm-img2.akamaized.net/i/u/300x300/db1dcff281c64a67a2eadb1952564e56.png",
+					"size": "extralarge"
+				}, {
+					"#text": "https://lastfm-img2.akamaized.net/i/u/300x300/db1dcff281c64a67a2eadb1952564e56.png",
+					"size": "mega"
+				}, {
+					"#text": "https://lastfm-img2.akamaized.net/i/u/300x300/db1dcff281c64a67a2eadb1952564e56.png",
+					"size": ""
+				}]
+			}, {
+				"name": "Mötley Crüe",
+				"url": "https://www.last.fm/music/M%C3%B6tley+Cr%C3%BCe",
+				"image": [{
+					"#text": "https://lastfm-img2.akamaized.net/i/u/34s/95047baa0d7b42dcbc132279cbfca01e.png",
+					"size": "small"
+				}, {
+					"#text": "https://lastfm-img2.akamaized.net/i/u/64s/95047baa0d7b42dcbc132279cbfca01e.png",
+					"size": "medium"
+				}, {
+					"#text": "https://lastfm-img2.akamaized.net/i/u/174s/95047baa0d7b42dcbc132279cbfca01e.png",
+					"size": "large"
+				}, {
+					"#text": "https://lastfm-img2.akamaized.net/i/u/300x300/95047baa0d7b42dcbc132279cbfca01e.png",
+					"size": "extralarge"
+				}, {
+					"#text": "https://lastfm-img2.akamaized.net/i/u/300x300/95047baa0d7b42dcbc132279cbfca01e.png",
+					"size": "mega"
+				}, {
+					"#text": "https://lastfm-img2.akamaized.net/i/u/300x300/95047baa0d7b42dcbc132279cbfca01e.png",
+					"size": ""
+				}]
+			}, {
+				"name": "Ozzy Osbourne",
+				"url": "https://www.last.fm/music/Ozzy+Osbourne",
+				"image": [{
+					"#text": "https://lastfm-img2.akamaized.net/i/u/34s/f4025a3234474df1cd910885fdb1d668.png",
+					"size": "small"
+				}, {
+					"#text": "https://lastfm-img2.akamaized.net/i/u/64s/f4025a3234474df1cd910885fdb1d668.png",
+					"size": "medium"
+				}, {
+					"#text": "https://lastfm-img2.akamaized.net/i/u/174s/f4025a3234474df1cd910885fdb1d668.png",
+					"size": "large"
+				}, {
+					"#text": "https://lastfm-img2.akamaized.net/i/u/300x300/f4025a3234474df1cd910885fdb1d668.png",
+					"size": "extralarge"
+				}, {
+					"#text": "https://lastfm-img2.akamaized.net/i/u/300x300/f4025a3234474df1cd910885fdb1d668.png",
+					"size": "mega"
+				}, {
+					"#text": "https://lastfm-img2.akamaized.net/i/u/300x300/f4025a3234474df1cd910885fdb1d668.png",
+					"size": ""
+				}]
+			}, {
+				"name": "Twisted Sister",
+				"url": "https://www.last.fm/music/Twisted+Sister",
+				"image": [{
+					"#text": "https://lastfm-img2.akamaized.net/i/u/34s/cd94967846d04148c121b7cc43424783.png",
+					"size": "small"
+				}, {
+					"#text": "https://lastfm-img2.akamaized.net/i/u/64s/cd94967846d04148c121b7cc43424783.png",
+					"size": "medium"
+				}, {
+					"#text": "https://lastfm-img2.akamaized.net/i/u/174s/cd94967846d04148c121b7cc43424783.png",
+					"size": "large"
+				}, {
+					"#text": "https://lastfm-img2.akamaized.net/i/u/300x300/cd94967846d04148c121b7cc43424783.png",
+					"size": "extralarge"
+				}, {
+					"#text": "https://lastfm-img2.akamaized.net/i/u/300x300/cd94967846d04148c121b7cc43424783.png",
+					"size": "mega"
+				}, {
+					"#text": "https://lastfm-img2.akamaized.net/i/u/300x300/cd94967846d04148c121b7cc43424783.png",
+					"size": ""
+				}]
+			}]
+		},
+		"tags": {
+			"tag": [{
+				"name": "hard rock",
+				"url": "https://www.last.fm/tag/hard+rock"
+			}, {
+				"name": "classic rock",
+				"url": "https://www.last.fm/tag/classic+rock"
+			}, {
+				"name": "rock",
+				"url": "https://www.last.fm/tag/rock"
+			}, {
+				"name": "heavy metal",
+				"url": "https://www.last.fm/tag/heavy+metal"
+			}, {
+				"name": "glam rock",
+				"url": "https://www.last.fm/tag/glam+rock"
+			}]
+		},
+		"bio": {
+			"links": {
+				"link": {
+					"#text": "",
+					"rel": "original",
+					"href": "https://last.fm/music/Alice+Cooper/+wiki"
+				}
+			},
+			"published": "03 Mar 2006, 07:21",
+			"summary": "Alice Cooper (born Vincent Damon Furnier, February 4, 1948) is an American rock singer, songwriter, and musician whose career spans five decades. With a stage show that features guillotines, electric chairs, fake blood, boa constrictors, and baby dolls, he is considered by fans and peers alike to be \"The Godfather of Shock Rock\"; Cooper has drawn equally from horror movies, vaudeville, and garage rock to pioneer a grandly theatrical and macabre brand of rock designed to shock. <a href=\"https://www.last.fm/music/Alice+Cooper\">Read more on Last.fm</a>",
+			"content": "Alice Cooper (born Vincent Damon Furnier, February 4, 1948) is an American rock singer, songwriter, and musician whose career spans five decades. With a stage show that features guillotines, electric chairs, fake blood, boa constrictors, and baby dolls, he is considered by fans and peers alike to be \"The Godfather of Shock Rock\"; Cooper has drawn equally from horror movies, vaudeville, and garage rock to pioneer a grandly theatrical and macabre brand of rock designed to shock.\n\nOriginating in Phoenix in the late 1960s after Furnier moved from Detroit, Alice Cooper was originally a band consisting of Furnier on vocals and harmonica, lead guitarist Glen Buxton, Michael Bruce on rhythm guitar, Dennis Dunaway on bass guitar, and drummer Neal Smith. The original Alice Cooper band broke into the international music mainstream with the 1971 hit \"I'm Eighteen\" from the album Love It to Death, which was followed by the even bigger single \"School's Out\" in 1972 which reached No 1 in the UK. The band reached their commercial peak with the  1973 album Billion Dollar Babies.\n\nFurnier adopted the band's name as his own name in the 1970s and began a solo career with the 1975 concept album Welcome to My Nightmare. In 2011 he released Welcome 2 My Nightmare, his 22th album as a solo artist. Expanding from his Detroit rock roots, in his career Cooper has experimented with a number of musical styles, including conceptual rock, art rock, hard rock, heavy metal, new wave, pop rock, experimental rock and industrial rock.\n\nAlice released his latest album in 2017. It's \"Paranormal\". It contains 2 new tracks with the original members of the Alice Cooper Band from the early '70s.  <a href=\"https://www.last.fm/music/Alice+Cooper\">Read more on Last.fm</a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+		}
+	}
+}
