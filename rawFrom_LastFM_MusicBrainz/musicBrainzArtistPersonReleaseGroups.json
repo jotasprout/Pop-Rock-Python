@@ -1,0 +1,258 @@
+{
+	"name": "Alice Cooper",
+	"area": {
+		"sort-name": "United States",
+		"id": "489ce91b-6658-3307-9877-795b68554c98",
+		"iso-3166-1-codes": ["US"],
+		"disambiguation": "",
+		"name": "United States"
+	},
+	"type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+	"disambiguation": "the musician Vincent Damon Furnier",
+	"isnis": ["0000000114742994", "0000000368591874"],
+	"begin_area": {
+		"sort-name": "Detroit",
+		"id": "b03ff310-d8e2-45cf-9455-769f76641eb2",
+		"disambiguation": "",
+		"name": "Detroit"
+	},
+	"release-groups": [{
+		"primary-type": "Album",
+		"secondary-types": [],
+		"disambiguation": "",
+		"first-release-date": "1986-09-22",
+		"secondary-type-ids": [],
+		"title": "Constrictor",
+		"id": "24c4fdde-4494-3837-a288-5b4fdbe966eb",
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+	}, {
+		"title": "The Last Temptation",
+		"secondary-type-ids": [],
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+		"id": "27b8892e-e772-3edf-8b3a-0aeddb455e96",
+		"disambiguation": "",
+		"secondary-types": [],
+		"primary-type": "Album",
+		"first-release-date": "1994-06-23"
+	}, {
+		"primary-type": "Album",
+		"secondary-types": [],
+		"disambiguation": "",
+		"first-release-date": "2017-07-28",
+		"secondary-type-ids": [],
+		"title": "Paranormal",
+		"id": "2ac14982-001d-42de-8ff3-dc49a46774c6",
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+	}, {
+		"id": "323b33a8-199f-3aaf-8727-f809766e9882",
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+		"secondary-type-ids": [],
+		"title": "Trash",
+		"first-release-date": "1989-07-25",
+		"primary-type": "Album",
+		"secondary-types": [],
+		"disambiguation": ""
+	}, {
+		"primary-type": "Album",
+		"disambiguation": "",
+		"secondary-types": [],
+		"first-release-date": "2011-09-12",
+		"secondary-type-ids": [],
+		"title": "Welcome 2 My Nightmare",
+		"id": "37839a36-66b9-4a6d-908c-ff7ca0a0c9bd",
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+	}, {
+		"first-release-date": "2005-07-04",
+		"secondary-types": [],
+		"disambiguation": "",
+		"primary-type": "Album",
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+		"id": "500870c0-f0e7-3c13-9882-2ff51684e0c6",
+		"title": "Dirty Diamonds",
+		"secondary-type-ids": []
+	}, {
+		"id": "57a01829-f966-37e0-876a-422191e461f1",
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+		"secondary-type-ids": [],
+		"title": "Along Came a Spider",
+		"first-release-date": "2008-07-25",
+		"primary-type": "Album",
+		"disambiguation": "",
+		"secondary-types": []
+	}, {
+		"secondary-type-ids": [],
+		"title": "Special Forces",
+		"id": "595ac51e-1599-3043-899a-bfbd9be8c5a9",
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+		"primary-type": "Album",
+		"secondary-types": [],
+		"disambiguation": "",
+		"first-release-date": "1981-09"
+	}, {
+		"primary-type": "Album",
+		"disambiguation": "",
+		"secondary-types": [],
+		"first-release-date": "1977-04-29",
+		"secondary-type-ids": [],
+		"title": "Lace and Whiskey",
+		"id": "5b4fb998-0692-390b-955a-747160f12149",
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+	}, {
+		"secondary-types": ["Compilation"],
+		"disambiguation": "",
+		"primary-type": "Album",
+		"first-release-date": "1989-11-14",
+		"title": "Prince of Darkness",
+		"secondary-type-ids": ["dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"],
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+		"id": "6206ab35-58e8-3431-81da-4f407bc6ef76"
+	}, {
+		"primary-type": "Album",
+		"disambiguation": "",
+		"secondary-types": [],
+		"first-release-date": "1975-03-11",
+		"secondary-type-ids": [],
+		"title": "Welcome to My Nightmare",
+		"id": "65b17904-31c4-303e-a6a2-7c2e750945c7",
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+	}, {
+		"first-release-date": "1980-04-28",
+		"primary-type": "Album",
+		"secondary-types": [],
+		"disambiguation": "",
+		"id": "6a13b651-7706-3682-8eae-8168e5604bae",
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+		"secondary-type-ids": [],
+		"title": "Flush the Fashion"
+	}, {
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+		"id": "741dd18e-ec06-3411-ba12-eff8481a3265",
+		"title": "Raise Your Fist and Yell",
+		"secondary-type-ids": [],
+		"first-release-date": "1987-09-28",
+		"disambiguation": "",
+		"secondary-types": [],
+		"primary-type": "Album"
+	}, {
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+		"id": "8417b731-6626-376f-b76f-f1ccc5b1e413",
+		"title": "From the Inside",
+		"secondary-type-ids": [],
+		"first-release-date": "1978-11",
+		"secondary-types": [],
+		"disambiguation": "",
+		"primary-type": "Album"
+	}, {
+		"secondary-types": [],
+		"disambiguation": "",
+		"primary-type": "Album",
+		"first-release-date": "1982-08-25",
+		"title": "Zipper Catches Skin",
+		"secondary-type-ids": [],
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+		"id": "855d5ec9-2123-37f2-9f75-0183ca74c5c4"
+	}, {
+		"primary-type": "Album",
+		"disambiguation": "",
+		"secondary-types": ["Compilation"],
+		"first-release-date": "1996",
+		"secondary-type-ids": ["dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"],
+		"title": "The Best Of",
+		"id": "a08104ac-a0ef-3b74-8b57-37c665142f92",
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+	}, {
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+		"id": "b9543c2d-2482-3f09-b552-18728b124eb3",
+		"title": "Hey Stoopid",
+		"secondary-type-ids": [],
+		"first-release-date": "1991-06-27",
+		"secondary-types": [],
+		"disambiguation": "",
+		"primary-type": "Album"
+	}, {
+		"title": "Brutal Planet",
+		"secondary-type-ids": [],
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+		"id": "c280ab3d-96e0-30fc-a5ce-47c96e4fee98",
+		"secondary-types": [],
+		"disambiguation": "",
+		"primary-type": "Album",
+		"first-release-date": "2000-06-06"
+	}, {
+		"title": "Classicks",
+		"secondary-type-ids": ["dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"],
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+		"id": "c52fe297-2752-3b99-9757-8730ea244a0d",
+		"secondary-types": ["Compilation"],
+		"disambiguation": "",
+		"primary-type": "Album",
+		"first-release-date": "1995-09-05"
+	}, {
+		"first-release-date": "1976-06-25",
+		"primary-type": "Album",
+		"secondary-types": [],
+		"disambiguation": "",
+		"id": "c7a77e78-b431-348e-adb5-8d6dbe0a04b4",
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+		"secondary-type-ids": [],
+		"title": "Alice Cooper Goes to Hell"
+	}, {
+		"first-release-date": "1983-09-28",
+		"primary-type": "Album",
+		"disambiguation": "",
+		"secondary-types": [],
+		"id": "cf29ea84-15df-33f4-a07f-93538a8d87ca",
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+		"secondary-type-ids": [],
+		"title": "DaDa"
+	}, {
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+		"id": "e0d7a696-0e97-3382-99e1-b3c9de483f85",
+		"title": "Dragontown",
+		"secondary-type-ids": [],
+		"first-release-date": "2001-09-18",
+		"disambiguation": "",
+		"secondary-types": [],
+		"primary-type": "Album"
+	}, {
+		"first-release-date": "2003-09-23",
+		"secondary-types": [],
+		"disambiguation": "",
+		"primary-type": "Album",
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+		"id": "ea019edf-4a33-34d6-8f68-c069ff14fd99",
+		"title": "The Eyes of Alice Cooper",
+		"secondary-type-ids": []
+	}, {
+		"disambiguation": "",
+		"secondary-types": ["Compilation"],
+		"primary-type": "Album",
+		"first-release-date": "1991",
+		"title": "Alice",
+		"secondary-type-ids": ["dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"],
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+		"id": "f8be8c24-69fb-4a3a-a20d-de19a445b495"
+	}, {
+		"first-release-date": "1997-03-24",
+		"primary-type": "Album",
+		"secondary-types": ["Compilation"],
+		"disambiguation": "",
+		"id": "fe62b780-454f-3523-a8a7-da24c8244b64",
+		"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+		"secondary-type-ids": ["dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"],
+		"title": "…A Nice Nightmare"
+	}],
+	"life-span": {
+		"ended": false,
+		"end": null,
+		"begin": "1948-02-04"
+	},
+	"end_area": null,
+	"type": "Person",
+	"gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+	"ipis": ["00063816178", "00078127071"],
+	"country": "US",
+	"id": "ee58c59f-8e7f-4430-b8ca-236c4d3745ae",
+	"gender": "Male",
+	"sort-name": "Cooper, Alice"
+}

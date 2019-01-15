@@ -1,0 +1,215 @@
+{
+	"album": {
+		"name": "Billion Dollar Babies",
+		"artist": "Alice Cooper",
+		"mbid": "506844d3-80c7-4a41-9b6d-c16c496c8629",
+		"url": "https://www.last.fm/music/Alice+Cooper/Billion+Dollar+Babies",
+		"image": [{
+			"#text": "https://lastfm-img2.akamaized.net/i/u/34s/cbea6f56d4cc4d5eb61a2ef8ec8f2b1e.png",
+			"size": "small"
+		}, {
+			"#text": "https://lastfm-img2.akamaized.net/i/u/64s/cbea6f56d4cc4d5eb61a2ef8ec8f2b1e.png",
+			"size": "medium"
+		}, {
+			"#text": "https://lastfm-img2.akamaized.net/i/u/174s/cbea6f56d4cc4d5eb61a2ef8ec8f2b1e.png",
+			"size": "large"
+		}, {
+			"#text": "https://lastfm-img2.akamaized.net/i/u/300x300/cbea6f56d4cc4d5eb61a2ef8ec8f2b1e.png",
+			"size": "extralarge"
+		}, {
+			"#text": "https://lastfm-img2.akamaized.net/i/u/300x300/cbea6f56d4cc4d5eb61a2ef8ec8f2b1e.png",
+			"size": "mega"
+		}, {
+			"#text": "https://lastfm-img2.akamaized.net/i/u/300x300/cbea6f56d4cc4d5eb61a2ef8ec8f2b1e.png",
+			"size": ""
+		}],
+		"listeners": "169768",
+		"playcount": "1222112",
+		"tracks": {
+			"track": [{
+				"name": "Hello Hooray",
+				"url": "https://www.last.fm/music/Alice+Cooper/_/Hello+Hooray",
+				"duration": "256",
+				"@attr": {
+					"rank": "1"
+				},
+				"streamable": {
+					"#text": "0",
+					"fulltrack": "0"
+				},
+				"artist": {
+					"name": "Alice Cooper",
+					"mbid": "ee58c59f-8e7f-4430-b8ca-236c4d3745ae",
+					"url": "https://www.last.fm/music/Alice+Cooper"
+				}
+			}, {
+				"name": "Raped And Freezin'",
+				"url": "https://www.last.fm/music/Alice+Cooper/_/Raped+And+Freezin%27",
+				"duration": "195",
+				"@attr": {
+					"rank": "2"
+				},
+				"streamable": {
+					"#text": "0",
+					"fulltrack": "0"
+				},
+				"artist": {
+					"name": "Alice Cooper",
+					"mbid": "ee58c59f-8e7f-4430-b8ca-236c4d3745ae",
+					"url": "https://www.last.fm/music/Alice+Cooper"
+				}
+			}, {
+				"name": "Elected",
+				"url": "https://www.last.fm/music/Alice+Cooper/_/Elected",
+				"duration": "246",
+				"@attr": {
+					"rank": "3"
+				},
+				"streamable": {
+					"#text": "0",
+					"fulltrack": "0"
+				},
+				"artist": {
+					"name": "Alice Cooper",
+					"mbid": "ee58c59f-8e7f-4430-b8ca-236c4d3745ae",
+					"url": "https://www.last.fm/music/Alice+Cooper"
+				}
+			}, {
+				"name": "Billion Dollar Babies",
+				"url": "https://www.last.fm/music/Alice+Cooper/_/Billion+Dollar+Babies",
+				"duration": "207",
+				"@attr": {
+					"rank": "4"
+				},
+				"streamable": {
+					"#text": "0",
+					"fulltrack": "0"
+				},
+				"artist": {
+					"name": "Alice Cooper",
+					"mbid": "ee58c59f-8e7f-4430-b8ca-236c4d3745ae",
+					"url": "https://www.last.fm/music/Alice+Cooper"
+				}
+			}, {
+				"name": "Unfinished Sweet",
+				"url": "https://www.last.fm/music/Alice+Cooper/_/Unfinished+Sweet",
+				"duration": "377",
+				"@attr": {
+					"rank": "5"
+				},
+				"streamable": {
+					"#text": "0",
+					"fulltrack": "0"
+				},
+				"artist": {
+					"name": "Alice Cooper",
+					"mbid": "ee58c59f-8e7f-4430-b8ca-236c4d3745ae",
+					"url": "https://www.last.fm/music/Alice+Cooper"
+				}
+			}, {
+				"name": "No More Mr. Nice Guy",
+				"url": "https://www.last.fm/music/Alice+Cooper/_/No+More+Mr.+Nice+Guy",
+				"duration": "185",
+				"@attr": {
+					"rank": "6"
+				},
+				"streamable": {
+					"#text": "0",
+					"fulltrack": "0"
+				},
+				"artist": {
+					"name": "Alice Cooper",
+					"mbid": "ee58c59f-8e7f-4430-b8ca-236c4d3745ae",
+					"url": "https://www.last.fm/music/Alice+Cooper"
+				}
+			}, {
+				"name": "Generation Landslide",
+				"url": "https://www.last.fm/music/Alice+Cooper/_/Generation+Landslide",
+				"duration": "271",
+				"@attr": {
+					"rank": "7"
+				},
+				"streamable": {
+					"#text": "0",
+					"fulltrack": "0"
+				},
+				"artist": {
+					"name": "Alice Cooper",
+					"mbid": "ee58c59f-8e7f-4430-b8ca-236c4d3745ae",
+					"url": "https://www.last.fm/music/Alice+Cooper"
+				}
+			}, {
+				"name": "Sick Things",
+				"url": "https://www.last.fm/music/Alice+Cooper/_/Sick+Things",
+				"duration": "258",
+				"@attr": {
+					"rank": "8"
+				},
+				"streamable": {
+					"#text": "0",
+					"fulltrack": "0"
+				},
+				"artist": {
+					"name": "Alice Cooper",
+					"mbid": "ee58c59f-8e7f-4430-b8ca-236c4d3745ae",
+					"url": "https://www.last.fm/music/Alice+Cooper"
+				}
+			}, {
+				"name": "Mary Ann",
+				"url": "https://www.last.fm/music/Alice+Cooper/_/Mary+Ann",
+				"duration": "139",
+				"@attr": {
+					"rank": "9"
+				},
+				"streamable": {
+					"#text": "0",
+					"fulltrack": "0"
+				},
+				"artist": {
+					"name": "Alice Cooper",
+					"mbid": "ee58c59f-8e7f-4430-b8ca-236c4d3745ae",
+					"url": "https://www.last.fm/music/Alice+Cooper"
+				}
+			}, {
+				"name": "I Love The Dead",
+				"url": "https://www.last.fm/music/Alice+Cooper/_/I+Love+The+Dead",
+				"duration": "308",
+				"@attr": {
+					"rank": "10"
+				},
+				"streamable": {
+					"#text": "0",
+					"fulltrack": "0"
+				},
+				"artist": {
+					"name": "Alice Cooper",
+					"mbid": "ee58c59f-8e7f-4430-b8ca-236c4d3745ae",
+					"url": "https://www.last.fm/music/Alice+Cooper"
+				}
+			}]
+		},
+		"tags": {
+			"tag": [{
+				"name": "hard rock",
+				"url": "https://www.last.fm/tag/hard+rock"
+			}, {
+				"name": "classic rock",
+				"url": "https://www.last.fm/tag/classic+rock"
+			}, {
+				"name": "70s",
+				"url": "https://www.last.fm/tag/70s"
+			}, {
+				"name": "1973",
+				"url": "https://www.last.fm/tag/1973"
+			}, {
+				"name": "rock",
+				"url": "https://www.last.fm/tag/rock"
+			}]
+		},
+		"wiki": {
+			"published": "10 Oct 2009, 10:50",
+			"summary": "Alice Cooper - Billion Dollar Babies (Studio album first released February 25, 1973)\n\nFrom Wikipedia the free encyclopedia\nBillion Dollar Babies is an album by American hard rock band Alice Cooper, released in February 1973. It is widely praised as one of the best Alice Cooper albums, and showcased the group at their artistic and commercial peak. Many songs from it remain staples of Alice Cooper's live act to this day: in particular, \"I Love the Dead\" is usually associated with Cooper's mock-execution <a href=\"http://www.last.fm/music/Alice+Cooper/Billion+Dollar+Babies\">Read more on Last.fm</a>.",
+			"content": "Alice Cooper - Billion Dollar Babies (Studio album first released February 25, 1973)\n\nFrom Wikipedia the free encyclopedia\nBillion Dollar Babies is an album by American hard rock band Alice Cooper, released in February 1973. It is widely praised as one of the best Alice Cooper albums, and showcased the group at their artistic and commercial peak. Many songs from it remain staples of Alice Cooper's live act to this day: in particular, \"I Love the Dead\" is usually associated with Cooper's mock-execution, while \"Elected\" is often used as an encore.\n\n'Billion Dollar Babies' was also the name of the band founded by Michael Bruce, Mike Marconi, Dennis Dunaway, Bob Dolin, and Neal Smith after they split from Alice Cooper in 1974. This band was embroiled in a legal suit over the usage of the name. They only released one album, 1977's 'Battleaxe', before disbanding.\nBillion Dollar Babies peaked at #1 on Billboard's Pop Albums chart. Four singles were released from the album: \"Elected\" (which peaked at #26 on the Pop Singles chart); \"Hello, Hooray\" (#35); \"No More Mr. Nice Guy\" (US #25); and the song [bg\"Billion Dollar Babies\" (#57).\nThe original vinyl album came with a full-sized \"Billion Dollar Bill\" featuring the band members on the front and a political cartoon on the back.\nThe title track is a duet between Alice Cooper and Donovan. Years later, the song would be featured in the Xbox 360 version of the video game Guitar Hero II, although it was misidentified in the manual as \"Million Dollar Babies\".\n\"Hello, Hooray,\" written by Canadian singer/songwriter Rolf Kempf in 1968, originally appeared on Judy Collins' 1968 album Who Knows Where the Time Goes.\nMegadeth covered the song \"No More Mr. Nice Guy\" for the movie Shocker.\nAyreon covered the song  \"Elected\" on the album Ayreon Vs Avantasia.\nThe Quadraphonic LP has unique mixes and song versions not available anywhere else. Differences are longer song fades and endings, different lyrics (Raped And Freezin': \"Alone with a bloody nose\" on the last verse, vs. \"Alone down in mexico\" on the Stereo LP and CD versions, for example), and fades replaced by segues into following tracks ('Generation Landslide' into 'Sick Things').\n\n\nallmusic's review of the Billion Dollar Babies album (1973)\nReview by Greg Prato\nWith Billion Dollar Babies, Alice Cooper refined the raw grit of their earlier work in favor of a slightly more polished sound (courtesy of super-producer Bob Ezrin), resulting in a mega-hit album that reached the top of the U.S. album charts. Song for song, Billion Dollar Babies is probably the original Alice Cooper group's finest and strongest. Such tracks as \"Hello Hooray,\" the lethal stomp of the title track, the defiant \"Elected\" (a rewrite of an earlier song, \"Reflected\"), and the poison-laced pop candy of \"No More Mr. Nice Guy\" remain among Cooper's greatest achievements. Also included are a pair of perennial concert standards -- the disturbing necrophilia ditty \"I Love the Dead\" and the chilling macabre of \"Sick Things\" -- as well as such strong, lesser-known selections as \"Raped and Freezin',\" \"Unfinished Sweet,\" and perhaps Cooper's most overlooked gem, \"Generation Landslide.\" Nothing seemed like it could stop this great hard rock band from overtaking the universe, but tensions between the members behind the scenes would force the stellar original AC band to split up after just one more album. Not only is Billion Dollar Babies one of Cooper's very best; it remains one of rock's all-time, quintessential classics.\n\n\nallmusic's review of the Billion Dollar Babies Deluxe Edition album (2001)\nReview by Greg Prato\nIt's universally agreed among longtime Alice Cooper fans that the best \"Alice era\" was in the early '70s, when Alice fronted the original Alice Cooper Band including guitarists Michael Bruce and Glen Buxton, bassist Dennis Dunaway, and drummer Neal Smith. When the band broke up for good and Alice set out on a solo career in 1974, the A.C. Band had released a total of seven studio albums, but never an official live recording (despite the fact that the group's live show was one of rock's best and most theatrical of the whole era). But this all changed with the release of 2001's double disc Billion Dollar Babies Deluxe Edition. Disc one contains a remastered version of the Alice Cooper Band's '73 classic, Billion Dollar Babies, which has been expertly cleaned up by the album's original producer, Bob Ezrin. This is the album that put Cooper over the top, hitting the number one spot and spawning such rock standards as \"Elected,\" \"No More Mr. Nice Guy,\" and the title track. The new version only improves on the original, still packing quite a sonic punch all these years later. But the real story for hardcore Alice fans will be disc two, comprised of 11 tracks recorded live in Texas during the band's mammoth '73 tour, as well as a pair of demos and one outtake -- the twisted Elvis-esque rocker \"Slick Black Limousine\" -- previously available only in England as a flexi-disc and on the 1999 four-disc boxset The Life & Crimes of Alice Cooper. While this CD's listeners are obviously missing out on the visual aspect of the Cooper stage show, it's still clear that the band was one of rock's all-time-bash-'em-out best, as evidenced by such sleazy garage rockers as \"Billion Dollar Babies,\" \"Elected,\" \"I'm Eighteen,\" \"Raped and Freezin',\" and \"No More Mr. Nice Guy.\" Also included are a few numbers that were made with the concert stage in mind, namely such epics as \"My Stars,\" \"Unfinished Sweet,\" \"Sick Things,\" \"Dead Babies,\" and \"I Love the Dead.\" Warner Archives/Rhino should also be commended for doing a splendid job on the packaging; the original album art and contents have been restored, including little punch out \"photo cards\" of individual band members and in-concert shots, as well as a 23-page booklet with an essay, photos, and lyrics. Billion Dollar Babies Deluxe Edition is classic Alice Cooper.\n\nTrack listing\n   1. \"Hello, Hooray\" (Kempf) – 4:15\n   2. \"Raped and Freezin'\" (Cooper, Michael Bruce) – 3:19\n   3. \"Elected\" (Cooper, Glen Buxton, Bruce, Dennis Dunaway, Neal Smith) – 4:05\n   4. \"Billion Dollar Babies\" (Cooper, Bruce, Smith) – 3:43\n   5. \"Unfinished Sweet\" (Cooper, Bruce, Smith) – 6:18\n   6. \"No More Mr. Nice Guy\" (Cooper, Bruce) – 3:06\n   7. \"Generation Landslide\" (Cooper, Buxton, Bruce, Dunaway, Smith) – 4:31\n   8. \"Sick Things\" (Cooper, Bruce, Bob Ezrin) – 4:18\n   9. \"Mary Ann\" (Cooper, Bruce) – 2:21\n  10. \"I Love the Dead\" (Cooper, Ezrin) – 5:09\n\nDeluxe Edition CD bonus tracks\nThe 2001 CD reissue includes a bonus CD with the following tracks:\n   1. \"Hello, Hooray\" (Live) (Kempf) - 3:04\n   2. \"Billion Dollar Babies\" (Live) (Cooper, Bruce, Smith) - 3:47\n   3. \"Elected\" (Live) (Cooper, Buxton, Bruce, Dunaway, Smith) - 2:28\n   4. \"I'm Eighteen\" (Live) (Cooper, Buxton, Bruce, Dunaway, Smith) - 4:50\n   5. \"Raped and Freezin'\" (Live) (Cooper, Bruce) - 3:14\n   6. \"No More Mr. Nice Guy\" (Live) (Cooper, Bruce) - 3:07\n   7. \"My Stars\" (Live) (Cooper, Ezrin) - 7:32\n   8. \"Unfinished Sweet\" (Live) (Cooper, Bruce, Smith) - 6:01\n   9. \"Sick Things\" (Live) (Cooper, Bruce, Ezrin) - 3:16\n  10. \"Dead Babies\" (Live) (Cooper, Buxton, Bruce, Dunaway, Smith) - 2:58\n  11. \"I Love the Dead\" (Live) (Cooper, Ezrin) - 4:48\n  12. \"Coal Black Model T\" - 4:28\n  13. \"Son of Billion Dollar Babies\" - 3:45\n  14. \"Slick Black Limousine\" (Cooper, Dunaway) - 4:26\n\n    * Track 1 to 11 are recorded live in Houston 1973, previously unreleased on CD\n    * Track 12 is an early version of \"Slick Black Limousine\", previously unreleased\n    * Track 13 is a \"Generation Landslide\" outtake, previously unreleased\n    * Track 14 was previously released in the UK only in 1973 as a free Flexi disc in NME magazine\n \nPersonnel\n    * Alice Cooper - vocals, harmonica\n    * Glen Buxton - lead guitar\n    * Michael Bruce - rhythm guitar, keyboards, backing vocals\n    * Dennis Dunaway - bass, backing vocals\n    * Neal Smith - drums\n    * Donovan - vocals on the song \"Billion Dollar Babies\"\n    * Steve \"Deacon\" Hunter - guitar\n    * Mick Mashbir - guitar\n    * Dick Wagner - guitar\n    * Bob Dolin - keyboards\n    * David Libert - vocals\n\nProduction\n    * Bob Ezrin - producer\n    * Jack Douglas - engineer\n    * Robin Black - engineer\n    * Frank Hubach - engineer\n    * Ed Sprigg - engineer\n    * Logan Jervis - engineer\n    * Shelly Yakus - engineer\n    * Peter Flanagan - engineer\n    * Brian Kehew - editing, remixing\n    * Pacific Eye & Ear - design concept\n    * Greg Allen - art direction, design\n    * Hugh Brown - art direction\n    * David P. Bailey - photography, cover photo\n    * Neal Preston - photography\n    * Lynn Goldsmith - photography\n    * Jo Motta - project coordinator\n    * Steve Woolard - project coordinator\n    * Randy Perry - project assistant\n    * Vanessa Atkins - editorial supervision\n    * Norma Edwards - editorial research\n    * Shawn Amos - editorial coordinator\n\nChart & Awards\nAlbum\n1973 - Billboard 200 - No 1\nSingles\n1972 - \"Elected\" - Pop Singles - No 26\n1973 - \"Hello, Hooray\" - Pop Singles - No 35\n1973 - \"No More Mr. Nice Guy\" - Pop Singles - No 25\n1973 - \"Billion Dollar Babies\" - Pop Singles - No \t57 <a href=\"http://www.last.fm/music/Alice+Cooper/Billion+Dollar+Babies\">Read more on Last.fm</a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+		}
+	}
+}

@@ -1,0 +1,683 @@
+{
+	"gender": null,
+	"id": "4d7928cd-7ed2-4282-8c29-c0c9f966f1bd",
+	"area": {
+		"name": "United States",
+		"sort-name": "United States",
+		"id": "489ce91b-6658-3307-9877-795b68554c98",
+		"iso-3166-1-codes": ["US"],
+		"disambiguation": ""
+	},
+	"releases": [{
+		"quality": "normal",
+		"id": "08e9f71c-34fe-478b-af85-3cbe7691e10a",
+		"text-representation": {
+			"script": "Latn",
+			"language": "eng"
+		},
+		"title": "Muscle of Love",
+		"status": "Official",
+		"release-events": [{
+			"date": "1973",
+			"area": {
+				"disambiguation": "",
+				"iso-3166-1-codes": ["AU"],
+				"sort-name": "Australia",
+				"id": "106e0bec-b638-3b37-b731-f53d507dc00e",
+				"name": "Australia"
+			}
+		}],
+		"disambiguation": "",
+		"packaging": "Cardboard/Paper Sleeve",
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+		"packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+		"date": "1973",
+		"country": "AU",
+		"barcode": ""
+	}, {
+		"date": "1971",
+		"country": "GB",
+		"barcode": "",
+		"packaging": "Gatefold Cover",
+		"release-events": [{
+			"area": {
+				"name": "United Kingdom",
+				"sort-name": "United Kingdom",
+				"id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+				"iso-3166-1-codes": ["GB"],
+				"disambiguation": ""
+			},
+			"date": "1971"
+		}],
+		"disambiguation": "",
+		"packaging-id": "e724a489-a7e8-30a1-a17c-30dfd6831202",
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+		"text-representation": {
+			"script": "Latn",
+			"language": "eng"
+		},
+		"id": "0bfb4695-7013-3f66-adf0-65336bb0d103",
+		"status": "Official",
+		"title": "Love It to Death",
+		"quality": "normal"
+	}, {
+		"status": "Bootleg",
+		"title": "1972-11-15: Olympiahalle, München, Germany",
+		"id": "0cc7ed50-9b1f-4e47-9984-06b978a12ec7",
+		"text-representation": {
+			"script": "Latn",
+			"language": "eng"
+		},
+		"quality": "normal",
+		"barcode": null,
+		"date": "1972-11-15",
+		"country": "DE",
+		"packaging-id": null,
+		"status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+		"packaging": null,
+		"release-events": [{
+			"area": {
+				"id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+				"sort-name": "Germany",
+				"name": "Germany",
+				"disambiguation": "",
+				"iso-3166-1-codes": ["DE"]
+			},
+			"date": "1972-11-15"
+		}],
+		"disambiguation": ""
+	}, {
+		"quality": "normal",
+		"status": "Official",
+		"title": "Billion Dollar Babies",
+		"text-representation": {
+			"language": "eng",
+			"script": "Latn"
+		},
+		"id": "2f2e8a90-9c8a-4917-bc64-f5c4e273e8e8",
+		"packaging-id": "e724a489-a7e8-30a1-a17c-30dfd6831202",
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+		"packaging": "Gatefold Cover",
+		"disambiguation": "",
+		"release-events": [{
+			"area": {
+				"sort-name": "United States",
+				"id": "489ce91b-6658-3307-9877-795b68554c98",
+				"name": "United States",
+				"disambiguation": "",
+				"iso-3166-1-codes": ["US"]
+			},
+			"date": "1973-02-25"
+		}],
+		"barcode": "",
+		"country": "US",
+		"date": "1973-02-25"
+	}, {
+		"packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+		"packaging": "Cardboard/Paper Sleeve",
+		"disambiguation": "",
+		"release-events": [{
+			"date": "1974",
+			"area": {
+				"iso-3166-1-codes": ["US"],
+				"disambiguation": "",
+				"name": "United States",
+				"sort-name": "United States",
+				"id": "489ce91b-6658-3307-9877-795b68554c98"
+			}
+		}],
+		"barcode": "",
+		"date": "1974",
+		"country": "US",
+		"quality": "normal",
+		"status": "Official",
+		"title": "Alice Cooper’s Greatest Hits",
+		"text-representation": {
+			"language": "eng",
+			"script": "Latn"
+		},
+		"id": "3722e0bc-5e5d-4b52-987f-a86523c3911c"
+	}, {
+		"barcode": "",
+		"date": "1971",
+		"country": "GB",
+		"packaging-id": null,
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+		"packaging": null,
+		"disambiguation": "",
+		"release-events": [{
+			"area": {
+				"sort-name": "United Kingdom",
+				"id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+				"name": "United Kingdom",
+				"disambiguation": "",
+				"iso-3166-1-codes": ["GB"]
+			},
+			"date": "1971"
+		}],
+		"status": "Official",
+		"title": "Killer",
+		"text-representation": {
+			"language": "eng",
+			"script": "Latn"
+		},
+		"id": "37e716fe-3620-3c21-8ddb-999c244dd463",
+		"quality": "normal"
+	}, {
+		"packaging-id": "e724a489-a7e8-30a1-a17c-30dfd6831202",
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+		"packaging": "Gatefold Cover",
+		"release-events": [{
+			"date": "1973",
+			"area": {
+				"name": "United Kingdom",
+				"sort-name": "United Kingdom",
+				"id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+				"iso-3166-1-codes": ["GB"],
+				"disambiguation": ""
+			}
+		}],
+		"disambiguation": "",
+		"barcode": "",
+		"date": "1973",
+		"country": "GB",
+		"quality": "normal",
+		"status": "Official",
+		"title": "School Days: The Early Recordings",
+		"text-representation": {
+			"language": "eng",
+			"script": "Latn"
+		},
+		"id": "39afd649-6217-4225-a56c-eb976eea2142"
+	}, {
+		"packaging-id": "e724a489-a7e8-30a1-a17c-30dfd6831202",
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+		"packaging": "Gatefold Cover",
+		"disambiguation": "",
+		"release-events": [{
+			"date": "1969-06",
+			"area": {
+				"name": "United States",
+				"id": "489ce91b-6658-3307-9877-795b68554c98",
+				"sort-name": "United States",
+				"iso-3166-1-codes": ["US"],
+				"disambiguation": ""
+			}
+		}],
+		"barcode": null,
+		"country": "US",
+		"date": "1969-06",
+		"quality": "normal",
+		"status": "Official",
+		"title": "Pretties for You",
+		"text-representation": {
+			"script": "Latn",
+			"language": "eng"
+		},
+		"id": "4a212f7b-b025-4b54-a061-ad21bbdc76c0"
+	}, {
+		"status": "Official",
+		"title": "Easy Action",
+		"text-representation": {
+			"script": "Latn",
+			"language": "eng"
+		},
+		"id": "51658330-5db5-4e18-a350-2c4d622b0145",
+		"quality": "normal",
+		"barcode": "",
+		"date": "1970-03",
+		"country": "US",
+		"packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+		"packaging": "Cardboard/Paper Sleeve",
+		"disambiguation": "",
+		"release-events": [{
+			"area": {
+				"name": "United States",
+				"sort-name": "United States",
+				"id": "489ce91b-6658-3307-9877-795b68554c98",
+				"iso-3166-1-codes": ["US"],
+				"disambiguation": ""
+			},
+			"date": "1970-03"
+		}]
+	}, {
+		"title": "Killer",
+		"status": "Official",
+		"text-representation": {
+			"script": "Latn",
+			"language": "eng"
+		},
+		"id": "5fb9a542-59de-3644-9496-9e7cc6a7be7f",
+		"quality": "normal",
+		"barcode": null,
+		"country": "US",
+		"date": "1971-11",
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+		"packaging-id": null,
+		"release-events": [{
+			"date": "1971-11",
+			"area": {
+				"disambiguation": "",
+				"iso-3166-1-codes": ["US"],
+				"sort-name": "United States",
+				"id": "489ce91b-6658-3307-9877-795b68554c98",
+				"name": "United States"
+			}
+		}],
+		"disambiguation": "",
+		"packaging": null
+	}, {
+		"date": "1971-12",
+		"country": "AU",
+		"barcode": "",
+		"release-events": [{
+			"area": {
+				"disambiguation": "",
+				"iso-3166-1-codes": ["AU"],
+				"sort-name": "Australia",
+				"id": "106e0bec-b638-3b37-b731-f53d507dc00e",
+				"name": "Australia"
+			},
+			"date": "1971-12"
+		}],
+		"disambiguation": "",
+		"packaging": null,
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+		"packaging-id": null,
+		"text-representation": {
+			"language": "eng",
+			"script": "Latn"
+		},
+		"id": "64fa832e-2d23-4a8c-a0e0-5e0c0dfd41e2",
+		"title": "Killer",
+		"status": "Official",
+		"quality": "normal"
+	}, {
+		"quality": "normal",
+		"text-representation": {
+			"script": "Latn",
+			"language": "eng"
+		},
+		"id": "739e1a8c-7305-487c-8913-0951c5b99e7f",
+		"status": "Official",
+		"title": "Easy Action",
+		"packaging": "Cardboard/Paper Sleeve",
+		"release-events": [{
+			"area": {
+				"id": "489ce91b-6658-3307-9877-795b68554c98",
+				"sort-name": "United States",
+				"name": "United States",
+				"disambiguation": "",
+				"iso-3166-1-codes": ["US"]
+			},
+			"date": "1970-03"
+		}],
+		"disambiguation": "",
+		"packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+		"country": "US",
+		"date": "1970-03",
+		"barcode": ""
+	}, {
+		"country": "GB",
+		"date": "1973-02",
+		"barcode": "",
+		"packaging": null,
+		"disambiguation": "",
+		"release-events": [{
+			"date": "1973-02",
+			"area": {
+				"sort-name": "United Kingdom",
+				"id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+				"name": "United Kingdom",
+				"disambiguation": "",
+				"iso-3166-1-codes": ["GB"]
+			}
+		}],
+		"packaging-id": null,
+		"status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+		"text-representation": {
+			"language": "eng",
+			"script": "Latn"
+		},
+		"id": "7f169e1a-a056-4197-8dfa-fdfe0bf29ad2",
+		"status": "Promotion",
+		"title": "Slick Black Limousine",
+		"quality": "normal"
+	}, {
+		"packaging": "Gatefold Cover",
+		"disambiguation": "",
+		"release-events": [{
+			"area": {
+				"disambiguation": "",
+				"iso-3166-1-codes": ["US"],
+				"sort-name": "United States",
+				"id": "489ce91b-6658-3307-9877-795b68554c98",
+				"name": "United States"
+			},
+			"date": "1971-03-08"
+		}],
+		"packaging-id": "e724a489-a7e8-30a1-a17c-30dfd6831202",
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+		"date": "1971-03-08",
+		"country": "US",
+		"barcode": "",
+		"quality": "normal",
+		"text-representation": {
+			"script": "Latn",
+			"language": "eng"
+		},
+		"id": "7f670542-4f41-346b-9ba5-30f76d6a1e13",
+		"status": "Official",
+		"title": "Love It to Death"
+	}, {
+		"barcode": "",
+		"country": "US",
+		"date": "1974",
+		"packaging-id": "e724a489-a7e8-30a1-a17c-30dfd6831202",
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+		"packaging": "Gatefold Cover",
+		"release-events": [{
+			"area": {
+				"iso-3166-1-codes": ["US"],
+				"disambiguation": "",
+				"name": "United States",
+				"id": "489ce91b-6658-3307-9877-795b68554c98",
+				"sort-name": "United States"
+			},
+			"date": "1974"
+		}],
+		"disambiguation": "quadraphonic vinyl",
+		"status": "Official",
+		"title": "Billion Dollar Babies",
+		"id": "804fbdc7-4f99-3369-ae42-8738af198024",
+		"text-representation": {
+			"language": "eng",
+			"script": "Latn"
+		},
+		"quality": "normal"
+	}, {
+		"status": "Official",
+		"title": "Easy Action",
+		"text-representation": {
+			"language": "eng",
+			"script": "Latn"
+		},
+		"id": "89e045fd-3513-4f8a-a2f6-7121ba697abd",
+		"quality": "normal",
+		"barcode": null,
+		"country": "US",
+		"date": "1970-06",
+		"packaging-id": null,
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+		"packaging": null,
+		"disambiguation": "",
+		"release-events": [{
+			"date": "1970-06",
+			"area": {
+				"name": "United States",
+				"id": "489ce91b-6658-3307-9877-795b68554c98",
+				"sort-name": "United States",
+				"iso-3166-1-codes": ["US"],
+				"disambiguation": ""
+			}
+		}]
+	}, {
+		"quality": "normal",
+		"status": "Official",
+		"title": "Muscle of Love",
+		"text-representation": {
+			"language": "eng",
+			"script": "Latn"
+		},
+		"id": "95e3c7cc-fa48-4667-8888-446eafea468b",
+		"packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+		"packaging": "Cardboard/Paper Sleeve",
+		"disambiguation": "",
+		"release-events": [{
+			"area": {
+				"id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+				"sort-name": "United Kingdom",
+				"name": "United Kingdom",
+				"disambiguation": "",
+				"iso-3166-1-codes": ["GB"]
+			},
+			"date": "1973"
+		}],
+		"barcode": "",
+		"date": "1973",
+		"country": "GB"
+	}, {
+		"packaging-id": null,
+		"status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+		"packaging": null,
+		"disambiguation": "",
+		"release-events": [{
+			"date": "1972",
+			"area": {
+				"name": "United States",
+				"id": "489ce91b-6658-3307-9877-795b68554c98",
+				"sort-name": "United States",
+				"iso-3166-1-codes": ["US"],
+				"disambiguation": ""
+			}
+		}],
+		"barcode": null,
+		"country": "US",
+		"date": "1972",
+		"quality": "normal",
+		"status": "Bootleg",
+		"title": "1972-04-22: Commack Arena, New York City, NY, USA",
+		"text-representation": {
+			"language": "eng",
+			"script": "Latn"
+		},
+		"id": "a99c41e7-f5c5-47e7-b828-d0cf4ba3e5d1"
+	}, {
+		"quality": "normal",
+		"id": "b56f77f5-950c-4fd0-88f7-e2bcc2aa5e57",
+		"text-representation": {
+			"script": "Latn",
+			"language": "eng"
+		},
+		"status": "Official",
+		"title": "Eighteen / Body",
+		"packaging": "Cardboard/Paper Sleeve",
+		"disambiguation": "",
+		"release-events": [{
+			"area": {
+				"name": "United States",
+				"sort-name": "United States",
+				"id": "489ce91b-6658-3307-9877-795b68554c98",
+				"iso-3166-1-codes": ["US"],
+				"disambiguation": ""
+			},
+			"date": "1970-11-11"
+		}],
+		"packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+		"date": "1970-11-11",
+		"country": "US",
+		"barcode": null
+	}, {
+		"disambiguation": "",
+		"release-events": [{
+			"area": {
+				"iso-3166-1-codes": ["GB"],
+				"disambiguation": "",
+				"name": "United Kingdom",
+				"sort-name": "United Kingdom",
+				"id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed"
+			},
+			"date": "1971"
+		}],
+		"packaging": "Gatefold Cover",
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+		"packaging-id": "e724a489-a7e8-30a1-a17c-30dfd6831202",
+		"date": "1971",
+		"country": "GB",
+		"barcode": "",
+		"quality": "normal",
+		"text-representation": {
+			"script": "Latn",
+			"language": "eng"
+		},
+		"id": "b9101ce5-ddc7-4c9b-a8ba-6c0b4f049c49",
+		"title": "Love It to Death",
+		"status": "Official"
+	}, {
+		"quality": "normal",
+		"id": "c5989d58-d613-4281-9f75-4e1568087380",
+		"text-representation": {
+			"script": "Latn",
+			"language": "eng"
+		},
+		"status": "Official",
+		"title": "Billion Dollar Babies",
+		"packaging": null,
+		"release-events": [{
+			"date": "1973",
+			"area": {
+				"disambiguation": "",
+				"iso-3166-1-codes": ["US"],
+				"sort-name": "United States",
+				"id": "489ce91b-6658-3307-9877-795b68554c98",
+				"name": "United States"
+			}
+		}],
+		"disambiguation": "",
+		"packaging-id": null,
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+		"date": "1973",
+		"country": "US",
+		"barcode": null
+	}, {
+		"barcode": "",
+		"country": "US",
+		"date": "1972-06",
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+		"packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+		"disambiguation": "",
+		"release-events": [{
+			"area": {
+				"sort-name": "United States",
+				"id": "489ce91b-6658-3307-9877-795b68554c98",
+				"name": "United States",
+				"disambiguation": "",
+				"iso-3166-1-codes": ["US"]
+			},
+			"date": "1972-06"
+		}],
+		"packaging": "Cardboard/Paper Sleeve",
+		"title": "School’s Out",
+		"status": "Official",
+		"text-representation": {
+			"language": "eng",
+			"script": "Latn"
+		},
+		"id": "cf959903-6393-3a7d-bcfb-beeeb9e25010",
+		"quality": "normal"
+	}, {
+		"packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+		"packaging": "Cardboard/Paper Sleeve",
+		"release-events": [{
+			"date": "1972-04-26",
+			"area": {
+				"disambiguation": "",
+				"iso-3166-1-codes": ["US"],
+				"sort-name": "United States",
+				"id": "489ce91b-6658-3307-9877-795b68554c98",
+				"name": "United States"
+			}
+		}],
+		"disambiguation": "",
+		"barcode": "",
+		"country": "US",
+		"date": "1972-04-26",
+		"quality": "normal",
+		"status": "Official",
+		"title": "School’s Out / Gutter Cat",
+		"id": "dea02478-5c6c-4b67-8308-3e469cfda8c1",
+		"text-representation": {
+			"script": "Latn",
+			"language": "eng"
+		}
+	}, {
+		"status": "Official",
+		"title": "No More Mr Nice Guy",
+		"text-representation": {
+			"script": "Latn",
+			"language": "eng"
+		},
+		"id": "df239cd9-1d4f-4716-9d7c-a9d03099ca30",
+		"quality": "normal",
+		"barcode": null,
+		"country": "GB",
+		"date": "1973",
+		"packaging-id": null,
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+		"packaging": null,
+		"disambiguation": "",
+		"release-events": [{
+			"date": "1973",
+			"area": {
+				"iso-3166-1-codes": ["GB"],
+				"disambiguation": "",
+				"name": "United Kingdom",
+				"sort-name": "United Kingdom",
+				"id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed"
+			}
+		}]
+	}, {
+		"quality": "normal",
+		"status": "Official",
+		"title": "Muscle of Love",
+		"text-representation": {
+			"language": "eng",
+			"script": "Latn"
+		},
+		"id": "df2f9b02-34db-4b5d-9f5b-206a99d3b86a",
+		"packaging-id": "815b7785-8284-3926-8f04-e48bc6c4d102",
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+		"packaging": "Other",
+		"release-events": [{
+			"date": "1973-11-20",
+			"area": {
+				"sort-name": "United States",
+				"id": "489ce91b-6658-3307-9877-795b68554c98",
+				"name": "United States",
+				"disambiguation": "",
+				"iso-3166-1-codes": ["US"]
+			}
+		}],
+		"disambiguation": "",
+		"barcode": "",
+		"date": "1973-11-20",
+		"country": "US"
+	}],
+	"ipis": [],
+	"type": "Group",
+	"sort-name": "Alice Cooper",
+	"gender-id": null,
+	"begin_area": {
+		"sort-name": "Phoenix",
+		"id": "7f1c8f3f-69a9-454a-8633-c3d3a628858b",
+		"name": "Phoenix",
+		"disambiguation": ""
+	},
+	"type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+	"life-span": {
+		"end": "1975",
+		"ended": true,
+		"begin": "1964"
+	},
+	"isnis": ["0000000122592447"],
+	"name": "Alice Cooper",
+	"disambiguation": "the group",
+	"end_area": null,
+	"country": "US"
+}

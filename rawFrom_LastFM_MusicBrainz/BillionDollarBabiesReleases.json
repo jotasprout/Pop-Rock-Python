@@ -1,0 +1,349 @@
+{
+	"id": "0bfa0a07-16c5-3c8e-ab53-927d1e021791",
+	"secondary-types": [],
+	"first-release-date": "1973-02-25",
+	"disambiguation": "",
+	"primary-type": "Album",
+	"releases": [{
+		"release-events": [{
+			"area": {
+				"name": "Japan",
+				"iso-3166-1-codes": ["JP"],
+				"id": "2db42837-c832-3c27-b4a3-08198f75693c",
+				"sort-name": "Japan",
+				"disambiguation": ""
+			},
+			"date": "1990-06-25"
+		}],
+		"packaging": "Jewel Case",
+		"disambiguation": "",
+		"country": "JP",
+		"date": "1990-06-25",
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+		"id": "0301c5f6-a3c4-4920-9633-692ad63b6fd3",
+		"status": "Official",
+		"title": "Billion Dollar Babies",
+		"text-representation": {
+			"language": "eng",
+			"script": "Latn"
+		},
+		"quality": "normal",
+		"packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+		"barcode": "4988014734912"
+	}, {
+		"packaging": "Digipak",
+		"release-events": [{
+			"date": "2001-06-02",
+			"area": {
+				"id": "489ce91b-6658-3307-9877-795b68554c98",
+				"iso-3166-1-codes": ["US"],
+				"name": "United States",
+				"sort-name": "United States",
+				"disambiguation": ""
+			}
+		}],
+		"disambiguation": "deluxe edition",
+		"date": "2001-06-02",
+		"country": "US",
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+		"status": "Official",
+		"id": "0a083925-9e80-3ba5-8787-535a678c8cef",
+		"title": "Billion Dollar Babies",
+		"text-representation": {
+			"language": "eng",
+			"script": "Latn"
+		},
+		"quality": "normal",
+		"packaging-id": "8f931351-d2e2-310f-afc6-37b89ddba246",
+		"barcode": "081227979126"
+	}, {
+		"disambiguation": "deluxe version",
+		"release-events": [{
+			"area": {
+				"sort-name": "[Worldwide]",
+				"disambiguation": "",
+				"iso-3166-1-codes": ["XW"],
+				"id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+				"name": "[Worldwide]"
+			},
+			"date": "2005"
+		}],
+		"packaging": "None",
+		"status": "Official",
+		"id": "2bee66c9-7155-4071-88a9-a31bc5465765",
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+		"country": "XW",
+		"date": "2005",
+		"quality": "normal",
+		"title": "Billion Dollar Babies",
+		"text-representation": {
+			"language": "eng",
+			"script": "Latn"
+		},
+		"barcode": "081227979164",
+		"packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b"
+	}, {
+		"disambiguation": "",
+		"release-events": [{
+			"area": {
+				"sort-name": "United States",
+				"disambiguation": "",
+				"iso-3166-1-codes": ["US"],
+				"id": "489ce91b-6658-3307-9877-795b68554c98",
+				"name": "United States"
+			},
+			"date": "1973-02-25"
+		}],
+		"packaging": "Gatefold Cover",
+		"id": "2f2e8a90-9c8a-4917-bc64-f5c4e273e8e8",
+		"status": "Official",
+		"country": "US",
+		"date": "1973-02-25",
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+		"title": "Billion Dollar Babies",
+		"text-representation": {
+			"language": "eng",
+			"script": "Latn"
+		},
+		"quality": "normal",
+		"packaging-id": "e724a489-a7e8-30a1-a17c-30dfd6831202",
+		"barcode": ""
+	}, {
+		"title": "Billion Dollar Babies",
+		"text-representation": {
+			"language": "eng",
+			"script": "Latn"
+		},
+		"quality": "normal",
+		"packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+		"barcode": "075992726924",
+		"disambiguation": "",
+		"release-events": [{
+			"area": {
+				"name": "United States",
+				"id": "489ce91b-6658-3307-9877-795b68554c98",
+				"iso-3166-1-codes": ["US"],
+				"disambiguation": "",
+				"sort-name": "United States"
+			},
+			"date": "1987-02-16"
+		}],
+		"packaging": "Jewel Case",
+		"id": "4876ebbb-be39-3acd-a123-5708593b0467",
+		"status": "Official",
+		"date": "1987-02-16",
+		"country": "US",
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe"
+	}, {
+		"packaging": "Super Jewel Box",
+		"release-events": [{
+			"date": "2001-04-10",
+			"area": {
+				"iso-3166-1-codes": ["US"],
+				"id": "489ce91b-6658-3307-9877-795b68554c98",
+				"name": "United States",
+				"disambiguation": "",
+				"sort-name": "United States"
+			}
+		}],
+		"disambiguation": "",
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+		"country": "US",
+		"date": "2001-04-10",
+		"status": "Official",
+		"id": "506844d3-80c7-4a41-9b6d-c16c496c8629",
+		"quality": "normal",
+		"title": "Billion Dollar Babies",
+		"text-representation": {
+			"language": "eng",
+			"script": "Latn"
+		},
+		"barcode": "081227666392",
+		"packaging-id": "dfb7da53-866f-4dfd-a016-80bafaeff3db"
+	}, {
+		"barcode": "07599272692",
+		"packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+		"quality": "normal",
+		"title": "Billion Dollar Babies",
+		"text-representation": {
+			"language": "eng",
+			"script": "Latn"
+		},
+		"status": "Official",
+		"id": "6ce26aa7-ba92-46a9-aaf4-c3189e5cd164",
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+		"date": "",
+		"country": "CA",
+		"disambiguation": "",
+		"release-events": [{
+			"area": {
+				"name": "Canada",
+				"iso-3166-1-codes": ["CA"],
+				"id": "71bbafaa-e825-3e15-8ca9-017dcad1748b",
+				"disambiguation": "",
+				"sort-name": "Canada"
+			},
+			"date": ""
+		}],
+		"packaging": "Jewel Case"
+	}, {
+		"packaging-id": "e724a489-a7e8-30a1-a17c-30dfd6831202",
+		"barcode": "",
+		"text-representation": {
+			"language": "eng",
+			"script": "Latn"
+		},
+		"title": "Billion Dollar Babies",
+		"quality": "normal",
+		"date": "1974",
+		"country": "US",
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+		"id": "804fbdc7-4f99-3369-ae42-8738af198024",
+		"status": "Official",
+		"packaging": "Gatefold Cover",
+		"release-events": [{
+			"area": {
+				"sort-name": "United States",
+				"disambiguation": "",
+				"id": "489ce91b-6658-3307-9877-795b68554c98",
+				"iso-3166-1-codes": ["US"],
+				"name": "United States"
+			},
+			"date": "1974"
+		}],
+		"disambiguation": "quadraphonic vinyl"
+	}, {
+		"disambiguation": "",
+		"packaging": "Jewel Case",
+		"release-events": [{
+			"date": "1990-05-04",
+			"area": {
+				"id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+				"iso-3166-1-codes": ["DE"],
+				"name": "Germany",
+				"sort-name": "Germany",
+				"disambiguation": ""
+			}
+		}],
+		"id": "88febe23-9ec8-4c4d-91e7-06654380e8cb",
+		"status": "Official",
+		"date": "1990-05-04",
+		"country": "DE",
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+		"text-representation": {
+			"language": "eng",
+			"script": "Latn"
+		},
+		"title": "Billion Dollar Babies",
+		"quality": "normal",
+		"packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+		"barcode": "07599272692"
+	}, {
+		"status": "Official",
+		"id": "abb1d884-b523-4b33-85f8-403168e0b9f4",
+		"date": "",
+		"country": "DE",
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+		"disambiguation": "",
+		"release-events": [{
+			"area": {
+				"name": "Germany",
+				"id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+				"iso-3166-1-codes": ["DE"],
+				"sort-name": "Germany",
+				"disambiguation": ""
+			},
+			"date": ""
+		}],
+		"packaging": "Gatefold Cover",
+		"packaging-id": "e724a489-a7e8-30a1-a17c-30dfd6831202",
+		"barcode": "07599272691",
+		"title": "Billion Dollar Babies",
+		"text-representation": {
+			"language": "eng",
+			"script": "Latn"
+		},
+		"quality": "normal"
+	}, {
+		"quality": "normal",
+		"text-representation": {
+			"script": "Latn",
+			"language": "eng"
+		},
+		"title": "Billion Dollar Babies",
+		"barcode": "4943674112661",
+		"packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+		"disambiguation": "",
+		"release-events": [{
+			"date": "2011-12-21",
+			"area": {
+				"id": "2db42837-c832-3c27-b4a3-08198f75693c",
+				"iso-3166-1-codes": ["JP"],
+				"name": "Japan",
+				"disambiguation": "",
+				"sort-name": "Japan"
+			}
+		}],
+		"packaging": "Cardboard/Paper Sleeve",
+		"status": "Official",
+		"id": "b90db255-473f-4506-b37b-e92d9ab47e45",
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+		"country": "JP",
+		"date": "2011-12-21"
+	}, {
+		"barcode": "780014217020",
+		"packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+		"quality": "normal",
+		"title": "Billion Dollar Babies",
+		"text-representation": {
+			"script": "Latn",
+			"language": "eng"
+		},
+		"id": "e63f469a-c8ee-42e6-8fbe-55b18ce5bf2e",
+		"status": "Official",
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+		"date": "2014-02-04",
+		"country": "US",
+		"disambiguation": "",
+		"packaging": "Jewel Case",
+		"release-events": [{
+			"area": {
+				"id": "489ce91b-6658-3307-9877-795b68554c98",
+				"iso-3166-1-codes": ["US"],
+				"name": "United States",
+				"sort-name": "United States",
+				"disambiguation": ""
+			},
+			"date": "2014-02-04"
+		}]
+	}, {
+		"country": "XW",
+		"date": "2004",
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+		"status": "Official",
+		"id": "ff23ba9d-15bb-4d23-9721-dd5b9e4d2373",
+		"packaging": "None",
+		"release-events": [{
+			"date": "2004",
+			"area": {
+				"disambiguation": "",
+				"sort-name": "[Worldwide]",
+				"iso-3166-1-codes": ["XW"],
+				"id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+				"name": "[Worldwide]"
+			}
+		}],
+		"disambiguation": "",
+		"packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+		"barcode": "081227858469",
+		"text-representation": {
+			"script": "Latn",
+			"language": "eng"
+		},
+		"title": "Billion Dollar Babies",
+		"quality": "normal"
+	}],
+	"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+	"secondary-type-ids": [],
+	"title": "Billion Dollar Babies"
+}

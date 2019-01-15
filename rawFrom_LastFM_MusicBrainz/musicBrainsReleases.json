@@ -1,0 +1,167 @@
+{
+	"first-release-date": "1986-09-22",
+	"primary-type": "Album",
+	"secondary-type-ids": [],
+	"primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+	"disambiguation": "",
+	"id": "24c4fdde-4494-3837-a288-5b4fdbe966eb",
+	"title": "Constrictor",
+	"releases": [{
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+		"date": "1986",
+		"status": "Official",
+		"text-representation": {
+			"language": "eng",
+			"script": "Latn"
+		},
+		"id": "1189de93-7e9f-3b47-a9df-e2599e62f75d",
+		"release-events": [{
+			"date": "1986",
+			"area": {
+				"iso-3166-1-codes": ["GB"],
+				"sort-name": "United Kingdom",
+				"disambiguation": "",
+				"id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+				"name": "United Kingdom"
+			}
+		}],
+		"packaging": null,
+		"disambiguation": "",
+		"quality": "normal",
+		"packaging-id": null,
+		"barcode": null,
+		"title": "Constrictor",
+		"country": "GB"
+	}, {
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+		"date": "1986-09-22",
+		"status": "Official",
+		"text-representation": {
+			"language": "eng",
+			"script": "Latn"
+		},
+		"disambiguation": "",
+		"id": "2c47a59d-e69b-49fc-98ce-b49724c6145c",
+		"packaging": "Cardboard/Paper Sleeve",
+		"release-events": [{
+			"area": {
+				"disambiguation": "",
+				"id": "489ce91b-6658-3307-9877-795b68554c98",
+				"name": "United States",
+				"iso-3166-1-codes": ["US"],
+				"sort-name": "United States"
+			},
+			"date": "1986-09-22"
+		}],
+		"quality": "normal",
+		"barcode": "076732576113",
+		"packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+		"title": "Constrictor",
+		"country": "US"
+	}, {
+		"date": "1991-12-16",
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+		"status": "Official",
+		"text-representation": {
+			"script": "Latn",
+			"language": "eng"
+		},
+		"quality": "normal",
+		"id": "47edaf94-3e3b-481b-9917-3c1519b9fb19",
+		"release-events": [{
+			"area": {
+				"sort-name": "Japan",
+				"iso-3166-1-codes": ["JP"],
+				"name": "Japan",
+				"disambiguation": "",
+				"id": "2db42837-c832-3c27-b4a3-08198f75693c"
+			},
+			"date": "1991-12-16"
+		}],
+		"packaging": "Jewel Case",
+		"disambiguation": "Reissue",
+		"packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+		"barcode": "4988067004383",
+		"title": "Constrictor",
+		"country": "JP"
+	}, {
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+		"date": "1986-09-22",
+		"text-representation": {
+			"script": "Latn",
+			"language": "eng"
+		},
+		"status": "Official",
+		"packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+		"title": "Constrictor",
+		"barcode": "076732576120",
+		"quality": "normal",
+		"packaging": "Jewel Case",
+		"id": "9f101747-fc6a-41fc-af31-5a2be84b6c7d",
+		"disambiguation": "",
+		"release-events": [{
+			"date": "1986-09-22",
+			"area": {
+				"iso-3166-1-codes": ["US"],
+				"sort-name": "United States",
+				"name": "United States",
+				"id": "489ce91b-6658-3307-9877-795b68554c98",
+				"disambiguation": ""
+			}
+		}],
+		"country": "US"
+	}, {
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+		"date": "",
+		"status": "Official",
+		"text-representation": {
+			"language": "eng",
+			"script": "Latn"
+		},
+		"release-events": [{
+			"date": "",
+			"area": {
+				"iso-3166-1-codes": ["US"],
+				"sort-name": "United States",
+				"name": "United States",
+				"disambiguation": "",
+				"id": "489ce91b-6658-3307-9877-795b68554c98"
+			}
+		}],
+		"id": "bbd873ad-2006-4a06-bdde-efd3a6986285",
+		"packaging": "None",
+		"disambiguation": "",
+		"quality": "normal",
+		"packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+		"barcode": "076732576120",
+		"title": "Constrictor",
+		"country": "US"
+	}, {
+		"text-representation": {
+			"script": "Latn",
+			"language": "eng"
+		},
+		"status": "Official",
+		"date": "1986",
+		"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+		"country": "DE",
+		"barcode": null,
+		"packaging-id": null,
+		"title": "Constrictor",
+		"quality": "normal",
+		"id": "c6f3593f-de2d-3234-b437-854f7cb085bb",
+		"disambiguation": "",
+		"packaging": null,
+		"release-events": [{
+			"area": {
+				"sort-name": "Germany",
+				"iso-3166-1-codes": ["DE"],
+				"name": "Germany",
+				"id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+				"disambiguation": ""
+			},
+			"date": "1986"
+		}]
+	}],
+	"secondary-types": []
+}
