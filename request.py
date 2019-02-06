@@ -23,8 +23,11 @@ MusicBrainz_artistMBID = aliceCooperPerson
 # Part of URL for getting MusicBrainz Release Groups info
 MusicBrainz_releaseGroups = '?inc=release-groups'
 
+# MusicBrainz response format
+MusicBrainz_jsonFormat = '&fmt=json'
+
 # Get Release-Groups for artist from MusicBrainz
-releaseGroups_totalURL = MusicBrainz_baseURL + MusicBrainz_artistMethod + MusicBrainz_MBID + MusicBrainz_releaseGroups + MusicBrainz_apiKey + jsonFormat
+getReleaseGroups_totalURL = MusicBrainz_baseURL + MusicBrainz_artistMethod + MusicBrainz_artistMBID + MusicBrainz_releaseGroups + MusicBrainz_jsonFormat
 
 # Store MBID for each Release-Group in an array
 
@@ -40,8 +43,10 @@ MusicBrainz_releasegroupMethod = 'release-group/'
 # Part of URL for getting MusicBrainz Releases info
 MusicBrainz_releases = '?inc=releases'
 
+
+
 # Get Releases for a Release-Group from MusicBrainz
-releases_totalURL = MusicBrainz_baseURL + MusicBrainz_releasegroupMethod + MusicBrainz_MBID + MusicBrainz_releaseGroups + MusicBrainz_apiKey + jsonFormat
+releases_totalURL = MusicBrainz_baseURL + MusicBrainz_releasegroupMethod + MusicBrainz_releasegroupMBID + MusicBrainz_releaseGroups + MusicBrainz_jsonFormat
 
 # Store MBID for each release in an array
 
@@ -62,11 +67,10 @@ MusicBrainz_recordings = '?inc=recordings'
 # Recording MBID isn't used at MusicBrainz but at LastFM
 MusicBrainz_recordingMBID = ''
 
-# MusicBrainz response format
-MusicBrainz_jsonFormat = '&fmt=json'
+
 
 # Total MusicBrainz URL
-MusicBrainz_totalURL = MusicBrainz_baseURL + MusicBrainz_artistMethod + MusicBrainz_MBID + MusicBrainz_releaseGroups + MusicBrainz_apiKey + jsonFormat
+MusicBrainz_totalURL = MusicBrainz_baseURL + MusicBrainz_artistMethod + MusicBrainz_MBID + MusicBrainz_releaseGroups + MusicBrainz_jsonFormat
 
 
 
