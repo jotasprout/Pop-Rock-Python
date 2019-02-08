@@ -70,7 +70,7 @@ MusicBrainz_recordingMBID = ''
 
 
 # Total MusicBrainz URL
-MusicBrainz_totalURL = MusicBrainz_baseURL + MusicBrainz_artistMethod + MusicBrainz_MBID + MusicBrainz_releaseGroups + MusicBrainz_jsonFormat
+MusicBrainz_totalURL = MusicBrainz_baseURL + MusicBrainz_artistMethod + MusicBrainz_artistMBID + MusicBrainz_releaseGroups + MusicBrainz_jsonFormat
 
 
 
@@ -105,7 +105,7 @@ LastFM_apiKey = '&api_key=333a292213e03c10f38269019b5f3985'
 LastFM_jsonFormat = '&format=json'
 
 # Total LastFM URL
-LastFM_totalURL = LastFM_baseURL + LastFM_artistInfo + LastFM_MBID + LastFM_apiKey + LastFM_jsonFormat
+LastFM_totalURL = LastFM_baseURL + LastFM_artistInfo + LastFM_artistMBID + LastFM_apiKey + LastFM_jsonFormat
 
 # Other LastFM
 LastFM_artistListeners = ''
