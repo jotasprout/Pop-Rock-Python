@@ -86,37 +86,36 @@ for release in response2JSON['releases']:
     aRelease = [releaseMBID, releaseTitle, releaseDate, releaseCountry, releaseDisambiguation, releasePackaging]
     releases = releases + [aRelease]    
 
-
+#print(releases)
 
 # Part of URL for using Release MBID
 MusicBrainz_releaseMethod = 'release/'
-MusicBrainz_releaseMBID = releases[0][0]
 
 # Part of URL for getting MusicBrainz Recordings info
 MusicBrainz_recordings = '?inc=recordings'
 
 # Get Recordings for a Release from MusicBrainz
-recordings_totalURL = MusicBrainz_baseURL + MusicBrainz_releaseMethod + MusicBrainz_releaseMBID + MusicBrainz_recordings + MusicBrainz_jsonFormat
+#recordings_totalURL = MusicBrainz_baseURL + MusicBrainz_releaseMethod + MusicBrainz_releaseMBID + MusicBrainz_recordings + MusicBrainz_jsonFormat
 
-response3 = requests.get(releases_totalURL)
+#response3 = requests.get(releases_totalURL)
 # print (response.text)
-response3JSON = response3.json()
+#response3JSON = response3.json()
 
 # For each Release, get MBID for all Recordings and store them in an array
 recordings = []
 
-for recording in response3JSON['releases']:
-    aRecording = []
-    recordingMBID = recording['id']
-    recordingTitle = recording['title']
-    recordingDate = recording['date']
-    recordingCountry = recording['country']
-    recordingDisambiguation = recording['disambiguation']
-    recordingPackaging = recording['packaging']
-    aRecording = [recordingMBID, recordingTitle, recordingDate, recordingCountry, recordingDisambiguation, recordingPackaging]
-    recordings = recordings + [aRecording]
+#for recording in response3JSON['recordings']:
+#    aRecording = []
+ #   recordingMBID = recording['id']
+  #  recordingTitle = recording['title']
+   # recordingDate = recording['date']
+    #recordingCountry = recording['country']
+#    recordingDisambiguation = recording['disambiguation']
+#    recordingPackaging = recording['packaging']
+#    aRecording = [recordingMBID, recordingTitle, recordingDate, recordingCountry, recordingDisambiguation, recordingPackaging]
+#    recordings = recordings + [aRecording]
 
-
+#print (recordings)
 
 # Store MBID for Recordings in an array
 
@@ -152,6 +151,18 @@ LastFM_jsonFormat = '&format=json'
 
 # Total LastFM URL
 LastFM_totalURL = LastFM_baseURL + LastFM_artistInfo + LastFM_artistMBID + LastFM_apiKey + LastFM_jsonFormat
+
+for release in releases:
+    LastFM_albumMBID = release[0]
+    LastFM_albumCheckURL = LastFM_baseURL + LastFM_albumInfo + LastFM_albumMBID + LastFM_apiKey + LastFM_jsonFormat
+    responseCheck = requests.get(LastFM_albumCheckURL)
+    print (responseCheck.text)
+
+# With this array of releases, check each release in the response for 
+# error '6'
+# if no error '6' get
+# albumListeners and
+# albumPlaycount
 
 # Other LastFM
 LastFM_artistListeners = ''
