@@ -1,4 +1,5 @@
 import requests
+import json
 
 # Get MBID for artist
 # By going to MusicBrainz.org and search
@@ -152,17 +153,20 @@ LastFM_jsonFormat = '&format=json'
 # Total LastFM URL
 LastFM_totalURL = LastFM_baseURL + LastFM_artistInfo + LastFM_artistMBID + LastFM_apiKey + LastFM_jsonFormat
 
+validAlbums = []
+
 for release in releases:
     LastFM_albumMBID = release[0]
     LastFM_albumCheckURL = LastFM_baseURL + LastFM_albumInfo + LastFM_albumMBID + LastFM_apiKey + LastFM_jsonFormat
     responseCheck = requests.get(LastFM_albumCheckURL)
-    print (responseCheck.text)
+    albumData = json.loads(responseCheck.text)
+    if "error" in albumData:
+        print (LastFM_albumMBID + " does not exist in LastFM")
+    else:
+        print (LastFM_albumMBID + " has " + albumData['album']['listeners'] + " listeners and " + albumData['album']['playcount'] + " plays")
+        validAlbums = validAlbums + [LastFM_albumMBID]
 
-# With this array of releases, check each release in the response for 
-# error '6'
-# if no error '6' get
-# albumListeners and
-# albumPlaycount
+print (validAlbums)
 
 # Other LastFM
 LastFM_artistListeners = ''
@@ -178,9 +182,9 @@ LastFM_trackPlaycount = ''
 
 # Get Listeners and Playcount for each Track (using Recording MBID) on an Album
 
-# f = open ('artist.json', 'a') # a is for append if artist dict already started
-# f.write ('variable goes here for data from MusicBrainz')
-# f.close()
+f = open ('artist.json', 'a') # a is for append if artist dict already started
+f.write ('variable goes here for data from MusicBrainz')
+f.close()
 
 # Questions to ask 
 ## Which artists, albums, tracks, have a lower listener-to-play ratio?
