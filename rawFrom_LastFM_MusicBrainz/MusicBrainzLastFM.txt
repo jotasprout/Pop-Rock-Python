@@ -40,6 +40,7 @@ Request: http://musicbrainz.org/ws/2/recording/fcbcdc39-8851-4efc-a02a-ab0e13be2
 
 
 Constrictor
+constrictor = '24c4fdde-4494-3837-a288-5b4fdbe966eb'
 Release
 http://musicbrainz.org/ws/2/release/1189de93-7e9f-3b47-a9df-e2599e62f75d?inc=recordings&fmt=json
 THE ABOVE WORKED
