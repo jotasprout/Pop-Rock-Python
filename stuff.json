@@ -1,0 +1,20 @@
+{'primary-type-id': 'f529b476-6e62-324f-b0aa-1f3e33d313fc', 'secondary-type-ids': ['dd2a21e1-0c00-3729-a7a0-de60b84eb5d1'
+    ], 'title': '…A Nice Nightmare', 'releases': [
+        {'id': 'c26734c7-96b9-4abd-977a-329923a38115', 'barcode': '079892851724', 'quality': 'normal', 'disambiguation': '', 'date': '1997-03-24', 'release-events': [
+                {'area': {'id': '489ce91b-6658-3307-9877-795b68554c98', 'iso-3166-1-codes': ['US'
+                        ], 'name': 'United States', 'disambiguation': '', 'sort-name': 'United States'
+                    }, 'date': '1997-03-24'
+                }
+            ], 'status-id': '4e304316-386d-3409-af2e-78857eec5cfe', 'country': 'US', 'status': 'Official', 'text-representation': {'script': 'Latn', 'language': 'eng'
+            }, 'packaging-id': 'ec27701a-4a22-37f4-bfac-6616e0f9750a', 'title': '…A Nice Nightmare', 'packaging': 'Jewel Case'
+        }
+    ], 'id': 'fe62b780-454f-3523-a8a7-da24c8244b64', 'first-release-date': '1997-03-24', 'secondary-types': ['Compilation'
+    ], 'disambiguation': '', 'primary-type': 'Album'
+}
+BEHOLD the Releases
+…A Nice Nightmare from US
+[
+    ['c26734c7-96b9-4abd-977a-329923a38115', '…A Nice Nightmare', '1997-03-24', 'US', '', 'Jewel Case'
+    ]
+]
+{'album': {'name': 'A Nice Nightmare', 'artist': 'Alice Cooper', 'mbid': 'c26734c7-96b9-4abd-977a-329923a38115', 'url': 'https: //www.last.fm/music/Alice+Cooper/A+Nice+Nightmare', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/27e17f40a7b4af597282a1c29893e3f4.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/27e17f40a7b4af597282a1c29893e3f4.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/27e17f40a7b4af597282a1c29893e3f4.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/27e17f40a7b4af597282a1c29893e3f4.png', 'size': 'extralarge'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/27e17f40a7b4af597282a1c29893e3f4.png', 'size': 'mega'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/27e17f40a7b4af597282a1c29893e3f4.png', 'size': ''}], 'listeners': '1274', 'playcount': '4677', 'tracks': {'track': []}, 'tags': {'tag': []}}} 
