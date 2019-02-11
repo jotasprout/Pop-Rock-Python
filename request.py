@@ -1,13 +1,27 @@
 import requests
 import json
 
-# Get MBID for artist
-# By going to MusicBrainz.org and search
-# Refer to blog post on next line for instructions
-# https://jotascript.wordpress.com
+# MBIDs from MusicBrainz.org
 
 aliceCooperPerson = 'ee58c59f-8e7f-4430-b8ca-236c4d3745ae'
 aliceCooperBand = '4d7928cd-7ed2-4282-8c29-c0c9f966f1bd'
+blackSabbath = '5182c1d9-c7d2-4dad-afa0-ccfeada921a8'
+defLeppard = '7249b899-8db8-43e7-9e6e-22f1e736024e'
+dio = 'c55193fb-f5d2-4839-a263-4c044fca1456'
+dioAndtheProphets = '9f6c4063-ce0a-4b71-a7b7-a32c91997260'
+dioAndtheRedcaps = '883871a1-f154-4df8-a7f7-558ea456dd0a'
+electricElves = '30f9591a-778b-40dd-be8f-105589f9c998'
+elf = '57e0e9f3-24b5-46a6-be00-be793ca26e21'
+frost = '6ab0acff-51de-45db-95cc-bdf5a6dd8578'
+heavenHell = '484a1d40-0fb9-4768-acff-b570cedaacb4'
+kidRock = 'ad0ecd8b-805e-406e-82cb-5b00c3a3a29e'
+meatLoaf = 'b134d1bf-c7c7-4427-93ac-9fdbc2b59ef1'
+stoneyMeatLoaf = '2cb3b264-277f-4d8f-bc86-1923ff8abdc0'
+ozzyOsbourne = '8aa5b65a-5b3c-4029-92bf-47a544356934'
+popcornBlizzard = 'dad3fb79-469f-4892-bb39-56d01a9d2485'
+quietRiot = '5c6acb91-4b9b-4245-b92f-e817295c4ed0'
+rainbow = 'e3cb4543-210f-499a-b0d1-3882c312dfb9'
+dickWagner = 'f92d6bfd-76e7-4394-aaec-9490756eb50c'
 
 # MusicBrainz variables
 MusicBrainz_baseURL = 'https://www.musicbrainz.org/ws/2/'
@@ -15,16 +29,23 @@ MusicBrainz_baseURL = 'https://www.musicbrainz.org/ws/2/'
 # Part of URL for using artist MBID
 MusicBrainz_artistMethod = 'artist/'
 
-MusicBrainz_artistMBID = aliceCooperPerson
-
 # Part of URL for getting MusicBrainz Release Groups info
 MusicBrainz_getReleaseGroups = '?inc=release-groups'
 
+# Part of URL for using Release Groups MBID to get Releases
+MusicBrainz_releasegroupMethod = 'release-group/'
+
+# Part of URL for getting MusicBrainz Releases info
+MusicBrainz_releases = '?inc=releases'
+
+# Part of URL for using Release MBID
+MusicBrainz_releaseMethod = 'release/'
+
+# Part of URL for getting MusicBrainz Recordings info
+MusicBrainz_recordings = '?inc=recordings'
+
 # MusicBrainz response format
 MusicBrainz_jsonFormat = '&fmt=json'
-
-# Total MusicBrainz URL
-MusicBrainz_totalURL = MusicBrainz_baseURL + MusicBrainz_artistMethod + MusicBrainz_artistMBID + MusicBrainz_releaseGroups + MusicBrainz_jsonFormat
 
 # LastFM variables
 LastFM_baseURL = 'http://ws.audioscrobbler.com/2.0/?method='
@@ -37,12 +58,12 @@ LastFM_artistMBID = MusicBrainz_artistMBID
 # Part of URL for getting LastFM album info
 LastFM_albumInfo = 'album.getinfo&mbid='
 
-LastFM_albumMBID = '' # item in array of MusicBrainz_releaseMBID 
+LastFM_albumMBID = '' # item in list of MusicBrainz_releaseMBID 
 
-# Part of URL for getting LastFM album info
+# Part of URL for getting LastFM track info
 LastFM_trackInfo = 'track.getinfo&mbid='
 
-LastFM_trackMBID = '' # item in array of MusicBrainz_recordingMBID 
+LastFM_trackMBID = '' # item in list of MusicBrainz_recordingMBID 
 
 # LastFM API key
 LastFM_apiKey = '&api_key=333a292213e03c10f38269019b5f3985'
@@ -50,29 +71,50 @@ LastFM_apiKey = '&api_key=333a292213e03c10f38269019b5f3985'
 # LastFM response format
 LastFM_jsonFormat = '&format=json'
 
-# Total LastFM URL
-LastFM_totalURL = LastFM_baseURL + LastFM_artistInfo + LastFM_artistMBID + LastFM_apiKey + LastFM_jsonFormat
 
-# Get Listeners and Playcount for Artist from LastFM
-LastFM_artistListeners = ''
-LastFM_artistPlaycount = ''
+# ARTIST INFO (inc Release-Groups)
 
-# Get Release-Groups for artist from MusicBrainz
+# Get artist info and Release-Groups for artist from MusicBrainz
+MusicBrainz_artistMBID = aliceCooperPerson
+
 getReleaseGroups_totalURL = MusicBrainz_baseURL + MusicBrainz_artistMethod + MusicBrainz_artistMBID + MusicBrainz_getReleaseGroups + MusicBrainz_jsonFormat
 
 responseReleaseGroups = requests.get(getReleaseGroups_totalURL)
-print (responseReleaseGroups.text)
+
 releaseGroupsJSON = responseReleaseGroups.json()
+
+# get Artist Stats from LastFM URL
+get_artist_info_from_LastFM = LastFM_baseURL + LastFM_artistInfo + LastFM_artistMBID + LastFM_apiKey + LastFM_jsonFormat
+
+artist_info_from_LastFM = requests.get(get_artist_info_from_LastFM)
+
+artistData = json.loads(artist_info_from_LastFM.text)
+
+# Get Listeners and Playcount for Artist from LastFM
+LastFM_artistListeners = artistData['stats']['listeners']
+LastFM_artistPlaycount = artistData['stats']['playcount']
+
+genres = []
+
+for tag in artistData['tags']:
+    genres = genres + tag['name']
+
+print (genres)
+
+# START BUILDING ARTIST DICTIONARY
 
 #create artist dict
 artist = {}
 
-artistName = releaseGroupsJSON['name']
-artist['name'] = artistName
-file_name = artistName.replace(' ', '')
-
 artistBirthday = releaseGroupsJSON['life-span']['begin']
 artist['birthday'] = artistBirthday
+
+artistName = releaseGroupsJSON['name']
+artist['name'] = artistName
+
+artist['genres'] = genres
+
+file_name = artistName.replace(' ', '')
 
 artistJSON = json.dumps(artist)
 
@@ -80,56 +122,49 @@ f = open (file_name + '.json', 'a') # a is for append if artist dict already sta
 f.write (artistJSON)
 f.close()
 
+# GATHER MBID FOR RELEASE GROUPS
+
 # Store MBID for each Release-Group in a list
 releaseGroupsList = []
-
+print("Behold the Release-Groups:")
 for releaseGroup in releaseGroupsJSON['release-groups']:
     aReleaseGroup = [] # list of ReleaseGroup properties
     releaseGroupMBID = releaseGroup['id']
     releaseGroupTitle = releaseGroup['title']
+    print(releaseGroupTitle)
     releaseGroupDate = releaseGroup['first-release-date']
     aReleaseGroup = [releaseGroupMBID, releaseGroupTitle, releaseGroupDate]
     releaseGroupsList = releaseGroupsList + [aReleaseGroup]
 
-MusicBrainz_releasegroupMBID = releaseGroupsList[0][0]
-
-# Part of URL for using Release Groups MBID to get Releases
-MusicBrainz_releasegroupMethod = 'release-group/'
-
-# Part of URL for getting MusicBrainz Releases info
-MusicBrainz_releases = '?inc=releases'
-
 # Get Releases of a Release-Group from MusicBrainz
-getReleases_totalURL = MusicBrainz_baseURL + MusicBrainz_releasegroupMethod + MusicBrainz_releasegroupMBID + MusicBrainz_releases + MusicBrainz_jsonFormat
+for release_group in releaseGroupsList:
+    MusicBrainz_releasegroupMBID = release_group[0]
+    getReleases_totalURL = MusicBrainz_baseURL + MusicBrainz_releasegroupMethod + MusicBrainz_releasegroupMBID + MusicBrainz_releases + MusicBrainz_jsonFormat
+    responseReleases = requests.get(getReleases_totalURL)
+    releasesJSON = responseReleases.json()
 
-responseReleases = requests.get(getReleases_totalURL)
-
-releasesJSON = responseReleases.json()
-
-# Create list to store MBID for each release
+# Create list to store MBID for all releases in a release-group
 all_Releases_from_releaseGroup = []
-validAlbums = []
-
+print ("Behold the Releases")
 # Loop through all_Releases_from_releaseGroup list 
 # For each Release, get MBID
-for release in releases['releasesJSON']:
+for release in releasesJSON:
     aRelease = []
     releaseMBID = release['id']
     releaseTitle = release['title']
     releaseDate = release['date']
     releaseCountry = release['country']
+    print (releaseTitle + ' from ' + releaseCountry)
     releaseDisambiguation = release['disambiguation']
     releasePackaging = release['packaging']
     aRelease = [releaseMBID, releaseTitle, releaseDate, releaseCountry, releaseDisambiguation, releasePackaging]
     all_Releases_from_releaseGroup = all_Releases_from_releaseGroup + [aRelease]    
 
 # Check which releases are valid albums in LastFM
-# For each album, get listeners, and playcount
-# Get Listeners and Playcount for each Album (using Release MBID) by an Artist
-LastFM_albumListeners = ''
-LastFM_albumPlaycount = ''
+# For each valid album, get listeners, and playcount
+validAlbums = []
 
-for release in releases:
+for release in releasesJSON:
     LastFM_albumMBID = release[0]
     LastFM_albumCheckURL = LastFM_baseURL + LastFM_albumInfo + LastFM_albumMBID + LastFM_apiKey + LastFM_jsonFormat
     responseCheck = requests.get(LastFM_albumCheckURL)
@@ -137,47 +172,51 @@ for release in releases:
     if "error" in albumData:
         print (LastFM_albumMBID + " does not exist in LastFM")
     else:
-        print (LastFM_albumMBID + " has " + albumData['album']['listeners'] + " listeners and " + albumData['album']['playcount'] + " plays")
-        validAlbums = validAlbums + [LastFM_albumMBID]
-
-print ('These are the valid albums: ' + validAlbums)
+        thisAlbum = {}
+        thisAlbum['mbid'] = albumData['album']['mbid']
+        thisAlbum['name'] = albumData['album']['name']
+        thisAlbum['listeners'] = albumData['album']['listeners']
+        thisAlbum['playcount'] = albumData['album']['playcount']
+        validAlbums = validAlbums + [thisAlbum]
 
 # For each release, get MBID for recordings on that release from MusicBrainz
-
-# Part of URL for using Release MBID
-MusicBrainz_releaseMethod = 'release/'
-
-MusicBrainz_releaseMBID = all_Releases_from_releaseGroup[0][0]
-
-# Part of URL for getting MusicBrainz Recordings info
-MusicBrainz_recordings = '?inc=recordings'
-
-getRecordings_URL = MusicBrainz_baseURL + MusicBrainz_releaseMethod + MusicBrainz_releaseMBID + MusicBrainz_recordings + MusicBrainz_jsonFormat
-
-responseRecordings = requests.get(getRecordings_URL)
-
-recordingsJSON = responseRecordings.json()
+for validAlbum in validAlbums:
+    MusicBrainz_releaseMBID = validAlbum['mbid']
+    print(validAlbum['name'] + ' is a valid album')
+    getRecordings_totalURL = MusicBrainz_baseURL + MusicBrainz_releaseMethod + MusicBrainz_releaseMBID + MusicBrainz_recordings + MusicBrainz_jsonFormat
+    responseRecordings = requests.get(getRecordings_totalURL)
+    recordingsJSON = responseRecordings.json()
 
 # Store each Recording MBID in a list
 recordings = []
 
-for recording in recordingsJSON['recordings']:
-    aRecording = []
-    recordingMBID = recording['id']
-    recordingTitle = recording['title']
-    recordingDate = recording['date']
-    recordingCountry = recording['country']
-    recordingDisambiguation = recording['disambiguation']
-    recordingPackaging = recording['packaging']
-    aRecording = [recordingMBID, recordingTitle, recordingDate, recordingCountry, recordingDisambiguation, recordingPackaging]
+for recording in recordingsJSON:
+    aRecording = {}
+    aRecording['mbid'] = recording['id']
+    aRecording['title'] = recording['title']
+    aRecording['date'] = recording['date']
+    aRecording['country'] = recording['country']
+    aRecording['disambiguation']= recording['disambiguation']
+    aRecording['packaging'] = recording['packaging']
     recordings = recordings + [aRecording]
 
-# Get Recording info from LastFM
-MusicBrainz_recordingMBID = ''
+tracks = []
 
-# Get Listeners and Playcount for each Track (using Recording MBID) on an Album
-LastFM_trackListeners = ''
-LastFM_trackPlaycount = ''
+# Get Listeners and Playcount for each Track (using Recording MBID) on an Album from LastFM
+for recording in recordings:
+    LastFM_trackMBID = recording['mbid']
+    LastFM_trackURL = LastFM_baseURL + LastFM_trackInfo + LastFM_trackMBID + LastFM_apiKey + LastFM_jsonFormat
+    responseTrack = requests.get(LastFM_trackURL)
+    trackData = json.loads(responseTrack.text)
+    thisTrack = {}
+    thisTrack['mbid'] = trackData['album']['mbid']
+    thisTrack['name'] = trackData['album']['name']
+    thisTrack['listeners'] = trackData['album']['listeners']
+    thisTrack['playcount'] = trackData['album']['playcount']
+    print(thisTrack['name'] + ' has ' + thisTrack['listeners'] + ' listeners and ' thisTrack['playcount'] + ' plays.')
+    tracks = tracks + [thisTrack]
+
+print (tracks)
 
 # Questions to ask 
 ## Which artists, albums, tracks, have a lower listener-to-play ratio?
