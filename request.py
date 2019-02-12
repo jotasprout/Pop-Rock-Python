@@ -131,7 +131,6 @@ for releaseGroup in releaseGroupsJSON['release-groups']:
     releaseGroupMBID = releaseGroup['id']
     releaseGroupTitle = releaseGroup['title']
     print('- ' + releaseGroupTitle)
-    #releaseGroupDate = releaseGroup['first-release-date']
     aReleaseGroup = [releaseGroupMBID, releaseGroupTitle]
     releaseGroupsList = releaseGroupsList + [aReleaseGroup]
 
@@ -181,15 +180,6 @@ for release in all_Releases_from_releaseGroup:
 
 artist['validReleases'] = artist['validReleases'] + [validAlbums]
 
-# Save artist and albums info thus far
-file_name = artistName.replace(' ', '')
-
-artistJSON = json.dumps(artist)
-
-f = open (file_name + '.json', 'w') # a is for append if artist dict already started
-f.write (artistJSON)
-f.close()
-
 # For each release, get MBID for recordings on that release from MusicBrainz
 for validAlbum in validAlbums:
     MusicBrainz_releaseMBID = validAlbum['mbid']
@@ -236,9 +226,15 @@ for recording in recordings:
         print(trackName + ' has ' + trackListeners + ' listeners and ' + trackPlaycount + ' plays.')
         tracks = tracks + [thisTrack]
 
+artist['tracks'] = tracks
 
-f = open (file_name + '.json', 'a') # a is for append if artist dict already started
-f.write (tracks)
+# Save artist and albums info thus far
+file_name = artistName.replace(' ', '')
+
+artistJSON = json.dumps(artist)
+
+f = open (file_name + '.json', 'w') # a is for append if artist dict already started
+f.write (artistJSON)
 f.close()
 # Questions to ask 
 ## Which artists, albums, tracks, have a lower listener-to-play ratio?
