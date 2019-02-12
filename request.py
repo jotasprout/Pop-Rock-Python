@@ -89,9 +89,23 @@ artist_info_from_LastFM = requests.get(get_artist_info_from_LastFM)
 
 artistData = json.loads(artist_info_from_LastFM.text)
 
+# START BUILDING ARTIST DICTIONARY
+
+#create artist dict
+artist = {}
+
+artistName = releaseGroupsJSON['name']
+artist['name'] = artistName
+
 # Get Listeners and Playcount for Artist from LastFM
 LastFM_artistListeners = artistData['artist']['stats']['listeners']
 LastFM_artistPlaycount = artistData['artist']['stats']['playcount']
+
+artist['stats']['listeners'] = LastFM_artistListeners
+artist['stats']['playcount'] = LastFM_artistPlaycount
+
+artistBirthday = releaseGroupsJSON['life-span']['begin']
+artist['birthday'] = artistBirthday
 
 genres = []
 
@@ -101,27 +115,9 @@ for tag in tags:
     genre = tag['name']
     genres = genres + [genre]
 
-# START BUILDING ARTIST DICTIONARY
-
-#create artist dict
-artist = {}
-
-artistBirthday = releaseGroupsJSON['life-span']['begin']
-artist['birthday'] = artistBirthday
-
-artistName = releaseGroupsJSON['name']
-artist['name'] = artistName
-
 artist['genres'] = genres
 
 print (artistName + ' has ' + LastFM_artistListeners + ' listeners and ' + LastFM_artistPlaycount + ' plays.')
-file_name = artistName.replace(' ', '')
-
-artistJSON = json.dumps(artist)
-
-f = open (file_name + '.json', 'w') # a is for append if artist dict already started
-f.write (artistJSON)
-f.close()
 
 # GATHER MBID FOR RELEASE GROUPS
 
@@ -133,8 +129,8 @@ for releaseGroup in releaseGroupsJSON['release-groups']:
     releaseGroupMBID = releaseGroup['id']
     releaseGroupTitle = releaseGroup['title']
     print('- ' + releaseGroupTitle)
-    releaseGroupDate = releaseGroup['first-release-date']
-    aReleaseGroup = [releaseGroupMBID, releaseGroupTitle, releaseGroupDate]
+    #releaseGroupDate = releaseGroup['first-release-date']
+    aReleaseGroup = [releaseGroupMBID, releaseGroupTitle]
     releaseGroupsList = releaseGroupsList + [aReleaseGroup]
 
 # Get Releases of a Release-Group from MusicBrainz
@@ -164,6 +160,7 @@ for release in releasesJSON['releases']:
 # Check which releases are valid albums in LastFM
 # For each valid album, get listeners, and playcount
 validAlbums = []
+artist['validReleases'] = []
 
 for release in all_Releases_from_releaseGroup:
     LastFM_albumMBID = release[0]
@@ -179,6 +176,17 @@ for release in all_Releases_from_releaseGroup:
         thisAlbum['listeners'] = albumData['album']['listeners']
         thisAlbum['playcount'] = albumData['album']['playcount']
         validAlbums = validAlbums + [thisAlbum]
+
+artist['validReleases'] = artist['validReleases'] + [validAlbums]
+
+# Save artist and albums info thus far
+file_name = artistName.replace(' ', '')
+
+artistJSON = json.dumps(artist)
+
+f = open (file_name + '.json', 'w') # a is for append if artist dict already started
+f.write (artistJSON)
+f.close()
 
 # For each release, get MBID for recordings on that release from MusicBrainz
 for validAlbum in validAlbums:
@@ -209,26 +217,25 @@ tracks = []
 for recording in recordings:
     LastFM_trackMBID = recording['mbid']
     LastFM_trackURL = LastFM_baseURL + LastFM_trackInfo + LastFM_trackMBID + LastFM_apiKey + LastFM_jsonFormat
-    responseTrack = requests.get(LastFM_trackURL)
-    print("here is the responseTrack")
-    print(responseTrack)
-    trackStuff = json.loads(responseTrack.text)
-    trackJSON = responseTrack.json()
-    print("here is the trackStuff")
-    print(trackStuff)
-    #trackData = json.loads(responseTrack.text)
-    thisTrack = {}
-    thisTrack['mbid'] = trackStuff['track']['mbid']
-    thisTrack['name'] = trackJSON['track']['name']
-    thisTrack['listeners'] = trackJSON['track']['listeners']
-    thisTrack['playcount'] = trackJSON['track']['playcount']
-    trackName = thisTrack['name']
-    trackListeners = thisTrack['listeners']
-    trackPlaycount = thisTrack['playcount']
-    print(trackName + ' has ' + trackListeners + ' listeners and ' + trackPlaycount + ' plays.')
-    tracks = tracks + [thisTrack]
 
-print (tracks)
+    responseTrack = requests.get(LastFM_trackURL)
+    trackData = json.loads(responseTrack.text)
+
+    if "error" in trackData:
+        print (LastFM_trackMBID + " does not exist in LastFM")
+    else:
+        thisTrack = {}
+        thisTrack['mbid'] = trackStuff['track']['mbid']
+        thisTrack['name'] = trackJSON['track']['name']
+        thisTrack['stats']['listeners'] = trackJSON['track']['listeners']
+        thisTrack['stats']['playcount'] = trackJSON['track']['playcount']
+        trackName = thisTrack['name']
+        trackListeners = thisTrack['stats']['listeners']
+        trackPlaycount = thisTrack['stats']['playcount']
+        print(trackName + ' has ' + trackListeners + ' listeners and ' + trackPlaycount + ' plays.')
+        tracks = tracks + [thisTrack]
+
+
 f = open (file_name + '.json', 'a') # a is for append if artist dict already started
 f.write (tracks)
 f.close()
