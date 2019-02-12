@@ -101,6 +101,8 @@ artist['name'] = artistName
 LastFM_artistListeners = artistData['artist']['stats']['listeners']
 LastFM_artistPlaycount = artistData['artist']['stats']['playcount']
 
+artist['stats'] = {}
+
 artist['stats']['listeners'] = LastFM_artistListeners
 artist['stats']['playcount'] = LastFM_artistPlaycount
 
@@ -201,7 +203,6 @@ for validAlbum in validAlbums:
 recordings = []
 
 print ("BEHOLD the recordings")
-#tracks = 
 
 for track in recordingsFromRelease['media'][0]['tracks']:
     aRecording = {}
@@ -210,7 +211,6 @@ for track in recordingsFromRelease['media'][0]['tracks']:
     print ('- ' + aRecording['title'])
     recordings = recordings + [aRecording]
 
-print (recordings)
 tracks = []
 
 # Get Listeners and Playcount for each Track (using Recording MBID) on an Album from LastFM
@@ -225,10 +225,11 @@ for recording in recordings:
         print (LastFM_trackMBID + " does not exist in LastFM")
     else:
         thisTrack = {}
-        thisTrack['mbid'] = trackStuff['track']['mbid']
-        thisTrack['name'] = trackJSON['track']['name']
-        thisTrack['stats']['listeners'] = trackJSON['track']['listeners']
-        thisTrack['stats']['playcount'] = trackJSON['track']['playcount']
+        thisTrack['stats'] = {}
+        thisTrack['mbid'] = trackData['track']['mbid']
+        thisTrack['name'] = trackData['track']['name']
+        thisTrack['stats']['listeners'] = trackData['track']['listeners']
+        thisTrack['stats']['playcount'] = trackData['track']['playcount']
         trackName = thisTrack['name']
         trackListeners = thisTrack['stats']['listeners']
         trackPlaycount = thisTrack['stats']['playcount']

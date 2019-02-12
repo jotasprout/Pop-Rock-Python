@@ -1,11 +1,1 @@
-{
-    "birthday": "1948-02-04",
-    "name": "Alice Cooper",
-    "genres": [
-        "hard rock",
-        "classic rock",
-        "rock",
-        "heavy metal",
-        "glam rock"
-    ]
-}
+{"name": "Alice Cooper", "stats": {"listeners": "1365558", "playcount": "31116390"}, "birthday": "1948-02-04", "genres": ["hard rock", "classic rock", "rock", "heavy metal", "glam rock"], "validReleases": [[{"mbid": "c26734c7-96b9-4abd-977a-329923a38115", "name": "A Nice Nightmare", "listeners": "1274", "playcount": "4677"}]]}
