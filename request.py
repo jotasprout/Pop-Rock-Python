@@ -127,41 +127,47 @@ print (artistName + ' has ' + LastFM_artistListeners + ' listeners and ' + LastF
 releaseGroupsList = []
 print("BEHOLD the Release-Groups:")
 for releaseGroup in releaseGroupsJSON['release-groups']:
-    aReleaseGroup = [] # list of ReleaseGroup properties
-    releaseGroupMBID = releaseGroup['id']
-    releaseGroupTitle = releaseGroup['title']
-    print('- ' + releaseGroupTitle)
-    aReleaseGroup = [releaseGroupMBID, releaseGroupTitle]
+    aReleaseGroup = {}
+    aReleaseGroup['mbid'] = releaseGroup['id']
+    aReleaseGroup['title'] = releaseGroup['title']
+    print('- ' + aReleaseGroup['title'])
     releaseGroupsList = releaseGroupsList + [aReleaseGroup]
 
+artist['albums'] = releaseGroupsList
+print("artist's albums so far")
+print(artist['albums'])
 # Get Releases of a Release-Group from MusicBrainz
 for release_group in releaseGroupsList:
     MusicBrainz_releasegroupMBID = release_group[0]
     getReleases_totalURL = MusicBrainz_baseURL + MusicBrainz_releasegroupMethod + MusicBrainz_releasegroupMBID + MusicBrainz_releases + MusicBrainz_jsonFormat
     responseReleases = requests.get(getReleases_totalURL)
     releasesJSON = responseReleases.json()
+    print ("releasesJSON of releaseGroup for " + release_group[1])
+    print (releasesJSON)
+
+print ("BEHOLD the Releases")
 
 # Create list to store MBID for all releases in a release-group
 all_Releases_from_releaseGroup = []
-print ("BEHOLD the Releases")
-# Loop through all_Releases_from_releaseGroup list 
+
+# Loop through releasesJSON 
 # For each Release, get MBID
 for release in releasesJSON['releases']:
-    aRelease = []
-    releaseMBID = release['id']
-    releaseTitle = release['title']
-    releaseDate = release['date']
-    releaseCountry = release['country']
-    print ('- ' + releaseTitle + ' from ' + releaseCountry)
-    releaseDisambiguation = release['disambiguation']
-    releasePackaging = release['packaging']
-    aRelease = [releaseMBID, releaseTitle, releaseDate, releaseCountry, releaseDisambiguation, releasePackaging]
+    aRelease = {}
+    aRelease['releaseGroupMBID'] = 
+    aRelease['mbid'] = release['id']
+    aRelease['title'] = release['title']
+    aRelease['date'] = release['date']
+    aRelease['country'] = release['country']
+    print ('- ' + aRelease['title'] + ' from ' + aRelease['country'])
+    aRelease['disambiguation'] = release['disambiguation']
+    aRelease['packaging'] = release['packaging']
+    aRelease['tracks'] = []
     all_Releases_from_releaseGroup = all_Releases_from_releaseGroup + [aRelease]    
 
 # Check which releases are valid albums in LastFM
 # For each valid album, get listeners, and playcount
 validAlbums = []
-artist['validReleases'] = []
 
 for release in all_Releases_from_releaseGroup:
     LastFM_albumMBID = release[0]
@@ -178,6 +184,9 @@ for release in all_Releases_from_releaseGroup:
         thisAlbum['playcount'] = albumData['album']['playcount']
         validAlbums = validAlbums + [thisAlbum]
 
+print (validAlbums)
+
+# Is here best place to match with release-group MBID and put in artist['albums']?
 artist['validReleases'] = artist['validReleases'] + [validAlbums]
 
 # For each release, get MBID for recordings on that release from MusicBrainz
@@ -215,9 +224,9 @@ for recording in recordings:
         print (LastFM_trackMBID + " does not exist in LastFM")
     else:
         thisTrack = {}
-        thisTrack['stats'] = {}
         thisTrack['mbid'] = trackData['track']['mbid']
         thisTrack['name'] = trackData['track']['name']
+        thisTrack['stats'] = {}
         thisTrack['stats']['listeners'] = trackData['track']['listeners']
         thisTrack['stats']['playcount'] = trackData['track']['playcount']
         trackName = thisTrack['name']
@@ -226,6 +235,7 @@ for recording in recordings:
         print(trackName + ' has ' + trackListeners + ' listeners and ' + trackPlaycount + ' plays.')
         tracks = tracks + [thisTrack]
 
+print (tracks)
 artist['tracks'] = tracks
 
 # Save artist and albums info thus far
