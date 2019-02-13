@@ -150,6 +150,7 @@ for releaseGroup in releaseGroupsJSON['release-groups']:
 #artist['albums'] = releaseGroupsList
 #pprint.pprint("artist's albums so far")
 #pprint.pprint(artist['albums'])
+allReleases = []
 
 # Get Releases of a Release-Group from MusicBrainz
 for release_group in releaseGroupsList:
@@ -157,35 +158,26 @@ for release_group in releaseGroupsList:
     getReleases_totalURL = MusicBrainz_baseURL + MusicBrainz_releasegroupMethod + MusicBrainz_releasegroupMBID + MusicBrainz_releases + MusicBrainz_jsonFormat
     responseReleases = requests.get(getReleases_totalURL)
     releasesJSON = responseReleases.json()
-    #print ("releasesJSON of releaseGroup for " + release_group['title'])
-    #pprint.pprint (releasesJSON)
-
-print ("BEHOLD the Releases")
-
-# Create list to store MBID for all releases in a release-group
-all_Releases_from_releaseGroup = []
-
-# Loop through releasesJSON 
-# For each Release, get MBID
-#for release in releasesJSON['releases']:
-for release in allReleaseGroups:
-    aRelease = {}
-    aRelease['releaseGroupMBID'] = release['releaseGroupMBID']
-    aRelease['mbid'] = release['id']
-    aRelease['title'] = release['title']
-    aRelease['date'] = release['date']
-    aRelease['country'] = release['country']
-    print ('- ' + aRelease['title'] + ' from ' + aRelease['country'])
-    aRelease['disambiguation'] = release['disambiguation']
-    aRelease['packaging'] = release['packaging']
-    aRelease['tracks'] = []
-    all_Releases_from_releaseGroup = all_Releases_from_releaseGroup + [aRelease]    
+    #release_group['releases'] = []
+    #releasesJSON['releaseGroupMBID'] = MusicBrainz_releasegroupMBID
+    #releasesJSON['releaseGroupTitle'] = release_group['title']
+    for release in releasesJSON['releases']:
+        aRelease = {}
+        #aRelease['releaseGroupMBID'] = release['releaseGroupMBID']
+        aRelease['mbid'] = release['id']
+        aRelease['title'] = release['title']
+        aRelease['date'] = release['date']
+        aRelease['country'] = release['country']
+        print ('- ' + aRelease['title'] + ' from ' + aRelease['country'])
+        aRelease['disambiguation'] = release['disambiguation']
+        aRelease['packaging'] = release['packaging']
+        allReleases = allReleases + [aRelease]    
 
 # Check which releases are valid albums in LastFM
 # For each valid album, get listeners, and playcount
 validAlbums = []
 
-for release in all_Releases_from_releaseGroup:
+for release in allReleases:
     LastFM_albumMBID = release['mbid']
     LastFM_albumCheckURL = LastFM_baseURL + LastFM_albumInfo + LastFM_albumMBID + LastFM_apiKey + LastFM_jsonFormat
     responseCheck = requests.get(LastFM_albumCheckURL)
@@ -200,31 +192,29 @@ for release in all_Releases_from_releaseGroup:
         thisAlbum['playcount'] = albumData['album']['playcount']
         validAlbums = validAlbums + [thisAlbum]
 
-print (validAlbums)
+for validAlbum in validAlbums:
+    print (validAlbum['name'] + " is valid, has " + validAlbum['listeners'] + " listeners and " + validAlbum['playcount'] + " plays")
 
 # Is here best place to match with release-group MBID and put in artist['albums']?
 artist['validAlbums'] = validAlbums
 
+allRecordings = []
+# Store each Recording MBID in a list
+recordings = []
+
 # For each release, get MBID for recordings on that release from MusicBrainz
 for validAlbum in validAlbums:
     MusicBrainz_releaseMBID = validAlbum['mbid']
-    print(validAlbum['name'] + ' is a valid album')
     getRecordings_totalURL = MusicBrainz_baseURL + MusicBrainz_releaseMethod + MusicBrainz_releaseMBID + MusicBrainz_recordings + MusicBrainz_jsonFormat
     responseRecordings = requests.get(getRecordings_totalURL)
     recordingsJSON = responseRecordings.json()
     recordingsFromRelease = json.loads(responseRecordings.text)
-
-# Store each Recording MBID in a list
-recordings = []
-
-print ("BEHOLD the recordings")
-
-for track in recordingsFromRelease['media'][0]['tracks']:
-    aRecording = {}
-    aRecording['mbid'] = track['recording']['id']
-    aRecording['title'] = track['recording']['title']
-    print ('- ' + aRecording['title'])
-    recordings = recordings + [aRecording]
+    for track in recordingsFromRelease['media'][0]['tracks']:
+        aRecording = {}
+        aRecording['mbid'] = track['recording']['id']
+        aRecording['title'] = track['recording']['title']
+        print ('- ' + aRecording['title'])
+        recordings = recordings + [aRecording]
 
 tracks = []
 
