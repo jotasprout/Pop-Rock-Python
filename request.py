@@ -134,16 +134,19 @@ for releaseGroup in releaseGroupsJSON['release-groups']:
     releaseGroupsList = releaseGroupsList + [aReleaseGroup]
 
 artist['albums'] = releaseGroupsList
-print("artist's albums so far")
-print(artist['albums'])
+#print("artist's albums so far")
+#print(artist['albums'])
 # Get Releases of a Release-Group from MusicBrainz
 for release_group in releaseGroupsList:
-    MusicBrainz_releasegroupMBID = release_group[0]
+    MusicBrainz_releasegroupMBID = release_group['mbid']
     getReleases_totalURL = MusicBrainz_baseURL + MusicBrainz_releasegroupMethod + MusicBrainz_releasegroupMBID + MusicBrainz_releases + MusicBrainz_jsonFormat
     responseReleases = requests.get(getReleases_totalURL)
     releasesJSON = responseReleases.json()
-    print ("releasesJSON of releaseGroup for " + release_group[1])
-    print (releasesJSON)
+    releasesJSON['release_group'] = {}
+    releasesJSON['release_group']['releaseGroupMBID'] = MusicBrainz_releasegroupMBID
+    releasesJSON['release_group']['releaseGroupTitle'] = release_group['title']
+    #print ("releasesJSON of releaseGroup for " + release_group['title'])
+    #print (releasesJSON)
 
 print ("BEHOLD the Releases")
 
@@ -154,7 +157,7 @@ all_Releases_from_releaseGroup = []
 # For each Release, get MBID
 for release in releasesJSON['releases']:
     aRelease = {}
-    aRelease['releaseGroupMBID'] = 
+    aRelease['releaseGroupMBID'] = releasesJSON['release_group']
     aRelease['mbid'] = release['id']
     aRelease['title'] = release['title']
     aRelease['date'] = release['date']
@@ -170,7 +173,7 @@ for release in releasesJSON['releases']:
 validAlbums = []
 
 for release in all_Releases_from_releaseGroup:
-    LastFM_albumMBID = release[0]
+    LastFM_albumMBID = release['mbid']
     LastFM_albumCheckURL = LastFM_baseURL + LastFM_albumInfo + LastFM_albumMBID + LastFM_apiKey + LastFM_jsonFormat
     responseCheck = requests.get(LastFM_albumCheckURL)
     albumData = json.loads(responseCheck.text)
@@ -187,7 +190,7 @@ for release in all_Releases_from_releaseGroup:
 print (validAlbums)
 
 # Is here best place to match with release-group MBID and put in artist['albums']?
-artist['validReleases'] = artist['validReleases'] + [validAlbums]
+artist['validAlbums'] = validAlbums
 
 # For each release, get MBID for recordings on that release from MusicBrainz
 for validAlbum in validAlbums:
