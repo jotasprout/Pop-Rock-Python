@@ -1,0 +1,36 @@
+{
+    "name": "Alice Cooper",
+    "mbid": "4d7928cd-7ed2-4282-8c29-c0c9f966f1bd",
+    "stats": {
+        "listeners": "1365754",
+        "playcount": "31123429"
+    },
+    "birthday": "1964",
+    "genres": [
+        {
+            "name": "hard rock",
+            "url": "https://www.last.fm/tag/hard+rock"
+        },
+        {
+            "name": "classic rock",
+            "url": "https://www.last.fm/tag/classic+rock"
+        },
+        {
+            "name": "rock",
+            "url": "https://www.last.fm/tag/rock"
+        },
+        {
+            "name": "heavy metal",
+            "url": "https://www.last.fm/tag/heavy+metal"
+        },
+        {
+            "name": "glam rock",
+            "url": "https://www.last.fm/tag/glam+rock"
+        },
+        "hard rock",
+        "classic rock",
+        "rock",
+        "heavy metal",
+        "glam rock"
+    ]
+}

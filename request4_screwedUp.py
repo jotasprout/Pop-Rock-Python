@@ -143,27 +143,30 @@ artist['genres'] = tags
 
 print ("Stored artist genres using Tags from LastFM")
 
-# GATHER MBID FOR RELEASE GROUPS
-# Store MBID for each Release-Group in a list
+#Create empty list for holding release groups
 releaseGroupsList = []
 
-#def gatherReleaseGroups():
 for releaseGroup in releaseGroupsJSON['release-groups']:
+    # Create a release-group dict with 3 properties
     aReleaseGroup = {}
     aReleaseGroup['mbid'] = releaseGroup['id']
     aReleaseGroup['title'] = releaseGroup['title']
     aReleaseGroup['releases'] = []
+    # Put each release-group into the list
     releaseGroupsList = releaseGroupsList + [aReleaseGroup]
     print ("Getting Releases from Release-Group")
     # Get Releases of a Release-Group from MusicBrainz
     for release_group in releaseGroupsList:
         MusicBrainz_releasegroupMBID = release_group['mbid']
         MusicBrainz_releasegroupTitle = release_group['title']
+        # Get releases for a release-group
         print ("Getting releases for " + MusicBrainz_releasegroupTitle)
         getReleases_totalURL = MusicBrainz_baseURL + MusicBrainz_releasegroupMethod + MusicBrainz_releasegroupMBID + MusicBrainz_releases + MusicBrainz_jsonFormat
         responseReleases = requests.get(getReleases_totalURL)
         releasesJSON = responseReleases.json()
+        # Put each of the releases into the release-group's list of releases
         for release in releasesJSON['releases']:
+            # Create a release dict
             aRelease = {}
             aRelease['mbid'] = release['id']
             aRelease['title'] = release['title']
@@ -171,6 +174,7 @@ for releaseGroup in releaseGroupsJSON['release-groups']:
             aRelease['country'] = str(release.get('country', ''))
             aRelease['disambiguation'] = release['disambiguation']
             aRelease['packaging'] = release['packaging']
+            # Put the release dict into the release-groups list of releases
             release_group['releases'] = release_group['releases'] + [aRelease]
         validAlbums = []
         for release in release_group['releases']:
