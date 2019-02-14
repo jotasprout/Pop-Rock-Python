@@ -267,8 +267,8 @@ for release_group in releaseGroupsList:
         print (MusicBrainz_releaseTitle + " has " + str(len(validAlbum['tracks'])) + " tracks.")
         print (" ")
 
-print ("Done with all albums and tracks. Now writing to file.")
-print (" ")
+    print ("Done with all albums and tracks. Now writing to file.")
+    print (" ")
     artist['albums'] = releaseGroupsList
 
 # Write artist to file
