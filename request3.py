@@ -81,7 +81,10 @@ class Artist:
         
 # ARTIST INFO (inc Release-Groups)
 # Get artist info and Release-Groups for artist from MusicBrainz
-MusicBrainz_artistMBID = aliceCooperPerson
+
+print ("Getting Artist info from MusicBrainz")
+
+MusicBrainz_artistMBID = aliceCooperBand
 
 getReleaseGroups_totalURL = MusicBrainz_baseURL + MusicBrainz_artistMethod + MusicBrainz_artistMBID + MusicBrainz_getReleaseGroups + MusicBrainz_jsonFormat
 
@@ -89,11 +92,13 @@ responseReleaseGroups = requests.get(getReleaseGroups_totalURL)
 
 releaseGroupsJSON = responseReleaseGroups.json()
 
+print ("Printing release-groups so I can check if response includes genres")
+pprint.pprint(releaseGroupsJSON)
+
 # START BUILDING ARTIST DICTIONARY
 artistName = releaseGroupsJSON['name']
 
 #create artist instance
-#artist = Artist(artistName)
 artist = {}
 artist['name'] = artistName
 artist['mbid'] = MusicBrainz_artistMBID
@@ -106,20 +111,24 @@ artist['mbid'] = MusicBrainz_artistMBID
 
 #getArtistStatsFromLastFM(MusicBrainz_artistMBID)
 
+print ("Getting Artist stats from LastFM")
+
 LastFM_artistMBID = MusicBrainz_artistMBID
+
 get_artist_info_from_LastFM = LastFM_baseURL + LastFM_artistInfo + LastFM_artistMBID + LastFM_apiKey + LastFM_jsonFormat
+
 artist_info_from_LastFM = requests.get(get_artist_info_from_LastFM)
+
 artistData = json.loads(artist_info_from_LastFM.text)
 
 # Get Listeners and Playcount for Artist from LastFM
 artist['stats'] = {}
-#artist.stats.playcount = artistData['artist']['stats']['playcount']
 LastFM_artistListeners = artistData['artist']['stats']['listeners']
 LastFM_artistPlaycount = artistData['artist']['stats']['playcount']
-#artist.stats.listeners = LastFM_artistListeners
 artist['stats']['listeners'] = LastFM_artistListeners
 artist['stats']['playcount'] = LastFM_artistPlaycount
 
+# Artist birthday from MusicBrainz
 artistBirthday = releaseGroupsJSON['life-span']['begin']
 artist['birthday'] = artistBirthday
 
@@ -128,29 +137,26 @@ genres = []
 #def makeGenres():
 tags = artistData['artist']['tags']['tag']
 for tag in tags:
-    genre = tag['name']
-    genres = genres + [genre]
-artist['genres'] = genres
+    tag = tag['name']
+    tags = tags + [tag]
+artist['genres'] = tags
 
-#print (artistName + ' has ' + LastFM_artistListeners + ' listeners and ' + LastFM_artistPlaycount + ' plays.')
+print ("Stored artist genres using Tags from LastFM")
+
+# MAKE SURE ARTIST GETS GENRES FROM MusicBrainz AND TAGS FROM LastFM
 
 # GATHER MBID FOR RELEASE GROUPS
-
 # Store MBID for each Release-Group in a list
 releaseGroupsList = []
-#print("BEHOLD the Release-Groups:")
+
 #def gatherReleaseGroups():
 for releaseGroup in releaseGroupsJSON['release-groups']:
     aReleaseGroup = {}
     aReleaseGroup['mbid'] = releaseGroup['id']
     aReleaseGroup['title'] = releaseGroup['title']
     aReleaseGroup['releases'] = []
-    #print('- ' + aReleaseGroup['title'])
     releaseGroupsList = releaseGroupsList + [aReleaseGroup]
 
-
-#pprint.pprint("artist's albums so far")
-#pprint.pprint(artist['albums'])
 allReleases = []
 allNewReleaseGroups = []
 
@@ -161,11 +167,8 @@ for release_group in releaseGroupsList:
     responseReleases = requests.get(getReleases_totalURL)
     releasesJSON = responseReleases.json()
     release_group['releases'] = []
-    #releasesJSON['releaseGroupMBID'] = MusicBrainz_releasegroupMBID
-    #releasesJSON['releaseGroupTitle'] = release_group['title']
     for release in releasesJSON['releases']:
         aRelease = {}
-        #aRelease['releaseGroupMBID'] = release['releaseGroupMBID']
         aRelease['mbid'] = release['id']
         aRelease['title'] = release['title']
         aRelease['date'] = release['date']
@@ -176,7 +179,7 @@ for release_group in releaseGroupsList:
         allReleases = allReleases + [aRelease]    
     allNewReleaseGroups = allNewReleaseGroups + [release_group]
 
-artist['allAlbums'] = allNewReleaseGroups
+artist['Albums'] = allNewReleaseGroups
 
 # Check which releases are valid albums in LastFM
 # For each valid album, get listeners, and playcount
@@ -186,11 +189,12 @@ for release in allReleases:
     LastFM_albumMBID = release['mbid']
     LastFM_albumTitle = release['title']
     LastFM_albumCountry = release['country']
+    LastFM_albumDate = release['date']
     LastFM_albumCheckURL = LastFM_baseURL + LastFM_albumInfo + LastFM_albumMBID + LastFM_apiKey + LastFM_jsonFormat
     responseCheck = requests.get(LastFM_albumCheckURL)
     albumData = json.loads(responseCheck.text)
     if "error" in albumData:
-        print (LastFM_albumTitle + " from " + LastFM_albumCountry + " does not exist in LastFM")
+        print (LastFM_albumTitle + " on " + LastFM_albumDate + " from " + LastFM_albumCountry + " does not exist in LastFM")
     else:
         thisAlbum = {}
         thisAlbum['name'] = albumData['album']['name']
@@ -202,6 +206,7 @@ for release in allReleases:
         thisAlbum['disambiguation'] = release['disambiguation']
         thisAlbum['packaging'] = release['packaging']
         validAlbums = validAlbums + [thisAlbum]
+        print (thisAlbum['name'] + " on " + thisAlbum['date'] + " from " + thisAlbum['country'] + " exists in LastFM and stored in valid albums")
 
 #for validAlbum in validAlbums:
     #print (validAlbum['name'] + " from " + validAlbum['country'] + " is valid, has " + validAlbum['listeners'] + " listeners and " + validAlbum['playcount'] + " plays")
@@ -210,11 +215,14 @@ for release in allReleases:
 artist['validAlbums'] = validAlbums
 
 # Store each Recording MBID in a list
-recordings = []
+#recordings = []
 
 # For each release, get MBID for recordings on that release from MusicBrainz
 for validAlbum in validAlbums:
+    validAlbum['tracks'] = []
     MusicBrainz_releaseMBID = validAlbum['mbid']
+    MusicBrainz_releaseTitle = validAlbum['name']
+    print ("Getting " + MusicBrainz_releaseTitle + " tracks info from MusicBrainz")
     getRecordings_totalURL = MusicBrainz_baseURL + MusicBrainz_releaseMethod + MusicBrainz_releaseMBID + MusicBrainz_recordings + MusicBrainz_jsonFormat
     responseRecordings = requests.get(getRecordings_totalURL)
     recordingsJSON = responseRecordings.json()
@@ -222,36 +230,30 @@ for validAlbum in validAlbums:
     for track in recordingsFromRelease['media'][0]['tracks']:
         aRecording = {}
         aRecording['mbid'] = track['recording']['id']
+        LastFM_trackMBID = aRecording['mbid']
         aRecording['title'] = track['recording']['title']
-        recordings = recordings + [aRecording]
+        LastFM_trackTitle = aRecording['title']
+        print ("Getting " + LastFM_trackTitle + " track stats from LastFM")
+        LastFM_trackURL = LastFM_baseURL + LastFM_trackInfo + LastFM_trackMBID + LastFM_apiKey + LastFM_jsonFormat
+        responseTrack = requests.get(LastFM_trackURL)
+        trackData = json.loads(responseTrack.text)
+        # Get Listeners and Playcount for each Track (using Recording MBID) on an Album from LastFM
+        if "error" in trackData:
+            print (LastFM_trackTitle + " does not exist in LastFM")
+        else:
+            aRecording['stats'] = {}
+            aRecording['stats']['listeners'] = trackData['track']['listeners']
+            aRecording['stats']['playcount'] = trackData['track']['playcount']
+            trackName = aRecording['title']
+            trackListeners = aRecording['stats']['listeners']
+            trackPlaycount = aRecording['stats']['playcount']
+            print(trackName + ' has ' + trackListeners + ' listeners and ' + trackPlaycount + ' plays.')
+            validAlbum['tracks'] = validAlbum['tracks'] + [aRecording]
+    print ("Done storing tracks for " + MusicBrainz_releaseTitle + ".")
 
-tracks = []
+print ("Done with all albums and tracks. Now writing to file.")
 
-# Get Listeners and Playcount for each Track (using Recording MBID) on an Album from LastFM
-for recording in recordings:
-    LastFM_trackMBID = recording['mbid']
-    LastFM_trackTitle = recording['title']
-    LastFM_trackURL = LastFM_baseURL + LastFM_trackInfo + LastFM_trackMBID + LastFM_apiKey + LastFM_jsonFormat
-    responseTrack = requests.get(LastFM_trackURL)
-    trackData = json.loads(responseTrack.text)
-    if "error" in trackData:
-        print (LastFM_trackTitle + " does not exist in LastFM")
-    else:
-        thisTrack = {}
-        thisTrack['mbid'] = trackData['track']['mbid']
-        thisTrack['name'] = trackData['track']['name']
-        thisTrack['stats'] = {}
-        thisTrack['stats']['listeners'] = trackData['track']['listeners']
-        thisTrack['stats']['playcount'] = trackData['track']['playcount']
-        trackName = thisTrack['name']
-        trackListeners = thisTrack['stats']['listeners']
-        trackPlaycount = thisTrack['stats']['playcount']
-        #print(trackName + ' has ' + trackListeners + ' listeners and ' + trackPlaycount + ' plays.')
-        tracks = tracks + [thisTrack]
-
-artist['tracks'] = tracks
-print ("done")
-# Save artist and albums info thus far
+# Write artist to file
 file_name = artistName.replace(' ', '')
 
 artistJSON = json.dumps(artist)
@@ -259,5 +261,9 @@ artistJSON = json.dumps(artist)
 f = open (file_name + '.json', 'w') # a is for append if artist dict already started
 f.write (artistJSON)
 f.close()
+
+print("Complete artist dict")
+pprint.pprint(artist)
+
 # Questions to ask 
 ## Which artists, albums, tracks, have a lower listener-to-play ratio?
