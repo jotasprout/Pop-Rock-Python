@@ -19,3 +19,16 @@ LastFM_apiKey = '&api_key=333a292213e03c10f38269019b5f3985'
 
 # LastFM response format
 LastFM_jsonFormat = '&format=json'
+
+# Get artist stats from LastFM
+def makeGetArtistInfoFromLastFM_URL(LastFM_artistMBID):
+    get_artist_info_from_LastFM = LastFM_baseURL + LastFM_artistInfo + LastFM_artistMBID + LastFM_apiKey + LastFM_jsonFormat
+    return get_artist_info_from_LastFM
+
+def makeLastFM_albumCheckURL(LastFM_albumMBID):
+    LastFM_albumCheckURL = LastFM_baseURL + LastFM_albumInfo + LastFM_albumMBID + LastFM_apiKey + LastFM_jsonFormat
+    return LastFM_albumCheckURL
+
+def getLastFM_trackURL (LastFM_trackMBID):
+    LastFM_trackURL = LastFM_baseURL + LastFM_trackInfo + LastFM_trackMBID + LastFM_apiKey + LastFM_jsonFormat
+    return LastFM_trackURL

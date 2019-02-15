@@ -28,3 +28,12 @@ MusicBrainz_jsonFormat = '&fmt=json'
 def makeReleaseGroupsURL(MusicBrainz_artistMBID):
     getReleaseGroups_totalURL = MusicBrainz_baseURL + MusicBrainz_artistMethod + MusicBrainz_artistMBID + MusicBrainz_getReleaseGroups + MusicBrainz_jsonFormat
     return getReleaseGroups_totalURL
+
+
+def makeGetReleases_totalURL(MusicBrainz_releasegroupMBID):
+    getReleases_totalURL = MusicBrainz_baseURL + MusicBrainz_releasegroupMethod + MusicBrainz_releasegroupMBID + MusicBrainz_releases + MusicBrainz_jsonFormat
+    return getReleases_totalURL
+
+def makeGetRecordings_totalURL(MusicBrainz_releaseMBID):
+    getRecordings_totalURL = MusicBrainz_baseURL + MusicBrainz_releaseMethod + MusicBrainz_releaseMBID + MusicBrainz_recordings + MusicBrainz_jsonFormat
+    return getRecordings_totalURL

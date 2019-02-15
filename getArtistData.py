@@ -62,7 +62,7 @@ print ("Getting Artist info and RELEASE GROUPS from MusicBrainz")
 print (" ")
 
 # Get artist info (inc Release-Groups) from MusicBrainz
-MusicBrainz_artistMBID = artistsData.amboyDukes
+MusicBrainz_artistMBID = artistsData.anvil
 
 getReleaseGroups_totalURL = musicBrainz.makeReleaseGroupsURL(MusicBrainz_artistMBID)
 
@@ -93,7 +93,7 @@ print (" ")
 
 LastFM_artistMBID = MusicBrainz_artistMBID
 
-get_artist_info_from_LastFM = LastFM_baseURL + LastFM_artistInfo + LastFM_artistMBID + LastFM_apiKey + LastFM_jsonFormat
+get_artist_info_from_LastFM = lastFM.makeGetArtistInfoFromLastFM_URL(LastFM_artistMBID)
 
 artist_info_from_LastFM = requests.get(get_artist_info_from_LastFM)
 
@@ -153,7 +153,8 @@ for release_group in releaseGroupsList:
     MusicBrainz_releasegroupTitle = release_group['title']
     release_group['releases'] = []
     print ("Getting releases for " + MusicBrainz_releasegroupTitle)
-    getReleases_totalURL = MusicBrainz_baseURL + MusicBrainz_releasegroupMethod + MusicBrainz_releasegroupMBID + MusicBrainz_releases + MusicBrainz_jsonFormat
+    MusicBrainz_releasegroupMBID = MusicBrainz_releasegroupMBID
+    getReleases_totalURL = musicBrainz.makeGetReleases_totalURL(MusicBrainz_releasegroupMBID)
     responseReleases = requests.get(getReleases_totalURL)
     releasesJSON = responseReleases.json()
     release_group_all_Releases = []
@@ -177,7 +178,7 @@ for release_group in releaseGroupsList:
         LastFM_albumTitle = release['title']
         LastFM_albumCountry = release['country']
         LastFM_albumDate = release['date']
-        LastFM_albumCheckURL = LastFM_baseURL + LastFM_albumInfo + LastFM_albumMBID + LastFM_apiKey + LastFM_jsonFormat
+        LastFM_albumCheckURL = lastFM.makeLastFM_albumCheckURL(LastFM_albumMBID)
         responseCheck = requests.get(LastFM_albumCheckURL)
         albumData = json.loads(responseCheck.text)
         if "error" in albumData:
@@ -213,7 +214,7 @@ for release_group in releaseGroupsList:
         MusicBrainz_releaseTitle = validAlbum['name']
         print ("Getting " + MusicBrainz_releaseTitle + " tracks info from MusicBrainz")
         print (" ")
-        getRecordings_totalURL = MusicBrainz_baseURL + MusicBrainz_releaseMethod + MusicBrainz_releaseMBID + MusicBrainz_recordings + MusicBrainz_jsonFormat
+        getRecordings_totalURL = musicBrainz.makeGetRecordings_totalURL(MusicBrainz_releaseMBID)
         responseRecordings = requests.get(getRecordings_totalURL)
         recordingsJSON = responseRecordings.json()
         recordingsFromRelease = json.loads(responseRecordings.text)
@@ -225,7 +226,7 @@ for release_group in releaseGroupsList:
             LastFM_trackTitle = aRecording['title']
             print ("Getting " + LastFM_trackTitle + " track stats from LastFM")
             print (" ")
-            LastFM_trackURL = LastFM_baseURL + LastFM_trackInfo + LastFM_trackMBID + LastFM_apiKey + LastFM_jsonFormat
+            LastFM_trackURL = lastFM.getLastFM_trackURL (LastFM_trackMBID)
             responseTrack = requests.get(LastFM_trackURL)
             trackData = json.loads(responseTrack.text)
             # Get Listeners and Playcount for each Track (using Recording MBID) on an Album from LastFM

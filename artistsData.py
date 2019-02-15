@@ -1,10 +1,10 @@
 # MBIDs from MusicBrainz.org
 
 aliceCooperPerson = 'ee58c59f-8e7f-4430-b8ca-236c4d3745ae'
-hollywoodVampires = ''
+hollywoodVampires = 'd30a1d2b-e88d-4470-89cb-69d8c335ce3d'
 aliceCooperBand = '4d7928cd-7ed2-4282-8c29-c0c9f966f1bd'
 
-anvil = ''
+anvil = '07a85e96-bb72-4930-b41d-24853f4a4ede'
 
 blackSabbath = '5182c1d9-c7d2-4dad-afa0-ccfeada921a8'
 dio = 'c55193fb-f5d2-4839-a263-4c044fca1456'
@@ -21,9 +21,10 @@ defLeppard = '7249b899-8db8-43e7-9e6e-22f1e736024e'
 dickWagner = 'f92d6bfd-76e7-4394-aaec-9490756eb50c'
 frost = '6ab0acff-51de-45db-95cc-bdf5a6dd8578'
 
-joanJett = ''
-evilStig = ''
-runaways = ''
+joanJett = 'f376828a-b438-4fda-bb2e-dcd5fbe81f83'
+jjBlackhearts = '46e63d3b-d91b-4791-bb73-e9f638a45ea0'
+evilStig = '66bf7876-3898-47fa-8bdd-dc200f946cec'
+runaways = 'ded0d67a-eb71-4fe9-83c0-1d18b8ed497e'
 
 kidRock = 'ad0ecd8b-805e-406e-82cb-5b00c3a3a29e'
 
@@ -36,4 +37,4 @@ quietRiot = '5c6acb91-4b9b-4245-b92f-e817295c4ed0'
 tedNugent = 'e491fae8-3a5a-438e-8368-925753fb41a1'
 amboyDukes = '1a03f20c-26dd-4c26-bbe8-426e05ea46d5'
 
-saxon = ''
+saxon = 'bbd80354-597e-4d53-94e4-92b3a7cb8f2c'
