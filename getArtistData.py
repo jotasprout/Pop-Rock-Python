@@ -7,53 +7,6 @@ import musicBrainz
 import lastFM
 
 date = time.strftime("%b %d, %y")
-'''
-# MusicBrainz variables
-MusicBrainz_baseURL = 'https://www.musicbrainz.org/ws/2/'
-
-# Part of URL for using artist MBID
-MusicBrainz_artistMethod = 'artist/'
-
-# Part of URL for getting MusicBrainz Release Groups info
-MusicBrainz_getReleaseGroups = '?inc=release-groups'
-
-# Part of URL for using Release Groups MBID to get Releases
-MusicBrainz_releasegroupMethod = 'release-group/'
-
-# Part of URL for getting MusicBrainz Releases info
-MusicBrainz_releases = '?inc=releases'
-
-# Part of URL for using Release MBID
-MusicBrainz_releaseMethod = 'release/'
-
-# Part of URL for getting MusicBrainz Recordings info
-MusicBrainz_recordings = '?inc=recordings'
-
-# MusicBrainz response format
-MusicBrainz_jsonFormat = '&fmt=json'
-
-# LastFM variables
-LastFM_baseURL = 'http://ws.audioscrobbler.com/2.0/?method='
-
-# Part of URL for getting LastFM artist info
-LastFM_artistInfo = 'artist.getinfo&mbid='
-
-# Part of URL for getting LastFM album info
-LastFM_albumInfo = 'album.getinfo&mbid='
-
-LastFM_albumMBID = '' # item in list of MusicBrainz_releaseMBID 
-
-# Part of URL for getting LastFM track info
-LastFM_trackInfo = 'track.getinfo&mbid='
-
-LastFM_trackMBID = '' # item in list of MusicBrainz_recordingMBID 
-
-# LastFM API key
-LastFM_apiKey = '&api_key=333a292213e03c10f38269019b5f3985'
-
-# LastFM response format
-LastFM_jsonFormat = '&format=json'
-'''
  
 # ARTIST INFO
 # Get artist info from MusicBrainz
@@ -62,7 +15,7 @@ print ("Getting Artist info and RELEASE GROUPS from MusicBrainz")
 print (" ")
 
 # Get artist info (inc Release-Groups) from MusicBrainz
-MusicBrainz_artistMBID = artistsData.anvil
+MusicBrainz_artistMBID = artistsData.saxon
 
 getReleaseGroups_totalURL = musicBrainz.makeReleaseGroupsURL(MusicBrainz_artistMBID)
 
@@ -79,14 +32,6 @@ artistName = releaseGroupsJSON['name']
 artist = {}
 artist['name'] = artistName
 artist['mbid'] = MusicBrainz_artistMBID
-
-#def getArtistStatsFromLastFM(MusicBrainz_artistMBID):
-#    LastFM_artistMBID = MusicBrainz_artistMBID
-#    get_artist_info_from_LastFM = LastFM_baseURL + LastFM_artistInfo + LastFM_artistMBID + LastFM_apiKey + LastFM_jsonFormat
-#    artist_info_from_LastFM = requests.get(get_artist_info_from_LastFM)
-#    artistData = json.loads(artist_info_from_LastFM.text)
-
-#getArtistStatsFromLastFM(MusicBrainz_artistMBID)
 
 print ("Getting Artist stats from LastFM")
 print (" ")
@@ -130,16 +75,13 @@ print (" ")
 releaseGroupsList = []
 print ("Getting only the properties I want for each Release-Group")
 print (" ")
-#def gatherReleaseGroups():
+
 for releaseGroup in releaseGroupsJSON['release-groups']:
     aReleaseGroup = {}
     aReleaseGroup['mbid'] = releaseGroup['id']
     aReleaseGroup['title'] = releaseGroup['title']
     aReleaseGroup['releases'] = []
     releaseGroupsList = releaseGroupsList + [aReleaseGroup]
-
-#allReleases = []
-#allNewReleaseGroups = []
 
 print ("I have a list of Release-Groups.")
 rg = len(releaseGroupsList)
@@ -201,13 +143,8 @@ for release_group in releaseGroupsList:
 
     print (release_group['title'] + " has " + str(len(validAlbumsForThisReleaseGroup)) + " total VALID releases")
     print (" ")
-#for validAlbum in validAlbums:
-    #print (validAlbum['name'] + " from " + validAlbum['country'] + " is valid, has " + validAlbum['listeners'] + " listeners and " + validAlbum['playcount'] + " plays")
     release_group['releases'] = release_group['releases'] + validAlbumsForThisReleaseGroup
-# Is here best place to match with release-group MBID and put in artist['albums']?
-# Store each Recording MBID in a list
-
-# For each release, get MBID for recordings on that release from MusicBrainz
+    # For each release, get MBID for recordings on that release from MusicBrainz
     for validAlbum in release_group['releases']:
         validAlbum['tracks'] = []
         MusicBrainz_releaseMBID = validAlbum['mbid']
