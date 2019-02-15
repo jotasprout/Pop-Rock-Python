@@ -15,7 +15,7 @@ print ("Getting Artist info and RELEASE GROUPS from MusicBrainz")
 print (" ")
 
 # Get artist info (inc Release-Groups) from MusicBrainz
-MusicBrainz_artistMBID = artistsData.aliceCooperBand
+MusicBrainz_artistMBID = ''
 
 getReleaseGroups_totalURL = musicBrainz.makeReleaseGroupsURL(MusicBrainz_artistMBID)
 
