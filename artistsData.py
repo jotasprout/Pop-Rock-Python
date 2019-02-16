@@ -4,6 +4,11 @@ aliceCooperPerson = 'ee58c59f-8e7f-4430-b8ca-236c4d3745ae'
 hollywoodVampires = 'd30a1d2b-e88d-4470-89cb-69d8c335ce3d'
 aliceCooperBand = '4d7928cd-7ed2-4282-8c29-c0c9f966f1bd'
 
+acb14 = 'AliceCooper_BAND_1330pm_021419.json'
+acp14 = 'AliceCooper_PERSON_almost_11am_021419.json'
+acb15 = 'AliceCooperBand_021519.json'
+acp15 = 'AliceCooperPerson_021519.json'
+
 anvil = '07a85e96-bb72-4930-b41d-24853f4a4ede'
 
 blackSabbath = '5182c1d9-c7d2-4dad-afa0-ccfeada921a8'
