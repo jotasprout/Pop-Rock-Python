@@ -6,7 +6,7 @@ import artistsData
 import musicBrainz
 import lastFM
 
-date = time.strftime("%b %d, %y")
+date = time.strftime("%b %d, %Y")
  
 # ARTIST INFO
 # Get artist info from MusicBrainz
@@ -15,7 +15,7 @@ print ("Getting Artist info and RELEASE GROUPS from MusicBrainz")
 print (" ")
 
 # Get artist info (inc Release-Groups) from MusicBrainz
-MusicBrainz_artistMBID = artistsData.evilStig
+MusicBrainz_artistMBID = artistsData.#evilStig
 
 getReleaseGroups_totalURL = musicBrainz.makeReleaseGroupsURL(MusicBrainz_artistMBID)
 
