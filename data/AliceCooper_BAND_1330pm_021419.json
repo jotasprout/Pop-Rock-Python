@@ -7,26 +7,6 @@
     },
     "birthday": "1964",
     "genres": [
-        {
-            "name": "hard rock",
-            "url": "https://www.last.fm/tag/hard+rock"
-        },
-        {
-            "name": "classic rock",
-            "url": "https://www.last.fm/tag/classic+rock"
-        },
-        {
-            "name": "rock",
-            "url": "https://www.last.fm/tag/rock"
-        },
-        {
-            "name": "heavy metal",
-            "url": "https://www.last.fm/tag/heavy+metal"
-        },
-        {
-            "name": "glam rock",
-            "url": "https://www.last.fm/tag/glam+rock"
-        },
         "hard rock",
         "classic rock",
         "rock",

@@ -15,7 +15,7 @@ print ("Getting Artist info and RELEASE GROUPS from MusicBrainz")
 print (" ")
 
 # Get artist info (inc Release-Groups) from MusicBrainz
-MusicBrainz_artistMBID = ''
+MusicBrainz_artistMBID = artistsData.evilStig
 
 getReleaseGroups_totalURL = musicBrainz.makeReleaseGroupsURL(MusicBrainz_artistMBID)
 
@@ -146,6 +146,8 @@ for release_group in releaseGroupsList:
     release_group['releases'] = release_group['releases'] + validAlbumsForThisReleaseGroup
     # For each release, get MBID for recordings on that release from MusicBrainz
     for validAlbum in release_group['releases']:
+        validAlbum['artistName'] = artist['name']
+        validAlbum['artistMBID'] = artist['mbid']
         validAlbum['tracks'] = []
         MusicBrainz_releaseMBID = validAlbum['mbid']
         MusicBrainz_releaseTitle = validAlbum['name']
@@ -175,6 +177,8 @@ for release_group in releaseGroupsList:
                 aRecording['stats']['listeners'] = trackData['track']['listeners']
                 aRecording['stats']['playcount'] = trackData['track']['playcount']
                 trackName = aRecording['title']
+                aRecording['artistName'] = artist['name']
+                aRecording['artistMBID'] = artist['mbid']
                 trackListeners = aRecording['stats']['listeners']
                 trackPlaycount = aRecording['stats']['playcount']
                 print(trackName + ' has ' + trackListeners + ' listeners and ' + trackPlaycount + ' plays.')

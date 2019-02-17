@@ -1,6 +1,13 @@
 import json
 
-with open('AliceCooperPerson.json', 'r') as f:
+with open('data/AliceCooperBand_021519.json', 'r') as f:
     data = f.read()
 
-artist = json.loads(data)
+artist2 = json.loads(data)
+
+
+def openData(rockdata):
+    with open(rockdata, 'r') as f:
+        data = f.read()
+    artist3 = json.loads(data)
+    return artist3
