@@ -202,7 +202,7 @@ def get_artists_data(artistVar):
 
     artistJSON = json.dumps(artist, indent=4)
 
-    f = open (artistNameFor_file_name + '_' + dateFor_file_name + '.json', 'w')
+    f = open ('data/' + artistNameFor_file_name + '_' + dateFor_file_name + '.json', 'w')
     f.write (artistJSON)
     f.close()
 
