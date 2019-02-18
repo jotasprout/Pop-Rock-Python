@@ -15,7 +15,7 @@ print ("Getting Artist info and RELEASE GROUPS from MusicBrainz")
 print (" ")
 
 # Get artist info (inc Release-Groups) from MusicBrainz
-MusicBrainz_artistMBID = artistsData.#evilStig
+MusicBrainz_artistMBID = artistsData.hollywoodVampires
 
 getReleaseGroups_totalURL = musicBrainz.makeReleaseGroupsURL(MusicBrainz_artistMBID)
 
@@ -187,9 +187,9 @@ for release_group in releaseGroupsList:
         print (MusicBrainz_releaseTitle + " has " + str(len(validAlbum['tracks'])) + " tracks.")
         print (" ")
 
-    print ("Done with all albums and tracks. Now writing to file.")
-    print (" ")
-    artist['albums'] = releaseGroupsList
+print ("Done with all albums and tracks. Now writing to file.")
+print (" ")
+artist['albums'] = releaseGroupsList
 
 artist['date'] = date
 

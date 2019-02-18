@@ -158,7 +158,6 @@ def get_artists_data(artistVar):
             print (" ")
             getRecordings_totalURL = musicBrainz.makeGetRecordings_totalURL(MusicBrainz_releaseMBID)
             responseRecordings = requests.get(getRecordings_totalURL)
-            recordingsJSON = responseRecordings.json()
             recordingsFromRelease = json.loads(responseRecordings.text)
             for track in recordingsFromRelease['media'][0]['tracks']:
                 aRecording = {}
@@ -190,11 +189,9 @@ def get_artists_data(artistVar):
             print (MusicBrainz_releaseTitle + " has " + str(len(validAlbum['tracks'])) + " tracks.")
             print (" ")
 
-        print ("Done with all albums and tracks. Now writing to file.")
-        print (" ")
-        artist['albums'] = releaseGroupsList
-
-
+    print ("Done with all albums and tracks. Now writing to file.")
+    print (" ")
+    artist['albums'] = releaseGroupsList
 
     # Write artist to file
     artistNameFor_file_name = artistName.replace(' ', '')
@@ -209,7 +206,7 @@ def get_artists_data(artistVar):
     print("File written")
     #pprint.pprint(artist)
 
-for mbid in artistsData.mbid_array:
+for mbid in artistsData.mbid_array2:
     get_artists_data(mbid)
 # Questions to ask 
 ## Which artists, albums, tracks, have a lower listener-to-play ratio?
