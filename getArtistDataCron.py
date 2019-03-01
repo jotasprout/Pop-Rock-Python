@@ -29,11 +29,13 @@ def get_artists_data(artistVar):
 
     # START BUILDING ARTIST DICTIONARY
     artistName = releaseGroupsJSON['name']
+    artistType = releaseGroupsJSON['type']
 
     #create artist instance
     artist = {}
     artist['date'] = date
     artist['name'] = artistName
+    artist['type'] = artistType
     artist['mbid'] = MusicBrainz_artistMBID
 
     print ("Getting Artist stats from LastFM")
@@ -195,11 +197,14 @@ def get_artists_data(artistVar):
 
     # Write artist to file
     artistNameFor_file_name = artistName.replace(' ', '')
+
+    artistTypeFor_file_name = artistType
+    
     dateFor_file_name = time.strftime("%m-%d-%y")
 
     artistJSON = json.dumps(artist, indent=4)
 
-    f = open ('data/' + artistNameFor_file_name + '_' + dateFor_file_name + '.json', 'w')
+    f = open ('data/' + artistNameFor_file_name + '_' + artistTypeFor_file_name  + '_' + dateFor_file_name + '.json', 'w')
     f.write (artistJSON)
     f.close()
 
