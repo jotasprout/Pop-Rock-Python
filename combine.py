@@ -26,7 +26,7 @@ print ('artistTo really has ' + str(len(newArtistToAlbums)) + ' albums')
 
 combinedArtistName = artistTo['name'].replace(' ', '')
 
-with open(combinedArtistName + '_Combined_' + dataDate + '.json', 'w') as f:
+with open('data/' + combinedArtistName + '_Combined_' + dataDate + '.json', 'w') as f:
     f.write(json.dumps(artistTo))
 
 f.close
