@@ -1,11 +1,13 @@
 import json
 
 # Open file from which I will take data ("b" for "band")
-with open('data/AliceCooperBand_021519.json', 'r') as b:
+with open('data/AliceCooper_Group_03-01-19.json', 'r') as b:
     artistFrom = json.load(b)
 
-with open('data/AliceCooperPerson_021519.json', 'r') as p:
+with open('data/AliceCooper_Person_03-01-19.json', 'r') as p:
     artistTo = json.load(p)
+
+dataDate = ''
 
 artistFromAlbums = artistFrom['albums']
 print ('Band has ' + str(len(artistFromAlbums)) + ' albums')
@@ -24,7 +26,7 @@ print ('artistTo really has ' + str(len(newArtistToAlbums)) + ' albums')
 
 combinedArtistName = artistTo['name'].replace(' ', '')
 
-with open(combinedArtistName + '.json', 'w') as f:
+with open(combinedArtistName + '_Combined_' + dataDate + '.json', 'w') as f:
     f.write(json.dumps(artistTo))
 
 f.close
