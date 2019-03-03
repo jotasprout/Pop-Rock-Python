@@ -2,12 +2,11 @@ import json
 import artistsData
 
 # Open file from which I will take data ("b" for "band")
-with open(artistsData.acp15, 'r') as p:
+with open('data/AliceCooper_Combined_03-03-19', 'r') as p:
     artist = json.load(p)
 
-#for release in artist['albums'][0]['releases']:
-#    print (release['name'] + " has " + release['playcount'] + " plays") 
-
+for release in artist['albums'][0]['releases']:
+   print (release['name'] + " with MBID " + release['mbid'] + " has " + release['playcount'] + " plays") 
 
 # Get a list of keys from dictionary which has the given value
 
