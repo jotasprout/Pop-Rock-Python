@@ -1,13 +1,20 @@
 import json
 
+dataFolder = 'data/'
+fromArtistJSON = 'JoanJettandtheBlackhearts_Group'
+toArtistJSON = 'JoanJett_Person'
+dataDate = '03-01-19'
+ext = '.json'
+
+fromFilename = dataFolder + fromArtistJSON + '_' + dataDate + '.json'
+toFilename = dataFolder + toArtistJSON + '_' + dataDate + '.json'
+
 # Open file from which I will take data ("b" for "band")
-with open('data/AliceCooper_Group_03-01-19.json', 'r') as b:
+with open(fromFilename, 'r') as b:
     artistFrom = json.load(b)
 
-with open('data/AliceCooper_Person_03-01-19.json', 'r') as p:
+with open(toFilename, 'r') as p:
     artistTo = json.load(p)
-
-dataDate = ''
 
 artistFromAlbums = artistFrom['albums']
 print ('Band has ' + str(len(artistFromAlbums)) + ' albums')
