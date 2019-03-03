@@ -1,13 +1,19 @@
 import json
 
+JJBh = 'JoanJettandtheBlackhearts'
+JJ = 'JoanJett'
+
+
+
+dataDate = '03-03-19'
+
 dataFolder = 'data/'
-fromArtistJSON = 'JoanJettandtheBlackhearts_Group'
-toArtistJSON = 'JoanJett_Person'
-dataDate = '03-01-19'
+fromArtistJSON = 'AliceCooper_Group_'
+toArtistJSON = 'AliceCooper_Person_'
 ext = '.json'
 
-fromFilename = dataFolder + fromArtistJSON + '_' + dataDate + '.json'
-toFilename = dataFolder + toArtistJSON + '_' + dataDate + '.json'
+fromFilename = dataFolder + fromArtistJSON + dataDate + ext
+toFilename = dataFolder + toArtistJSON + dataDate + ext
 
 # Open file from which I will take data ("b" for "band")
 with open(fromFilename, 'r') as b:
