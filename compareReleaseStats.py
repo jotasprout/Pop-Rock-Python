@@ -1,28 +1,14 @@
 import json
 import artistsData
 
-# Open file from which I will take data ("b" for "band")
-with open('data/AliceCooper_Combined_03-03-19', 'r') as p:
+with open('data/AliceCooper_Combined_03-03-19.json', 'r') as p:
     artist = json.load(p)
 
-for release in artist['albums'][0]['releases']:
-   print (release['name'] + " with MBID " + release['mbid'] + " has " + release['playcount'] + " plays") 
-
-# Get a list of keys from dictionary which has the given value
-
-def getKeysByValue(dictOfElements, valueToFind):
-    listOfKeys = list()
-    listOfItems = dictOfElements.items()
-    for item  in listOfItems:
-        if item[1] == valueToFind:
-            listOfKeys.append(item[0])
-    return  listOfKeys
-
-# Get list of keys with value 43
-
-listOfKeys = getKeysByValue(artist, 43)
- 
-print("Keys with value equal to 43")
-#Iterate over the list of keys
-for key  in listOfKeys:
-        print(key)
+for album in artist['albums']:
+    releases = album['releases']
+    if len(releases)!=0:
+        albumMBID = album['releases'][0]['mbid']
+        albumName = album['releases'][0]['name']
+        albumListeners = album['releases'][0]['listeners']
+        albumPlaycount = album['releases'][0]['playcount']
+        print (albumName + " with MBID " + albumMBID + " has " + albumPlaycount + " plays and " + albumListeners + " listeners.") 
