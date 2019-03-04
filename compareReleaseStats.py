@@ -1,7 +1,6 @@
 import json
-import artistsData
 
-with open('data/AliceCooper_Combined_03-03-19.json', 'r') as p:
+with open('../Pop-Rock-PHP/data_text/jsonLastFM/AliceCooper_Combined_03-03-19.json', 'r') as p:
     artist = json.load(p)
 
 for album in artist['albums']:
