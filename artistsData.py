@@ -26,18 +26,7 @@ mbid_array = [
     'bbd80354-597e-4d53-94e4-92b3a7cb8f2c' # Saxon    
     ]
 
-mbid_array2 = [    
-    'b134d1bf-c7c7-4427-93ac-9fdbc2b59ef1', # Meat Loaf
-    '2cb3b264-277f-4d8f-bc86-1923ff8abdc0', # Stoney and Meat Loaf
-    '26f07661-e115-471d-a930-206f5c89d17c', # Motley Crue
-    'e491fae8-3a5a-438e-8368-925753fb41a1', # Ted Nugent
-    '8aa5b65a-5b3c-4029-92bf-47a544356934', # Ozzy Osbourne    
-    '0383dadf-2a4e-4d10-a46a-e9e041da8eb3', # Queen
-    '5c6acb91-4b9b-4245-b92f-e817295c4ed0', # Quiet Riot
-    'e3cb4543-210f-499a-b0d1-3882c312dfb9', # Rainbow
-    'ded0d67a-eb71-4fe9-83c0-1d18b8ed497e', # Runaways
-    'bbd80354-597e-4d53-94e4-92b3a7cb8f2c' # Saxon    
-    ]    
+mbid_array2 = ['e3cb4543-210f-499a-b0d1-3882c312dfb9', 'ded0d67a-eb71-4fe9-83c0-1d18b8ed497e', 'bbd80354-597e-4d53-94e4-92b3a7cb8f2c']    
 
 amboydukes_Spot = '5cVLuEqb7aOHuzwssXHzWI'
 anvil_Spot = ''
