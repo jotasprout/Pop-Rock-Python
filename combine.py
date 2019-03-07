@@ -3,13 +3,13 @@ import json
 JJBh = 'JoanJettandtheBlackhearts'
 JJ = 'JoanJett'
 
+AC='AliceCooper'
 
-
-dataDate = '03-03-19'
+dataDate = '03-06-19'
 
 dataFolder = 'data/'
-fromArtistJSON = 'AliceCooper_Group_'
-toArtistJSON = 'AliceCooper_Person_'
+fromArtistJSON = 'JoanJettandtheBlackhearts_Group_'
+toArtistJSON = 'JoanJett_Person_'
 ext = '.json'
 
 fromFilename = dataFolder + fromArtistJSON + dataDate + ext
