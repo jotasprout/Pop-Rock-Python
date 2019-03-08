@@ -5,11 +5,11 @@ JJ = 'JoanJett'
 
 AC='AliceCooper'
 
-dataDate = '03-06-19'
+dataDate = '03-08-19'
 
 dataFolder = 'data/'
-fromArtistJSON = 'JoanJettandtheBlackhearts_Group_'
-toArtistJSON = 'JoanJett_Person_'
+fromArtistJSON = 'AliceCooper_Group_'
+toArtistJSON = 'AliceCooper_Person_'
 ext = '.json'
 
 fromFilename = dataFolder + fromArtistJSON + dataDate + ext
