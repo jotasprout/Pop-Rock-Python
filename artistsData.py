@@ -24,9 +24,7 @@ mbid_array = [
     'e3cb4543-210f-499a-b0d1-3882c312dfb9', # Rainbow
     'ded0d67a-eb71-4fe9-83c0-1d18b8ed497e', # Runaways
     'bbd80354-597e-4d53-94e4-92b3a7cb8f2c' # Saxon    
-    ]
-
-mbid_array2 = ['0383dadf-2a4e-4d10-a46a-e9e041da8eb3', '5c6acb91-4b9b-4245-b92f-e817295c4ed0','e3cb4543-210f-499a-b0d1-3882c312dfb9', 'ded0d67a-eb71-4fe9-83c0-1d18b8ed497e', 'bbd80354-597e-4d53-94e4-92b3a7cb8f2c']    
+    ] 
 
 amboydukes_Spot = '5cVLuEqb7aOHuzwssXHzWI'
 anvil_Spot = ''
