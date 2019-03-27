@@ -49,6 +49,7 @@ mbid_array6 = [
     ] 
 
 mbid_array7 = [  
+
     'e3cb4543-210f-499a-b0d1-3882c312dfb9', # Rainbow
     '331ce348-1b08-40b9-8ed7-0763b92bd003', # roxyMusic
     'ded0d67a-eb71-4fe9-83c0-1d18b8ed497e', # Runaways
@@ -56,28 +57,13 @@ mbid_array7 = [
     '230ca093-1d00-4c57-9235-147942f66930' # zombies  
     ]     
 
-mbid_array2019 = [ 
-    'bd13909f-1c29-4c27-a874-d4aaf27c5b1a', # fleetwoodMac
-    '6be2828f-6c0d-4059-99d4-fa18acf1a296', # janetJackson
-    'abd506e1-6f2b-4d6f-b937-92c267f6f88b', # journey 
-    'a74b1b7f-71a5-4011-9441-d0b5e4122711', # radiohead
-    '4b1bf05d-0e3c-44a3-9fc8-ad088fc25797', # buckinghamNicks
-    '5d12875c-a197-43b2-8f29-41dc0ad895c3', # lindseyBuckingham
-    '69ee3720-a7cb-4402-b48d-a02c366f2bcf', # cure
-    '7249b899-8db8-43e7-9e6e-22f1e736024e', # defLeppard
-    '331ce348-1b08-40b9-8ed7-0763b92bd003', # roxyMusic
-    'b7f2cca2-72c6-41fb-ae33-53370fc62fe7', # stevieNicks 
-    '230ca093-1d00-4c57-9235-147942f66930' # zombies  
-    ] 
-
-
-mbid_arrayX = [  
+mbid_array = [  
     'ee58c59f-8e7f-4430-b8ca-236c4d3745ae', # Alice Cooper person   
     '4d7928cd-7ed2-4282-8c29-c0c9f966f1bd', # Alice Cooper band  
     '1a03f20c-26dd-4c26-bbe8-426e05ea46d5', # Amboy Dukes
     '07a85e96-bb72-4930-b41d-24853f4a4ede', # Anvil
     '5182c1d9-c7d2-4dad-afa0-ccfeada921a8', # Black Sabbath
-    '4b1bf05d-0e3c-44a3-9fc8-ad088fc25797', # buckinghamNicks
+    #'4b1bf05d-0e3c-44a3-9fc8-ad088fc25797', # buckinghamNicks
     '5d12875c-a197-43b2-8f29-41dc0ad895c3', # lindseyBuckingham
     '69ee3720-a7cb-4402-b48d-a02c366f2bcf', # cure
     '7249b899-8db8-43e7-9e6e-22f1e736024e', # defLeppard
