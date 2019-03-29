@@ -5,7 +5,7 @@ JJ = 'JoanJett'
 
 AC='AliceCooper'
 
-dataDate = '03-27-19'
+dataDate = '03-29-19'
 
 dataFolder = 'data/'
 fromArtistJSON = 'AliceCooper_Group_'
