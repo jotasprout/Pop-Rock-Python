@@ -1,9 +1,9 @@
 import json
 
-dataDate = '02-28-19'
+dataDate = '04-05-19'
 
-person = 'JoanJett_Person_'
-group = 'JoanJettandtheBlackhearts_Group_'
+person = 'data/JoanJett_Person_'
+group = 'data/JoanJettandtheBlackhearts_Group_'
 combined = 'JoanJett_Combined_'
 ext = '.json'
 
@@ -18,8 +18,8 @@ with open(groupFile, 'r') as g:
 with open(personFile, 'r') as p:
     joanjettJSON = json.load(p)
 
-with open(combinedFile, 'r') as c:
-    combinedJSON = json.load(c)
+#with open(combinedFile, 'r') as c:
+#    combinedJSON = json.load(c)
 
 joanjettListeners = int(joanjettJSON['stats']['listeners'])
 print ('JJ has ' + str(joanjettListeners) + ' listeners')

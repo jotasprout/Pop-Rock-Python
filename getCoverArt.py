@@ -8,9 +8,9 @@ BornAgainDemosalbummbid = "52c37691-e97e-3959-98c8-8b9a533eaeda"
 
 coverArtArchiveURL = 'http://coverartarchive.org/release/'
 
-release-mbid = ''
+releasembid = ''
     
-coverArtURL = coverArtArchiveURL + release-mbid
+coverArtURL = coverArtArchiveURL + releasembid
 
 coverArtMB = ['images']['image']
 
