@@ -211,7 +211,7 @@ def get_artists_data(artistVar):
     print("File written")
     #pprint.pprint(artist)
 
-for mbid in artistsData.mbid_array2:
+for mbid in artistsData.mbid_array:
     get_artists_data(mbid)
 # Questions to ask 
 ## Which artists, albums, tracks, have a lower listener-to-play ratio?

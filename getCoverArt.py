@@ -12,7 +12,7 @@ releasembid = ''
     
 coverArtURL = coverArtArchiveURL + releasembid
 
-coverArtMB = ['images']['image']
+coverArtMB = ['images'][0]['image']
 
 graveDemo = coverArtArchiveURL + ChildrenoftheGravealbummbid
 
@@ -21,3 +21,5 @@ bornDemo = coverArtArchiveURL + BornAgainDemosalbummbid
 graveDemo2 = 'http://coverartarchive.org/release/19772a1c-ea39-4104-bc99-ffc2203ea2ae'
 
 bornDemo2 = 'http://coverartarchive.org/release/52c37691-e97e-3959-98c8-8b9a533eaeda'
+
+graveDemo2_Response = 'https://ia801306.us.archive.org/18/items/mbid-19772a1c-ea39-4104-bc99-ffc2203ea2ae/mbid-19772a1c-ea39-4104-bc99-ffc2203ea2ae-11115023792.jpg';
