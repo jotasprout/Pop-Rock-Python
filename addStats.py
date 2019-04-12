@@ -1,15 +1,15 @@
 import json
 
-dataDate = '04-05-19'
+dataDate = '04-09-19'
 
 person = 'data/JoanJett_Person_'
 group = 'data/JoanJettandtheBlackhearts_Group_'
-combined = 'JoanJett_Combined_'
+# combined = 'JoanJett_Combined_'
 ext = '.json'
 
 personFile = person + dataDate + ext
 groupFile = group + dataDate + ext
-combinedFile = combined + dataDate + ext
+# combinedFile = combined + dataDate + ext
 
 # Open file from which I will take data ("bh" for "Blackhearts")
 with open(groupFile, 'r') as g:
