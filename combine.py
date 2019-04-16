@@ -1,6 +1,6 @@
 import json
 
-dataDate = '04-09-19'
+dataDate = '04-15-19'
 
 dataFolder = 'data/'
 # fromArtistJSON = 'AliceCooper_Group_'
