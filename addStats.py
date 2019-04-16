@@ -1,10 +1,10 @@
 import json
 
-dataDate = '04-15-19'
+dataDate = '04-16-19'
 
 person = 'data/JoanJett_Person_'
 group = 'data/JoanJettandtheBlackhearts_Group_'
-combined = 'JoanJett_Combined_'
+combined = 'data/JoanJett_Combined_'
 ext = '.json'
 
 personFile = person + dataDate + ext
@@ -34,19 +34,21 @@ blackheartsPlays = int(blackheartsJSON['stats']['playcount'])
 print ('Blackhearts have ' + str(blackheartsPlays) + ' plays')
 
 # Location of combined file stats
-combinedListeners = combinedJSON['stats']['listeners']
-combinedPlays = combinedJSON['stats']['playcount']
+#combinedListeners = combinedJSON['stats']['listeners']
+#combinedPlays = combinedJSON['stats']['playcount']
 
 # Add person listeners + group listeners
 newcombinedListeners = joanjettListeners + blackheartsListeners
 newcombinedPlays = joanjettPlays + blackheartsPlays
 
 # Change combined file totals to new sums
-combinedListeners = newcombinedListeners
-combinedPlays = newcombinedPlays
+#combinedListeners = newcombinedListeners
+#combinedPlays = newcombinedPlays
+combinedJSON['stats']['listeners'] = newcombinedListeners
+combinedJSON['stats']['playcount'] = newcombinedPlays
 
-print ('Combined Listeners is ' + str(combinedListeners) + ' total listeners')
-print ('Combined Playcount is ' + str(combinedPlays) + ' total plays')
+print ('Combined Listeners is ' + str(newcombinedListeners) + ' total listeners')
+print ('Combined Playcount is ' + str(newcombinedPlays) + ' total plays')
 
 with open(combinedFile, 'w') as f:
     f.write(json.dumps(combinedJSON))
