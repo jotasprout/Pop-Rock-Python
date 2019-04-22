@@ -92,6 +92,7 @@ mbid_array = [
     '331ce348-1b08-40b9-8ed7-0763b92bd003', # roxyMusic
     'ded0d67a-eb71-4fe9-83c0-1d18b8ed497e', # Runaways
     'bbd80354-597e-4d53-94e4-92b3a7cb8f2c', # Saxon  
+    '75167b8b-44e4-407b-9d35-effe87b223cf', # Neil Young
     '230ca093-1d00-4c57-9235-147942f66930' # zombies  
     ]     
 

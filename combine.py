@@ -1,12 +1,12 @@
 import json
 
-dataDate = '04-21-19'
+dataDate = '04-22-19'
 
 dataFolder = 'data/'
-#fromArtistJSON = 'AliceCooper_Group_'
-#toArtistJSON = 'AliceCooper_Person_'
-fromArtistJSON = 'JoanJettandtheBlackhearts_Group_'
-toArtistJSON = 'JoanJett_Person_'
+fromArtistJSON = 'AliceCooper_Group_'
+toArtistJSON = 'AliceCooper_Person_'
+#fromArtistJSON = 'JoanJettandtheBlackhearts_Group_'
+#toArtistJSON = 'JoanJett_Person_'
 ext = '.json'
 
 fromFilename = dataFolder + fromArtistJSON + dataDate + ext

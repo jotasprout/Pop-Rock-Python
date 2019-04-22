@@ -1,0 +1,258 @@
+[
+    {
+        "name": "Alice Cooper",
+        "stats": {
+            "listeners": 1372050,
+            "playcount": 31315458,
+            "ratio": "1:23"
+        }
+    },
+    {
+        "name": "Anvil",
+        "stats": {
+            "listeners": 80565,
+            "playcount": 1501986,
+            "ratio": "1:19"
+        }
+    },
+    {
+        "name": "Black Sabbath",
+        "stats": {
+            "listeners": 2444933,
+            "playcount": 100652570,
+            "ratio": "1:41"
+        }
+    },
+    {
+        "name": "Lindsey Buckingham",
+        "stats": {
+            "listeners": 150716,
+            "playcount": 1396956,
+            "ratio": "1:9"
+        }
+    },
+    {
+        "name": "Def Leppard",
+        "stats": {
+            "listeners": 1106358,
+            "playcount": 22844650,
+            "ratio": "1:21"
+        }
+    },
+    {
+        "name": "Dio",
+        "stats": {
+            "listeners": 927192,
+            "playcount": 23913954,
+            "ratio": "1:26"
+        }
+    },
+    {
+        "name": "Elf",
+        "stats": {
+            "listeners": 84644,
+            "playcount": 749445,
+            "ratio": "1:9"
+        }
+    },
+    {
+        "name": "Evil Stig",
+        "stats": {
+            "listeners": 1401,
+            "playcount": 21335,
+            "ratio": "1:15"
+        }
+    },
+    {
+        "name": "Fleetwood Mac",
+        "stats": {
+            "listeners": 2156691,
+            "playcount": 67608814,
+            "ratio": "1:31"
+        }
+    },
+    {
+        "name": "Heaven & Hell",
+        "stats": {
+            "listeners": 126654,
+            "playcount": 2226762,
+            "ratio": "1:18"
+        }
+    },
+    {
+        "name": "Janet Jackson",
+        "stats": {
+            "listeners": 1284135,
+            "playcount": 22408490,
+            "ratio": "1:17"
+        }
+    },
+    {
+        "name": "Joan Jett",
+        "stats": {
+            "listeners": 721329,
+            "playcount": 8969030,
+            "ratio": "1:12"
+        }
+    },
+    {
+        "name": "Journey",
+        "stats": {
+            "listeners": 1694257,
+            "playcount": 27556893,
+            "ratio": "1:16"
+        }
+    },
+    {
+        "name": "Meat Loaf",
+        "stats": {
+            "listeners": 770915,
+            "playcount": 10782975,
+            "ratio": "1:14"
+        }
+    },
+    {
+        "name": "M\u00f6tley Cr\u00fce",
+        "stats": {
+            "listeners": 1051234,
+            "playcount": 29479413,
+            "ratio": "1:28"
+        }
+    },
+    {
+        "name": "Stevie Nicks",
+        "stats": {
+            "listeners": 585130,
+            "playcount": 7067443,
+            "ratio": "1:12"
+        }
+    },
+    {
+        "name": "Ozzy Osbourne",
+        "stats": {
+            "listeners": 1781945,
+            "playcount": 47124910,
+            "ratio": "1:26"
+        }
+    },
+    {
+        "name": "Queen",
+        "stats": {
+            "listeners": 4026643,
+            "playcount": 192082009,
+            "ratio": "1:48"
+        }
+    },
+    {
+        "name": "Quiet Riot",
+        "stats": {
+            "listeners": 514871,
+            "playcount": 4263852,
+            "ratio": "1:8"
+        }
+    },
+    {
+        "name": "Radiohead",
+        "stats": {
+            "listeners": 4734745,
+            "playcount": 499957475,
+            "ratio": "1:106"
+        }
+    },
+    {
+        "name": "Rainbow",
+        "stats": {
+            "listeners": 866332,
+            "playcount": 17851355,
+            "ratio": "1:21"
+        }
+    },
+    {
+        "name": "Ronnie Dio and the Prophets",
+        "stats": {
+            "listeners": 2822,
+            "playcount": 42876,
+            "ratio": "1:15"
+        }
+    },
+    {
+        "name": "Ronnie Dio and the Red Caps",
+        "stats": {
+            "listeners": 80,
+            "playcount": 156,
+            "ratio": "1:2"
+        }
+    },
+    {
+        "name": "Roxy Music",
+        "stats": {
+            "listeners": 830021,
+            "playcount": 13811533,
+            "ratio": "1:17"
+        }
+    },
+    {
+        "name": "Saxon",
+        "stats": {
+            "listeners": 425451,
+            "playcount": 10101519,
+            "ratio": "1:24"
+        }
+    },
+    {
+        "name": "Stoney & Meatloaf",
+        "stats": {
+            "listeners": 189,
+            "playcount": 887,
+            "ratio": "1:5"
+        }
+    },
+    {
+        "name": "Ted Nugent",
+        "stats": {
+            "listeners": 455489,
+            "playcount": 3757974,
+            "ratio": "1:8"
+        }
+    },
+    {
+        "name": "The Amboy Dukes",
+        "stats": {
+            "listeners": 58992,
+            "playcount": 342239,
+            "ratio": "1:6"
+        }
+    },
+    {
+        "name": "The Cure",
+        "stats": {
+            "listeners": 2934559,
+            "playcount": 156384466,
+            "ratio": "1:53"
+        }
+    },
+    {
+        "name": "The Electric Elves",
+        "stats": {
+            "listeners": 282,
+            "playcount": 1667,
+            "ratio": "1:6"
+        }
+    },
+    {
+        "name": "The Runaways",
+        "stats": {
+            "listeners": 371349,
+            "playcount": 4824727,
+            "ratio": "1:13"
+        }
+    },
+    {
+        "name": "The Zombies",
+        "stats": {
+            "listeners": 905642,
+            "playcount": 13834320,
+            "ratio": "1:15"
+        }
+    }
+]
