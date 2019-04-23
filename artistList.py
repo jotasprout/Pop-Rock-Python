@@ -10,6 +10,21 @@ artistList = [
     'FleetwoodMac_Group_',
     'Heaven&Hell_Group_', 
     'JanetJackson_Person_', 
+    'JoanJett_Combined_'
+]
+
+artistListFull = [
+    'AliceCooper_Combined_',
+    'Anvil_Group_',
+    'BlackSabbath_Group_',
+    'LindseyBuckingham_Person_',
+    'DefLeppard_Group_',
+    'Dio_Group_', 
+    'Elf_Group_', 
+    'EvilStig_Group_', 
+    'FleetwoodMac_Group_',
+    'Heaven&Hell_Group_', 
+    'JanetJackson_Person_', 
     'JoanJett_Combined_', 
     'Journey_Group_', 
     'MeatLoaf_Person_', 

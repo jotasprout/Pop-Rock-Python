@@ -1,7 +1,7 @@
 import json
 import artistList
 
-dataDate = '04-22-19'
+dataDate = '04-23-19'
 ratiosStr = 'ratios_'
 
 inputDataFolder = 'data/'
