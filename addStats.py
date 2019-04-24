@@ -1,6 +1,6 @@
 import json
 
-dataDate = '04-23-19'
+dataDate = '04-24-19'
 
 person = 'data/JoanJett_Person_'
 group = 'data/JoanJettandtheBlackhearts_Group_'
