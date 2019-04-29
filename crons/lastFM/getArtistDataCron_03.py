@@ -131,8 +131,8 @@ def get_artists_data(artistVar):
             responseCheck = requests.get(LastFM_albumCheckURL)
             albumData = json.loads(responseCheck.text)
             if "error" in albumData:
-                #print (LastFM_albumTitle + " on " + LastFM_albumDate + " from " + LastFM_albumCountry + " does not exist in LastFM")
-                #print (" ")
+                errorText = LastFM_albumTitle + " on " + LastFM_albumDate + " from " + LastFM_albumCountry + " does not exist in LastFM"
+                print (errorText.encode('utf-8'))
             else:
                 thisAlbum = {}
                 thisAlbum['name'] = albumData['album']['name']
@@ -176,7 +176,8 @@ def get_artists_data(artistVar):
                 trackData = json.loads(responseTrack.text)
                 # Get Listeners and Playcount for each Track (using Recording MBID) on an Album from LastFM
                 if "error" in trackData:
-                    #print (LastFM_trackTitle + " does not exist in LastFM")
+                    errorText2 = LastFM_trackTitle + " does not exist in LastFM"
+                    print (errorText2.encode('utf-8'))
                     #print (" ")
                 else:
                     aRecording['stats'] = {}
