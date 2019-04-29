@@ -144,7 +144,8 @@ def get_artists_data(artistVar):
                 thisAlbum['disambiguation'] = release['disambiguation']
                 thisAlbum['packaging'] = release['packaging']
                 validAlbumsForThisReleaseGroup = validAlbumsForThisReleaseGroup + [thisAlbum]
-                #print (thisAlbum['name'] + " on " + thisAlbum['date'] + " from " + thisAlbum['country'] + " exists in LastFM and stored in valid albums")
+                yayText1 = thisAlbum['name'] + " on " + thisAlbum['date'] + " from " + thisAlbum['country'] + " exists in LastFM and stored in valid albums"
+                print(yayText1.encode('utf-8'))
                 #print (" ")
             #print (" ")
 
@@ -188,7 +189,8 @@ def get_artists_data(artistVar):
                     aRecording['artistMBID'] = artist['mbid']
                     trackListeners = aRecording['stats']['listeners']
                     trackPlaycount = aRecording['stats']['playcount']
-                    #print(trackName + ' has ' + trackListeners + ' listeners and ' + trackPlaycount + ' plays.')
+                    yayText2 = trackName + ' has ' + trackListeners + ' listeners and ' + trackPlaycount + ' plays.'
+                    print(yayText2.encode('utf-8'))
                     validAlbum['tracks'] = validAlbum['tracks'] + [aRecording]
                     #print (" ")
             #print (MusicBrainz_releaseTitle + " has " + str(len(validAlbum['tracks'])) + " tracks.")
@@ -207,7 +209,11 @@ def get_artists_data(artistVar):
 
     artistJSON = json.dumps(artist, indent=4)
 
-    f = open ('data/' + artistNameFor_file_name + '_' + artistTypeFor_file_name  + '_' + dateFor_file_name + '.json', 'w')
+    newFilename = 'data/' + artistNameFor_file_name + '_' + artistTypeFor_file_name  + '_' + dateFor_file_name + '.json'
+
+    encodedFilename = newFilename.encode('utf-8')
+
+    f = open (encodedFilename, 'w')
     f.write (artistJSON)
     f.close()
 
