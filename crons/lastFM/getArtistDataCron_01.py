@@ -209,11 +209,11 @@ def get_artists_data(artistVar):
 
     artistJSON = json.dumps(artist, indent=4)
 
-    newFilename = 'data/' + artistNameFor_file_name + '_' + artistTypeFor_file_name  + '_' + dateFor_file_name + '.json'
+    newFilename = artistNameFor_file_name + '_' + artistTypeFor_file_name  + '_' + dateFor_file_name + '.json'
 
     encodedFilename = newFilename.encode('utf-8')
 
-    f = open (encodedFilename, 'w')
+    f = open (newFilename, 'w')
     f.write (artistJSON)
     f.close()
 
