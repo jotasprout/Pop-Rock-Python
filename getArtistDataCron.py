@@ -213,7 +213,7 @@ def get_artists_data(artistVar):
     print("File written")
     #pprint.pprint(artist)
 
-for mbid in artistsData.mbid_arrayZ:
+for mbid in artistsData.mbid_array:
     get_artists_data(mbid)
 
 # Questions to ask 
