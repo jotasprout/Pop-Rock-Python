@@ -1,10 +1,10 @@
 import json
 
-dataDate = '04-29-19'
+dataDate = '04-30-19'
 
-person = 'data/JoanJett_Person_'
-group = 'data/JoanJettandtheBlackhearts_Group_'
-combined = 'data/JoanJett_Combined_'
+person = '/home/roxorsox/public_html/poprock/crons/lastFM/data/JoanJett_Person_'
+group = '/home/roxorsox/public_html/poprock/crons/lastFM/data/JoanJettandtheBlackhearts_Group_'
+combined = '/home/roxorsox/public_html/poprock/crons/lastFM/data/JoanJett_Combined_'
 ext = '.json'
 
 personFile = person + dataDate + ext
