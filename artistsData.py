@@ -61,6 +61,7 @@ mbid_array_08 = [
     '382f1005-e9ab-4684-afd4-0bdae4ee37f2', # 2Pac
     'b95ce3ff-3d05-4e87-9e01-c97b66af13d4', # Eminem
     'd30a1d2b-e88d-4470-89cb-69d8c335ce3d', # Hollywood Vampires
+    'b83bc61f-8451-4a5d-8b8e-7e9ed295e822', # Elton John
     '33d700ce-064f-44f6-ab9e-60f9eed0fca1', # Ace Frehley
     '77db7b1e-f3e2-47cf-a95a-b1ef364b9f1a' # Frehley's Comet 
     ]      
@@ -113,7 +114,8 @@ mbid_array = [
     '484a1d40-0fb9-4768-acff-b570cedaacb4', # Heaven and Hell
     '6be2828f-6c0d-4059-99d4-fa18acf1a296', # janetJackson
     'f376828a-b438-4fda-bb2e-dcd5fbe81f83', # Joan Jett
-    '46e63d3b-d91b-4791-bb73-e9f638a45ea0', # Joan Jett and the Blackhearts  
+    '46e63d3b-d91b-4791-bb73-e9f638a45ea0', # Joan Jett and the Blackhearts 
+    'b83bc61f-8451-4a5d-8b8e-7e9ed295e822', # Elton John
     'abd506e1-6f2b-4d6f-b937-92c267f6f88b', # journey
     'b134d1bf-c7c7-4427-93ac-9fdbc2b59ef1', # Meat Loaf
     '2cb3b264-277f-4d8f-bc86-1923ff8abdc0', # Stoney and Meat Loaf
