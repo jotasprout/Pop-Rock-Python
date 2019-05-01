@@ -206,7 +206,7 @@ def get_artists_data(artistVar):
 
     artistJSON = json.dumps(artist, indent=4)
 
-    absPathFor_file_name = '/home/roxorsox/public_html/poprock/crons/lastFM/data'
+    absPathFor_file_name = '/home/roxorsox/public_html/poprock/crons/lastFM/data/'
 
     newFilename = absPathFor_file_name + artistNameFor_file_name + '_' + artistTypeFor_file_name  + '_' + dateFor_file_name + '.json'
 

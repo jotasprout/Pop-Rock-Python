@@ -37,6 +37,7 @@ mbid_array_05 = [
     'b134d1bf-c7c7-4427-93ac-9fdbc2b59ef1', # Meat Loaf
     '2cb3b264-277f-4d8f-bc86-1923ff8abdc0', # Stoney and Meat Loaf
     '26f07661-e115-471d-a930-206f5c89d17c', # Motley Crue
+    '1a9a8ca0-ea8e-4e9e-96aa-288155bb2c5d', # Todd Rundgren
     'b7f2cca2-72c6-41fb-ae33-53370fc62fe7' # stevieNicks 
     ]     
 
@@ -45,6 +46,7 @@ mbid_array_06 = [
     '8aa5b65a-5b3c-4029-92bf-47a544356934', # Ozzy Osbourne    
     '0383dadf-2a4e-4d10-a46a-e9e041da8eb3', # Queen
     '5c6acb91-4b9b-4245-b92f-e817295c4ed0', # Quiet Riot
+    '37283116-f2cc-47cb-8806-facd063b564f', # Utopia
     'a74b1b7f-71a5-4011-9441-d0b5e4122711' # radiohead
     ] 
 
@@ -129,7 +131,9 @@ mbid_array = [
     'e3cb4543-210f-499a-b0d1-3882c312dfb9', # Rainbow
     '331ce348-1b08-40b9-8ed7-0763b92bd003', # roxyMusic
     'ded0d67a-eb71-4fe9-83c0-1d18b8ed497e', # Runaways
+    '1a9a8ca0-ea8e-4e9e-96aa-288155bb2c5d', # Todd Rundgren
     'bbd80354-597e-4d53-94e4-92b3a7cb8f2c', # Saxon  
+    '37283116-f2cc-47cb-8806-facd063b564f', # Utopia
     '75167b8b-44e4-407b-9d35-effe87b223cf', # Neil Young
     '230ca093-1d00-4c57-9235-147942f66930' # zombies  
     ]     
