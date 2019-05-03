@@ -1,6 +1,10 @@
 import json
 
-dataDate = '04-30-19'
+dataDate = '05-03-19'
+
+#dataDate = '05-01-19'
+
+#dataDate = '05-02-19'
 
 dataFolder = '/home/roxorsox/public_html/poprock/crons/lastFM/data/'
 #fromArtistJSON = 'AliceCooper_Group_'
