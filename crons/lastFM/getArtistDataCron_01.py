@@ -18,6 +18,8 @@ date = time.strftime("%Y-%m-%d")
 
 def get_artists_data(artistVar):
 
+    artistStart = time.time()
+
     # Get artist info (inc Release-Groups) from MusicBrainz
     MusicBrainz_artistMBID = artistVar
 
@@ -207,6 +209,10 @@ def get_artists_data(artistVar):
     
     dateFor_file_name = time.strftime("%m-%d-%y")
 
+    artistEnd = time.time()
+    duration = artistEnd - artistStart
+    artist['taskDuration'] = duration
+
     artistJSON = json.dumps(artist, indent=4)
 
     absPathFor_file_name = '/home/roxorsox/public_html/poprock/crons/lastFM/data/'
@@ -214,6 +220,8 @@ def get_artists_data(artistVar):
     newFilename = absPathFor_file_name + artistNameFor_file_name + '_' + artistTypeFor_file_name  + '_' + dateFor_file_name + '.json'
 
     #encodedFilename = newFilename.encode('utf-8')
+
+
 
     f = open (newFilename, 'w')
     f.write (artistJSON)
