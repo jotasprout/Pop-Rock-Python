@@ -1,6 +1,8 @@
 import json
 
-dataDate = '05-03-19'
+#dataDate = '05-04-19'
+#dataDate = '05-05-19'
+dataDate = '05-06-19'
 
 person = '/home/roxorsox/public_html/poprock/crons/lastFM/data/JoanJett_Person_'
 group = '/home/roxorsox/public_html/poprock/crons/lastFM/data/JoanJettandtheBlackhearts_Group_'

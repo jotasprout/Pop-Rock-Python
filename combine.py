@@ -1,16 +1,16 @@
 import json
 
-dataDate = '05-03-19'
+dataDate = '05-04-19'
 
-#dataDate = '05-01-19'
+#dataDate = '05-05-19'
 
-#dataDate = '05-02-19'
+#dataDate = '05-06-19'
 
 dataFolder = '/home/roxorsox/public_html/poprock/crons/lastFM/data/'
-#fromArtistJSON = 'AliceCooper_Group_'
-#toArtistJSON = 'AliceCooper_Person_'
-fromArtistJSON = 'JoanJettandtheBlackhearts_Group_'
-toArtistJSON = 'JoanJett_Person_'
+fromArtistJSON = 'AliceCooper_Group_'
+toArtistJSON = 'AliceCooper_Person_'
+#fromArtistJSON = 'JoanJettandtheBlackhearts_Group_'
+#toArtistJSON = 'JoanJett_Person_'
 ext = '.json'
 
 fromFilename = dataFolder + fromArtistJSON + dataDate + ext
