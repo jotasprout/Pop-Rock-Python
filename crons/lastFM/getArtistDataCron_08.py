@@ -208,7 +208,9 @@ def get_artists_data(artistVar):
 
     artistEnd = time.time()
     duration = artistEnd - artistStart
-    artist['taskDuration'] = duration
+    artist['taskDuration']['Task Start'] = artistStart
+    artist['taskDuration']['Task End'] = artistEnd
+    artist['taskDuration']['Task Duration'] = duration
 
     artistJSON = json.dumps(artist, indent=4)
 
