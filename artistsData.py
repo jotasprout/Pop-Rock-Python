@@ -102,7 +102,7 @@ mbid_array = [
     '1a03f20c-26dd-4c26-bbe8-426e05ea46d5', # Amboy Dukes
     '07a85e96-bb72-4930-b41d-24853f4a4ede', # Anvil
     '5182c1d9-c7d2-4dad-afa0-ccfeada921a8', # Black Sabbath
-    #'4b1bf05d-0e3c-44a3-9fc8-ad088fc25797', # buckinghamNicks
+    '4b1bf05d-0e3c-44a3-9fc8-ad088fc25797', # buckinghamNicks
     '5d12875c-a197-43b2-8f29-41dc0ad895c3', # lindseyBuckingham
     '69ee3720-a7cb-4402-b48d-a02c366f2bcf', # cure
     '7249b899-8db8-43e7-9e6e-22f1e736024e', # defLeppard
