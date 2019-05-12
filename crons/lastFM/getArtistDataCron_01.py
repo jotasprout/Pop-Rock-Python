@@ -211,6 +211,7 @@ def get_artists_data(artistVar):
 
     artistEnd = time.time()
     duration = artistEnd - artistStart
+    artist['taskDuration'] = {}
     artist['taskDuration']['Task Start'] = artistStart
     artist['taskDuration']['Task End'] = artistEnd
     artist['taskDuration']['Task Duration'] = duration

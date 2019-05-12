@@ -69,6 +69,7 @@ def get_artists_data(artistVar):
 
     artistEnd = time.time()
     duration = artistEnd - artistStart
+    artist['taskDuration'] = {}
     artist['taskDuration']['Task Start'] = artistStart
     artist['taskDuration']['Task End'] = artistEnd
     artist['taskDuration']['Task Duration'] = duration
@@ -78,10 +79,6 @@ def get_artists_data(artistVar):
     absPathFor_file_name = '/home/roxorsox/public_html/poprock/crons/lastFM/data/'
 
     newFilename = absPathFor_file_name + artistNameFor_file_name + '_' + artistTypeFor_file_name  + '_' + dateFor_file_name + '.json'
-
-    #encodedFilename = newFilename.encode('utf-8')
-
-
 
     f = open (newFilename, 'w')
     f.write (artistJSON)
