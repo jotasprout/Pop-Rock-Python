@@ -3,16 +3,18 @@
 mbid_array_01 = [  
     'ee58c59f-8e7f-4430-b8ca-236c4d3745ae', # Alice Cooper person   
     '4d7928cd-7ed2-4282-8c29-c0c9f966f1bd', # Alice Cooper band  
+    '66bf7876-3898-47fa-8bdd-dc200f946cec', # Evil Stig 
     'f376828a-b438-4fda-bb2e-dcd5fbe81f83', # Joan Jett
     '46e63d3b-d91b-4791-bb73-e9f638a45ea0' # Joan Jett and the Blackhearts 
     ]     
 
 mbid_array_02 = [  
-    '5182c1d9-c7d2-4dad-afa0-ccfeada921a8', # Black Sabbath
+    
     '4b1bf05d-0e3c-44a3-9fc8-ad088fc25797', # buckinghamNicks
     '5d12875c-a197-43b2-8f29-41dc0ad895c3', # lindseyBuckingham
-    '69ee3720-a7cb-4402-b48d-a02c366f2bcf', # cure
-    '7249b899-8db8-43e7-9e6e-22f1e736024e' # defLeppard
+    'bd13909f-1c29-4c27-a874-d4aaf27c5b1a', # fleetwoodMac
+    'b7f2cca2-72c6-41fb-ae33-53370fc62fe7', # stevieNicks 
+    '69ee3720-a7cb-4402-b48d-a02c366f2bcf' # cure
     ] 
 
 mbid_array_03 = [  
@@ -21,15 +23,14 @@ mbid_array_03 = [
     '883871a1-f154-4df8-a7f7-558ea456dd0a', # Dio and the Redcaps    
     '30f9591a-778b-40dd-be8f-105589f9c998', # Electric Elves
     '57e0e9f3-24b5-46a6-be00-be793ca26e21', # Elf
-    '66bf7876-3898-47fa-8bdd-dc200f946cec' # Evil Stig 
     ]     
 
 mbid_array_04 = [  
     '1a03f20c-26dd-4c26-bbe8-426e05ea46d5', # Amboy Dukes
     '07a85e96-bb72-4930-b41d-24853f4a4ede', # Anvil
-    'bd13909f-1c29-4c27-a874-d4aaf27c5b1a', # fleetwoodMac
+    'e491fae8-3a5a-438e-8368-925753fb41a1', # Ted Nugent
     '484a1d40-0fb9-4768-acff-b570cedaacb4', # Heaven and Hell
-    '6be2828f-6c0d-4059-99d4-fa18acf1a296', # janetJackson  
+    '5182c1d9-c7d2-4dad-afa0-ccfeada921a8' # Black Sabbath 
     ] 
 
 mbid_array_05 = [  
@@ -37,17 +38,15 @@ mbid_array_05 = [
     'b134d1bf-c7c7-4427-93ac-9fdbc2b59ef1', # Meat Loaf
     '2cb3b264-277f-4d8f-bc86-1923ff8abdc0', # Stoney and Meat Loaf
     '26f07661-e115-471d-a930-206f5c89d17c', # Motley Crue
-    '1a9a8ca0-ea8e-4e9e-96aa-288155bb2c5d', # Todd Rundgren
-    'b7f2cca2-72c6-41fb-ae33-53370fc62fe7' # stevieNicks 
+    '7249b899-8db8-43e7-9e6e-22f1e736024e' # defLeppard
     ]     
 
 mbid_array_06 = [  
-    'e491fae8-3a5a-438e-8368-925753fb41a1', # Ted Nugent
     '8aa5b65a-5b3c-4029-92bf-47a544356934', # Ozzy Osbourne    
     '0383dadf-2a4e-4d10-a46a-e9e041da8eb3', # Queen
     '5c6acb91-4b9b-4245-b92f-e817295c4ed0', # Quiet Riot
-    '37283116-f2cc-47cb-8806-facd063b564f', # Utopia
-    'a74b1b7f-71a5-4011-9441-d0b5e4122711' # radiohead
+    '1a9a8ca0-ea8e-4e9e-96aa-288155bb2c5d', # Todd Rundgren
+    '37283116-f2cc-47cb-8806-facd063b564f' # Utopia
     ] 
 
 mbid_array_07 = [  

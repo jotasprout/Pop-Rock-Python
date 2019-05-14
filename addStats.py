@@ -3,11 +3,11 @@ import time
 
 #dataDate = '05-04-19'
 #dataDate = '05-05-19'
-#dataDate = '05-07-19'
+dataDate = '05-13-19'
 
-dateFor_file_name = time.strftime("%m-%d-%y")
+#dateFor_file_name = time.strftime("%m-%d-%y")
 
-dataDate = dateFor_file_name
+#dataDate = dateFor_file_name
 
 person = '/home/roxorsox/public_html/poprock/crons/lastFM/data/JoanJett_Person_'
 group = '/home/roxorsox/public_html/poprock/crons/lastFM/data/JoanJettandtheBlackhearts_Group_'
