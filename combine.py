@@ -4,17 +4,17 @@ import time
 #dataDate = '05-04-19'
 #dataDate = '05-05-19'
 #dataDate = '05-06-19'
-dataDate = '05-13-19'
+dataDate = '05-15-19'
 
 #dateFor_file_name = time.strftime("%m-%d-%y")
 
 #dataDate = dateFor_file_name
 
 dataFolder = '/home/roxorsox/public_html/poprock/crons/lastFM/data/'
-fromArtistJSON = 'AliceCooper_Group_'
-toArtistJSON = 'AliceCooper_Person_'
-#fromArtistJSON = 'JoanJettandtheBlackhearts_Group_'
-#toArtistJSON = 'JoanJett_Person_'
+#fromArtistJSON = 'AliceCooper_Group_'
+#toArtistJSON = 'AliceCooper_Person_'
+fromArtistJSON = 'JoanJettandtheBlackhearts_Group_'
+toArtistJSON = 'JoanJett_Person_'
 ext = '.json'
 
 fromFilename = dataFolder + fromArtistJSON + dataDate + ext
