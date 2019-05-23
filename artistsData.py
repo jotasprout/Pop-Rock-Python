@@ -3,24 +3,26 @@
 mbid_array_01 = [  
     'ee58c59f-8e7f-4430-b8ca-236c4d3745ae', # Alice Cooper person   
     '4d7928cd-7ed2-4282-8c29-c0c9f966f1bd', # Alice Cooper band  
-    'd30a1d2b-e88d-4470-89cb-69d8c335ce3d', # Hollywood Vampires    
+    'd30a1d2b-e88d-4470-89cb-69d8c335ce3d', # Hollywood Vampires  
+    '5441c29d-3602-4898-b1a1-b77fa23b8e50', # David Bowie
     '66bf7876-3898-47fa-8bdd-dc200f946cec', # Evil Stig 
     'f376828a-b438-4fda-bb2e-dcd5fbe81f83', # Joan Jett
     '46e63d3b-d91b-4791-bb73-e9f638a45ea0', # Joan Jett and the Blackhearts 
     'ded0d67a-eb71-4fe9-83c0-1d18b8ed497e', # Runaways    
     '1a03f20c-26dd-4c26-bbe8-426e05ea46d5', # Amboy Dukes
-    'e491fae8-3a5a-438e-8368-925753fb41a1' # Ted Nugent    
+    'e491fae8-3a5a-438e-8368-925753fb41a1', # Ted Nugent  
+    '6be2828f-6c0d-4059-99d4-fa18acf1a296' # janetJackson  
     ]     
 
 mbid_array_02 = [  
-    
     '4b1bf05d-0e3c-44a3-9fc8-ad088fc25797', # buckinghamNicks
     '5d12875c-a197-43b2-8f29-41dc0ad895c3', # lindseyBuckingham
     'bd13909f-1c29-4c27-a874-d4aaf27c5b1a', # fleetwoodMac
     'b7f2cca2-72c6-41fb-ae33-53370fc62fe7', # stevieNicks 
     '69ee3720-a7cb-4402-b48d-a02c366f2bcf', # cure
     '07a85e96-bb72-4930-b41d-24853f4a4ede', # Anvil 
-    'b95ce3ff-3d05-4e87-9e01-c97b66af13d4' # Eminem       
+    'b95ce3ff-3d05-4e87-9e01-c97b66af13d4', # Eminem  
+    'a74b1b7f-71a5-4011-9441-d0b5e4122711' # radiohead     
     ] 
 
 mbid_array_03 = [  
@@ -42,7 +44,7 @@ mbid_array_04 = [
     '519774a4-3b18-4042-b8c0-927845a616c9', # Jimmy Page  
     'c08ced1f-d248-4368-90e5-bf579b3bf5de', # The Firm
     'bd53f9a7-8be9-46b0-bf7d-1deea3cb57bc', # Robert Plant
-    '4a536dbf-8632-4cfd-b9ea-cdb35cb47c44', # Jimmy Page & Robert Plant      
+    '4a536dbf-8632-4cfd-b9ea-cdb35cb47c44', # Jimmy Page & Robert Plant     
     '191de76f-a224-445d-b041-54df16d65bf7' # Yardbirds    
     ] 
 
@@ -135,33 +137,6 @@ mbid_array = [
     '191de76f-a224-445d-b041-54df16d65bf7', # Yardbirds 
     '230ca093-1d00-4c57-9235-147942f66930' # zombies  
     ]     
-
-catchUp = [  
-    '382f1005-e9ab-4684-afd4-0bdae4ee37f2', # 2Pac 
-    '5441c29d-3602-4898-b1a1-b77fa23b8e50', # David Bowie
-    '4b1bf05d-0e3c-44a3-9fc8-ad088fc25797', # buckinghamNicks
-    '5d12875c-a197-43b2-8f29-41dc0ad895c3', # lindseyBuckingham
-    '618b6900-0618-4f1e-b835-bccb17f84294', # Eric Clapton
-    '04cd0cfd-bfd1-4c36-bc38-95c35e2c045f', # Cream  
-    '30f9591a-778b-40dd-be8f-105589f9c998', # Electric Elves
-    'b95ce3ff-3d05-4e87-9e01-c97b66af13d4', # Eminem 
-    'c08ced1f-d248-4368-90e5-bf579b3bf5de', # The Firm    
-    '33d700ce-064f-44f6-ab9e-60f9eed0fca1', # Ace Frehley
-    '77db7b1e-f3e2-47cf-a95a-b1ef364b9f1a', # Frehley's Comet     
-    'd30a1d2b-e88d-4470-89cb-69d8c335ce3d', # Hollywood Vampires 
-    '6be2828f-6c0d-4059-99d4-fa18acf1a296', # janetJackson
-    'b83bc61f-8451-4a5d-8b8e-7e9ed295e822', # Elton John
-    '519774a4-3b18-4042-b8c0-927845a616c9', # Jimmy Page  
-    'bd53f9a7-8be9-46b0-bf7d-1deea3cb57bc', # Robert Plant
-    '4a536dbf-8632-4cfd-b9ea-cdb35cb47c44', # Jimmy Page & Robert Plant  
-    'f37b3f31-b1f8-4b88-8cb5-b34f709b17d7', # Iggy Pop         
-    '1a9a8ca0-ea8e-4e9e-96aa-288155bb2c5d', # Todd Rundgren
-    '2cb3b264-277f-4d8f-bc86-1923ff8abdc0', # Stoney and Meat Loaf
-    '794c6bf2-3241-416f-9b8f-24e2d84a1c4b', # Stooges
-    '37283116-f2cc-47cb-8806-facd063b564f', # Utopia
-    '75167b8b-44e4-407b-9d35-effe87b223cf', # Neil Young
-    '191de76f-a224-445d-b041-54df16d65bf7' # Yardbirds 
-]    
 
 mbid_ArrayGETNEWARTISTS_symbol_thru_D = [  
     '', # Weird Al Yankovic  
