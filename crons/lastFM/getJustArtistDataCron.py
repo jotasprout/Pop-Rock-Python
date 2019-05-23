@@ -4,54 +4,40 @@ import requests
 import json
 import pprint
 import time
-import artistsData
-import musicBrainz
 import lastFM
 
 date = time.strftime("%Y-%m-%d")
- 
-# ARTIST INFO
-# Get artist info from MusicBrainz
+thisStart = time.time()
 
-#print ("Getting Artist info and RELEASE GROUPS from MusicBrainz")
+# ARTIST STATS
+#print ("Getting Artist stats from LastFM")
 #print (" ")
+
+# CREATE ARTISTS DICT
+statsToday = {}
+statsToday['date'] = date
+
+# START BUILDING ARTISTS LIST
+
+myArtists = []
+statsToday['myArtists'] = myArtists
 
 def get_artists_data(artistVar):
 
-    artistStart = time.time()
-
     # Get artist info (inc Release-Groups) from MusicBrainz
-    MusicBrainz_artistMBID = artistVar
-
-    getReleaseGroups_totalURL = musicBrainz.makeReleaseGroupsURL(MusicBrainz_artistMBID)
-
-    #musicBrainz.makeReleaseGroupsURL(MusicBrainz_artistMBID)
-
-    responseReleaseGroups = requests.get(getReleaseGroups_totalURL)
-
-    releaseGroupsJSON = responseReleaseGroups.json()
-
-    # START BUILDING ARTIST DICTIONARY
-    artistName = releaseGroupsJSON['name']
-    artistType = releaseGroupsJSON['type']
-
-    #create artist instance
-    artist = {}
-    artist['date'] = date
-    artist['name'] = artistName
-    artist['type'] = artistType
-    artist['mbid'] = MusicBrainz_artistMBID
-
-    #print ("Getting Artist stats from LastFM")
-    #print (" ")
-
-    LastFM_artistMBID = MusicBrainz_artistMBID
+    LastFM_artistMBID = artistVar
 
     get_artist_info_from_LastFM = lastFM.makeGetArtistInfoFromLastFM_URL(LastFM_artistMBID)
 
     artist_info_from_LastFM = requests.get(get_artist_info_from_LastFM)
 
     artistData = json.loads(artist_info_from_LastFM.text)
+
+    # BUILD ARTIST DICTIONARY
+    artist = {}
+
+    artist['name'] = artistData['name']
+    artist['mbid'] = LastFM_artistMBID    
 
     # Get Listeners and Playcount for Artist from LastFM
     artist['stats'] = {}
@@ -60,32 +46,54 @@ def get_artists_data(artistVar):
     artist['stats']['listeners'] = LastFM_artistListeners
     artist['stats']['playcount'] = LastFM_artistPlaycount
 
-    # Write artist to file
-    artistNameFor_file_name = artistName.replace(' ', '')
+    # Add this artist to myArtists list
+    statsToday['myArtists'] = statsToday['myArtists'] + artist
 
-    artistTypeFor_file_name = artistType
-    
-    dateFor_file_name = time.strftime("%m-%d-%y")
+basePath = '../Pop-Rock-PHP/crons/lastFM/'
 
-    artistEnd = time.time()
-    duration = artistEnd - artistStart
-    artist['taskDuration'] = {}
-    artist['taskDuration']['Task Start'] = artistStart
-    artist['taskDuration']['Task End'] = artistEnd
-    artist['taskDuration']['Task Duration'] = duration
+myArtists = []
 
-    artistJSON = json.dumps(artist, indent=4)
+def get_artist_info(fromFileName):
 
-    absPathFor_file_name = '/home/roxorsox/public_html/poprock/crons/lastFM/data/'
+    global myArtists
 
-    newFilename = absPathFor_file_name + artistNameFor_file_name + '_' + artistTypeFor_file_name  + '_' + dateFor_file_name + '.json'
+    fileName = basePath + fromFileName
 
-    f = open (newFilename, 'w')
-    f.write (artistJSON)
+    with open(fileName, 'r') as f:
+        artistInfo = json.load(f)
+        artist = {}
+        artist['name'] = artistInfo['name']
+        artist['mbid'] = artistInfo['mbid']  
+        artist['type'] = artistInfo['type']
+        artist['stats'] = {}
+        artist['stats']['listeners'] = ''
+        artist['stats']['playcount'] = ''
+        myArtists.append(artist)
     f.close()
-
-    print("File written")
-    #pprint.pprint(artist)
-
-for mbid in artistsData.mbid_array:
+    
+for mbid in artistsData.mbid_array_justArtistData:
     get_artists_data(mbid)
+
+thisEnd = time.time()
+duration = thisEnd - thisStart
+statsToday['taskDuration'] = {}
+statsToday['taskDuration']['Task Start'] = thisStart
+statsToday['taskDuration']['Task End'] = thisEnd
+statsToday['taskDuration']['Task Duration'] = duration
+
+# Write statsToday to file
+
+dateFor_file_name = time.strftime("%m-%d-%y")
+
+artistsStatsJSON = json.dumps(statsToday, indent=4)
+
+absPathForFileName = '/home/roxorsox/public_html/poprock/crons/lastFM/data/daily/'
+
+newFilename = absPathForFileName + dateFor_file_name + '.json'
+
+f = open (newFilename, 'w')
+f.write (artistsStatsJSON)
+f.close()
+
+print("File written")
+#pprint.pprint(artist)
