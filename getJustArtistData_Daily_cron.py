@@ -5,6 +5,7 @@ import json
 import pprint
 import time
 import lastFM
+import subprocess
 
 pL = pP = gL = gP = cL = cP = 0
 
@@ -65,8 +66,8 @@ def putAllInArtistsTo ():
         #lastFM.makeGetArtistInfoFromLastFM_URL(artistMBID) 
 
 
-def getStats(jj, bh):
-    global artistsTo
+def getStats():
+    global artistsTo, pL, pP, gL, gP
     for artist in artistsTo:
         artistMBID = artist['mbid']
         if (artistMBID == jj):
@@ -81,25 +82,31 @@ def getStats(jj, bh):
             break
     print ('JJ has ' + str(pL) + ' listeners')
     print ('JJ has ' + str(pP) + ' plays')
-    print ('Blackhearts have ' + str(gL) + ' listeners')
-    print ('Blackhearts have ' + str(gP) + ' plays')
+    print ('BH have ' + str(gL) + ' listeners')
+    print ('BH have ' + str(gP) + ' plays')
 
-def addStatsDaily (pL,pP,gL,gP):
+def addStatsDaily ():
+    global pL, pP, gL, gP, cL, cP
+    print ('pL = ' + str(pL))
+    print ('pP = ' + str(pP))
+    print ('gL = ' + str(gL))
+    print ('gP = ' + str(gP))
     cL = pL + gL
     cP = pP + gP
 
-def updateJJstats(cL,cP):
-    global artistsTo
+def updateJJstats():
+    global artistsTo, cL, cP
     for artist in artistsTo:
         artistMBID = artist['mbid']
         if (artistMBID == jj):
-            artist['stats']['listeners'] = pL
-            artist['stats']['playcount'] = pP
+            artist['stats']['listeners'] = cL
+            artist['stats']['playcount'] = cP
             break
-    print ('Combined has ' + str(cL) + ' listeners')
-    print ('Combined has' + str(cP) + ' plays')
+    print ('cL = ' + str(cL) + ' listeners')
+    print ('cP = ' + str(cP) + ' plays')
+    print (artist)
 
-def deleteBH():
+def deleteBH_old():
     global artistsTo
     for artist in artistsTo:
         artistMBID = artist['mbid']
@@ -107,13 +114,20 @@ def deleteBH():
             del artist
             break
 
+def deleteBH():
+    global artistsTo, bh
+    for i in range(len(artistsTo)):
+        if (artistsTo[i]['mbid'] == bh):
+            del artistsTo[i]
+            break
+
 getArtistListFromJSON()
 putAllInArtistsTo()
 
 print(len(artistsTo))
-getStats(jj, bh)
-addStatsDaily (pL,pP,gL,gP)
-updateJJstats(cL,cP)
+getStats()
+addStatsDaily ()
+updateJJstats()
 deleteBH()
 print(len(artistsTo))
 
@@ -123,9 +137,9 @@ dateFor_file_name = time.strftime("%m-%d-%y")
 
 artistsStatsJSON = json.dumps(statsToday, indent=4)
 
-#absPathForFileName = '/home/roxorsox/public_html/poprock/crons/lastFM/data/daily/'
+absPathForFileName = '/home/roxorsox/public_html/poprock/crons/lastFM/data/justDaily_'
 
-absPathForFileName = 'test6_'
+#absPathForFileName = 'justDaily_'
 
 newFilename = absPathForFileName + dateFor_file_name + '.json'
 
@@ -133,4 +147,6 @@ f = open (newFilename, 'w')
 f.write (artistsStatsJSON)
 f.close()
 
-print("File written")    
+print("File written with name " + newFilename)    
+
+subprocess.call(["/usr/local/bin/php" , "/home/roxorsox/public_html/poprock/crons/lastFM/insertJustArtistData_Daily_cron.php"])
