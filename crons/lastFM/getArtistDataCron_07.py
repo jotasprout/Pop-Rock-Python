@@ -7,6 +7,7 @@ import time
 import artistsData
 import musicBrainz
 import lastFM
+import subprocess
 
 date = time.strftime("%Y-%m-%d")
  
@@ -230,6 +231,10 @@ def get_artists_data(artistVar):
 
 for mbid in artistsData.mbid_array_07:
     get_artists_data(mbid)
+
+subprocess.call(["/usr/local/bin/php" , "/home/roxorsox/public_html/poprock/crons/lastFM/insertLastFMalbumData_07.php"])
+
+subprocess.call(["/usr/local/bin/php" , "/home/roxorsox/public_html/poprock/crons/lastFM/insertLastFMtrackData_07.php"])
 
 # Questions to ask 
 ## Which artists, albums, tracks, have a lower listener-to-play ratio?

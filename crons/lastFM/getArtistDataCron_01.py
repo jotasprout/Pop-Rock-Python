@@ -7,6 +7,7 @@ import time
 import artistsData
 import musicBrainz
 import lastFM
+import subprocess
 
 date = time.strftime("%Y-%m-%d")
  
@@ -224,8 +225,6 @@ def get_artists_data(artistVar):
 
     #encodedFilename = newFilename.encode('utf-8')
 
-
-
     f = open (newFilename, 'w')
     f.write (artistJSON)
     f.close()
@@ -233,8 +232,17 @@ def get_artists_data(artistVar):
     print("File written")
     #pprint.pprint(artist)
 
-for mbid in artistsData.mbid_array_01:
-    get_artists_data(mbid)
+def getGroup01():
+    for mbid in artistsData.mbid_array_01:
+        get_artists_data(mbid)
+    import combine_AliceCooper
+    import combine_JoanJett
+
+getGroup01()
+
+subprocess.call(["/usr/local/bin/php" , "/home/roxorsox/public_html/poprock/crons/lastFM/insertLastFMalbumData_01.php"])
+
+subprocess.call(["/usr/local/bin/php" , "/home/roxorsox/public_html/poprock/crons/lastFM/insertLastFMtrackData_01.php"])
 
 # Questions to ask 
 ## Which artists, albums, tracks, have a lower listener-to-play ratio?
