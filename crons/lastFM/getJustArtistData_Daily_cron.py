@@ -5,6 +5,7 @@ import json
 import pprint
 import time
 import lastFM
+import artistsData
 import subprocess
 
 pL = pP = gL = gP = cL = cP = 0
@@ -16,6 +17,7 @@ date = time.strftime("%Y-%m-%d")
 statsToday = {}
 statsToday['date'] = date
 artistsFrom = []
+artistsFrom = artistsData.myArtistDicts
 artistsTo = []
 
 def getArtistListFromJSON ():
@@ -34,18 +36,18 @@ def get_artists_data(artistVar):
 
     artist_info_from_LastFM = requests.get(get_artist_info_from_LastFM)
 
-    artistData = json.loads(artist_info_from_LastFM.text)
+    artistToday = json.loads(artist_info_from_LastFM.text)
 
     # BUILD ARTIST DICTIONARY
     artist = {}
 
-    artist['name'] = artistData['artist']['name']
+    artist['name'] = artistToday['artist']['name']
     artist['mbid'] = LastFM_artistMBID    
 
     # Get Listeners and Playcount for Artist from LastFM
     artist['stats'] = {}
-    LastFM_artistListeners = artistData['artist']['stats']['listeners']
-    LastFM_artistPlaycount = artistData['artist']['stats']['playcount']
+    LastFM_artistListeners = artistToday['artist']['stats']['listeners']
+    LastFM_artistPlaycount = artistToday['artist']['stats']['playcount']
     artist['stats']['listeners'] = LastFM_artistListeners
     artist['stats']['playcount'] = LastFM_artistPlaycount
 
@@ -121,7 +123,8 @@ def deleteBH():
             del artistsTo[i]
             break
 
-getArtistListFromJSON()
+#getArtistListFromJSON()
+
 putAllInArtistsTo()
 
 print(len(artistsTo))
