@@ -104,7 +104,7 @@ mbid_array = [
     '33d700ce-064f-44f6-ab9e-60f9eed0fca1', # Ace Frehley
     '77db7b1e-f3e2-47cf-a95a-b1ef364b9f1a', # Frehley's Comet     
     '484a1d40-0fb9-4768-acff-b570cedaacb4', # Heaven and Hell
-    'd30a1d2b-e88d-4470-89cb-69d8c335ce3d', # Hollywood Vampires 
+    #'d30a1d2b-e88d-4470-89cb-69d8c335ce3d', # Hollywood Vampires 
     '1253e5e9-eaa7-4ce6-81b8-09725e8cee43', # Iggy and the Stooges 
     '6be2828f-6c0d-4059-99d4-fa18acf1a296', # janetJackson
     'f376828a-b438-4fda-bb2e-dcd5fbe81f83', # Joan Jett
