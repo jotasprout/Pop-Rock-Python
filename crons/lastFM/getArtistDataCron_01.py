@@ -14,8 +14,8 @@ date = time.strftime("%Y-%m-%d")
 # ARTIST INFO
 # Get artist info from MusicBrainz
 
-#print ("Getting Artist info and RELEASE GROUPS from MusicBrainz")
-#print (" ")
+# print ("Getting Artist info and RELEASE GROUPS from MusicBrainz")
+# print (" ")
 
 def get_artists_data(artistVar):
 
@@ -43,8 +43,8 @@ def get_artists_data(artistVar):
     artist['type'] = artistType
     artist['mbid'] = MusicBrainz_artistMBID
 
-    #print ("Getting Artist stats from LastFM")
-    #print (" ")
+    # print ("Getting Artist stats from LastFM")
+    # print (" ")
 
     LastFM_artistMBID = MusicBrainz_artistMBID
 

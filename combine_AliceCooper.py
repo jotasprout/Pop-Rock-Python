@@ -1,9 +1,13 @@
+#!/usr/bin/python
+
 import json
 import time
 
 dateFor_file_name = time.strftime("%m-%d-%y")
 
 dataDate = dateFor_file_name
+
+# dataDate = '06-09-19'
 
 dataFolder = '/home/roxorsox/public_html/poprock/crons/lastFM/data/'
 fromArtistJSON = 'AliceCooper_Group_'
