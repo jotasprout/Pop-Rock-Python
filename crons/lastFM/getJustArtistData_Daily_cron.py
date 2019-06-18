@@ -42,7 +42,7 @@ def get_artists_data(artistVar):
     artist = {}
 
     artist['name'] = artistToday['artist']['name']
-    artist['images'] = artistToday['artist']['image']
+    #artist['images'] = artistToday['artist']['image']
     artist['mbid'] = LastFM_artistMBID    
 
     # Get Listeners and Playcount for Artist from LastFM

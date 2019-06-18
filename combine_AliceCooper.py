@@ -7,7 +7,7 @@ dateFor_file_name = time.strftime("%m-%d-%y")
 
 dataDate = dateFor_file_name
 
-# dataDate = '06-09-19'
+#dataDate = '06-16-19'
 
 dataFolder = '/home/roxorsox/public_html/poprock/crons/lastFM/data/'
 fromArtistJSON = 'AliceCooper_Group_'
@@ -43,8 +43,13 @@ print ('artistTo really has ' + str(len(newArtistToAlbums)) + ' albums')
 
 combinedArtistName = artistTo['name'].replace(' ', '')
 
-with open('data/' + combinedArtistName + '_Combined_' + dataDate + '.json', 'w') as f:
-    f.write(json.dumps(artistTo))
+combinedFileName = 'data/' + combinedArtistName + '_Combined_' + dataDate + '.json'
 
-f.close
+ac = open(combinedFileName, 'w')
+ac.write(json.dumps(artistTo))
+ac.close()
+
+p.close()
+b.close()
+
 print('File written.')
