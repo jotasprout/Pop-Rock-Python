@@ -1,5 +1,8 @@
 # PopRock with Python
 
+## APIs that deserve and receive my gratitude
+- Last.fm
+
 ## Current and Future To Do (Ideas and whatnot)
 - Gather band member information
 
