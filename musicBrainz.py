@@ -37,10 +37,10 @@ def makeGetRecordings_totalURL(MusicBrainz_releaseMBID):
     getRecordings_totalURL = MusicBrainz_baseURL + MusicBrainz_releaseMethod + MusicBrainz_releaseMBID + MusicBrainz_recordings + MusicBrainz_jsonFormat
     return getRecordings_totalURL
 
-# I don't think I'm ever going to need below so I should delete it after confirmation
 # Get just artist info from MusicBrainz
 def makeArtistURL(MusicBrainz_artistMBID):
     getArtist_totalURL = MusicBrainz_baseURL + MusicBrainz_artistMethod + MusicBrainz_artistMBID + MusicBrainz_jsonFormat
     return getArtist_totalURL
 
+# Below is just artist info
 #test = 'https://www.musicbrainz.org/ws/2/artist/ee58c59f-8e7f-4430-b8ca-236c4d3745ae?fmt=json'    
