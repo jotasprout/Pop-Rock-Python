@@ -2,9 +2,7 @@
 
 ## APIs that deserve and receive my gratitude
 - Last.fm
-
-## Current and Future To Do (Ideas and whatnot)
-- Gather band member information
+- MusicBrainz.org
 
 ## Overall and Ongoing Purpose
 Gather and wrangle data from:
@@ -14,6 +12,7 @@ musicBrainz.py creates URLs for retrieving information using the MusicBrainz API
 - Release Groups (Each album)
 - Releases (Versions of each album)
 - Recordings (Songs)
+- Relationships (band members and other personnel)
 
 ### Last.fm
 lastFM.py creates URLs for retrieving statistics using the last.fm API about
