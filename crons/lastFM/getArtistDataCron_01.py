@@ -170,6 +170,7 @@ def get_artists_data(artistVar):
             for track in recordingsFromRelease['media'][0]['tracks']:
                 aRecording = {}
                 aRecording['mbid'] = track['recording']['id']
+                aRecording['trackNumber'] = track['number']
                 LastFM_trackMBID = aRecording['mbid']
                 aRecording['title'] = track['recording']['title']
                 LastFM_trackTitle = aRecording['title']
@@ -188,6 +189,7 @@ def get_artists_data(artistVar):
                     aRecording['stats']['listeners'] = trackData['track']['listeners']
                     aRecording['stats']['playcount'] = trackData['track']['playcount']
                     trackName = aRecording['title']
+                    aRecording['trackNumber'] = track['number']
                     aRecording['artistName'] = artist['name']
                     aRecording['artistMBID'] = artist['mbid']
                     trackListeners = aRecording['stats']['listeners']

@@ -43,4 +43,7 @@ def makeArtistURL(MusicBrainz_artistMBID):
     return getArtist_totalURL
 
 # Below is just artist info
-#test = 'https://www.musicbrainz.org/ws/2/artist/ee58c59f-8e7f-4430-b8ca-236c4d3745ae?fmt=json'    
+#test = 'https://www.musicbrainz.org/ws/2/artist/ee58c59f-8e7f-4430-b8ca-236c4d3745ae?fmt=json'  
+
+# Below is get recordings
+# rec = 'https://www.musicbrainz.org/ws/2/release/506844d3-80c7-4a41-9b6d-c16c496c8629?inc=recordings&fmt=json'
