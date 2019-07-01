@@ -16,4 +16,6 @@ releaseRelationships = "http://musicbrainz.org/ws/2/release/275b01eb-8551-47ff-b
 
 releaseRelationshipsPlus = "http://musicbrainz.org/ws/2/release/59211ea4-ffd2-4ad9-9a4e-941d3148024a?inc=artist-credits+labels+discids+recordings&fmt=json"
 
-recordingRelationships = "http://musicbrainz.org/ws/2/recording/fcbcdc39-8851-4efc-a02a-ab0e13be224f?inc=artist-credits+isrcs+releases&fmt=json"
+recordingRelationships = "http://musicbrainz.org/ws/2/recording/fcbcdc39-8851-4efc-a02a-ab0e13be224f?inc=artist-rels&fmt=json"
+
+recordingArtistCredits = "http://musicbrainz.org/ws/2/recording/fcbcdc39-8851-4efc-a02a-ab0e13be224f?inc=artist-credits+isrcs+releases&fmt=json"

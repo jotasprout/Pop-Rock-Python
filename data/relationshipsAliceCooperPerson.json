@@ -1,0 +1,1114 @@
+{
+    "disambiguation": "the musician Vincent Damon Furnier",
+    "type": "Person",
+    "end_area": null,
+    "id": "ee58c59f-8e7f-4430-b8ca-236c4d3745ae",
+    "gender": "Male",
+    "isnis": [
+        "0000000114742994",
+        "0000000368591874"
+    ],
+    "area": {
+        "name": "United States",
+        "sort-name": "United States",
+        "disambiguation": "",
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "iso-3166-1-codes": [
+            "US"
+        ]
+    },
+    "life-span": {
+        "begin": "1948-02-04",
+        "ended": false,
+        "end": null
+    },
+    "relations": [
+        {
+            "ended": false,
+            "attributes": [],
+            "target-credit": "",
+            "direction": "forward",
+            "attribute-values": {},
+            "source-credit": "",
+            "type": "collaboration",
+            "attribute-ids": {},
+            "begin": null,
+            "type-id": "75c09861-6857-4ec0-9729-84eefde7fc86",
+            "end": null,
+            "target-type": "artist",
+            "artist": {
+                "name": "Avantasia",
+                "sort-name": "Avantasia",
+                "disambiguation": "",
+                "id": "2ecbc483-dee4-442f-8ce7-f3ab31c73f87"
+            }
+        },
+        {
+            "ended": true,
+            "attributes": [
+                "drums (drum set)"
+            ],
+            "attribute-values": {},
+            "target-credit": "",
+            "direction": "backward",
+            "source-credit": "",
+            "type": "instrumental supporting musician",
+            "attribute-ids": {
+                "drums (drum set)": "12092505-6ee1-46af-a15a-b5b468b6b155"
+            },
+            "begin": "1989",
+            "type-id": "ed6a7891-ce70-4e08-9839-1f2f62270497",
+            "attribute-credits": {},
+            "end": "2010",
+            "target-type": "artist",
+            "artist": {
+                "name": "Jimmy DeGrasso",
+                "sort-name": "DeGrasso, Jimmy",
+                "disambiguation": "",
+                "id": "036efea8-0a96-41db-931d-6ebc33f6afac"
+            }
+        },
+        {
+            "ended": true,
+            "attributes": [
+                "guitar"
+            ],
+            "direction": "backward",
+            "target-credit": "",
+            "attribute-values": {},
+            "begin": null,
+            "source-credit": "",
+            "attribute-ids": {
+                "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+            },
+            "type": "instrumental supporting musician",
+            "attribute-credits": {},
+            "type-id": "ed6a7891-ce70-4e08-9839-1f2f62270497",
+            "end": null,
+            "artist": {
+                "disambiguation": "",
+                "id": "097c1b97-8a50-41b2-89c4-f1ec12d497d2",
+                "sort-name": "Moore, Vinnie",
+                "name": "Vinnie Moore"
+            },
+            "target-type": "artist"
+        },
+        {
+            "begin": "2011-08-29",
+            "type": "instrumental supporting musician",
+            "source-credit": "",
+            "attribute-ids": {
+                "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+            },
+            "attribute-credits": {},
+            "type-id": "ed6a7891-ce70-4e08-9839-1f2f62270497",
+            "end": "2014-06",
+            "artist": {
+                "disambiguation": "",
+                "id": "15674cab-ca9c-4704-b15f-c601d2f4409b",
+                "name": "Orianthi",
+                "sort-name": "Orianthi"
+            },
+            "target-type": "artist",
+            "ended": true,
+            "attributes": [
+                "guitar"
+            ],
+            "direction": "backward",
+            "target-credit": "",
+            "attribute-values": {}
+        },
+        {
+            "ended": false,
+            "attributes": [
+                "guitar"
+            ],
+            "attribute-values": {},
+            "target-credit": "",
+            "direction": "backward",
+            "type": "instrumental supporting musician",
+            "source-credit": "",
+            "attribute-ids": {
+                "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+            },
+            "begin": "2011",
+            "type-id": "ed6a7891-ce70-4e08-9839-1f2f62270497",
+            "attribute-credits": {},
+            "end": null,
+            "target-type": "artist",
+            "artist": {
+                "sort-name": "Henriksen, Tommy",
+                "name": "Tommy Henriksen",
+                "disambiguation": "",
+                "id": "16f162ba-cd61-4ef2-b5ca-0fa8bcdc2515"
+            }
+        },
+        {
+            "ended": false,
+            "attributes": [
+                "bass guitar"
+            ],
+            "target-credit": "",
+            "attribute-values": {},
+            "direction": "backward",
+            "begin": null,
+            "source-credit": "",
+            "type": "instrumental supporting musician",
+            "attribute-ids": {
+                "bass guitar": "17f9f065-2312-4a24-8309-6f6dd63e2e33"
+            },
+            "attribute-credits": {},
+            "type-id": "ed6a7891-ce70-4e08-9839-1f2f62270497",
+            "end": null,
+            "artist": {
+                "disambiguation": "",
+                "id": "1e8e1570-0c60-43b3-a7e7-1e77c1d5658a",
+                "sort-name": "Badanjek, Johnny",
+                "name": "Johnny Badanjek"
+            },
+            "target-type": "artist"
+        },
+        {
+            "type-id": "ed6a7891-ce70-4e08-9839-1f2f62270497",
+            "attribute-credits": {},
+            "type": "instrumental supporting musician",
+            "source-credit": "",
+            "attribute-ids": {
+                "bass guitar": "17f9f065-2312-4a24-8309-6f6dd63e2e33"
+            },
+            "begin": null,
+            "artist": {
+                "sort-name": "Smith, Greg",
+                "name": "Greg Smith",
+                "disambiguation": "US session bassist",
+                "id": "26f6dfc3-3472-4bf3-9dd6-d5f8a3d22884"
+            },
+            "target-type": "artist",
+            "end": null,
+            "ended": true,
+            "direction": "backward",
+            "target-credit": "",
+            "attribute-values": {},
+            "attributes": [
+                "bass guitar"
+            ]
+        },
+        {
+            "ended": true,
+            "target-credit": "",
+            "attribute-values": {},
+            "direction": "backward",
+            "attributes": [
+                "drums (drum set)"
+            ],
+            "attribute-credits": {},
+            "type-id": "ed6a7891-ce70-4e08-9839-1f2f62270497",
+            "begin": "1990",
+            "source-credit": "",
+            "type": "instrumental supporting musician",
+            "attribute-ids": {
+                "drums (drum set)": "12092505-6ee1-46af-a15a-b5b468b6b155"
+            },
+            "target-type": "artist",
+            "artist": {
+                "sort-name": "Singer, Eric",
+                "name": "Eric Singer",
+                "id": "293c8348-b107-4c08-b7f5-eb2448b7610a",
+                "disambiguation": "rock/metal drummer"
+            },
+            "end": "1996"
+        },
+        {
+            "source-credit": "",
+            "type": "instrumental supporting musician",
+            "attribute-ids": {
+                "electric guitar": "7ee8ebf5-3aed-4fc8-8004-49f4a8c45a87"
+            },
+            "begin": "2003",
+            "type-id": "ed6a7891-ce70-4e08-9839-1f2f62270497",
+            "attribute-credits": {},
+            "end": "2010",
+            "target-type": "artist",
+            "artist": {
+                "disambiguation": "",
+                "id": "305b2421-eb03-44cd-a2c8-d6fa8a9c26cc",
+                "sort-name": "Kelli, Keri",
+                "name": "Keri Kelli"
+            },
+            "ended": true,
+            "attributes": [
+                "electric guitar"
+            ],
+            "target-credit": "",
+            "attribute-values": {},
+            "direction": "backward"
+        },
+        {
+            "ended": true,
+            "direction": "backward",
+            "target-credit": "",
+            "attribute-values": {},
+            "attributes": [
+                "guitar"
+            ],
+            "attribute-credits": {},
+            "type-id": "ed6a7891-ce70-4e08-9839-1f2f62270497",
+            "begin": "1989",
+            "attribute-ids": {
+                "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+            },
+            "source-credit": "",
+            "type": "instrumental supporting musician",
+            "target-type": "artist",
+            "artist": {
+                "id": "3708099f-c130-443f-ba21-a1ce63631d9c",
+                "disambiguation": "",
+                "name": "Al Pitrelli",
+                "sort-name": "Pitrelli, Al"
+            },
+            "end": "1990"
+        },
+        {
+            "ended": true,
+            "attributes": [
+                "guitar"
+            ],
+            "target-credit": "",
+            "direction": "backward",
+            "attribute-values": {},
+            "begin": null,
+            "source-credit": "",
+            "attribute-ids": {
+                "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+            },
+            "type": "instrumental supporting musician",
+            "attribute-credits": {},
+            "type-id": "ed6a7891-ce70-4e08-9839-1f2f62270497",
+            "end": "2012",
+            "artist": {
+                "disambiguation": "rock guitarist",
+                "id": "3d1aee55-e0c2-4f5e-b339-8252991fe9da",
+                "name": "Steve Hunter",
+                "sort-name": "Hunter, Steve"
+            },
+            "target-type": "artist"
+        },
+        {
+            "direction": "backward",
+            "target-credit": "",
+            "attribute-values": {},
+            "attributes": [
+                "bass guitar"
+            ],
+            "ended": false,
+            "target-type": "artist",
+            "artist": {
+                "name": "Chuck Garric",
+                "sort-name": "Garric, Chuck",
+                "disambiguation": "",
+                "id": "68d43646-e238-4865-904b-3c5661392c28"
+            },
+            "end": null,
+            "type-id": "ed6a7891-ce70-4e08-9839-1f2f62270497",
+            "attribute-credits": {},
+            "type": "instrumental supporting musician",
+            "source-credit": "",
+            "attribute-ids": {
+                "bass guitar": "17f9f065-2312-4a24-8309-6f6dd63e2e33"
+            },
+            "begin": "2002"
+        },
+        {
+            "ended": true,
+            "attributes": [
+                "guitar"
+            ],
+            "direction": "backward",
+            "target-credit": "",
+            "attribute-values": {},
+            "begin": null,
+            "source-credit": "",
+            "attribute-ids": {
+                "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+            },
+            "type": "instrumental supporting musician",
+            "attribute-credits": {},
+            "type-id": "ed6a7891-ce70-4e08-9839-1f2f62270497",
+            "end": "2011-08-28",
+            "artist": {
+                "name": "Damon Johnson",
+                "sort-name": "Johnson, Damon",
+                "disambiguation": "",
+                "id": "6a29eef4-16df-4ba6-945c-0d37dcb2a26b"
+            },
+            "target-type": "artist"
+        },
+        {
+            "ended": true,
+            "target-credit": "",
+            "direction": "backward",
+            "attribute-values": {},
+            "attributes": [
+                "guitar"
+            ],
+            "type-id": "ed6a7891-ce70-4e08-9839-1f2f62270497",
+            "attribute-credits": {},
+            "source-credit": "",
+            "attribute-ids": {
+                "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+            },
+            "type": "instrumental supporting musician",
+            "begin": "1996",
+            "artist": {
+                "sort-name": "Roxie, Ryan",
+                "name": "Ryan Roxie",
+                "disambiguation": "",
+                "id": "790a1d7f-82a6-4dfd-a266-5bca162174bb"
+            },
+            "target-type": "artist",
+            "end": "2006"
+        },
+        {
+            "attribute-credits": {},
+            "type-id": "ed6a7891-ce70-4e08-9839-1f2f62270497",
+            "begin": "2012",
+            "attribute-ids": {
+                "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+            },
+            "source-credit": "",
+            "type": "instrumental supporting musician",
+            "artist": {
+                "sort-name": "Roxie, Ryan",
+                "name": "Ryan Roxie",
+                "disambiguation": "",
+                "id": "790a1d7f-82a6-4dfd-a266-5bca162174bb"
+            },
+            "target-type": "artist",
+            "end": null,
+            "ended": false,
+            "target-credit": "",
+            "attribute-values": {},
+            "direction": "backward",
+            "attributes": [
+                "guitar"
+            ]
+        },
+        {
+            "target-credit": "",
+            "attribute-values": {},
+            "direction": "backward",
+            "attributes": [
+                "guitar"
+            ],
+            "ended": true,
+            "target-type": "artist",
+            "artist": {
+                "sort-name": "Roberts, Kane",
+                "name": "Kane Roberts",
+                "id": "839a0cb4-8cb7-42a2-96b5-3651fd880933",
+                "disambiguation": ""
+            },
+            "end": "1988",
+            "type-id": "ed6a7891-ce70-4e08-9839-1f2f62270497",
+            "attribute-credits": {},
+            "type": "instrumental supporting musician",
+            "source-credit": "",
+            "attribute-ids": {
+                "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+            },
+            "begin": "1984"
+        },
+        {
+            "ended": false,
+            "attribute-values": {},
+            "target-credit": "",
+            "direction": "backward",
+            "attributes": [
+                "drums (drum set)"
+            ],
+            "attribute-credits": {},
+            "type-id": "ed6a7891-ce70-4e08-9839-1f2f62270497",
+            "begin": "2011",
+            "source-credit": "",
+            "attribute-ids": {
+                "drums (drum set)": "12092505-6ee1-46af-a15a-b5b468b6b155"
+            },
+            "type": "instrumental supporting musician",
+            "target-type": "artist",
+            "artist": {
+                "disambiguation": "",
+                "id": "8c252877-ed1f-4a12-a917-7e42b71d1451",
+                "sort-name": "Sobel, Glen",
+                "name": "Glen Sobel"
+            },
+            "end": null
+        },
+        {
+            "target-credit": "",
+            "attribute-values": {},
+            "direction": "backward",
+            "attributes": [
+                "keyboard"
+            ],
+            "ended": true,
+            "artist": {
+                "sort-name": "Andreadis, Teddy",
+                "name": "Teddy Andreadis",
+                "id": "9730d480-366f-41cc-88ed-95d76ed6d11a",
+                "disambiguation": "American piano/harmonica player Teddy \"Zig Zag\" Andreadis"
+            },
+            "target-type": "artist",
+            "end": null,
+            "attribute-credits": {},
+            "type-id": "ed6a7891-ce70-4e08-9839-1f2f62270497",
+            "begin": "2000",
+            "attribute-ids": {
+                "keyboard": "95b0c3d2-9606-4ef5-a019-9b7437f3adda"
+            },
+            "source-credit": "",
+            "type": "instrumental supporting musician"
+        },
+        {
+            "begin": "1989",
+            "type": "instrumental supporting musician",
+            "source-credit": "",
+            "attribute-ids": {
+                "keyboard": "95b0c3d2-9606-4ef5-a019-9b7437f3adda"
+            },
+            "attribute-credits": {},
+            "type-id": "ed6a7891-ce70-4e08-9839-1f2f62270497",
+            "end": "1998",
+            "target-type": "artist",
+            "artist": {
+                "sort-name": "Sherinian, Derek",
+                "name": "Derek Sherinian",
+                "id": "a5171273-7c17-4628-8bd2-c372e5cd9586",
+                "disambiguation": ""
+            },
+            "ended": true,
+            "attributes": [
+                "keyboard"
+            ],
+            "attribute-values": {},
+            "target-credit": "",
+            "direction": "backward"
+        },
+        {
+            "end": "1988",
+            "artist": {
+                "id": "abf0ad83-de2a-46c4-a066-7ad18b1df17b",
+                "disambiguation": "",
+                "name": "Kip Winger",
+                "sort-name": "Winger, Kip"
+            },
+            "target-type": "artist",
+            "type": "instrumental supporting musician",
+            "source-credit": "",
+            "attribute-ids": {
+                "bass guitar": "17f9f065-2312-4a24-8309-6f6dd63e2e33"
+            },
+            "begin": "1985",
+            "type-id": "ed6a7891-ce70-4e08-9839-1f2f62270497",
+            "attribute-credits": {},
+            "attributes": [
+                "bass guitar"
+            ],
+            "target-credit": "",
+            "direction": "backward",
+            "attribute-values": {},
+            "ended": true
+        },
+        {
+            "direction": "backward",
+            "target-credit": "",
+            "attribute-values": {},
+            "attributes": [
+                "drums (drum set)"
+            ],
+            "ended": true,
+            "target-type": "artist",
+            "artist": {
+                "id": "b63be4a2-51e3-472a-955f-f2c74870ba1d",
+                "disambiguation": "",
+                "name": "Ken Mary",
+                "sort-name": "Mary, Ken"
+            },
+            "end": null,
+            "attribute-credits": {},
+            "type-id": "ed6a7891-ce70-4e08-9839-1f2f62270497",
+            "begin": null,
+            "source-credit": "",
+            "attribute-ids": {
+                "drums (drum set)": "12092505-6ee1-46af-a15a-b5b468b6b155"
+            },
+            "type": "instrumental supporting musician"
+        },
+        {
+            "end": null,
+            "target-type": "artist",
+            "artist": {
+                "sort-name": "Funaro, Arti",
+                "name": "Arti Funaro",
+                "id": "b8e36a0c-a0ec-4f02-b935-b8610cfb7612",
+                "disambiguation": "guitarist"
+            },
+            "source-credit": "",
+            "attribute-ids": {
+                "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+            },
+            "type": "instrumental supporting musician",
+            "begin": null,
+            "type-id": "ed6a7891-ce70-4e08-9839-1f2f62270497",
+            "attribute-credits": {},
+            "attributes": [
+                "guitar"
+            ],
+            "attribute-values": {},
+            "target-credit": "Devlin 7",
+            "direction": "backward",
+            "ended": true
+        },
+        {
+            "ended": false,
+            "attributes": [
+                "bass guitar"
+            ],
+            "direction": "backward",
+            "target-credit": "",
+            "attribute-values": {},
+            "begin": null,
+            "attribute-ids": {
+                "bass guitar": "17f9f065-2312-4a24-8309-6f6dd63e2e33"
+            },
+            "source-credit": "",
+            "type": "instrumental supporting musician",
+            "attribute-credits": {},
+            "type-id": "ed6a7891-ce70-4e08-9839-1f2f62270497",
+            "end": null,
+            "target-type": "artist",
+            "artist": {
+                "name": "Bob Babbitt",
+                "sort-name": "Babbitt, Bob",
+                "id": "b8eee251-513a-4b05-a8d4-75dd4eee2e36",
+                "disambiguation": ""
+            }
+        },
+        {
+            "ended": true,
+            "attributes": [
+                "guitar"
+            ],
+            "direction": "backward",
+            "target-credit": "",
+            "attribute-values": {},
+            "begin": "1989",
+            "type": "instrumental supporting musician",
+            "source-credit": "",
+            "attribute-ids": {
+                "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+            },
+            "attribute-credits": {},
+            "type-id": "ed6a7891-ce70-4e08-9839-1f2f62270497",
+            "end": "1995",
+            "target-type": "artist",
+            "artist": {
+                "name": "Stef Burns",
+                "sort-name": "Burns, Stef",
+                "id": "bed9263a-a6dd-4a33-8160-0e0eb250248d",
+                "disambiguation": ""
+            }
+        },
+        {
+            "attributes": [
+                "bass guitar"
+            ],
+            "attribute-values": {},
+            "target-credit": "",
+            "direction": "backward",
+            "ended": false,
+            "end": null,
+            "artist": {
+                "name": "Stefan Adika",
+                "sort-name": "Adika, Stefan",
+                "disambiguation": "",
+                "id": "bef1ffdf-a602-4df7-9021-aa3f125fcaca"
+            },
+            "target-type": "artist",
+            "attribute-ids": {
+                "bass guitar": "17f9f065-2312-4a24-8309-6f6dd63e2e33"
+            },
+            "source-credit": "",
+            "type": "instrumental supporting musician",
+            "begin": null,
+            "type-id": "ed6a7891-ce70-4e08-9839-1f2f62270497",
+            "attribute-credits": {}
+        },
+        {
+            "ended": true,
+            "attributes": [
+                "drums (drum set)"
+            ],
+            "attribute-values": {},
+            "target-credit": "",
+            "direction": "backward",
+            "begin": null,
+            "source-credit": "",
+            "type": "instrumental supporting musician",
+            "attribute-ids": {
+                "drums (drum set)": "12092505-6ee1-46af-a15a-b5b468b6b155"
+            },
+            "attribute-credits": {},
+            "type-id": "ed6a7891-ce70-4e08-9839-1f2f62270497",
+            "end": null,
+            "target-type": "artist",
+            "artist": {
+                "sort-name": "Mover, Jonathan",
+                "name": "Jonathan Mover",
+                "disambiguation": "",
+                "id": "c4128a45-b39d-4411-81ad-0b509a5700e3"
+            }
+        },
+        {
+            "end": "2002",
+            "artist": {
+                "disambiguation": "Winger rhythm guitarist and keyboardist",
+                "id": "c58ee415-3c0a-47e3-81e9-5673a7663a7c",
+                "sort-name": "Taylor, Paul",
+                "name": "Paul Taylor"
+            },
+            "target-type": "artist",
+            "attribute-ids": {
+                "keyboard": "95b0c3d2-9606-4ef5-a019-9b7437f3adda"
+            },
+            "source-credit": "",
+            "type": "instrumental supporting musician",
+            "begin": "1996",
+            "type-id": "ed6a7891-ce70-4e08-9839-1f2f62270497",
+            "attribute-credits": {},
+            "attributes": [
+                "keyboard"
+            ],
+            "direction": "backward",
+            "target-credit": "",
+            "attribute-values": {},
+            "ended": true
+        },
+        {
+            "type-id": "ed6a7891-ce70-4e08-9839-1f2f62270497",
+            "attribute-credits": {},
+            "source-credit": "",
+            "attribute-ids": {
+                "bass guitar": "17f9f065-2312-4a24-8309-6f6dd63e2e33"
+            },
+            "type": "instrumental supporting musician",
+            "begin": null,
+            "target-type": "artist",
+            "artist": {
+                "name": "Tommy Caradona",
+                "sort-name": "Caradona, Tommy",
+                "disambiguation": "",
+                "id": "ce2987e6-79b0-4eaf-a982-f2b980cbfa22"
+            },
+            "end": null,
+            "ended": true,
+            "attribute-values": {},
+            "target-credit": "T-Bone Caradonna",
+            "direction": "backward",
+            "attributes": [
+                "bass guitar"
+            ]
+        },
+        {
+            "ended": true,
+            "attributes": [
+                "guitar"
+            ],
+            "attribute-values": {},
+            "target-credit": "",
+            "direction": "backward",
+            "begin": "1996",
+            "source-credit": "",
+            "type": "instrumental supporting musician",
+            "attribute-ids": {
+                "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+            },
+            "attribute-credits": {},
+            "type-id": "ed6a7891-ce70-4e08-9839-1f2f62270497",
+            "end": "2002",
+            "target-type": "artist",
+            "artist": {
+                "name": "Reb Beach",
+                "sort-name": "Beach, Reb",
+                "disambiguation": "",
+                "id": "d12e4035-354b-478f-9d8f-5ac5c3a58965"
+            }
+        },
+        {
+            "end": null,
+            "artist": {
+                "sort-name": "Strauss, Nita",
+                "name": "Nita Strauss",
+                "disambiguation": "",
+                "id": "e73db0bc-22eb-4589-9c6b-f35ad14f5647"
+            },
+            "target-type": "artist",
+            "begin": "2014-06",
+            "type": "instrumental supporting musician",
+            "source-credit": "",
+            "attribute-ids": {
+                "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+            },
+            "attribute-credits": {},
+            "type-id": "ed6a7891-ce70-4e08-9839-1f2f62270497",
+            "attributes": [
+                "guitar"
+            ],
+            "direction": "backward",
+            "target-credit": "",
+            "attribute-values": {},
+            "ended": false
+        },
+        {
+            "artist": {
+                "id": "f4873c59-a1b7-4dd1-ab1e-b211868ee79a",
+                "disambiguation": "",
+                "name": "Pete Friesen",
+                "sort-name": "Friesen, Pete"
+            },
+            "target-type": "artist",
+            "end": "1991",
+            "attribute-credits": {},
+            "type-id": "ed6a7891-ce70-4e08-9839-1f2f62270497",
+            "begin": "1989",
+            "source-credit": "",
+            "attribute-ids": {
+                "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+            },
+            "type": "instrumental supporting musician",
+            "target-credit": "Pete Freezin’",
+            "attribute-values": {},
+            "direction": "backward",
+            "attributes": [
+                "guitar"
+            ],
+            "ended": true
+        },
+        {
+            "type": "instrumental supporting musician",
+            "source-credit": "",
+            "attribute-ids": {
+                "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+            },
+            "begin": "1998",
+            "type-id": "ed6a7891-ce70-4e08-9839-1f2f62270497",
+            "attribute-credits": {},
+            "end": "2000",
+            "artist": {
+                "disambiguation": "",
+                "id": "f4873c59-a1b7-4dd1-ab1e-b211868ee79a",
+                "name": "Pete Friesen",
+                "sort-name": "Friesen, Pete"
+            },
+            "target-type": "artist",
+            "ended": true,
+            "attributes": [
+                "guitar"
+            ],
+            "direction": "backward",
+            "target-credit": "Pete Freezin’",
+            "attribute-values": {}
+        },
+        {
+            "begin": "2002",
+            "source-credit": "",
+            "attribute-ids": {
+                "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+            },
+            "type": "instrumental supporting musician",
+            "attribute-credits": {},
+            "type-id": "ed6a7891-ce70-4e08-9839-1f2f62270497",
+            "end": "2002",
+            "artist": {
+                "name": "Pete Friesen",
+                "sort-name": "Friesen, Pete",
+                "disambiguation": "",
+                "id": "f4873c59-a1b7-4dd1-ab1e-b211868ee79a"
+            },
+            "target-type": "artist",
+            "ended": true,
+            "attributes": [
+                "guitar"
+            ],
+            "target-credit": "Pete Freezin’",
+            "direction": "backward",
+            "attribute-values": {}
+        },
+        {
+            "attribute-values": {},
+            "target-credit": "",
+            "direction": "forward",
+            "attributes": [],
+            "ended": true,
+            "artist": {
+                "sort-name": "Welch, Raquel",
+                "name": "Raquel Welch",
+                "disambiguation": "",
+                "id": "6869e8ac-256e-4b6f-b02b-35e15497391b"
+            },
+            "target-type": "artist",
+            "end": "1975",
+            "type-id": "fd3927ba-fd51-4fa9-bcc2-e83637896fe8",
+            "begin": "1974",
+            "attribute-ids": {},
+            "source-credit": "",
+            "type": "involved with"
+        },
+        {
+            "type-id": "5be4c609-9afa-4ea0-910b-12ffb71e3821",
+            "begin": null,
+            "attribute-ids": {},
+            "source-credit": "",
+            "type": "member of band",
+            "artist": {
+                "name": "The Nazz",
+                "sort-name": "Nazz, The",
+                "disambiguation": "Late-60's band with Vincent Furnier (Alice Cooper).",
+                "id": "0c238f40-b333-4dd9-9918-63123d7af161"
+            },
+            "target-type": "artist",
+            "end": null,
+            "ended": false,
+            "target-credit": "",
+            "direction": "forward",
+            "attribute-values": {},
+            "attributes": []
+        },
+        {
+            "ended": false,
+            "attribute-values": {},
+            "target-credit": "",
+            "direction": "forward",
+            "attributes": [
+                "lead vocals"
+            ],
+            "type-id": "5be4c609-9afa-4ea0-910b-12ffb71e3821",
+            "attribute-credits": {},
+            "type": "member of band",
+            "source-credit": "",
+            "attribute-ids": {
+                "lead vocals": "8e2a3255-87c2-4809-a174-98cb3704f1a5"
+            },
+            "begin": null,
+            "target-type": "artist",
+            "artist": {
+                "disambiguation": "the group",
+                "id": "4d7928cd-7ed2-4282-8c29-c0c9f966f1bd",
+                "sort-name": "Alice Cooper",
+                "name": "Alice Cooper"
+            },
+            "end": null
+        },
+        {
+            "type-id": "5be4c609-9afa-4ea0-910b-12ffb71e3821",
+            "source-credit": "",
+            "attribute-ids": {},
+            "type": "member of band",
+            "begin": null,
+            "target-type": "artist",
+            "artist": {
+                "disambiguation": "Mid-60's band with Vincent Furnier (Alice Cooper).",
+                "id": "60c35afa-5ade-4cda-a250-c27aa3f8be9a",
+                "name": "The Spiders",
+                "sort-name": "Spiders, The"
+            },
+            "end": null,
+            "ended": false,
+            "target-credit": "",
+            "direction": "forward",
+            "attribute-values": {},
+            "attributes": []
+        },
+        {
+            "source-credit": "",
+            "attribute-ids": {
+                "harmonica": "63e37f1a-30b6-4746-8a49-dfb55be3cdd1",
+                "lead vocals": "8e2a3255-87c2-4809-a174-98cb3704f1a5"
+            },
+            "type": "member of band",
+            "begin": "2015",
+            "type-id": "5be4c609-9afa-4ea0-910b-12ffb71e3821",
+            "attribute-credits": {},
+            "end": null,
+            "target-type": "artist",
+            "artist": {
+                "name": "Hollywood Vampires",
+                "sort-name": "Hollywood Vampires",
+                "disambiguation": "supergroup fronted by Alice Cooper",
+                "id": "d30a1d2b-e88d-4470-89cb-69d8c335ce3d"
+            },
+            "ended": false,
+            "attributes": [
+                "harmonica",
+                "lead vocals"
+            ],
+            "target-credit": "",
+            "direction": "forward",
+            "attribute-values": {}
+        },
+        {
+            "type-id": "9421ca84-934f-49fe-9e66-dea242430406",
+            "begin": "1985-06-28",
+            "source-credit": "",
+            "type": "parent",
+            "attribute-ids": {},
+            "artist": {
+                "sort-name": "Cooper, Dash",
+                "name": "Dash Cooper",
+                "disambiguation": "",
+                "id": "cdb6e540-b1a8-4102-9650-50f32fccaf52"
+            },
+            "target-type": "artist",
+            "end": null,
+            "ended": false,
+            "target-credit": "",
+            "attribute-values": {},
+            "direction": "forward",
+            "attributes": []
+        },
+        {
+            "ended": false,
+            "attributes": [],
+            "target-credit": "",
+            "attribute-values": {},
+            "direction": "forward",
+            "begin": "1981-05-19",
+            "attribute-ids": {},
+            "source-credit": "",
+            "type": "parent",
+            "type-id": "9421ca84-934f-49fe-9e66-dea242430406",
+            "end": null,
+            "artist": {
+                "name": "Calico Cooper",
+                "sort-name": "Cooper, Calico",
+                "id": "fa954f9d-aadb-4d3d-ba86-05e393f6e077",
+                "disambiguation": ""
+            },
+            "target-type": "artist"
+        },
+        {
+            "end": null,
+            "target-type": "artist",
+            "artist": {
+                "name": "The Alice Cooper Experience",
+                "sort-name": "Alice Cooper Experience, The",
+                "disambiguation": "Alice Cooper Tribute Band",
+                "id": "316ab08c-7c5d-4edf-9667-ebd28cf519e2"
+            },
+            "source-credit": "",
+            "attribute-ids": {},
+            "type": "tribute",
+            "begin": null,
+            "type-id": "a6f62641-2f58-470e-b02b-88d7b984dc9f",
+            "attributes": [],
+            "direction": "backward",
+            "target-credit": "",
+            "attribute-values": {},
+            "ended": false
+        },
+        {
+            "begin": null,
+            "source-credit": "",
+            "type": "tribute",
+            "attribute-ids": {},
+            "type-id": "a6f62641-2f58-470e-b02b-88d7b984dc9f",
+            "end": null,
+            "target-type": "artist",
+            "artist": {
+                "sort-name": "Alice's Nightmare",
+                "name": "Alice's Nightmare",
+                "disambiguation": "Alice Cooper tribute band",
+                "id": "889e8650-d04b-480a-9004-f5b46596e072"
+            },
+            "ended": false,
+            "attributes": [],
+            "attribute-values": {},
+            "target-credit": "",
+            "direction": "backward"
+        },
+        {
+            "end": null,
+            "artist": {
+                "sort-name": "Alice in Cooperland",
+                "name": "Alice in Cooperland",
+                "disambiguation": "Alice Cooper tribute band",
+                "id": "ae5852a6-1a44-4d7a-b72c-59f8e88b188e"
+            },
+            "target-type": "artist",
+            "begin": null,
+            "source-credit": "",
+            "attribute-ids": {},
+            "type": "tribute",
+            "type-id": "a6f62641-2f58-470e-b02b-88d7b984dc9f",
+            "attributes": [],
+            "direction": "backward",
+            "target-credit": "",
+            "attribute-values": {},
+            "ended": false
+        },
+        {
+            "artist": {
+                "id": "b3ea9204-f914-473b-867d-e2df858f420f",
+                "disambiguation": "Alice Cooper tribute band based in Arizona",
+                "sort-name": "Halo of Flies",
+                "name": "Halo of Flies"
+            },
+            "target-type": "artist",
+            "end": null,
+            "type-id": "a6f62641-2f58-470e-b02b-88d7b984dc9f",
+            "begin": null,
+            "attribute-ids": {},
+            "source-credit": "",
+            "type": "tribute",
+            "target-credit": "",
+            "attribute-values": {},
+            "direction": "backward",
+            "attributes": [],
+            "ended": false
+        },
+        {
+            "ended": false,
+            "attributes": [],
+            "target-credit": "",
+            "attribute-values": {},
+            "direction": "backward",
+            "begin": null,
+            "type": "tribute",
+            "source-credit": "",
+            "attribute-ids": {},
+            "type-id": "a6f62641-2f58-470e-b02b-88d7b984dc9f",
+            "end": null,
+            "target-type": "artist",
+            "artist": {
+                "disambiguation": "Greek Alice Cooper tribute band",
+                "id": "ec142b8a-4e91-42c0-9bc3-5721918c4067",
+                "sort-name": "Snakebite",
+                "name": "Snakebite"
+            }
+        }
+    ],
+    "ipis": [
+        "00063816178",
+        "00078127071"
+    ],
+    "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+    "begin_area": {
+        "sort-name": "Detroit",
+        "name": "Detroit",
+        "disambiguation": "",
+        "id": "b03ff310-d8e2-45cf-9455-769f76641eb2"
+    },
+    "country": "US",
+    "name": "Alice Cooper",
+    "sort-name": "Cooper, Alice"
+}
