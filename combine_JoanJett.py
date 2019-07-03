@@ -5,9 +5,9 @@ import time
 
 dateFor_file_name = time.strftime("%m-%d-%y")
 
-dataDate = dateFor_file_name
+#dataDate = dateFor_file_name
 
-# dataDate = '06-16-19'
+dataDate = '06-30-19'
 
 dataFolder = '/home/roxorsox/public_html/poprock/crons/lastFM/data/'
 fromArtistJSON = 'JoanJettandtheBlackhearts_Group_'
