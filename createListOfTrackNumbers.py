@@ -3,12 +3,13 @@
 import json
 import artistsData
 
-artist = {}
-artist['tracks'] = []
+artists = []
+
+
 
 def getTrackNumbers(fromFileName):
-
-    global artist
+    artist = {}
+    artist['tracks'] = []
 
     fileName = fromFileName
 
@@ -51,4 +52,5 @@ with open(newFilename, 'w') as n:
     n.close()
 
 print("File written")
-#pprint.pprint(artist)
+
+
