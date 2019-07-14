@@ -7,7 +7,7 @@ dateFor_file_name = time.strftime("%m-%d-%y")
 
 #dataDate = dateFor_file_name
 
-dataDate = '06-30-19'
+dataDate = '07-07-19'
 
 dataFolder = '/home/roxorsox/public_html/poprock/crons/lastFM/data/'
 fromArtistJSON = 'AliceCooper_Group_'
