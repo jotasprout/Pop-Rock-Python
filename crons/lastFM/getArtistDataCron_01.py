@@ -237,8 +237,8 @@ def get_artists_data(artistVar):
 def getGroup01():
     for mbid in artistsData.mbid_array_01:
         get_artists_data(mbid)
-    import combine_AliceCooper
-    import combine_JoanJett
+    import combine_AliceCooper_forCron
+    import combine_JoanJett_forCron
 
 getGroup01()
 

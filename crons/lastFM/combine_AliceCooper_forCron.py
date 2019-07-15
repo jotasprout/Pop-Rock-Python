@@ -5,13 +5,13 @@ import time
 
 dateFor_file_name = time.strftime("%m-%d-%y")
 
-#dataDate = dateFor_file_name
+dataDate = dateFor_file_name
 
-dataDate = '06-30-19'
+#dataDate = '07-07-19'
 
 dataFolder = '/home/roxorsox/public_html/poprock/crons/lastFM/data/'
-fromArtistJSON = 'JoanJettandtheBlackhearts_Group_'
-toArtistJSON = 'JoanJett_Person_'
+fromArtistJSON = 'AliceCooper_Group_'
+toArtistJSON = 'AliceCooper_Person_'
 ext = '.json'
 
 fromFilename = dataFolder + fromArtistJSON + dataDate + ext
@@ -45,9 +45,9 @@ combinedArtistName = artistTo['name'].replace(' ', '')
 
 combinedFileName = 'data/' + combinedArtistName + '_Combined_' + dataDate + '.json'
 
-jj = open(combinedFileName, 'w')
-jj.write(json.dumps(artistTo))
-jj.close()
+ac = open(combinedFileName, 'w')
+ac.write(json.dumps(artistTo))
+ac.close()
 
 p.close()
 b.close()

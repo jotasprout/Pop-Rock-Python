@@ -1,26 +1,23 @@
+#!/usr/bin/python
+
 import json
 import time
 
-#dataDate = '05-04-19'
-#dataDate = '05-05-19'
-#dataDate = '05-06-19'
-dataDate = '07-07-19'
+dateFor_file_name = time.strftime("%m-%d-%y")
 
-#dateFor_file_name = time.strftime("%m-%d-%y")
+dataDate = dateFor_file_name
 
-#dataDate = dateFor_file_name
+#dataDate = '06-30-19'
 
 dataFolder = '/home/roxorsox/public_html/poprock/crons/lastFM/data/'
-#fromArtistJSON = 'AliceCooper_Group_'
-#toArtistJSON = 'AliceCooper_Person_'
 fromArtistJSON = 'JoanJettandtheBlackhearts_Group_'
 toArtistJSON = 'JoanJett_Person_'
 ext = '.json'
 
 fromFilename = dataFolder + fromArtistJSON + dataDate + ext
-print fromFilename
+print (fromFilename)
 toFilename = dataFolder + toArtistJSON + dataDate + ext
-print toFilename
+print (toFilename)
 
 # Open file from which I will take data ("b" for "band")
 with open(fromFilename, 'r') as b:
@@ -46,10 +43,13 @@ print ('artistTo really has ' + str(len(newArtistToAlbums)) + ' albums')
 
 combinedArtistName = artistTo['name'].replace(' ', '')
 
-with open('data/' + combinedArtistName + '_Combined_' + dataDate + '.json', 'w') as f:
-    f.write(json.dumps(artistTo))
+combinedFileName = 'data/' + combinedArtistName + '_Combined_' + dataDate + '.json'
 
-f.close
+jj = open(combinedFileName, 'w')
+jj.write(json.dumps(artistTo))
+jj.close()
+
+p.close()
+b.close()
+
 print('File written.')
-
-#import addStats
