@@ -130,7 +130,7 @@ putAllInArtistsTo()
 
 print(len(artistsTo))
 getStats()
-addStatsDaily ()
+addStatsDaily()
 updateJJstats()
 deleteBH()
 print(len(artistsTo))
