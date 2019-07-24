@@ -68,7 +68,6 @@ def putAllInArtistsTo ():
         get_artists_data(artistMBID)
         #lastFM.makeGetArtistInfoFromLastFM_URL(artistMBID) 
 
-
 def getStats():
     global artistsTo, pL, pP, gL, gP
     for artist in artistsTo:
