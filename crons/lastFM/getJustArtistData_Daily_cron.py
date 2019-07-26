@@ -42,7 +42,6 @@ def get_artists_data(artistVar):
     artist = {}
 
     artist['name'] = artistToday['artist']['name']
-    #artist['images'] = artistToday['artist']['image']
     artist['mbid'] = LastFM_artistMBID    
 
     # Get Listeners and Playcount for Artist from LastFM
@@ -58,15 +57,9 @@ def get_artists_data(artistVar):
     artistsTo.append(artist)
 
 def putAllInArtistsTo ():
-    #global artistsFrom
     for artist in artistsFrom:
-        # get artist mbid
         artistMBID = artist['mbid'] 
-        # create LastFM url for artist
-        # get artist stats from LastFM
-        # update artist in statsToday['myArtists']
         get_artists_data(artistMBID)
-        #lastFM.makeGetArtistInfoFromLastFM_URL(artistMBID) 
 
 def getStats():
     global artistsTo, pL, pP, gL, gP
@@ -123,8 +116,6 @@ def deleteBH():
             del artistsTo[i]
             break
 
-#getArtistListFromJSON()
-
 putAllInArtistsTo()
 
 print(len(artistsTo))
@@ -141,8 +132,6 @@ dateFor_file_name = time.strftime("%m-%d-%y")
 artistsStatsJSON = json.dumps(statsToday, indent=4)
 
 absPathForFileName = '/home/roxorsox/public_html/poprock/crons/lastFM/data/justDaily_'
-
-#absPathForFileName = 'justDaily_'
 
 newFilename = absPathForFileName + dateFor_file_name + '.json'
 

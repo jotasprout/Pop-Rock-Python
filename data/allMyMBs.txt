@@ -1,0 +1,66 @@
+﻿'d3a40fec-041f-4f8d-85f3-b325e12f92de', # 12th Tribe
+'8aad823a-4891-4354-a15a-536274f6736e', # 77s
+'33d700ce-064f-44f6-ab9e-60f9eed0fca1', # Ace Frehley
+'e3f1f4e5-5be3-46b9-a11b-8580a7e09015', # Argyle Park
+'64947ce4-79b3-4de4-a664-140b4e934628', # Barren Cross
+'b0f8a148-c7cd-4cae-ac5d-b390ec34f4ef', # Believer
+'47c8f88b-987a-4b64-9175-2b1b57809727', # Billy Idol
+'7e78a78b-3acc-4be2-a2a4-db8932b0f570', # Bloodgood
+'72c536dc-7137-4477-a521-567eeb840fa8', # Bob Dylan
+'7badd4c2-4462-46b6-bd42-4ffdc7a462c7', # Bride
+'af8e4cc5-ef54-458d-a194-7b210acf638f', # Cannibal Corpse
+'77f31531-c0aa-49aa-bb51-0905641c73f7', # Chagall Guevara
+'9b39533c-4432-4055-811b-6773e0c6c3a5', # Circle of Dust
+'72572672-8ffc-4597-b530-dab7ec9066b3', # Crashdog
+'04cd0cfd-bfd1-4c36-bc38-95c35e2c045f', # Cream
+'cbd8741f-e7f2-4fe2-82ad-95f0cbc90c89', # Deitiphobia
+'8d37ba6b-5474-4e49-9a93-7696aa08c0c3', # Deliverance
+'f92d6bfd-76e7-4394-aaec-9490756eb50c', # Dick Wagner
+'911a8b56-c455-4f21-a3b9-256255ff2725', # Dick Wagner & The Frost
+'c51f0b8b-2e92-47b2-b72d-07e4cd0cd115', # Disciples Of Christ
+'57b28f16-22ac-45a2-a866-58d6f65a087b', # E-Roc
+'cdb296bd-730d-475d-8c31-efb730337f8a', # E.T.W.
+'b87f4ce9-eab7-492d-9777-9dc001a2abcf', # Freedom Of Soul
+'4c141ecd-23f9-4881-9a8c-27e7e7af708c', # Generation X
+'7a6817e4-c0ca-4021-bb40-accd80181461', # Glenn Kaiser
+'d30a1d2b-e88d-4470-89cb-69d8c335ce3d', # Hollywood Vampires
+'16394dd5-4438-4a65-86b3-e1d954e0011f', # Jerusalem
+'c8f5272e-8a94-4807-9099-70181e92fc46', # Kings X
+'4d4c3444-f06e-4591-9f3c-55a21fa7ebc2', # Larry Norman
+'f2b81310-d559-4fd7-957d-2555c3887ab6', # Life Savers
+'9d1ebcfe-4c15-4d18-95d3-d919898638a1', # Lou Reed
+'b6174910-7335-4768-a42d-8e4655f37114', # Lust Control
+'50a40201-2f2f-4f2d-ab1d-4eb23befbc8b', # Mad At The World
+'f0169794-0188-40d4-8031-3fdb2e27db4a', # Mortal
+'59183a0a-0404-4391-9284-f2f43b5ea373', # Mortification
+'3b221a54-54b9-435c-a7f3-5cf8e2ce9fb2', # MxPx
+'89630b0c-6801-42f9-b013-3017722433c4', # Ninety Pound Wuss
+'f88dd1a1-8e46-4b89-84af-edeaa479e55a', # One Bad Pig
+'6e40e121-6795-4e93-9979-d5c6b7a4f56c', # P.I.D.
+'57e79d57-b795-475e-9fa2-5dd9d5513b8c', # P.O.D.
+'cbf344ae-68f6-45c8-9b52-fcb25dce4646', # Resurrection Band
+'fc4953aa-6bf4-4f1f-8e47-5ac79ca428e2', # Ronnie James Dio
+'2cfdf494-bf0f-4140-8022-9a0ba36183ac', # Sackcloth Fashion
+'391d85ad-2130-4732-8145-853908013354', # Saint
+'81a43a3c-d8a2-47b6-aa62-3140fa8e18c7', # say what?
+'44e613bc-692f-4cb3-bcfd-a7d5c59cf1bd', # Scaterd Few
+'b49efb71-3cb2-4770-a028-2422a69b3d2b', # Seventh Angel
+'1e06623c-eb85-458e-9154-37b98d2e364d', # SFC
+'6fbc0a77-9930-4d7d-bfe0-d8094dddc92c', # Sintax the Terrific
+'50809635-76df-4433-b324-b3c5258fb0a3', # Steve Taylor
+'46ce776c-c15e-4454-9bc3-32454e1fa513', # Steve Taylor & the Danielson Foil
+'7264743e-7ece-496c-8ad5-75747ce2e7d7', # Steve Taylor & The Perfect Foil
+'149cbb32-d8ac-43f3-81f4-e591910cd9de', # The Crucified
+'43065953-0174-46c4-bb93-828fb170b95b', # The Dynamic Twins
+'6ab0acff-51de-45db-95cc-bdf5a6dd8578', # The Frost
+'d410fb58-6422-4927-abf5-5288d5bbd239', # The Lead
+'2c0ec007-5669-4816-8a90-3b0ccd8c6c54', # The Violet Burning
+'5ca3f318-d028-4151-ac73-78e2b2d6cdcc', # Tom Petty
+'f93dbc64-6f08-4033-bcc7-8a0bb4689849', # Tom Petty and the Heartbreakers
+'0770a42f-10e3-4204-8459-0c6fba885852', # Tourniquet
+'9ac299cb-e6f3-4d8a-a20c-73bef538d00c', # TRYTAN
+'d76e213b-e1f1-417b-9b84-d21055afc71f', # Veil of Ashes
+'23ed6747-0e6a-4c1e-afd5-41d4e86c2bbd', # Vengeance Rising
+'0b76f44c-3a37-49f1-a424-889fcaec72dc', # Veni Domine
+'51f24fe4-6cb7-477a-a6ed-6be19abf99bb', # Whitecross
+'a4f375da-cc8b-4ac1-b988-c59905aba01d' # XL and Death Before Dishonor
