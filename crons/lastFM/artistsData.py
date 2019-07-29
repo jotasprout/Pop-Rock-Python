@@ -107,9 +107,9 @@ mbid_array = [
     '7249b899-8db8-43e7-9e6e-22f1e736024e', # defLeppard
     'cbd8741f-e7f2-4fe2-82ad-95f0cbc90c89', # Deitiphobia
     '8d37ba6b-5474-4e49-9a93-7696aa08c0c3', # Deliverance
-    'f92d6bfd-76e7-4394-aaec-9490756eb50c', # Dick Wagner
-    '911a8b56-c455-4f21-a3b9-256255ff2725', # Dick Wagner & The Frost
-    '6ab0acff-51de-45db-95cc-bdf5a6dd8578', # The Frost    
+    #'f92d6bfd-76e7-4394-aaec-9490756eb50c', # Dick Wagner
+    #'911a8b56-c455-4f21-a3b9-256255ff2725', # Dick Wagner & The Frost
+    #'6ab0acff-51de-45db-95cc-bdf5a6dd8578', # The Frost    
     'c51f0b8b-2e92-47b2-b72d-07e4cd0cd115', # Disciples Of Christ    
     'c55193fb-f5d2-4839-a263-4c044fca1456', # Dio
     'fc4953aa-6bf4-4f1f-8e47-5ac79ca428e2', # Ronnie James Dio    
@@ -176,19 +176,19 @@ mbid_array = [
     '1e06623c-eb85-458e-9154-37b98d2e364d', # SFC
     '6fbc0a77-9930-4d7d-bfe0-d8094dddc92c', # Sintax the Terrific
     '50809635-76df-4433-b324-b3c5258fb0a3', # Steve Taylor
-    '46ce776c-c15e-4454-9bc3-32454e1fa513', # Steve Taylor & the Danielson Foil
-    '7264743e-7ece-496c-8ad5-75747ce2e7d7', # Steve Taylor & The Perfect Foil
+    #'46ce776c-c15e-4454-9bc3-32454e1fa513', # Steve Taylor & the Danielson Foil
+    #'7264743e-7ece-496c-8ad5-75747ce2e7d7', # Steve Taylor & The Perfect Foil
     'bbd80354-597e-4d53-94e4-92b3a7cb8f2c', # Saxon  
     '2cb3b264-277f-4d8f-bc86-1923ff8abdc0', # Stoney and Meat Loaf
     '794c6bf2-3241-416f-9b8f-24e2d84a1c4b', # Stooges
     '149cbb32-d8ac-43f3-81f4-e591910cd9de', # The Crucified
     '43065953-0174-46c4-bb93-828fb170b95b', # The Dynamic Twins
-    '6ab0acff-51de-45db-95cc-bdf5a6dd8578', # The Frost
-    'd410fb58-6422-4927-abf5-5288d5bbd239', # The Lead
+    #'6ab0acff-51de-45db-95cc-bdf5a6dd8578', # The Frost
+    #'d410fb58-6422-4927-abf5-5288d5bbd239', # The Lead
     '2c0ec007-5669-4816-8a90-3b0ccd8c6c54', # The Violet Burning
     '5ca3f318-d028-4151-ac73-78e2b2d6cdcc', # Tom Petty
     'f93dbc64-6f08-4033-bcc7-8a0bb4689849', # Tom Petty and the Heartbreakers
-    '0770a42f-10e3-4204-8459-0c6fba885852', # Tourniquet
+    #'0770a42f-10e3-4204-8459-0c6fba885852', # Tourniquet
     '9ac299cb-e6f3-4d8a-a20c-73bef538d00c', # TRYTAN    
     '37283116-f2cc-47cb-8806-facd063b564f', # Utopia
     'd76e213b-e1f1-417b-9b84-d21055afc71f', # Veil of Ashes
@@ -886,7 +886,277 @@ myArtistDicts = [
             "listeners": "",
             "playcount": ""
         }
-    }   
+    },
+    {
+        "name": "Saint",
+        "mbid": "391d85ad-2130-4732-8145-853908013354",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },   
+    {
+        "name": "say what?",
+        "mbid": "81a43a3c-d8a2-47b6-aa62-3140fa8e18c7",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },
+    {
+        "name": "Scaterd Few",
+        "mbid": "44e613bc-692f-4cb3-bcfd-a7d5c59cf1bd",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },
+    {
+        "name": "SFC",
+        "mbid": "1e06623c-eb85-458e-9154-37b98d2e364d",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },
+    {
+        "name": "Seventh Angel",
+        "mbid": "b49efb71-3cb2-4770-a028-2422a69b3d2b",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },    
+    {
+        "name": "Saxon",
+        "mbid": "bbd80354-597e-4d53-94e4-92b3a7cb8f2c",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },
+    {
+        "name": "Stoney & Meatloaf",
+        "mbid": "2cb3b264-277f-4d8f-bc86-1923ff8abdc0",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },
+    {
+        "name": "Ted Nugent",
+        "mbid": "e491fae8-3a5a-438e-8368-925753fb41a1",
+        "type": "Person",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },
+    {
+        "name": "The Amboy Dukes",
+        "mbid": "1a03f20c-26dd-4c26-bbe8-426e05ea46d5",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },
+    {
+        "name": "The Cure",
+        "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },
+    {
+        "name": "The Electric Elves",
+        "mbid": "30f9591a-778b-40dd-be8f-105589f9c998",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },
+    {
+        "name": "The Firm",
+        "mbid": "c08ced1f-d248-4368-90e5-bf579b3bf5de",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },
+    {
+        "name": "The Runaways",
+        "mbid": "ded0d67a-eb71-4fe9-83c0-1d18b8ed497e",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },
+    {
+        "name": "The Stooges",
+        "mbid": "794c6bf2-3241-416f-9b8f-24e2d84a1c4b",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },    
+    {
+        "name": "The Yardbirds",
+        "mbid": "191de76f-a224-445d-b041-54df16d65bf7",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },
+    {
+        "name": "The Zombies",
+        "mbid": "230ca093-1d00-4c57-9235-147942f66930",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },
+    {
+        "name": "Todd Rundgren",
+        "mbid": "1a9a8ca0-ea8e-4e9e-96aa-288155bb2c5d",
+        "type": "Person",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },
+  {
+        "name": "The Crucified",
+        "mbid": "149cbb32-d8ac-43f3-81f4-e591910cd9de",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },
+    {
+        "name": "The Dynamic Twins",
+        "mbid": "43065953-0174-46c4-bb93-828fb170b95b",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },
+    {
+        "name": "The Lead",
+        "mbid": "d410fb58-6422-4927-abf5-5288d5bbd239",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },   
+    {
+        "name": "Tom Petty",
+        "mbid": "5ca3f318-d028-4151-ac73-78e2b2d6cdcc",
+        "type": "Person",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },
+    {
+        "name": "Tom Petty and the Heartbreakers",
+        "mbid": "f93dbc64-6f08-4033-bcc7-8a0bb4689849",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },    
+    {
+        "name": "Utopia",
+        "mbid": "37283116-f2cc-47cb-8806-facd063b564f",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },
+    {
+        "name": "The Violet Burning",
+        "mbid": "2c0ec007-5669-4816-8a90-3b0ccd8c6c54",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },  
+   {
+        "name": "TRYTAN",
+        "mbid": "9ac299cb-e6f3-4d8a-a20c-73bef538d00c",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },
+    {
+        "name": "XL and Death Before Dishonor",
+        "mbid": "a4f375da-cc8b-4ac1-b988-c59905aba01d",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },   
+    {
+        "name": "Whitecross",
+        "mbid": "51f24fe4-6cb7-477a-a6ed-6be19abf99bb",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },
+    {
+        "name": "Veni Domine",
+        "mbid": "0b76f44c-3a37-49f1-a424-889fcaec72dc",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },
+    {
+        "name": "Vengeance Rising",
+        "mbid": "23ed6747-0e6a-4c1e-afd5-41d4e86c2bbd",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },
+    {
+        "name": "Veil of Ashes",
+        "mbid": "d76e213b-e1f1-417b-9b84-d21055afc71f",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    }     
 ]    
 
 mbid_ArrayGETNEWARTISTS_symbol_thru_D = [  
