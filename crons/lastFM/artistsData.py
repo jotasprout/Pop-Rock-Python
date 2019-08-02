@@ -1,5 +1,14 @@
 # MBIDs from MusicBrainz.org
 
+mbid_array_01b = [  
+    'ee58c59f-8e7f-4430-b8ca-236c4d3745ae', # Alice Cooper person   
+    '4d7928cd-7ed2-4282-8c29-c0c9f966f1bd', # Alice Cooper band  
+    '66bf7876-3898-47fa-8bdd-dc200f946cec', # Evil Stig 
+    'f376828a-b438-4fda-bb2e-dcd5fbe81f83', # Joan Jett
+    '46e63d3b-d91b-4791-bb73-e9f638a45ea0', # Joan Jett and the Blackhearts 
+    'ded0d67a-eb71-4fe9-83c0-1d18b8ed497e' # Runaways       
+    ]     
+
 mbid_array_01 = [  
     'ee58c59f-8e7f-4430-b8ca-236c4d3745ae', # Alice Cooper person   
     '4d7928cd-7ed2-4282-8c29-c0c9f966f1bd', # Alice Cooper band  

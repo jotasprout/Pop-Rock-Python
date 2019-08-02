@@ -1,13 +1,13 @@
 import json
 import time
 
-dataDate = '07-21-19'
+dataDate = '07-28-19'
 
 dataFolder = '/home/roxorsox/public_html/poprock/crons/lastFM/data/'
-fromArtistJSON = 'AliceCooper_Group_'
-toArtistJSON = 'AliceCooper_Person_'
-#fromArtistJSON = 'JoanJettandtheBlackhearts_Group_'
-#toArtistJSON = 'JoanJett_Person_'
+#fromArtistJSON = 'AliceCooper_Group_'
+#toArtistJSON = 'AliceCooper_Person_'
+fromArtistJSON = 'JoanJettandtheBlackhearts_Group_'
+toArtistJSON = 'JoanJett_Person_'
 ext = '.json'
 
 pL = pP = gL = gP = cL = cP = 0
