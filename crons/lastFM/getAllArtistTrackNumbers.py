@@ -236,8 +236,6 @@ def get_All_Artists_All_TrackNumbers(artistVar):
 def getAll():
     for mbid in artistsData.mbid_array:
         get_All_Artists_All_TrackNumbers(mbid)
-    import combine_AliceCooper
-    import combine_JoanJett
 
 getAll()
 
