@@ -7,7 +7,7 @@ mbid_array_01b = [
     'f376828a-b438-4fda-bb2e-dcd5fbe81f83', # Joan Jett
     '46e63d3b-d91b-4791-bb73-e9f638a45ea0', # Joan Jett and the Blackhearts 
     'ded0d67a-eb71-4fe9-83c0-1d18b8ed497e' # Runaways       
-    ]     
+]     
 
 mbid_array_01 = [  
     'ee58c59f-8e7f-4430-b8ca-236c4d3745ae', # Alice Cooper person   
@@ -27,7 +27,7 @@ mbid_array_01 = [
     '64947ce4-79b3-4de4-a664-140b4e934628', # Barren Cross
     'b0f8a148-c7cd-4cae-ac5d-b390ec34f4ef', # Believer
     '47c8f88b-987a-4b64-9175-2b1b57809727', # Billy Idol    
-    ]     
+]     
 
 mbid_array_02 = [  
     '4b1bf05d-0e3c-44a3-9fc8-ad088fc25797', # buckinghamNicks
@@ -47,7 +47,7 @@ mbid_array_02 = [
     '72572672-8ffc-4597-b530-dab7ec9066b3', # Crashdog   
     'cbd8741f-e7f2-4fe2-82ad-95f0cbc90c89', # Deitiphobia
     '8d37ba6b-5474-4e49-9a93-7696aa08c0c3' # Deliverance             
-    ] 
+] 
 
 mbid_array_03 = [  
     'c55193fb-f5d2-4839-a263-4c044fca1456', # Dio
@@ -64,7 +64,7 @@ mbid_array_03 = [
     'cdb296bd-730d-475d-8c31-efb730337f8a', # E.T.W.   
     'b87f4ce9-eab7-492d-9777-9dc001a2abcf', # Freedom Of Soul     
     '4c141ecd-23f9-4881-9a8c-27e7e7af708c' # Generation X             
-    ]     
+]     
 
 mbid_array_04 = [  
     'b83bc61f-8451-4a5d-8b8e-7e9ed295e822', # Elton John
@@ -82,7 +82,7 @@ mbid_array_04 = [
     '4d4c3444-f06e-4591-9f3c-55a21fa7ebc2', # Larry Norman
     'f2b81310-d559-4fd7-957d-2555c3887ab6', # Life Savers  
     'b6174910-7335-4768-a42d-8e4655f37114' # Lust Control       
-    ] 
+] 
 
 mbid_array_05 = [  
     'abd506e1-6f2b-4d6f-b937-92c267f6f88b', # journey
@@ -108,7 +108,7 @@ mbid_array_05 = [
     'b49efb71-3cb2-4770-a028-2422a69b3d2b', # Seventh Angel
     '1e06623c-eb85-458e-9154-37b98d2e364d', # SFC
     '6fbc0a77-9930-4d7d-bfe0-d8094dddc92c' # Sintax the Terrific         
-    ]     
+]     
 
 mbid_array_06 = [  
     '0383dadf-2a4e-4d10-a46a-e9e041da8eb3', # Queen
@@ -124,7 +124,7 @@ mbid_array_06 = [
     '2c0ec007-5669-4816-8a90-3b0ccd8c6c54', # The Violet Burning
     '5ca3f318-d028-4151-ac73-78e2b2d6cdcc', # Tom Petty
     'f93dbc64-6f08-4033-bcc7-8a0bb4689849' # Tom Petty and the Heartbreakers        
-    ] 
+] 
 
 mbid_array_07 = [  
     'e3cb4543-210f-499a-b0d1-3882c312dfb9', # Rainbow
@@ -140,7 +140,7 @@ mbid_array_07 = [
     '0b76f44c-3a37-49f1-a424-889fcaec72dc', # Veni Domine
     '51f24fe4-6cb7-477a-a6ed-6be19abf99bb', # Whitecross
     'a4f375da-cc8b-4ac1-b988-c59905aba01d' # XL and Death Before Dishonor         
-    ]                
+]                
 
 mbid_array = [  
     'd3a40fec-041f-4f8d-85f3-b325e12f92de', # 12th Tribe
@@ -263,7 +263,7 @@ mbid_array = [
     '75167b8b-44e4-407b-9d35-effe87b223cf', # Neil Young
     '191de76f-a224-445d-b041-54df16d65bf7', # Yardbirds 
     '230ca093-1d00-4c57-9235-147942f66930' # zombies  
-    ]   
+]   
 
 myArtistDicts = [
     {
@@ -1225,34 +1225,26 @@ myArtistDicts = [
 
 mbid_ArrayGETNEWARTISTS_symbol_thru_D = [  
     '', # Weird Al Yankovic  
-    '', # 12th Tribe 
-    '', # 2Pac 
     '', # 77s 
     '', # AC/DC 
     '', # Accept 
     '', # Aerosmith 
     '', # Anthrax 
-    '', # Argyle Park 
     '', # Aterciopelados 
     '', # Aunt Bettys 
     '', # BBKing 
     '', # babymetal 
-    '', # barrenCross 
     '', # bauhaus 
     '', # beastieBoys 
     '', # belanova    
-    '', # believer  
     '', # billCosby 
     '', # blackFlag 
     '', # blindWillie Johnson 
     '', # Blondie 
-    '', # Bloodgood 
     '', # Blue Oyster cult 
     '', # Bob Seger 
     '', # Bon Jovi 
-    '', # Bride 
     '', # Bruce Springsteen 
-    '', # Cannibal Corpse 
     '', # Carl Perkins 
     '', # Catholic Girls 
     '', # Celtic Frost 
@@ -1261,9 +1253,7 @@ mbid_ArrayGETNEWARTISTS_symbol_thru_D = [
     '', # Cheech & Chong 
     '', # Chuck Berry 
     '', # Cinderella 
-    '', # Circle of Dust 
     '', # Cirith Ungol 
-    '', # Crashdog 
     '', # Cyndi Lauper 
     '', # Danger Danger 
     '', # Danzig 
