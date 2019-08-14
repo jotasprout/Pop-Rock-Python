@@ -21,6 +21,9 @@ MusicBrainz_releaseMethod = 'release/'
 # Part of URL for getting MusicBrainz Recordings info
 MusicBrainz_recordings = '?inc=recordings'
 
+# Part of URL for getting MusicBrainz artist genres
+MusicBrainz_genres = '?inc=genres'
+
 # MusicBrainz response format
 MusicBrainz_jsonFormat = '&fmt=json'
 
@@ -41,6 +44,11 @@ def makeGetRecordings_totalURL(MusicBrainz_releaseMBID):
 def makeArtistURL(MusicBrainz_artistMBID):
     getArtist_totalURL = MusicBrainz_baseURL + MusicBrainz_artistMethod + MusicBrainz_artistMBID + MusicBrainz_jsonFormat
     return getArtist_totalURL
+
+# Get artist info with genres from MusicBrainz
+def makeArtistGenresURL(MusicBrainz_artistMBID):
+    getArtist_totalURL = MusicBrainz_baseURL + MusicBrainz_artistMethod + MusicBrainz_artistMBID + MusicBrainz_genres + MusicBrainz_jsonFormat
+    return getArtistGenres_totalURL
 
 # Below is just artist info
 #test = 'https://www.musicbrainz.org/ws/2/artist/ee58c59f-8e7f-4430-b8ca-236c4d3745ae?fmt=json'  

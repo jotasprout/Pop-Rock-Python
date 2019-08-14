@@ -5,6 +5,7 @@ import json
 import pprint
 import time
 import lastFM
+import musicBrainz
 import artistsData
 import subprocess
 
@@ -27,7 +28,22 @@ def getArtistListFromJSON ():
     artistsFrom = artistInfo
     a.close()
 
+def getArtistGenres(artistVar):
+
+
+
+
 def get_artists_data(artistVar):
+
+    # Get artist genres from MusicBrainz
+
+    MusicBrainz_artistMBID = artistVar
+
+    getArtistInfoFromMusicBrainz = musicBrainz.makeArtistGenresURL(MusicBrainz_artistMBID)
+
+    artistInfoFromMB = requests.get(getArtistInfoFromMusicBrainz)
+
+    artistMB = json.loads(artistInfoFromMB.text)
 
     # Get artist info (inc Release-Groups) from MusicBrainz
     LastFM_artistMBID = artistVar
@@ -42,7 +58,8 @@ def get_artists_data(artistVar):
     artist = {}
 
     artist['name'] = artistToday['artist']['name']
-    artist['mbid'] = LastFM_artistMBID    
+    artist['mbid'] = LastFM_artistMBID 
+    artist['MBgenres'] = artistMB['genres']
 
     # Get Listeners and Playcount for Artist from LastFM
     artist['stats'] = {}

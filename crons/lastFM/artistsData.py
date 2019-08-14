@@ -26,7 +26,7 @@ mbid_array_01 = [
     'e3f1f4e5-5be3-46b9-a11b-8580a7e09015', # Argyle Park    
     '64947ce4-79b3-4de4-a664-140b4e934628', # Barren Cross
     'b0f8a148-c7cd-4cae-ac5d-b390ec34f4ef', # Believer
-    '47c8f88b-987a-4b64-9175-2b1b57809727', # Billy Idol    
+    '47c8f88b-987a-4b64-9175-2b1b57809727' # Billy Idol    
 ]     
 
 mbid_array_02 = [  
