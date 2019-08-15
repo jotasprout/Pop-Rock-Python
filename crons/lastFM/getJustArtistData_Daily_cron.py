@@ -28,11 +28,6 @@ def getArtistListFromJSON ():
     artistsFrom = artistInfo
     a.close()
 
-def getArtistGenres(artistVar):
-
-
-
-
 def get_artists_data(artistVar):
 
     # Get artist genres from MusicBrainz

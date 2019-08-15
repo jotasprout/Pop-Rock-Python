@@ -47,7 +47,7 @@ def makeArtistURL(MusicBrainz_artistMBID):
 
 # Get artist info with genres from MusicBrainz
 def makeArtistGenresURL(MusicBrainz_artistMBID):
-    getArtist_totalURL = MusicBrainz_baseURL + MusicBrainz_artistMethod + MusicBrainz_artistMBID + MusicBrainz_genres + MusicBrainz_jsonFormat
+    getArtistGenres_totalURL = MusicBrainz_baseURL + MusicBrainz_artistMethod + MusicBrainz_artistMBID + MusicBrainz_genres + MusicBrainz_jsonFormat
     return getArtistGenres_totalURL
 
 # Below is just artist info
