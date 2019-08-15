@@ -239,13 +239,13 @@ def get_artists_data(artistVar):
     print("File written")
     pprint.pprint(artist)
 
+bs = '5182c1d9-c7d2-4dad-afa0-ccfeada921a8'
 
-for mbid in artistsData.mbid_array_06:
-    get_artists_data(mbid)
+get_artists_data(bs)
 
-subprocess.call(["/usr/local/bin/php" , "/home/roxorsox/public_html/poprock/crons/lastFM/insertLastFMalbumData_06.php"])
+subprocess.call(["/usr/local/bin/php" , "/home/roxorsox/public_html/poprock/crons/lastFM/insertLastFMalbumData_03.php"])
 
-subprocess.call(["/usr/local/bin/php" , "/home/roxorsox/public_html/poprock/crons/lastFM/insertLastFMtrackData_06.php"])
+subprocess.call(["/usr/local/bin/php" , "/home/roxorsox/public_html/poprock/crons/lastFM/insertLastFMtrackData_03.php"])
 
 # Questions to ask 
 ## Which artists, albums, tracks, have a lower listener-to-play ratio?

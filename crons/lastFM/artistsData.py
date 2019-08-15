@@ -56,6 +56,7 @@ mbid_array_03 = [
     '30f9591a-778b-40dd-be8f-105589f9c998', # Electric Elves
     '57e0e9f3-24b5-46a6-be00-be793ca26e21', # Elf
     '484a1d40-0fb9-4768-acff-b570cedaacb4', # Heaven and Hell
+    'e3cb4543-210f-499a-b0d1-3882c312dfb9', # Rainbow    
     '8aa5b65a-5b3c-4029-92bf-47a544356934', # Ozzy Osbourne 
     '5182c1d9-c7d2-4dad-afa0-ccfeada921a8', # Black Sabbath     
     'c51f0b8b-2e92-47b2-b72d-07e4cd0cd115', # Disciples Of Christ 
@@ -103,11 +104,7 @@ mbid_array_05 = [
     'cbf344ae-68f6-45c8-9b52-fcb25dce4646', # Resurrection Band   
     '2cfdf494-bf0f-4140-8022-9a0ba36183ac', # Sackcloth Fashion
     '391d85ad-2130-4732-8145-853908013354', # Saint
-    '81a43a3c-d8a2-47b6-aa62-3140fa8e18c7', # say what?
-    '44e613bc-692f-4cb3-bcfd-a7d5c59cf1bd', # Scaterd Few
-    'b49efb71-3cb2-4770-a028-2422a69b3d2b', # Seventh Angel
-    '1e06623c-eb85-458e-9154-37b98d2e364d', # SFC
-    '6fbc0a77-9930-4d7d-bfe0-d8094dddc92c' # Sintax the Terrific         
+    '81a43a3c-d8a2-47b6-aa62-3140fa8e18c7' # say what?      
 ]     
 
 mbid_array_06 = [  
@@ -123,11 +120,12 @@ mbid_array_06 = [
     '43065953-0174-46c4-bb93-828fb170b95b', # The Dynamic Twins    
     '2c0ec007-5669-4816-8a90-3b0ccd8c6c54', # The Violet Burning
     '5ca3f318-d028-4151-ac73-78e2b2d6cdcc', # Tom Petty
-    'f93dbc64-6f08-4033-bcc7-8a0bb4689849' # Tom Petty and the Heartbreakers        
+    'f93dbc64-6f08-4033-bcc7-8a0bb4689849', # Tom Petty and the Heartbreakers  
+    '1e06623c-eb85-458e-9154-37b98d2e364d', # SFC
+    '6fbc0a77-9930-4d7d-bfe0-d8094dddc92c' # Sintax the Terrific         
 ] 
 
 mbid_array_07 = [  
-    'e3cb4543-210f-499a-b0d1-3882c312dfb9', # Rainbow
     '331ce348-1b08-40b9-8ed7-0763b92bd003', # roxyMusic
     'bbd80354-597e-4d53-94e4-92b3a7cb8f2c', # Saxon  
     '75167b8b-44e4-407b-9d35-effe87b223cf', # Neil Young
@@ -139,7 +137,9 @@ mbid_array_07 = [
     '23ed6747-0e6a-4c1e-afd5-41d4e86c2bbd', # Vengeance Rising
     '0b76f44c-3a37-49f1-a424-889fcaec72dc', # Veni Domine
     '51f24fe4-6cb7-477a-a6ed-6be19abf99bb', # Whitecross
-    'a4f375da-cc8b-4ac1-b988-c59905aba01d' # XL and Death Before Dishonor         
+    'a4f375da-cc8b-4ac1-b988-c59905aba01d', # XL and Death Before Dishonor      
+    '44e613bc-692f-4cb3-bcfd-a7d5c59cf1bd', # Scaterd Few
+    'b49efb71-3cb2-4770-a028-2422a69b3d2b' # Seventh Angel   
 ]                
 
 mbid_array = [  

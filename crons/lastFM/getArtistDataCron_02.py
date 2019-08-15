@@ -144,7 +144,7 @@ def get_artists_data(artistVar):
                 thisAlbum = {}
                 thisAlbum['name'] = albumData['album']['name']
                 thisAlbum['mbid'] = albumData['album']['mbid']
-                print ("This valid album-release " + thisAlbum['name'] + " from else now has MBID " thisAlbum['mbid'])
+                print ("This valid album-release " + thisAlbum['name'] + " from else now has MBID + " thisAlbum['mbid'])
                 thisAlbum['listeners'] = albumData['album']['listeners']
                 thisAlbum['playcount'] = albumData['album']['playcount']
                 thisAlbum['date'] = release['date']
