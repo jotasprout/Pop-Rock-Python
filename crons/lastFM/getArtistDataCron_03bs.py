@@ -112,7 +112,7 @@ def get_artists_data(artistVar):
         release_group_all_Releases = []
         for release in releasesJSON['releases']:
             aRelease = {}
-            aRelease['mbid'] = release['id']
+            aRelease['mbid'] = release['id'] # This is the correct id
             aRelease['title'] = release['title']
             print ("Release " + release['title'] + " in releasesJSON has release ID " + release['id'])
             print (" ")
@@ -129,12 +129,13 @@ def get_artists_data(artistVar):
 
         for release in release_group_all_Releases:
             print ("Release " + release['title'] + " in release_group_all_Releases has release MBID " + release['mbid'])
+            # above is still correct
             print (" ")
-            LastFM_albumMBID = release['mbid']
+            LastFM_albumMBID = release['mbid'] # this should still be correct
             LastFM_albumTitle = release['title']
             LastFM_albumCountry = release['country']
             LastFM_albumDate = release['date']
-            LastFM_albumCheckURL = lastFM.makeLastFM_albumCheckURL(LastFM_albumMBID)
+            LastFM_albumCheckURL = lastFM.makeLastFM_albumCheckURL(LastFM_albumMBID) # try this by itself with one of the MBIDs that works
             responseCheck = requests.get(LastFM_albumCheckURL)
             albumData = json.loads(responseCheck.text)
             if "error" in albumData:
@@ -143,7 +144,8 @@ def get_artists_data(artistVar):
             else:
                 thisAlbum = {}
                 thisAlbum['name'] = albumData['album']['name']
-                thisAlbum['mbid'] = albumData['album']['mbid']
+                thisAlbum['releaseMBID'] = LastFM_albumMBID
+                thisAlbum['mbid'] = albumData['album']['mbid'] # Whatever comes back from lines 138-140 is ... screwing it up
                 print ("This valid album-release " + thisAlbum['name'] + " from else now has MBID " + thisAlbum['mbid'])
                 thisAlbum['listeners'] = albumData['album']['listeners']
                 thisAlbum['playcount'] = albumData['album']['playcount']
@@ -165,6 +167,7 @@ def get_artists_data(artistVar):
             validAlbum['artistName'] = artist['name']
             validAlbum['artistMBID'] = artist['mbid']
             validAlbum['tracks'] = []
+            validAlbum['releaseMBID'] = validAlbum['releaseMBID']
             MusicBrainz_releaseMBID = validAlbum['mbid']
             MusicBrainz_releaseTitle = validAlbum['name']
             print ("This album-release " + MusicBrainz_releaseTitle + " by " + validAlbum['artistName'] + " has MBID " + MusicBrainz_releaseMBID)
