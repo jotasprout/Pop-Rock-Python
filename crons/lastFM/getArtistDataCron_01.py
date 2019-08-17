@@ -78,8 +78,6 @@ def get_artists_data(artistVar):
     #print ("Stored artist genres using Tags from LastFM")
     #print (" ")
 
-    # MAKE SURE ARTIST GETS GENRES FROM MusicBrainz AND TAGS FROM LastFM
-
     # GATHER MBID FOR RELEASE GROUPS
     # Store MBID for each Release-Group in a list
     releaseGroupsList = []

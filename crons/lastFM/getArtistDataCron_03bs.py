@@ -78,8 +78,6 @@ def get_artists_data(artistVar):
     #print ("Stored artist genres using Tags from LastFM")
     #print (" ")
 
-    # MAKE SURE ARTIST GETS GENRES FROM MusicBrainz AND TAGS FROM LastFM
-
     # GATHER MBID FOR RELEASE GROUPS
     # Store MBID for each Release-Group in a list
     releaseGroupsList = []
@@ -90,6 +88,7 @@ def get_artists_data(artistVar):
         aReleaseGroup = {}
         aReleaseGroup['mbid'] = releaseGroup['id']
         aReleaseGroup['title'] = releaseGroup['title']
+        print (aReleaseGroup['title'] + " releaseGroup has releaseGroup ID " + aReleaseGroup['mbid'])
         aReleaseGroup['releases'] = []
         releaseGroupsList = releaseGroupsList + [aReleaseGroup]
 
@@ -101,6 +100,7 @@ def get_artists_data(artistVar):
     #print ("Getting Releases from each Release-Group")
     # Get Releases of a Release-Group from MusicBrainz
     for release_group in releaseGroupsList:
+        print ("Now working with each releaseGroup in the releaseGroupsList")
         MusicBrainz_releasegroupMBID = release_group['mbid']
         #MusicBrainz_releasegroupTitle = release_group['title']
         release_group['releases'] = []
@@ -127,6 +127,8 @@ def get_artists_data(artistVar):
         #print (" ")
         validAlbumsForThisReleaseGroup = []
 
+        # FOR the next couple functions I need to change "album" to "release" where necessary so it isn't so confusing and I can fix it.
+
         for release in release_group_all_Releases:
             print ("Release " + release['title'] + " in release_group_all_Releases has release MBID " + release['mbid'])
             # above is still correct
@@ -144,9 +146,10 @@ def get_artists_data(artistVar):
             else:
                 thisAlbum = {}
                 thisAlbum['name'] = albumData['album']['name']
-                thisAlbum['releaseMBID'] = LastFM_albumMBID
+                thisAlbum['releaseMBID'] = LastFM_albumMBID # So this should be good, right?
                 thisAlbum['mbid'] = albumData['album']['mbid'] # Whatever comes back from lines 138-140 is ... screwing it up
                 print ("This valid album-release " + thisAlbum['name'] + " from else now has MBID " + thisAlbum['mbid'])
+                print ("This valid album-release " + thisAlbum['name'] + " from else has release MBID " + thisAlbum['releaseMBID'])
                 thisAlbum['listeners'] = albumData['album']['listeners']
                 thisAlbum['playcount'] = albumData['album']['playcount']
                 thisAlbum['date'] = release['date']
