@@ -39,9 +39,7 @@ def makeArtistURL(MusicBrainz_artistMBID):
 
 #getArtistInfoFromMusicBrainz = 'https://www.musicbrainz.org/ws/2/artist/ee58c59f-8e7f-4430-b8ca-236c4d3745ae?fmt=json'
 
-
 ####
-
 
 # Get just artist info with genres from MusicBrainz (different sources have different genres)
 
@@ -52,7 +50,6 @@ def makeArtistGenresURL(MusicBrainz_artistMBID):
 # Example using Black Sabbath
 
 #getArtistInfoFromMusicBrainz = 'https://www.musicbrainz.org/ws/2/artist/5182c1d9-c7d2-4dad-afa0-ccfeada921a8?inc=genres&fmt=json'
-
 
 ####
 

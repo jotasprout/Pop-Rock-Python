@@ -29,7 +29,7 @@ def getArtistListFromJSON ():
     a.close()
 
 def get_artists_data(artistVar):
-
+    
     # Get artist genres from MusicBrainz
 
     MusicBrainz_artistMBID = artistVar
