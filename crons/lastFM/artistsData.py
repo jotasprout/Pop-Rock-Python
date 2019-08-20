@@ -25,8 +25,7 @@ mbid_array_01 = [
     '8aad823a-4891-4354-a15a-536274f6736e', # 77s
     'e3f1f4e5-5be3-46b9-a11b-8580a7e09015', # Argyle Park    
     '64947ce4-79b3-4de4-a664-140b4e934628', # Barren Cross
-    'b0f8a148-c7cd-4cae-ac5d-b390ec34f4ef', # Believer
-    '47c8f88b-987a-4b64-9175-2b1b57809727' # Billy Idol    
+    'b0f8a148-c7cd-4cae-ac5d-b390ec34f4ef' # Believer  
 ]     
 
 mbid_array_02 = [  
@@ -63,8 +62,9 @@ mbid_array_03 = [
     'fc4953aa-6bf4-4f1f-8e47-5ac79ca428e2', # Ronnie James Dio    
     '57b28f16-22ac-45a2-a866-58d6f65a087b', # E-Roc
     'cdb296bd-730d-475d-8c31-efb730337f8a', # E.T.W.   
-    'b87f4ce9-eab7-492d-9777-9dc001a2abcf', # Freedom Of Soul     
-    '4c141ecd-23f9-4881-9a8c-27e7e7af708c' # Generation X             
+    'b87f4ce9-eab7-492d-9777-9dc001a2abcf', # Freedom Of Soul  
+    '47c8f88b-987a-4b64-9175-2b1b57809727', # Billy Idol     
+    '4c141ecd-23f9-4881-9a8c-27e7e7af708c'  # Generation X             
 ]     
 
 mbid_array_04 = [  
@@ -79,6 +79,7 @@ mbid_array_04 = [
     '191de76f-a224-445d-b041-54df16d65bf7', # Yardbirds    
     '16394dd5-4438-4a65-86b3-e1d954e0011f', # Jerusalem
     '7a6817e4-c0ca-4021-bb40-accd80181461', # Glenn Kaiser
+    'cbf344ae-68f6-45c8-9b52-fcb25dce4646', # Resurrection Band      
     'c8f5272e-8a94-4807-9099-70181e92fc46', # Kings X   
     '4d4c3444-f06e-4591-9f3c-55a21fa7ebc2', # Larry Norman
     'f2b81310-d559-4fd7-957d-2555c3887ab6', # Life Savers  
@@ -100,8 +101,7 @@ mbid_array_05 = [
     '89630b0c-6801-42f9-b013-3017722433c4', # Ninety Pound Wuss
     'f88dd1a1-8e46-4b89-84af-edeaa479e55a', # One Bad Pig    
     '6e40e121-6795-4e93-9979-d5c6b7a4f56c', # P.I.D.
-    '57e79d57-b795-475e-9fa2-5dd9d5513b8c', # P.O.D. 
-    'cbf344ae-68f6-45c8-9b52-fcb25dce4646', # Resurrection Band   
+    '57e79d57-b795-475e-9fa2-5dd9d5513b8c', # P.O.D.  
     '2cfdf494-bf0f-4140-8022-9a0ba36183ac', # Sackcloth Fashion
     '391d85ad-2130-4732-8145-853908013354', # Saint
     '81a43a3c-d8a2-47b6-aa62-3140fa8e18c7' # say what?      
