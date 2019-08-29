@@ -177,7 +177,8 @@ def get_artists_data(artistVar):
                 LastFM_trackMBID = aRecording['mbid']
                 aRecording['title'] = track['recording']['title']
                 LastFM_trackTitle = aRecording['title']
-                print ("Getting " + LastFM_trackTitle + " track stats from LastFM")
+                codedLastFM_trackTitleText = "Getting " + LastFM_trackTitle + " track stats from LastFM"
+                print (codedLastFM_trackTitleText.encode('utf-8'))
                 print (" ")
                 LastFM_trackURL = lastFM.getLastFM_trackURL (LastFM_trackMBID)
                 responseTrack = requests.get(LastFM_trackURL)
