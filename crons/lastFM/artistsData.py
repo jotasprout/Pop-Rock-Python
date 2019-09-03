@@ -13,7 +13,6 @@ mbid_array_01 = [
     'ee58c59f-8e7f-4430-b8ca-236c4d3745ae', # Alice Cooper person   
     '4d7928cd-7ed2-4282-8c29-c0c9f966f1bd', # Alice Cooper band  
     #'d30a1d2b-e88d-4470-89cb-69d8c335ce3d', # Hollywood Vampires DO NOT UNCOMMENT
-    '5441c29d-3602-4898-b1a1-b77fa23b8e50', # David Bowie
     '66bf7876-3898-47fa-8bdd-dc200f946cec', # Evil Stig 
     'f376828a-b438-4fda-bb2e-dcd5fbe81f83', # Joan Jett
     '46e63d3b-d91b-4791-bb73-e9f638a45ea0', # Joan Jett and the Blackhearts 
@@ -22,20 +21,20 @@ mbid_array_01 = [
     'e491fae8-3a5a-438e-8368-925753fb41a1', # Ted Nugent  
     '6be2828f-6c0d-4059-99d4-fa18acf1a296', # janetJackson  
     'd3a40fec-041f-4f8d-85f3-b325e12f92de', # 12th Tribe
-    '8aad823a-4891-4354-a15a-536274f6736e', # 77s
+    #'8aad823a-4891-4354-a15a-536274f6736e', # 77s
     'e3f1f4e5-5be3-46b9-a11b-8580a7e09015', # Argyle Park    
     '64947ce4-79b3-4de4-a664-140b4e934628', # Barren Cross
     'b0f8a148-c7cd-4cae-ac5d-b390ec34f4ef' # Believer  
 ]     
 
 mbid_array_02 = [  
-    '4b1bf05d-0e3c-44a3-9fc8-ad088fc25797', # buckinghamNicks
+    '07a85e96-bb72-4930-b41d-24853f4a4ede', # Anvil 
     '5d12875c-a197-43b2-8f29-41dc0ad895c3', # lindseyBuckingham
+    '4b1bf05d-0e3c-44a3-9fc8-ad088fc25797', # buckinghamNicks
+    '69ee3720-a7cb-4402-b48d-a02c366f2bcf', # cure
+    'b95ce3ff-3d05-4e87-9e01-c97b66af13d4', # Eminem 
     'bd13909f-1c29-4c27-a874-d4aaf27c5b1a', # fleetwoodMac
     'b7f2cca2-72c6-41fb-ae33-53370fc62fe7', # stevieNicks 
-    '69ee3720-a7cb-4402-b48d-a02c366f2bcf', # cure
-    '07a85e96-bb72-4930-b41d-24853f4a4ede', # Anvil 
-    'b95ce3ff-3d05-4e87-9e01-c97b66af13d4', # Eminem  
     'a74b1b7f-71a5-4011-9441-d0b5e4122711', # radiohead   
     '7e78a78b-3acc-4be2-a2a4-db8932b0f570', # Bloodgood
     '72c536dc-7137-4477-a521-567eeb840fa8', # Bob Dylan
@@ -56,21 +55,21 @@ mbid_array_03 = [
     '57e0e9f3-24b5-46a6-be00-be793ca26e21', # Elf
     '484a1d40-0fb9-4768-acff-b570cedaacb4', # Heaven and Hell
     'e3cb4543-210f-499a-b0d1-3882c312dfb9', # Rainbow    
+    'fc4953aa-6bf4-4f1f-8e47-5ac79ca428e2', # Ronnie James Dio  
     '8aa5b65a-5b3c-4029-92bf-47a544356934', # Ozzy Osbourne 
     '5182c1d9-c7d2-4dad-afa0-ccfeada921a8', # Black Sabbath     
     'c51f0b8b-2e92-47b2-b72d-07e4cd0cd115', # Disciples Of Christ 
-    'fc4953aa-6bf4-4f1f-8e47-5ac79ca428e2', # Ronnie James Dio    
-    '57b28f16-22ac-45a2-a866-58d6f65a087b', # E-Roc
-    'cdb296bd-730d-475d-8c31-efb730337f8a', # E.T.W.   
-    'b87f4ce9-eab7-492d-9777-9dc001a2abcf', # Freedom Of Soul  
-    '47c8f88b-987a-4b64-9175-2b1b57809727', # Billy Idol     
-    '4c141ecd-23f9-4881-9a8c-27e7e7af708c'  # Generation X             
+    #'57b28f16-22ac-45a2-a866-58d6f65a087b', # E-Roc
+    #'cdb296bd-730d-475d-8c31-efb730337f8a', # E.T.W.   
+    #'b87f4ce9-eab7-492d-9777-9dc001a2abcf', # Freedom Of Soul  
+    '47c8f88b-987a-4b64-9175-2b1b57809727' # Billy Idol     
+    #'4c141ecd-23f9-4881-9a8c-27e7e7af708c'  # Generation X             
 ]     
 
 mbid_array_04 = [  
     'b83bc61f-8451-4a5d-8b8e-7e9ed295e822', # Elton John
     '33d700ce-064f-44f6-ab9e-60f9eed0fca1', # Ace Frehley
-    '77db7b1e-f3e2-47cf-a95a-b1ef364b9f1a', # Frehley's Comet 
+    #'77db7b1e-f3e2-47cf-a95a-b1ef364b9f1a', # Frehley's Comet 
     '678d88b2-87b0-403b-b63d-5da7465aecc3', # Led Zeppelin
     '519774a4-3b18-4042-b8c0-927845a616c9', # Jimmy Page  
     'c08ced1f-d248-4368-90e5-bf579b3bf5de', # The Firm
@@ -80,20 +79,20 @@ mbid_array_04 = [
     '16394dd5-4438-4a65-86b3-e1d954e0011f', # Jerusalem
     '7a6817e4-c0ca-4021-bb40-accd80181461', # Glenn Kaiser
     'cbf344ae-68f6-45c8-9b52-fcb25dce4646', # Resurrection Band      
-    'c8f5272e-8a94-4807-9099-70181e92fc46', # Kings X   
+    #'c8f5272e-8a94-4807-9099-70181e92fc46', # Kings X   
     '4d4c3444-f06e-4591-9f3c-55a21fa7ebc2', # Larry Norman
     'f2b81310-d559-4fd7-957d-2555c3887ab6', # Life Savers  
     'b6174910-7335-4768-a42d-8e4655f37114' # Lust Control       
 ] 
 
 mbid_array_05 = [  
-    'abd506e1-6f2b-4d6f-b937-92c267f6f88b', # journey
-    '5441c29d-3602-4898-b1a1-b77fa23b8e50', # David Bowie
+    '1253e5e9-eaa7-4ce6-81b8-09725e8cee43', # Iggy and the Stooges  
     'f37b3f31-b1f8-4b88-8cb5-b34f709b17d7', # Iggy Pop
-    '794c6bf2-3241-416f-9b8f-24e2d84a1c4b', # Stooges
-    '1253e5e9-eaa7-4ce6-81b8-09725e8cee43', # Iggy and the Stooges      
+    'abd506e1-6f2b-4d6f-b937-92c267f6f88b', # journey
     'b134d1bf-c7c7-4427-93ac-9fdbc2b59ef1', # Meat Loaf
     '2cb3b264-277f-4d8f-bc86-1923ff8abdc0', # Stoney and Meat Loaf
+    '5441c29d-3602-4898-b1a1-b77fa23b8e50', # David Bowie
+    '794c6bf2-3241-416f-9b8f-24e2d84a1c4b', # Stooges
     '50a40201-2f2f-4f2d-ab1d-4eb23befbc8b', # Mad At The World
     'f0169794-0188-40d4-8031-3fdb2e27db4a', # Mortal
     '59183a0a-0404-4391-9284-f2f43b5ea373', # Mortification
@@ -108,12 +107,12 @@ mbid_array_05 = [
 ]     
 
 mbid_array_06 = [  
+    '382f1005-e9ab-4684-afd4-0bdae4ee37f2', # 2Pac 
+    '7249b899-8db8-43e7-9e6e-22f1e736024e', # defLeppard 
+    '26f07661-e115-471d-a930-206f5c89d17c', # Motley Crue
     '0383dadf-2a4e-4d10-a46a-e9e041da8eb3', # Queen
     '5c6acb91-4b9b-4245-b92f-e817295c4ed0', # Quiet Riot
     '1a9a8ca0-ea8e-4e9e-96aa-288155bb2c5d', # Todd Rundgren
-    '382f1005-e9ab-4684-afd4-0bdae4ee37f2', # 2Pac 
-    '26f07661-e115-471d-a930-206f5c89d17c', # Motley Crue
-    '7249b899-8db8-43e7-9e6e-22f1e736024e', # defLeppard       
     '37283116-f2cc-47cb-8806-facd063b564f', # Utopia
     '50809635-76df-4433-b324-b3c5258fb0a3', # Steve Taylor
     '149cbb32-d8ac-43f3-81f4-e591910cd9de', # The Crucified
@@ -126,11 +125,11 @@ mbid_array_06 = [
 ] 
 
 mbid_array_07 = [  
+    '04cd0cfd-bfd1-4c36-bc38-95c35e2c045f', # Cream 
+    '618b6900-0618-4f1e-b835-bccb17f84294', # Eric Clapton
     '331ce348-1b08-40b9-8ed7-0763b92bd003', # roxyMusic
     'bbd80354-597e-4d53-94e4-92b3a7cb8f2c', # Saxon  
     '75167b8b-44e4-407b-9d35-effe87b223cf', # Neil Young
-    '618b6900-0618-4f1e-b835-bccb17f84294', # Eric Clapton
-    '04cd0cfd-bfd1-4c36-bc38-95c35e2c045f', # Cream    
     '230ca093-1d00-4c57-9235-147942f66930', # zombies  
     '9ac299cb-e6f3-4d8a-a20c-73bef538d00c', # TRYTAN 
     'd76e213b-e1f1-417b-9b84-d21055afc71f', # Veil of Ashes
@@ -144,7 +143,7 @@ mbid_array_07 = [
 
 mbid_array = [  
     'd3a40fec-041f-4f8d-85f3-b325e12f92de', # 12th Tribe
-    '8aad823a-4891-4354-a15a-536274f6736e', # 77s
+    #'8aad823a-4891-4354-a15a-536274f6736e', # 77s
     'e3f1f4e5-5be3-46b9-a11b-8580a7e09015', # Argyle Park
     '382f1005-e9ab-4684-afd4-0bdae4ee37f2', # 2Pac 
     'ee58c59f-8e7f-4430-b8ca-236c4d3745ae', # Alice Cooper person   
@@ -181,7 +180,7 @@ mbid_array = [
     '883871a1-f154-4df8-a7f7-558ea456dd0a', # Dio and the Redcaps    
     '30f9591a-778b-40dd-be8f-105589f9c998', # Electric Elves
     '57e0e9f3-24b5-46a6-be00-be793ca26e21', # Elf
-    '57b28f16-22ac-45a2-a866-58d6f65a087b', # E-Roc
+    #'57b28f16-22ac-45a2-a866-58d6f65a087b', # E-Roc
     'cdb296bd-730d-475d-8c31-efb730337f8a', # E.T.W.
     'b95ce3ff-3d05-4e87-9e01-c97b66af13d4', # Eminem 
     '66bf7876-3898-47fa-8bdd-dc200f946cec', # Evil Stig
@@ -189,7 +188,7 @@ mbid_array = [
     'bd13909f-1c29-4c27-a874-d4aaf27c5b1a', # fleetwoodMac
     'b87f4ce9-eab7-492d-9777-9dc001a2abcf', # Freedom Of Soul 
     '33d700ce-064f-44f6-ab9e-60f9eed0fca1', # Ace Frehley
-    '77db7b1e-f3e2-47cf-a95a-b1ef364b9f1a', # Frehley's Comet    
+    #'77db7b1e-f3e2-47cf-a95a-b1ef364b9f1a', # Frehley's Comet    
     '4c141ecd-23f9-4881-9a8c-27e7e7af708c', # Generation X
     '484a1d40-0fb9-4768-acff-b570cedaacb4', # Heaven and Hell
     #'d30a1d2b-e88d-4470-89cb-69d8c335ce3d', # Hollywood Vampires 
@@ -201,7 +200,7 @@ mbid_array = [
     'abd506e1-6f2b-4d6f-b937-92c267f6f88b', # journey
     '16394dd5-4438-4a65-86b3-e1d954e0011f', # Jerusalem
     '7a6817e4-c0ca-4021-bb40-accd80181461', # Glenn Kaiser
-    'c8f5272e-8a94-4807-9099-70181e92fc46', # Kings X   
+    #'c8f5272e-8a94-4807-9099-70181e92fc46', # Kings X   
     '4d4c3444-f06e-4591-9f3c-55a21fa7ebc2', # Larry Norman
     'f2b81310-d559-4fd7-957d-2555c3887ab6', # Life Savers
     '9d1ebcfe-4c15-4d18-95d3-d919898638a1', # Lou Reed
