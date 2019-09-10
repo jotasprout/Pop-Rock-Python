@@ -17,8 +17,11 @@ These scripts support Pop-Rock-PHP with the following tasks:
 - Albums (using a release's MBID)
 - Tracks (using a recording's MBID)
 
-### Replacement for Last.fm
-Because of issues with the LastFM API, probably switching to ... what is it called?
+### ListenBrainz.org
+[ListenBrainz.org](https://listenbrainz.org/) includes these helpful pages:
+- [Main Documentation](https://listenbrainz.readthedocs.io/en/production/)
+- [ListenBrainz API](https://listenbrainz.readthedocs.io/en/production/dev/api.html)
+- [JSON Documentation](https://listenbrainz.readthedocs.io/en/production/dev/json.html)
 
 ### SeatGeek
 Need to start using this API because both the API and its documentation are far superior to setlist.fm.
