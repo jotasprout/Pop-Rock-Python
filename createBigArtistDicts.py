@@ -7,6 +7,8 @@ basePath = '../Pop-Rock-PHP/crons/lastFM/'
 
 myArtists = []
 
+filenames2 = ['data/EvilStig_Group_09-28-19.json']
+
 filenames = [
     'data/AliceCooper_Combined_09-28-19.json',
     'data/TheAmboyDukes_Group_09-22-19.json',
@@ -78,7 +80,7 @@ filenames = [
     'data/SayWhat?_Group_09-26-19.json',
 	'data/2Pac_Person_09-27-19.json',
     'data/DefLeppard_Group_09-27-19.json',
-    'data/MötleyCrüe_Group_09-27-19.json',
+    'data/MotleyCrue_Group_09-27-19.json',
     'data/Queen_Group_09-27-19.json', 
     'data/QuietRiot_Group_09-27-19.json', 
     'data/ToddRundgren_Person_09-27-19.json',
@@ -95,6 +97,8 @@ filenames = [
     'data/NeilYoung_Person_09-28-19.json',
 	'data/TheZombies_Group_09-28-19.json'              
 ]
+
+
 
 def get_artist_info(fromFileName):
 
@@ -113,42 +117,63 @@ def get_artist_info(fromFileName):
         artist['stats']['playcount'] = ''
         artist['genres'] = artistInfo['genres']
         artist['birthday'] = artistInfo['birthday']
-
         jsonAlbumsList = artistInfo['albums']
         artist['albums'] = []
         albums = artist['albums']
 
-        def get_album_info(jsonRelease):
+        def get_album_info(thisRelease):
             thisAlbum = {}
-            thisAlbum['name'] = jsonRelease['name']
-            thisAlbum['mbid'] = jsonRelease['mbid']
+            thisAlbum['name'] = thisRelease['name']
+            thisAlbum['mbid'] = thisRelease['mbid']
             thisAlbum['stats'] = {}
             thisAlbum['stats']['listeners'] = ''
             thisAlbum['stats']['playcount'] = ''
-            thisAlbum['date'] = jsonRelease['date']
-            thisAlbum['country'] = jsonRelease['country']
-            thisAlbum['disambiguation'] = jsonRelease['disambiguation']
-            thisAlbum['packaging'] = jsonRelease['packaging']
-
+            thisAlbum['date'] = thisRelease['date']
+            thisAlbum['country'] = thisRelease['country']
+            thisAlbum['disambiguation'] = thisRelease['disambiguation']
+            thisAlbum['packaging'] = thisRelease['packaging']
+            thisAlbum['tracks'] = []
+            thisAlbum['tracks'] = thisRelease['tracks']
+            tracks = thisAlbum['tracks']
+            for track in tracks:
+                track['stats']['listeners'] = ''
+                track['stats']['playcount'] = ''
+            albums = albums + ['thisAlbum']
         
-        for jsonAlbum in jsonAlbumsList:
-            releasesList = jsonAlbumsList['releases']
+        for album in jsonAlbumsList:
+            releasesList = []
+            releasesList = album['releases']
+            thisRelease = {}
             for jsonRelease in releasesList:
-                if jsonRelease['country'] = 'US':
-                    get_album_info(jsonRelease)
+                if jsonRelease['country'] == 'US':
+                    thisRelease = jsonRelease
+                    get_album_info(thisRelease)
+                    break
+                else:
+                    thisRelease = releasesList[0]
+                    get_album_info(thisRelease)
+            #get_album_info(thisRelease)
+            
+    # Write artist to file
+    artistName = artist['name']
+    artistNameFor_file_name = artistName.replace(' ', '')
 
+    artistTypeFor_file_name = artistType
 
+    artistJSON = json.dumps(artist, indent=4)
 
+    absPathFor_file_name = '/home/roxorsox/public_html/poprock/crons/lastFM/templates/'
 
+    newFilename = absPathFor_file_name + artistNameFor_file_name + '_' + artistTypeFor_file_name  + 'TEMPLATE' + '.json'
 
+    encodedFilename = newFilename.encode('utf-8')
 
-
-        #myArtists.append(artist)
-
+    f = open (encodedFilename, 'w')
+    f.write (artistJSON)
 
     f.close()
 
-for file in filenames:
+for file in filenames2:
     get_artist_info(file)
     
 #artistData = json.loads(artist_info_from_LastFM.text)
