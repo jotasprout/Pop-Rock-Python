@@ -24,7 +24,11 @@ mbid_array_01 = [
     #'8aad823a-4891-4354-a15a-536274f6736e', # 77s
     'e3f1f4e5-5be3-46b9-a11b-8580a7e09015', # Argyle Park    
     '64947ce4-79b3-4de4-a664-140b4e934628', # Barren Cross
-    'b0f8a148-c7cd-4cae-ac5d-b390ec34f4ef' # Believer  
+    'b0f8a148-c7cd-4cae-ac5d-b390ec34f4ef', # Believer  
+    'd1947987-9614-49ae-bd36-8000e6b6f7d0', # Parliament
+    '7a0ae10d-c51f-434a-9d5a-551d2ae93a9d', # Parliament-Funkadelic
+    'cf042013-3edd-46c4-9b0e-a62faac98d0b', # Funkadelic
+    '84683370-5eae-418b-acd8-883ac028a8a0' # George Clinton
 ]     
 
 mbid_array_02 = [  
@@ -132,6 +136,8 @@ mbid_array_07 = [
     '331ce348-1b08-40b9-8ed7-0763b92bd003', # roxyMusic
     'bbd80354-597e-4d53-94e4-92b3a7cb8f2c', # Saxon  
     '75167b8b-44e4-407b-9d35-effe87b223cf', # Neil Young
+    '22dc19af-d085-4c9b-adfb-22ec256251f1', # Buffalo Springfield
+    '46a782ea-4308-476b-abd1-a91b197f3037', # CSNY
     '230ca093-1d00-4c57-9235-147942f66930', # zombies  
     '9ac299cb-e6f3-4d8a-a20c-73bef538d00c', # TRYTAN 
     'd76e213b-e1f1-417b-9b84-d21055afc71f', # Veil of Ashes
@@ -264,7 +270,13 @@ mbid_array = [
     '51f24fe4-6cb7-477a-a6ed-6be19abf99bb', # Whitecross
     'a4f375da-cc8b-4ac1-b988-c59905aba01d', # XL and Death Before Dishonor    
     '75167b8b-44e4-407b-9d35-effe87b223cf', # Neil Young
+    '22dc19af-d085-4c9b-adfb-22ec256251f1', # Buffalo Springfield
+    '46a782ea-4308-476b-abd1-a91b197f3037', # CSNY    
     '191de76f-a224-445d-b041-54df16d65bf7', # Yardbirds 
+    'd1947987-9614-49ae-bd36-8000e6b6f7d0', # Parliament
+    '7a0ae10d-c51f-434a-9d5a-551d2ae93a9d', # Parliament-Funkadelic
+    'cf042013-3edd-46c4-9b0e-a62faac98d0b', # Funkadelic
+    '84683370-5eae-418b-acd8-883ac028a8a0', # George Clinton    
     '230ca093-1d00-4c57-9235-147942f66930' # zombies  
 ]   
 
@@ -682,7 +694,16 @@ myArtistDicts = [
             "listeners": "",
             "playcount": ""
         }
-    },    
+    },   
+    {
+        "name": "Grace Jones",
+        "mbid": "b1c124b3-cf60-41a6-8699-92728c8a3fe0",
+        "type": "Person",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },     
     {
         "name": "Kings X",
         "mbid": "c8f5272e-8a94-4807-9099-70181e92fc46",
@@ -773,6 +794,24 @@ myArtistDicts = [
             "playcount": ""
         }
     },
+    {
+        "name": "Buffalo Springfield",
+        "mbid": "22dc19af-d085-4c9b-adfb-22ec256251f1",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },
+    {
+        "name": "Crosby Stills Nash and Young",
+        "mbid": "46a782ea-4308-476b-abd1-a91b197f3037",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },     
     {
         "name": "Stevie Nicks",
         "mbid": "b7f2cca2-72c6-41fb-ae33-53370fc62fe7",
@@ -1241,7 +1280,43 @@ myArtistDicts = [
             "listeners": "",
             "playcount": ""
         }
-    }     
+    },
+    {
+        "name": "Parliament",
+        "mbid": "d1947987-9614-49ae-bd36-8000e6b6f7d0",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },    
+    {
+        "name": "Funkadelic",
+        "mbid": "cf042013-3edd-46c4-9b0e-a62faac98d0b",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },  
+    {
+        "name": "Parliament-Funkadelic",
+        "mbid": "7a0ae10d-c51f-434a-9d5a-551d2ae93a9d",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },  
+    {
+        "name": "George Clinton",
+        "mbid": "84683370-5eae-418b-acd8-883ac028a8a0",
+        "type": "Person",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    }      
 ]    
 
 mbid_ArrayGETNEWARTISTS_symbol_thru_D = [  
