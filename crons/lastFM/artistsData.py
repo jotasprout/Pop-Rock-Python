@@ -55,7 +55,9 @@ mbid_array_03 = [
     '57e0e9f3-24b5-46a6-be00-be793ca26e21', # Elf
     '484a1d40-0fb9-4768-acff-b570cedaacb4', # Heaven and Hell
     'e3cb4543-210f-499a-b0d1-3882c312dfb9', # Rainbow    
-    'fc4953aa-6bf4-4f1f-8e47-5ac79ca428e2', # Ronnie James Dio  
+    'fc4953aa-6bf4-4f1f-8e47-5ac79ca428e2', # Ronnie James Dio 
+    '583944a8-d43b-42e9-8e3c-29eb89f53587', # Roger Glover
+    'ff399892-1aab-44e8-8905-bf8721ce0866', # Kerry Livgren
     '8aa5b65a-5b3c-4029-92bf-47a544356934', # Ozzy Osbourne 
     '5182c1d9-c7d2-4dad-afa0-ccfeada921a8', # Black Sabbath     
     'c51f0b8b-2e92-47b2-b72d-07e4cd0cd115', # Disciples Of Christ 
@@ -180,6 +182,8 @@ mbid_array = [
     '883871a1-f154-4df8-a7f7-558ea456dd0a', # Dio and the Redcaps    
     '30f9591a-778b-40dd-be8f-105589f9c998', # Electric Elves
     '57e0e9f3-24b5-46a6-be00-be793ca26e21', # Elf
+    '583944a8-d43b-42e9-8e3c-29eb89f53587', # Roger Glover
+    'ff399892-1aab-44e8-8905-bf8721ce0866', # Kerry Livgren    
     #'57b28f16-22ac-45a2-a866-58d6f65a087b', # E-Roc
     'cdb296bd-730d-475d-8c31-efb730337f8a', # E.T.W.
     'b95ce3ff-3d05-4e87-9e01-c97b66af13d4', # Eminem 
@@ -553,6 +557,15 @@ myArtistDicts = [
             "playcount": ""
         }
     },    
+        {
+        "name": "Roger Glover",
+        "mbid": "583944a8-d43b-42e9-8e3c-29eb89f5358",
+        "type": "Person",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },    
     {
         "name": "Heaven & Hell",
         "mbid": "484a1d40-0fb9-4768-acff-b570cedaacb4",
@@ -589,6 +602,15 @@ myArtistDicts = [
             "playcount": ""
         }
     },
+    {
+        "name": "Kerry Livgren",
+        "mbid": "ff399892-1aab-44e8-8905-bf8721ce0866",
+        "type": "Person",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },    
     {
         "name": "Jimmy Page",
         "mbid": "519774a4-3b18-4042-b8c0-927845a616c9",
