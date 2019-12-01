@@ -122,6 +122,7 @@ def get_artist_info(fromFileName):
         albums = artist['albums']
 
         def get_album_info(thisRelease):
+            global albums
             thisAlbum = {}
             thisAlbum['name'] = thisRelease['name']
             thisAlbum['mbid'] = thisRelease['mbid']
