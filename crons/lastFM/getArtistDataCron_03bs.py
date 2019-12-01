@@ -14,8 +14,8 @@ date = time.strftime("%Y-%m-%d")
 # ARTIST INFO
 # Get artist info from MusicBrainz
 
-#print ("Getting Artist info and RELEASE GROUPS from MusicBrainz")
-#print (" ")
+print ("Getting Artist info and RELEASE GROUPS from MusicBrainz")
+print (" ")
 
 def get_artists_data(artistVar):
 
@@ -75,14 +75,14 @@ def get_artists_data(artistVar):
         genres = genres + [genre]
     artist['genres'] = genres
 
-    #print ("Stored artist genres using Tags from LastFM")
-    #print (" ")
+    print ("Stored artist genres using Tags from LastFM")
+    print (" ")
 
     # GATHER MBID FOR RELEASE GROUPS
     # Store MBID for each Release-Group in a list
     releaseGroupsList = []
-    #print ("Getting only the properties I want for each Release-Group")
-    #print (" ")
+    print ("Getting only the properties I want for each Release-Group")
+    print (" ")
 
     for releaseGroup in releaseGroupsJSON['release-groups']:
         aReleaseGroup = {}
@@ -92,19 +92,19 @@ def get_artists_data(artistVar):
         aReleaseGroup['releases'] = []
         releaseGroupsList = releaseGroupsList + [aReleaseGroup]
 
-    #print ("I have a list of Release-Groups.")
+    print ("I have a list of Release-Groups.")
     #rg = len(releaseGroupsList)
-    #print ("There are " + str(rg) + " Release-Groups in my list.")
-    #print (" ")
+    print ("There are " + str(rg) + " Release-Groups in my list.")
+    print (" ")
 
-    #print ("Getting Releases from each Release-Group")
+    print ("Getting Releases from each Release-Group")
     # Get Releases of a Release-Group from MusicBrainz
     for release_group in releaseGroupsList:
         print ("Now working with each releaseGroup in the releaseGroupsList")
         MusicBrainz_releasegroupMBID = release_group['mbid']
-        #MusicBrainz_releasegroupTitle = release_group['title']
+        MusicBrainz_releasegroupTitle = release_group['title']
         release_group['releases'] = []
-        #print ("Getting releases for " + MusicBrainz_releasegroupTitle)
+        print ("Getting releases for " + MusicBrainz_releasegroupTitle)
         MusicBrainz_releasegroupMBID = MusicBrainz_releasegroupMBID
         getReleases_totalURL = musicBrainz.makeGetReleases_totalURL(MusicBrainz_releasegroupMBID)
         responseReleases = requests.get(getReleases_totalURL)
@@ -122,9 +122,9 @@ def get_artists_data(artistVar):
             aRelease['packaging'] = release['packaging']
             release_group_all_Releases = release_group_all_Releases + [aRelease]
 
-        #rr = len(release_group_all_Releases)
-        #print (release_group['title'] + " has " + str(rr) + " total releases")
-        #print (" ")
+        rr = len(release_group_all_Releases)
+        print (release_group['title'] + " has " + str(rr) + " total releases")
+        print (" ")
         validAlbumsForThisReleaseGroup = []
 
         # FOR the next couple functions I need to change "album" to "release" where necessary so it isn't so confusing and I can fix it.
@@ -159,8 +159,8 @@ def get_artists_data(artistVar):
                 validAlbumsForThisReleaseGroup = validAlbumsForThisReleaseGroup + [thisAlbum]
                 yayText1 = thisAlbum['name'] + " on " + thisAlbum['date'] + " from " + thisAlbum['country'] + " exists in LastFM and stored in valid albums"
                 print(yayText1.encode('utf-8'))
-                #print (" ")
-            #print (" ")
+                print (" ")
+            print (" ")
 
         print (release_group['title'] + " has " + str(len(validAlbumsForThisReleaseGroup)) + " total VALID releases")
         print (" ")
@@ -194,7 +194,7 @@ def get_artists_data(artistVar):
                 if "error" in trackData:
                     errorText2 = LastFM_trackTitle + " does not exist in LastFM"
                     print (errorText2.encode('utf-8'))                    
-                    #print (" ")
+                    print (" ")
                 else:
                     aRecording['stats'] = {}
                     aRecording['stats']['listeners'] = trackData['track']['listeners']
@@ -208,7 +208,7 @@ def get_artists_data(artistVar):
                     yayText2 = trackName + ' has ' + trackListeners + ' listeners and ' + trackPlaycount + ' plays.'
                     print(yayText2.encode('utf-8'))
                     validAlbum['tracks'] = validAlbum['tracks'] + [aRecording]
-                    #print (" ")
+                    print (" ")
             print (MusicBrainz_releaseTitle + " has " + str(len(validAlbum['tracks'])) + " tracks.")
             print (" ")
 
@@ -246,8 +246,9 @@ def get_artists_data(artistVar):
     pprint.pprint(artist)
 
 bs = '5182c1d9-c7d2-4dad-afa0-ccfeada921a8'
+rg = '583944a8-d43b-42e9-8e3c-29eb89f53587'
 
-get_artists_data(bs)
+get_artists_data(rg)
 
 subprocess.call(["/usr/local/bin/php" , "/home/roxorsox/public_html/poprock/crons/lastFM/insertLastFMalbumData_03.php"])
 

@@ -9,18 +9,18 @@
         }
     },
     {
-        "name": "77s",
-        "mbid": "8aad823a-4891-4354-a15a-536274f6736e",
-        "type": "Group",
+        "name": "2Pac",
+        "mbid": "382f1005-e9ab-4684-afd4-0bdae4ee37f2",
+        "type": "Person",
         "stats": {
             "listeners": "",
             "playcount": ""
         }
-    },
+    },    
     {
-        "name": "2Pac",
-        "mbid": "382f1005-e9ab-4684-afd4-0bdae4ee37f2",
-        "type": "Person",
+        "name": "77s",
+        "mbid": "8aad823a-4891-4354-a15a-536274f6736e",
+        "type": "Group",
         "stats": {
             "listeners": "",
             "playcount": ""
@@ -72,6 +72,15 @@
         }
     },
     {
+        "name": "Black Sabbath",
+        "mbid": "5182c1d9-c7d2-4dad-afa0-ccfeada921a8",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },    
+    {
         "name": "Bloodgood",
         "mbid": "7e78a78b-3acc-4be2-a2a4-db8932b0f570",
         "type": "Group",
@@ -80,15 +89,6 @@
             "playcount": ""
         }
     },    
-    {
-        "name": "Black Sabbath",
-        "mbid": "5182c1d9-c7d2-4dad-afa0-ccfeada921a8",
-        "type": "Group",
-        "stats": {
-            "listeners": "",
-            "playcount": ""
-        }
-    },
     {
         "name": "David Bowie",
         "mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50",
@@ -135,6 +135,24 @@
         }
     },
     {
+        "name": "Eric Clapton",
+        "mbid": "618b6900-0618-4f1e-b835-bccb17f84294",
+        "type": "Person",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },    
+    {
+        "name": "George Clinton",
+        "mbid": "84683370-5eae-418b-acd8-883ac028a8a0",
+        "type": "Person",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },     
+    {
         "name": "Crashdog",
         "mbid": "72572672-8ffc-4597-b530-dab7ec9066b3",
         "type": "Group",
@@ -152,6 +170,15 @@
             "playcount": ""
         }
     },
+    {
+        "name": "Def Leppard",
+        "mbid": "7249b899-8db8-43e7-9e6e-22f1e736024e",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },    
     {
         "name": "Deitiphobia",
         "mbid": "cbd8741f-e7f2-4fe2-82ad-95f0cbc90c89",
@@ -171,6 +198,24 @@
         }
     },
     {
+        "name": "Dio",
+        "mbid": "c55193fb-f5d2-4839-a263-4c044fca1456",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },    
+    {
+        "name": "Ronnie James Dio",
+        "mbid": "fc4953aa-6bf4-4f1f-8e47-5ac79ca428e2",
+        "type": "Person",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },    
+    {
         "name": "Disciples Of Christ",
         "mbid": "c51f0b8b-2e92-47b2-b72d-07e4cd0cd115",
         "type": "Group",
@@ -179,24 +224,6 @@
             "playcount": ""
         }
     },    
-    {
-        "name": "Def Leppard",
-        "mbid": "7249b899-8db8-43e7-9e6e-22f1e736024e",
-        "type": "Group",
-        "stats": {
-            "listeners": "",
-            "playcount": ""
-        }
-    },
-    {
-        "name": "Dio",
-        "mbid": "c55193fb-f5d2-4839-a263-4c044fca1456",
-        "type": "Group",
-        "stats": {
-            "listeners": "",
-            "playcount": ""
-        }
-    },
     {
         "name": "Bob Dylan",
         "mbid": "72c536dc-7137-4477-a521-567eeb840fa8",
@@ -243,17 +270,17 @@
         }
     },    
     {
-        "name": "Eric Clapton",
-        "mbid": "618b6900-0618-4f1e-b835-bccb17f84294",
-        "type": "Person",
+        "name": "Evil Stig",
+        "mbid": "66bf7876-3898-47fa-8bdd-dc200f946cec",
+        "type": "Group",
         "stats": {
             "listeners": "",
             "playcount": ""
         }
     },
     {
-        "name": "Evil Stig",
-        "mbid": "66bf7876-3898-47fa-8bdd-dc200f946cec",
+        "name": "Fleetwood Mac",
+        "mbid": "bd13909f-1c29-4c27-a874-d4aaf27c5b1a",
         "type": "Group",
         "stats": {
             "listeners": "",
@@ -270,15 +297,6 @@
         }
     },    
     {
-        "name": "Fleetwood Mac",
-        "mbid": "bd13909f-1c29-4c27-a874-d4aaf27c5b1a",
-        "type": "Group",
-        "stats": {
-            "listeners": "",
-            "playcount": ""
-        }
-    },
-    {
         "name": "Generation X",
         "mbid": "4c141ecd-23f9-4881-9a8c-27e7e7af708c",
         "type": "Group",
@@ -286,16 +304,7 @@
             "listeners": "",
             "playcount": ""
         }
-    },  
-    {
-        "name": "Grace Jones",
-        "mbid": "b1c124b3-cf60-41a6-8699-92728c8a3fe0",
-        "type": "Person",
-        "stats": {
-            "listeners": "",
-            "playcount": ""
-        }
-    },     
+    },      
     {
         "name": "Heaven & Hell",
         "mbid": "484a1d40-0fb9-4768-acff-b570cedaacb4",
@@ -333,32 +342,14 @@
         }
     },
     {
-        "name": "Kerry Livgren",
-        "mbid": "ff399892-1aab-44e8-8905-bf8721ce0866",
-        "type": "Person",
-        "stats": {
-            "listeners": "",
-            "playcount": ""
-        }
-    },     
-    {
-        "name": "Jimmy Page",
-        "mbid": "519774a4-3b18-4042-b8c0-927845a616c9",
-        "type": "Person",
-        "stats": {
-            "listeners": "",
-            "playcount": ""
-        }
-    },
-    {
-        "name": "Jimmy Page & Robert Plant",
-        "mbid": "4a536dbf-8632-4cfd-b9ea-cdb35cb47c44",
+        "name": "Jerusalem",
+        "mbid": "16394dd5-4438-4a65-86b3-e1d954e0011f",
         "type": "Group",
         "stats": {
             "listeners": "",
             "playcount": ""
         }
-    },
+    },     
     {
         "name": "Joan Jett",
         "mbid": "f376828a-b438-4fda-bb2e-dcd5fbe81f83",
@@ -376,10 +367,19 @@
             "listeners": "",
             "playcount": ""
         }
-    },  
+    },   
     {
         "name": "Elton John",
         "mbid": "b83bc61f-8451-4a5d-8b8e-7e9ed295e822",
+        "type": "Person",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },        
+    {
+        "name": "Grace Jones",
+        "mbid": "b1c124b3-cf60-41a6-8699-92728c8a3fe0",
         "type": "Person",
         "stats": {
             "listeners": "",
@@ -394,16 +394,7 @@
             "listeners": "",
             "playcount": ""
         }
-    },
-    {
-        "name": "Jerusalem",
-        "mbid": "16394dd5-4438-4a65-86b3-e1d954e0011f",
-        "type": "Group",
-        "stats": {
-            "listeners": "",
-            "playcount": ""
-        }
-    },    
+    },   
     {
         "name": "Glenn Kaiser",
         "mbid": "7a6817e4-c0ca-4021-bb40-accd80181461",
@@ -432,6 +423,15 @@
         }
     },
     {
+        "name": "Kerry Livgren",
+        "mbid": "ff399892-1aab-44e8-8905-bf8721ce0866",
+        "type": "Person",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },      
+    {
         "name": "Lust Control",
         "mbid": "b6174910-7335-4768-a42d-8e4655f37114",
         "type": "Group",
@@ -450,24 +450,6 @@
         }
     },
     {
-        "name": "Motley Crue",
-        "mbid": "26f07661-e115-471d-a930-206f5c89d17c",
-        "type": "Group",
-        "stats": {
-            "listeners": "",
-            "playcount": ""
-        }
-    },
-    {
-        "name": "MxPx",
-        "mbid": "3b221a54-54b9-435c-a7f3-5cf8e2ce9fb2",
-        "type": "Group",
-        "stats": {
-            "listeners": "",
-            "playcount": ""
-        }
-    },   
-    {
         "name": "Mad At The World",
         "mbid": "50a40201-2f2f-4f2d-ab1d-4eb23befbc8b",
         "type": "Group",
@@ -475,7 +457,16 @@
             "listeners": "",
             "playcount": ""
         }
-    },
+    },    
+    {
+        "name": "Mortal",
+        "mbid": "f0169794-0188-40d4-8031-3fdb2e27db4a",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    }, 
     {
         "name": "Mortification",
         "mbid": "59183a0a-0404-4391-9284-f2f43b5ea373",
@@ -486,23 +477,23 @@
         }
     },
     {
-        "name": "Mortal",
-        "mbid": "f0169794-0188-40d4-8031-3fdb2e27db4a",
+        "name": "Motley Crue",
+        "mbid": "26f07661-e115-471d-a930-206f5c89d17c",
         "type": "Group",
         "stats": {
             "listeners": "",
             "playcount": ""
         }
-    },    
+    },  
     {
-        "name": "Neil Young",
-        "mbid": "75167b8b-44e4-407b-9d35-effe87b223cf",
-        "type": "Person",
+        "name": "MxPx",
+        "mbid": "3b221a54-54b9-435c-a7f3-5cf8e2ce9fb2",
+        "type": "Group",
         "stats": {
             "listeners": "",
             "playcount": ""
         }
-    },
+    },        
     {
         "name": "Buffalo Springfield",
         "mbid": "22dc19af-d085-4c9b-adfb-22ec256251f1",
@@ -547,7 +538,16 @@
             "listeners": "",
             "playcount": ""
         }
-    },    
+    },   
+    {
+        "name": "Ted Nugent",
+        "mbid": "e491fae8-3a5a-438e-8368-925753fb41a1",
+        "type": "Person",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },     
     {
         "name": "Ozzy Osbourne",
         "mbid": "8aa5b65a-5b3c-4029-92bf-47a544356934",
@@ -566,6 +566,51 @@
             "playcount": ""
         }
     },    
+    {
+        "name": "Jimmy Page",
+        "mbid": "519774a4-3b18-4042-b8c0-927845a616c9",
+        "type": "Person",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },
+    {
+        "name": "Jimmy Page & Robert Plant",
+        "mbid": "4a536dbf-8632-4cfd-b9ea-cdb35cb47c44",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },    
+    {
+        "name": "Parliament",
+        "mbid": "d1947987-9614-49ae-bd36-8000e6b6f7d0",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },    
+    {
+        "name": "Funkadelic",
+        "mbid": "cf042013-3edd-46c4-9b0e-a62faac98d0b",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },  
+    {
+        "name": "Parliament-Funkadelic",
+        "mbid": "7a0ae10d-c51f-434a-9d5a-551d2ae93a9d",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },     
     {
         "name": "Robert Plant",
         "mbid": "bd53f9a7-8be9-46b0-bf7d-1deea3cb57bc",
@@ -593,7 +638,6 @@
             "playcount": ""
         }
     },
-
     {
         "name": "P.O.D.",
         "mbid": "57e79d57-b795-475e-9fa2-5dd9d5513b8c",
@@ -639,15 +683,6 @@
             "playcount": ""
         }
     },    
-        {
-        "name": "Ronnie James Dio",
-        "mbid": "fc4953aa-6bf4-4f1f-8e47-5ac79ca428e2",
-        "type": "Person",
-        "stats": {
-            "listeners": "",
-            "playcount": ""
-        }
-    },
     {
         "name": "Rainbow",
         "mbid": "e3cb4543-210f-499a-b0d1-3882c312dfb9",
@@ -703,15 +738,6 @@
         }
     },
     {
-        "name": "Sintax the Terrific",
-        "mbid": "6fbc0a77-9930-4d7d-bfe0-d8094dddc92c",
-        "type": "Person",
-        "stats": {
-            "listeners": "",
-            "playcount": ""
-        }
-    },
-    {
         "name": "Sackcloth Fashion",
         "mbid": "2cfdf494-bf0f-4140-8022-9a0ba36183ac",
         "type": "Group",
@@ -720,15 +746,6 @@
             "playcount": ""
         }
     },  
-   {
-        "name": "Steve Taylor",
-        "mbid": "50809635-76df-4433-b324-b3c5258fb0a3",
-        "type": "Person",
-        "stats": {
-            "listeners": "",
-            "playcount": ""
-        }
-    },
     {
         "name": "Saint",
         "mbid": "391d85ad-2130-4732-8145-853908013354",
@@ -764,6 +781,15 @@
             "listeners": "",
             "playcount": ""
         }
+    },       
+    {
+        "name": "Sintax the Terrific",
+        "mbid": "6fbc0a77-9930-4d7d-bfe0-d8094dddc92c",
+        "type": "Person",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
     },
     {
         "name": "Seventh Angel",
@@ -793,14 +819,14 @@
         }
     },
     {
-        "name": "Ted Nugent",
-        "mbid": "e491fae8-3a5a-438e-8368-925753fb41a1",
+        "name": "Steve Taylor",
+        "mbid": "50809635-76df-4433-b324-b3c5258fb0a3",
         "type": "Person",
         "stats": {
             "listeners": "",
             "playcount": ""
         }
-    },
+    },    
     {
         "name": "The Amboy Dukes",
         "mbid": "1a03f20c-26dd-4c26-bbe8-426e05ea46d5",
@@ -928,15 +954,6 @@
         }
     },    
     {
-        "name": "Utopia",
-        "mbid": "37283116-f2cc-47cb-8806-facd063b564f",
-        "type": "Group",
-        "stats": {
-            "listeners": "",
-            "playcount": ""
-        }
-    },
-    {
         "name": "The Violet Burning",
         "mbid": "2c0ec007-5669-4816-8a90-3b0ccd8c6c54",
         "type": "Group",
@@ -955,17 +972,8 @@
         }
     },
     {
-        "name": "XL and Death Before Dishonor",
-        "mbid": "a4f375da-cc8b-4ac1-b988-c59905aba01d",
-        "type": "Group",
-        "stats": {
-            "listeners": "",
-            "playcount": ""
-        }
-    },   
-    {
-        "name": "Whitecross",
-        "mbid": "51f24fe4-6cb7-477a-a6ed-6be19abf99bb",
+        "name": "Utopia",
+        "mbid": "37283116-f2cc-47cb-8806-facd063b564f",
         "type": "Group",
         "stats": {
             "listeners": "",
@@ -998,41 +1006,32 @@
             "listeners": "",
             "playcount": ""
         }
+    },  
+    {
+        "name": "Whitecross",
+        "mbid": "51f24fe4-6cb7-477a-a6ed-6be19abf99bb",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
     },
     {
-        "name": "Parliament",
-        "mbid": "d1947987-9614-49ae-bd36-8000e6b6f7d0",
+        "name": "XL and Death Before Dishonor",
+        "mbid": "a4f375da-cc8b-4ac1-b988-c59905aba01d",
         "type": "Group",
         "stats": {
             "listeners": "",
             "playcount": ""
         }
-    },    
+    },     
     {
-        "name": "Funkadelic",
-        "mbid": "cf042013-3edd-46c4-9b0e-a62faac98d0b",
-        "type": "Group",
-        "stats": {
-            "listeners": "",
-            "playcount": ""
-        }
-    },  
-    {
-        "name": "Parliament-Funkadelic",
-        "mbid": "7a0ae10d-c51f-434a-9d5a-551d2ae93a9d",
-        "type": "Group",
-        "stats": {
-            "listeners": "",
-            "playcount": ""
-        }
-    },  
-    {
-        "name": "George Clinton",
-        "mbid": "84683370-5eae-418b-acd8-883ac028a8a0",
+        "name": "Neil Young",
+        "mbid": "75167b8b-44e4-407b-9d35-effe87b223cf",
         "type": "Person",
         "stats": {
             "listeners": "",
             "playcount": ""
         }
-    }     
+    },        
 ]

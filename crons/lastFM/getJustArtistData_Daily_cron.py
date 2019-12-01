@@ -52,7 +52,8 @@ def get_artists_data(artistVar):
     # BUILD ARTIST DICTIONARY
     artist = {}
 
-    artist['name'] = artistToday['artist']['name']
+    artist['name'] = artistMB['name']
+    # removed ['artist'] from above due to errors in cron emails
     artist['mbid'] = LastFM_artistMBID 
     artist['MBgenres'] = artistMB['genres']
 

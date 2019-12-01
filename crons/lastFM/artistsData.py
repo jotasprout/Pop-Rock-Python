@@ -28,7 +28,8 @@ mbid_array_01 = [
     'd1947987-9614-49ae-bd36-8000e6b6f7d0', # Parliament
     '7a0ae10d-c51f-434a-9d5a-551d2ae93a9d', # Parliament-Funkadelic
     'cf042013-3edd-46c4-9b0e-a62faac98d0b', # Funkadelic
-    '84683370-5eae-418b-acd8-883ac028a8a0' # George Clinton
+    '84683370-5eae-418b-acd8-883ac028a8a0', # George Clinton
+    'b1c124b3-cf60-41a6-8699-92728c8a3fe0' # Grace Jones
 ]     
 
 mbid_array_02 = [  
@@ -568,10 +569,10 @@ myArtistDicts = [
             "listeners": "",
             "playcount": ""
         }
-    },    
-        {
+    },           
+    {
         "name": "Roger Glover",
-        "mbid": "583944a8-d43b-42e9-8e3c-29eb89f5358",
+        "mbid": "583944a8-d43b-42e9-8e3c-29eb89f53587",
         "type": "Person",
         "stats": {
             "listeners": "",
@@ -614,6 +615,15 @@ myArtistDicts = [
             "playcount": ""
         }
     },
+    {
+        "name": "Grace Jones",
+        "mbid": "b1c124b3-cf60-41a6-8699-92728c8a3fe0",
+        "type": "Person",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },     
     {
         "name": "Kerry Livgren",
         "mbid": "ff399892-1aab-44e8-8905-bf8721ce0866",
@@ -694,16 +704,7 @@ myArtistDicts = [
             "listeners": "",
             "playcount": ""
         }
-    },   
-    {
-        "name": "Grace Jones",
-        "mbid": "b1c124b3-cf60-41a6-8699-92728c8a3fe0",
-        "type": "Person",
-        "stats": {
-            "listeners": "",
-            "playcount": ""
-        }
-    },     
+    },       
     {
         "name": "Kings X",
         "mbid": "c8f5272e-8a94-4807-9099-70181e92fc46",
