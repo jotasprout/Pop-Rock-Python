@@ -22,6 +22,10 @@ filenames = [
     'data/RogerGlover_Person_12-01-19.json'          
 ]
 
+def find_best_release(releaseGroup):
+    releaseGroup = releaseGroup
+
+
 def get_artist_info(fromFileName):
 
     global myArtists
