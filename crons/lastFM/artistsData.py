@@ -29,7 +29,23 @@ mbid_array_01 = [
     '7a0ae10d-c51f-434a-9d5a-551d2ae93a9d', # Parliament-Funkadelic
     'cf042013-3edd-46c4-9b0e-a62faac98d0b', # Funkadelic
     '84683370-5eae-418b-acd8-883ac028a8a0', # George Clinton
-    'b1c124b3-cf60-41a6-8699-92728c8a3fe0' # Grace Jones
+    'b1c124b3-cf60-41a6-8699-92728c8a3fe0', # Grace Jones
+    '6b335658-22c8-485d-93de-0bc29a1d0349', # Judas Priest
+    '8538e728-ca0b-4321-b7e5-cff6565dd4c0', # Depeche Mode
+    '57961a97-3796-4bf7-9f02-a985a8979ae9', # Motorhead
+    'c842d29f-a297-48cd-bb71-4f77fd672b16', # T Rex
+    '5700dcd4-c139-4f31-aa3e-6382b9af9032', # Kraftwerk
+    'ec6b11b5-d6a6-4c77-af55-8076a160cc94', # Rufus
+    '08b736bb-1c82-40b4-8b0b-49e2182a067a', # MC5
+    '07e748f1-075e-428d-85dc-ce3be434e906', # Dave Matthews Band
+    '6bc658ea-005f-486b-8f94-33a2e40f7a72', # Pat Benatar
+    '588dea29-eea3-456b-a815-3ee04f75c8e7', # Doobie Brothers
+    '153c9281-268f-4cf3-8938-f5a4593e5df4', # Soundgarden
+    '0307edfc-437c-4b48-8700-80680e66a228', # Whitney Houston
+    '6a726ac6-019e-455c-8bbb-571a77bed52e', # Thin Lizzy
+    'b7ffd2af-418f-4be2-bdd1-22f8b48613da', # Nine Inch Nails
+    'd5d97b2b-b83b-4976-814a-056d9076c8c3', # Notorious BIG
+    '2c16cb3f-e85f-4158-889f-ffc038f5792d' # Suzi Quatro
 ]     
 
 mbid_array_02 = [  
@@ -176,6 +192,7 @@ mbid_array = [
     '618b6900-0618-4f1e-b835-bccb17f84294', # Eric Clapton
     '04cd0cfd-bfd1-4c36-bc38-95c35e2c045f', # Cream 
     '69ee3720-a7cb-4402-b48d-a02c366f2bcf', # cure
+    '79491354-3d83-40e3-9d8e-7592d58d790a', # deepPurple
     '7249b899-8db8-43e7-9e6e-22f1e736024e', # defLeppard
     'cbd8741f-e7f2-4fe2-82ad-95f0cbc90c89', # Deitiphobia
     '8d37ba6b-5474-4e49-9a93-7696aa08c0c3', # Deliverance
@@ -353,7 +370,7 @@ myArtistDicts = [
             "listeners": "",
             "playcount": ""
         }
-    },
+    },       
     {
         "name": "Bloodgood",
         "mbid": "7e78a78b-3acc-4be2-a2a4-db8932b0f570",
@@ -435,6 +452,15 @@ myArtistDicts = [
             "playcount": ""
         }
     },
+    {
+        "name": "Deep Purple",
+        "mbid": "79491354-3d83-40e3-9d8e-7592d58d790a",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },    
     {
         "name": "Deitiphobia",
         "mbid": "cbd8741f-e7f2-4fe2-82ad-95f0cbc90c89",
@@ -535,6 +561,15 @@ myArtistDicts = [
         }
     },
     {
+        "name": "Depeche Mode",
+        "mbid": "8538e728-ca0b-4321-b7e5-cff6565dd4c0",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },     
+    {
         "name": "Evil Stig",
         "mbid": "66bf7876-3898-47fa-8bdd-dc200f946cec",
         "type": "Group",
@@ -624,6 +659,15 @@ myArtistDicts = [
             "playcount": ""
         }
     },     
+    {
+        "name": "Judas Priest",
+        "mbid": "6b335658-22c8-485d-93de-0bc29a1d0349",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },           
     {
         "name": "Kerry Livgren",
         "mbid": "ff399892-1aab-44e8-8905-bf8721ce0866",
@@ -715,6 +759,15 @@ myArtistDicts = [
         }
     },    
     {
+        "name": "Kraftwerk",
+        "mbid": "5700dcd4-c139-4f31-aa3e-6382b9af9032",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },     
+    {
         "name": "Led Zeppelin",
         "mbid": "678d88b2-87b0-403b-b63d-5da7465aecc3",
         "type": "Group",
@@ -785,7 +838,16 @@ myArtistDicts = [
             "listeners": "",
             "playcount": ""
         }
-    },    
+    },   
+    {
+        "name": "Motörhead",
+        "mbid": "57961a97-3796-4bf7-9f02-a985a8979ae9",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },           
     {
         "name": "Neil Young",
         "mbid": "75167b8b-44e4-407b-9d35-effe87b223cf",
@@ -885,7 +947,6 @@ myArtistDicts = [
             "playcount": ""
         }
     },
-
     {
         "name": "P.O.D.",
         "mbid": "57e79d57-b795-475e-9fa2-5dd9d5513b8c",
@@ -984,7 +1045,16 @@ myArtistDicts = [
             "listeners": "",
             "playcount": ""
         }
-    },
+    },   
+    {
+        "name": "Rufus",
+        "mbid": "ec6b11b5-d6a6-4c77-af55-8076a160cc94",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },     
     {
         "name": "Sintax the Terrific",
         "mbid": "6fbc0a77-9930-4d7d-bfe0-d8094dddc92c",
@@ -1085,6 +1155,15 @@ myArtistDicts = [
         }
     },
     {
+        "name": "T. Rex",
+        "mbid": "c842d29f-a297-48cd-bb71-4f77fd672b16",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },          
+    {
         "name": "The Amboy Dukes",
         "mbid": "1a03f20c-26dd-4c26-bbe8-426e05ea46d5",
         "type": "Group",
@@ -1165,7 +1244,7 @@ myArtistDicts = [
             "playcount": ""
         }
     },
-  {
+    {
         "name": "The Crucified",
         "mbid": "149cbb32-d8ac-43f3-81f4-e591910cd9de",
         "type": "Group",
@@ -1209,7 +1288,88 @@ myArtistDicts = [
             "listeners": "",
             "playcount": ""
         }
+    },       
+    {
+        "name": "MC5",
+        "mbid": "08b736bb-1c82-40b4-8b0b-49e2182a067a",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    }, 
+    {
+        "name": "Dave Matthews Band",
+        "mbid": "07e748f1-075e-428d-85dc-ce3be434e906",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
     },    
+    {
+        "name": "Pat Benatar",
+        "mbid": "6bc658ea-005f-486b-8f94-33a2e40f7a72",
+        "type": "Person",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    }, 
+    {
+        "name": "Doobie Brothers",
+        "mbid": "588dea29-eea3-456b-a815-3ee04f75c8e7",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },    
+    {
+        "name": "Soundgarden",
+        "mbid": "153c9281-268f-4cf3-8938-f5a4593e5df4",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    }, 
+    {
+        "name": "Whitney Houston",
+        "mbid": "0307edfc-437c-4b48-8700-80680e66a228",
+        "type": "Person",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },    
+    {
+        "name": "Thin Lizzy",
+        "mbid": "6a726ac6-019e-455c-8bbb-571a77bed52e",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    }, 
+    {
+        "name": "Nine Inch Nails",
+        "mbid": "b7ffd2af-418f-4be2-bdd1-22f8b48613da",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },    
+    {
+        "name": "Notorious B.I.G.",
+        "mbid": "d5d97b2b-b83b-4976-814a-056d9076c8c3",
+        "type": "Person",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },                     
     {
         "name": "Utopia",
         "mbid": "37283116-f2cc-47cb-8806-facd063b564f",
@@ -1318,7 +1478,35 @@ myArtistDicts = [
             "playcount": ""
         }
     }      
-]    
+]   
+
+    {
+        "name": "",
+        "mbid": "",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },    
+    {
+        "name": "",
+        "mbid": "",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },     
+    {
+        "name": "",
+        "mbid": "",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    }, 
 
 mbid_ArrayGETNEWARTISTS_symbol_thru_D = [  
     '', # Weird Al Yankovic  

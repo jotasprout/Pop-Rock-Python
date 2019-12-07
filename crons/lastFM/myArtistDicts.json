@@ -171,6 +171,15 @@
         }
     },
     {
+        "name": "Deep Purple",
+        "mbid": "79491354-3d83-40e3-9d8e-7592d58d790a",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },     
+    {
         "name": "Def Leppard",
         "mbid": "7249b899-8db8-43e7-9e6e-22f1e736024e",
         "type": "Group",
@@ -1033,5 +1042,140 @@
             "listeners": "",
             "playcount": ""
         }
-    },        
+    },    
+    {
+        "name": "Rufus",
+        "mbid": "ec6b11b5-d6a6-4c77-af55-8076a160cc94",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    }, 
+    {
+        "name": "Kraftwerk",
+        "mbid": "5700dcd4-c139-4f31-aa3e-6382b9af9032",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },     
+    {
+        "name": "T. Rex",
+        "mbid": "c842d29f-a297-48cd-bb71-4f77fd672b16",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },          
+    {
+        "name": "Motörhead",
+        "mbid": "57961a97-3796-4bf7-9f02-a985a8979ae9",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },     
+    {
+        "name": "Depeche Mode",
+        "mbid": "8538e728-ca0b-4321-b7e5-cff6565dd4c0",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },   
+    {
+        "name": "Judas Priest",
+        "mbid": "6b335658-22c8-485d-93de-0bc29a1d0349",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },   
+    {
+        "name": "MC5",
+        "mbid": "08b736bb-1c82-40b4-8b0b-49e2182a067a",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    }, 
+    {
+        "name": "Dave Matthews Band",
+        "mbid": "07e748f1-075e-428d-85dc-ce3be434e906",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },    
+    {
+        "name": "Pat Benatar",
+        "mbid": "6bc658ea-005f-486b-8f94-33a2e40f7a72",
+        "type": "Person",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    }, 
+    {
+        "name": "Doobie Brothers",
+        "mbid": "588dea29-eea3-456b-a815-3ee04f75c8e7",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },    
+    {
+        "name": "Soundgarden",
+        "mbid": "153c9281-268f-4cf3-8938-f5a4593e5df4",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    }, 
+    {
+        "name": "Whitney Houston",
+        "mbid": "0307edfc-437c-4b48-8700-80680e66a228",
+        "type": "Person",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },    
+    {
+        "name": "Thin Lizzy",
+        "mbid": "6a726ac6-019e-455c-8bbb-571a77bed52e",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    }, 
+    {
+        "name": "Nine Inch Nails",
+        "mbid": "b7ffd2af-418f-4be2-bdd1-22f8b48613da",
+        "type": "Group",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },    
+    {
+        "name": "Notorious B.I.G.",
+        "mbid": "d5d97b2b-b83b-4976-814a-056d9076c8c3",
+        "type": "Person",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    }        
 ]
