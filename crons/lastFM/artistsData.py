@@ -295,7 +295,123 @@ mbid_array = [
     '7a0ae10d-c51f-434a-9d5a-551d2ae93a9d', # Parliament-Funkadelic
     'cf042013-3edd-46c4-9b0e-a62faac98d0b', # Funkadelic
     '84683370-5eae-418b-acd8-883ac028a8a0', # George Clinton    
-    '230ca093-1d00-4c57-9235-147942f66930' # zombies  
+    '230ca093-1d00-4c57-9235-147942f66930', # zombies  
+    'b1c124b3-cf60-41a6-8699-92728c8a3fe0', # Grace Jones
+    '6b335658-22c8-485d-93de-0bc29a1d0349', # Judas Priest
+    '8538e728-ca0b-4321-b7e5-cff6565dd4c0', # Depeche Mode
+    '57961a97-3796-4bf7-9f02-a985a8979ae9', # Motorhead
+    'c842d29f-a297-48cd-bb71-4f77fd672b16', # T Rex
+    '5700dcd4-c139-4f31-aa3e-6382b9af9032', # Kraftwerk
+    'ec6b11b5-d6a6-4c77-af55-8076a160cc94', # Rufus
+    '08b736bb-1c82-40b4-8b0b-49e2182a067a', # MC5
+    '07e748f1-075e-428d-85dc-ce3be434e906', # Dave Matthews Band
+    '6bc658ea-005f-486b-8f94-33a2e40f7a72', # Pat Benatar
+    '588dea29-eea3-456b-a815-3ee04f75c8e7', # Doobie Brothers
+    '153c9281-268f-4cf3-8938-f5a4593e5df4', # Soundgarden
+    '0307edfc-437c-4b48-8700-80680e66a228', # Whitney Houston
+    '6a726ac6-019e-455c-8bbb-571a77bed52e', # Thin Lizzy
+    'b7ffd2af-418f-4be2-bdd1-22f8b48613da', # Nine Inch Nails
+    'd5d97b2b-b83b-4976-814a-056d9076c8c3', # Notorious BIG
+    '2c16cb3f-e85f-4158-889f-ffc038f5792d' # Suzi Quatro    
+]   
+
+mbidArrayJust = [  
+    'cdb296bd-730d-475d-8c31-efb730337f8a', # E.T.W.
+    'b95ce3ff-3d05-4e87-9e01-c97b66af13d4', # Eminem 
+    '66bf7876-3898-47fa-8bdd-dc200f946cec', # Evil Stig
+    'c08ced1f-d248-4368-90e5-bf579b3bf5de', # The Firm    
+    'bd13909f-1c29-4c27-a874-d4aaf27c5b1a', # fleetwoodMac
+    'b87f4ce9-eab7-492d-9777-9dc001a2abcf', # Freedom Of Soul 
+    '33d700ce-064f-44f6-ab9e-60f9eed0fca1', # Ace Frehley  
+    '4c141ecd-23f9-4881-9a8c-27e7e7af708c', # Generation X
+    '484a1d40-0fb9-4768-acff-b570cedaacb4', # Heaven and Hell
+    '1253e5e9-eaa7-4ce6-81b8-09725e8cee43', # Iggy and the Stooges 
+    '6be2828f-6c0d-4059-99d4-fa18acf1a296', # janetJackson
+    'f376828a-b438-4fda-bb2e-dcd5fbe81f83', # Joan Jett
+    '46e63d3b-d91b-4791-bb73-e9f638a45ea0', # Joan Jett and the Blackhearts 
+    'b83bc61f-8451-4a5d-8b8e-7e9ed295e822', # Elton John
+    'abd506e1-6f2b-4d6f-b937-92c267f6f88b', # journey
+    '16394dd5-4438-4a65-86b3-e1d954e0011f', # Jerusalem
+    '7a6817e4-c0ca-4021-bb40-accd80181461', # Glenn Kaiser 
+    '4d4c3444-f06e-4591-9f3c-55a21fa7ebc2', # Larry Norman
+    'f2b81310-d559-4fd7-957d-2555c3887ab6', # Life Savers
+    '9d1ebcfe-4c15-4d18-95d3-d919898638a1', # Lou Reed
+    'b6174910-7335-4768-a42d-8e4655f37114', # Lust Control   
+    '678d88b2-87b0-403b-b63d-5da7465aecc3', # Led Zeppelin
+    '50a40201-2f2f-4f2d-ab1d-4eb23befbc8b', # Mad At The World
+    'f0169794-0188-40d4-8031-3fdb2e27db4a', # Mortal
+    '59183a0a-0404-4391-9284-f2f43b5ea373', # Mortification
+    '3b221a54-54b9-435c-a7f3-5cf8e2ce9fb2', # MxPx    
+    'b134d1bf-c7c7-4427-93ac-9fdbc2b59ef1', # Meat Loaf
+    '26f07661-e115-471d-a930-206f5c89d17c', # Motley Crue
+    'b7f2cca2-72c6-41fb-ae33-53370fc62fe7', # stevieNicks
+    'e491fae8-3a5a-438e-8368-925753fb41a1', # Ted Nugent
+    '89630b0c-6801-42f9-b013-3017722433c4', # Ninety Pound Wuss
+    'f88dd1a1-8e46-4b89-84af-edeaa479e55a', # One Bad Pig
+    '8aa5b65a-5b3c-4029-92bf-47a544356934', # Ozzy Osbourne     
+    '6e40e121-6795-4e93-9979-d5c6b7a4f56c', # P.I.D.
+    '57e79d57-b795-475e-9fa2-5dd9d5513b8c', # P.O.D.    
+    '519774a4-3b18-4042-b8c0-927845a616c9', # Jimmy Page  
+    'bd53f9a7-8be9-46b0-bf7d-1deea3cb57bc', # Robert Plant
+    '4a536dbf-8632-4cfd-b9ea-cdb35cb47c44', # Jimmy Page & Robert Plant  
+    'f37b3f31-b1f8-4b88-8cb5-b34f709b17d7', # Iggy Pop         
+    '0383dadf-2a4e-4d10-a46a-e9e041da8eb3', # Queen
+    '5c6acb91-4b9b-4245-b92f-e817295c4ed0', # Quiet Riot
+    'a74b1b7f-71a5-4011-9441-d0b5e4122711', # radiohead
+    'e3cb4543-210f-499a-b0d1-3882c312dfb9', # Rainbow
+    'cbf344ae-68f6-45c8-9b52-fcb25dce4646', # Resurrection Band
+    '331ce348-1b08-40b9-8ed7-0763b92bd003', # roxyMusic
+    'ded0d67a-eb71-4fe9-83c0-1d18b8ed497e', # Runaways
+    '1a9a8ca0-ea8e-4e9e-96aa-288155bb2c5d', # Todd Rundgren
+    '2cfdf494-bf0f-4140-8022-9a0ba36183ac', # Sackcloth Fashion
+    '391d85ad-2130-4732-8145-853908013354', # Saint
+    '81a43a3c-d8a2-47b6-aa62-3140fa8e18c7', # say what?
+    '44e613bc-692f-4cb3-bcfd-a7d5c59cf1bd', # Scaterd Few
+    'b49efb71-3cb2-4770-a028-2422a69b3d2b', # Seventh Angel
+    '1e06623c-eb85-458e-9154-37b98d2e364d', # SFC
+    '6fbc0a77-9930-4d7d-bfe0-d8094dddc92c', # Sintax the Terrific
+    '50809635-76df-4433-b324-b3c5258fb0a3', # Steve Taylor
+    'bbd80354-597e-4d53-94e4-92b3a7cb8f2c', # Saxon  
+    '2cb3b264-277f-4d8f-bc86-1923ff8abdc0', # Stoney and Meat Loaf
+    '794c6bf2-3241-416f-9b8f-24e2d84a1c4b', # Stooges
+    '149cbb32-d8ac-43f3-81f4-e591910cd9de', # The Crucified
+    '43065953-0174-46c4-bb93-828fb170b95b', # The Dynamic Twins
+    '2c0ec007-5669-4816-8a90-3b0ccd8c6c54', # The Violet Burning
+    '5ca3f318-d028-4151-ac73-78e2b2d6cdcc', # Tom Petty
+    'f93dbc64-6f08-4033-bcc7-8a0bb4689849', # Tom Petty and the Heartbreakers
+    '9ac299cb-e6f3-4d8a-a20c-73bef538d00c', # TRYTAN    
+    '37283116-f2cc-47cb-8806-facd063b564f', # Utopia
+    'd76e213b-e1f1-417b-9b84-d21055afc71f', # Veil of Ashes
+    '23ed6747-0e6a-4c1e-afd5-41d4e86c2bbd', # Vengeance Rising
+    '0b76f44c-3a37-49f1-a424-889fcaec72dc', # Veni Domine
+    '51f24fe4-6cb7-477a-a6ed-6be19abf99bb', # Whitecross
+    'a4f375da-cc8b-4ac1-b988-c59905aba01d', # XL and Death Before Dishonor    
+    '75167b8b-44e4-407b-9d35-effe87b223cf', # Neil Young
+    '22dc19af-d085-4c9b-adfb-22ec256251f1', # Buffalo Springfield
+    '46a782ea-4308-476b-abd1-a91b197f3037', # CSNY    
+    '191de76f-a224-445d-b041-54df16d65bf7', # Yardbirds 
+    'd1947987-9614-49ae-bd36-8000e6b6f7d0', # Parliament
+    '7a0ae10d-c51f-434a-9d5a-551d2ae93a9d', # Parliament-Funkadelic
+    'cf042013-3edd-46c4-9b0e-a62faac98d0b', # Funkadelic
+    '84683370-5eae-418b-acd8-883ac028a8a0', # George Clinton    
+    '230ca093-1d00-4c57-9235-147942f66930', # zombies  
+    'b1c124b3-cf60-41a6-8699-92728c8a3fe0', # Grace Jones
+    '6b335658-22c8-485d-93de-0bc29a1d0349', # Judas Priest
+    '8538e728-ca0b-4321-b7e5-cff6565dd4c0', # Depeche Mode
+    '57961a97-3796-4bf7-9f02-a985a8979ae9', # Motorhead
+    'c842d29f-a297-48cd-bb71-4f77fd672b16', # T Rex
+    '5700dcd4-c139-4f31-aa3e-6382b9af9032', # Kraftwerk
+    'ec6b11b5-d6a6-4c77-af55-8076a160cc94', # Rufus
+    '08b736bb-1c82-40b4-8b0b-49e2182a067a', # MC5
+    '07e748f1-075e-428d-85dc-ce3be434e906', # Dave Matthews Band
+    '6bc658ea-005f-486b-8f94-33a2e40f7a72', # Pat Benatar
+    '588dea29-eea3-456b-a815-3ee04f75c8e7', # Doobie Brothers
+    '153c9281-268f-4cf3-8938-f5a4593e5df4', # Soundgarden
+    '0307edfc-437c-4b48-8700-80680e66a228', # Whitney Houston
+    '6a726ac6-019e-455c-8bbb-571a77bed52e', # Thin Lizzy
+    'b7ffd2af-418f-4be2-bdd1-22f8b48613da', # Nine Inch Nails
+    'd5d97b2b-b83b-4976-814a-056d9076c8c3', # Notorious BIG
+    '2c16cb3f-e85f-4158-889f-ffc038f5792d' # Suzi Quatro    
 ]   
 
 myArtistDicts = [
@@ -1479,34 +1595,6 @@ myArtistDicts = [
         }
     }      
 ]   
-
-    {
-        "name": "",
-        "mbid": "",
-        "type": "Group",
-        "stats": {
-            "listeners": "",
-            "playcount": ""
-        }
-    },    
-    {
-        "name": "",
-        "mbid": "",
-        "type": "Group",
-        "stats": {
-            "listeners": "",
-            "playcount": ""
-        }
-    },     
-    {
-        "name": "",
-        "mbid": "",
-        "type": "Group",
-        "stats": {
-            "listeners": "",
-            "playcount": ""
-        }
-    }, 
 
 mbid_ArrayGETNEWARTISTS_symbol_thru_D = [  
     '', # Weird Al Yankovic  

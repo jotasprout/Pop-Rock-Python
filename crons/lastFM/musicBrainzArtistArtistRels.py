@@ -1,6 +1,7 @@
 import requests
 import json
 import pprint
+import artistsData
 
 # MusicBrainz variables
 MusicBrainz_artistArtistRelsPrefix = 'https://www.musicbrainz.org/ws/2/artist/'
@@ -14,7 +15,7 @@ def makeArtistRelsURL(MusicBrainz_artistMBID):
     getArtist_totalURL = MusicBrainz_artistArtistRelsPrefix + MusicBrainz_artistMBID + MusicBrainz_artistArtistRelsSuffix
     return getArtist_totalURL
 
-anchorArtists = [
+x_anchorArtists = [
     'ee58c59f-8e7f-4430-b8ca-236c4d3745ae', # Alice Cooper person   
     '4d7928cd-7ed2-4282-8c29-c0c9f966f1bd', # Alice Cooper band 
     'fc4953aa-6bf4-4f1f-8e47-5ac79ca428e2', # Ronnie James Dio 
@@ -39,6 +40,8 @@ def get_artists_rels(artistVar):
     artist['mbid'] = artistRelsMB['id']
     artist['type'] = artistRelsMB['type']
     artistType = artist['type']
+    if artistType == None:
+        artistType = 'None'
     artist['relations'] = []
     thisArtistRelations = artist['relations']
 
@@ -69,9 +72,10 @@ def get_artists_rels(artistVar):
     artistNameFor_file_name = artistName.replace(' ', '')
     artistTypeFor_file_name = artistType
 
-    absPathFor_file_name = '/home/roxorsox/public_html/poprock/data_text/'
+    # absPathFor_file_name = '/home/roxorsox/public_html/poprock/data_text/'
+    # newFilename = absPathFor_file_name + artistNameFor_file_name + '_' + artistTypeFor_file_name  + '_Rels.json'
 
-    newFilename = absPathFor_file_name + artistNameFor_file_name + '_' + artistTypeFor_file_name  + '_Rels.json'
+    newFilename = artistNameFor_file_name + '_' + artistTypeFor_file_name  + '_Rels.json'
 
     encodedFilename = newFilename.encode('utf-8')
 
@@ -80,7 +84,9 @@ def get_artists_rels(artistVar):
     f.close()
 
     print("File written with name " + newFilename)  
-    pprint.pprint(artist)
+    #pprint.pprint(artist)
+
+anchorArtists = artistsData.mbidArrayJust
 
 for anchorArtist in anchorArtists:
     artistVar = anchorArtist
