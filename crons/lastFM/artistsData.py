@@ -956,7 +956,7 @@ myArtistDicts = [
         }
     },   
     {
-        "name": "Motörhead",
+        "name": "Motorhead",
         "mbid": "57961a97-3796-4bf7-9f02-a985a8979ae9",
         "type": "Group",
         "stats": {

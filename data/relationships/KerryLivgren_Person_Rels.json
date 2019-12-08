@@ -25,26 +25,6 @@
             "mbid": "0f21956c-ebd9-487f-ae3b-58a69d182af6",
             "name": "AD",
             "attributes": []
-        },
-        {
-            "type": "member of band",
-            "mbid": "69689acf-d9cd-4d20-a972-47db4ed51b1a",
-            "name": "Kansas",
-            "attributes": [
-                "guitar",
-                "keyboard",
-                "synthesizer"
-            ]
-        },
-        {
-            "type": "member of band",
-            "mbid": "69689acf-d9cd-4d20-a972-47db4ed51b1a",
-            "name": "Kansas",
-            "attributes": [
-                "guitar",
-                "keyboard",
-                "synthesizer"
-            ]
         }
     ]
 }

@@ -14,6 +14,15 @@
         },
         {
             "type": "member of band",
+            "mbid": "7bec6cd1-9602-400c-ab05-47e2d83bdf3d",
+            "name": "Don Airey",
+            "attributes": [
+                "keyboard",
+                "organ"
+            ]
+        },        
+        {
+            "type": "member of band",
             "mbid": "00929331-8a98-4651-9052-6feaf0458b81",
             "name": "Nick Simper",
             "attributes": [
@@ -22,15 +31,7 @@
                 "original"
             ]
         },
-        {
-            "type": "member of band",
-            "mbid": "fc5f555c-dfa2-4f16-9da5-98342105c23a",
-            "name": "Ritchie Blackmore",
-            "attributes": [
-                "guitar",
-                "original"
-            ]
-        },
+
         {
             "type": "member of band",
             "mbid": "6bf692e0-baac-4428-94c3-423d52508cf0",
@@ -61,7 +62,7 @@
                 "lead vocals",
                 "percussion"
             ]
-        },
+        },      
         {
             "type": "member of band",
             "mbid": "583944a8-d43b-42e9-8e3c-29eb89f53587",
@@ -99,20 +100,11 @@
         },
         {
             "type": "member of band",
-            "mbid": "ff2a0e30-aec1-44dd-ae06-dc78877f512d",
-            "name": "Ian Gillan",
-            "attributes": [
-                "harmonica",
-                "lead vocals",
-                "percussion"
-            ]
-        },
-        {
-            "type": "member of band",
             "mbid": "fc5f555c-dfa2-4f16-9da5-98342105c23a",
             "name": "Ritchie Blackmore",
             "attributes": [
-                "guitar"
+                "guitar",
+                "original"
             ]
         },
         {
@@ -125,23 +117,7 @@
                 "organ"
             ]
         },
-        {
-            "type": "member of band",
-            "mbid": "583944a8-d43b-42e9-8e3c-29eb89f53587",
-            "name": "Roger Glover",
-            "attributes": [
-                "bass guitar"
-            ]
-        },
-        {
-            "type": "member of band",
-            "mbid": "29c11f6b-df9f-454f-964e-75eedadb4a1e",
-            "name": "Ian Paice",
-            "attributes": [
-                "drums (drum set)",
-                "percussion"
-            ]
-        },
+
         {
             "type": "member of band",
             "mbid": "47cd459b-06c1-462f-8fdd-27721a03ef68",
@@ -150,16 +126,7 @@
                 "lead vocals"
             ]
         },
-        {
-            "type": "member of band",
-            "mbid": "ff2a0e30-aec1-44dd-ae06-dc78877f512d",
-            "name": "Ian Gillan",
-            "attributes": [
-                "harmonica",
-                "lead vocals",
-                "percussion"
-            ]
-        },
+
         {
             "type": "member of band",
             "mbid": "29762c82-bb92-4acd-b1fb-09cc4da250d2",
@@ -176,15 +143,7 @@
                 "guitar"
             ]
         },
-        {
-            "type": "member of band",
-            "mbid": "7bec6cd1-9602-400c-ab05-47e2d83bdf3d",
-            "name": "Don Airey",
-            "attributes": [
-                "keyboard",
-                "organ"
-            ]
-        },
+
         {
             "type": "member of band",
             "mbid": "c0935ffb-77ef-4a8a-84cd-52c65403654c",
