@@ -163,7 +163,8 @@ mbid_array_07 = [
     '51f24fe4-6cb7-477a-a6ed-6be19abf99bb', # Whitecross
     'a4f375da-cc8b-4ac1-b988-c59905aba01d', # XL and Death Before Dishonor      
     '44e613bc-692f-4cb3-bcfd-a7d5c59cf1bd', # Scaterd Few
-    'b49efb71-3cb2-4770-a028-2422a69b3d2b' # Seventh Angel   
+    'b49efb71-3cb2-4770-a028-2422a69b3d2b', # Seventh Angel   
+    '070d193a-845c-479f-980e-bef15710653e' # Prince
 ]                
 
 mbid_array = [  
@@ -312,7 +313,8 @@ mbid_array = [
     '6a726ac6-019e-455c-8bbb-571a77bed52e', # Thin Lizzy
     'b7ffd2af-418f-4be2-bdd1-22f8b48613da', # Nine Inch Nails
     'd5d97b2b-b83b-4976-814a-056d9076c8c3', # Notorious BIG
-    '2c16cb3f-e85f-4158-889f-ffc038f5792d' # Suzi Quatro    
+    '2c16cb3f-e85f-4158-889f-ffc038f5792d', # Suzi Quatro 
+    '070d193a-845c-479f-980e-bef15710653e' # Prince   
 ]   
 
 mbidArrayJust = [  
@@ -415,6 +417,15 @@ mbidArrayJust = [
 ]   
 
 myArtistDicts = [
+    {
+        "name": "Prince",
+        "mbid": "070d193a-845c-479f-980e-bef15710653e",
+        "type": "Person",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },    
     {
         "name": "12th Tribe",
         "mbid": "d3a40fec-041f-4f8d-85f3-b325e12f92de",

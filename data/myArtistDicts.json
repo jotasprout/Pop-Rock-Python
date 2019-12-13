@@ -1,5 +1,14 @@
 [
     {
+        "name": "Prince",
+        "mbid": "070d193a-845c-479f-980e-bef15710653e",
+        "type": "Person",
+        "stats": {
+            "listeners": "",
+            "playcount": ""
+        }
+    },     
+    {
         "name": "12th Tribe",
         "mbid": "d3a40fec-041f-4f8d-85f3-b325e12f92de",
         "type": "Group",
