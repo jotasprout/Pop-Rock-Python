@@ -17,12 +17,11 @@ These scripts support Pop-Rock-PHP with the following tasks:
 
 ### MusicBrainz Documentation
 
-- Information about [contributing to MusicBrainz](https://musicbrainz.org/doc/How_to_Contribute)
-- [Beginners Guide](https://musicbrainz.org/doc/Beginners_Guide)
+[Beginners Guide](https://musicbrainz.org/doc/Beginners_Guide)
 
 ## Last.fm
 
-*lastFM.py* creates URLs for retrieving statistics using the last.fm API about
+*lastFM.py* creates URLs for retrieving listener statistics from multiple platforms using the [last.fm API](https://www.last.fm/api) about
 
 - Artists
 - Albums (using a release's MBID)
@@ -31,13 +30,14 @@ These scripts support Pop-Rock-PHP with the following tasks:
 ## ListenBrainz.org
 
 [ListenBrainz.org](https://listenbrainz.org/) includes these helpful pages:
+
 - [Main Documentation](https://listenbrainz.readthedocs.io/en/production/)
 - [ListenBrainz API](https://listenbrainz.readthedocs.io/en/production/dev/api.html)
 - [JSON Documentation](https://listenbrainz.readthedocs.io/en/production/dev/json.html)
 
 ## SeatGeek
 
-Need to start using this API because both the API and its documentation are far superior to setlist.fm.
+Now using using the [SeatGeek API](http://platform.seatgeek.com/) because both the API and its documentation are far superior to setlist.fm.
 
 ## SetList.fm -- Nope
 
